@@ -200,6 +200,13 @@
 		"save": "Save",
 		"loading": "Loading image"
 	},
+	"SelectScaledSizes": {
+		"small": "Small",
+		"medium": "Medium",
+		"large": "Large",
+		"max": "Max",
+		"Custom": "Custom"
+	},
 	"ShowMore": "Show more",
 	"Imageresize": {},
 	"Gallery": {},
