@@ -24,3 +24,7 @@ as a name for the language file, optionally using the two-letter [ISO 3166-1](ht
 country code as a suffix.
 
 For example for French (Canadian) use `fr-ca`.
+
+## License
+
+Copyright (C) 2007-2015, CKSource - Frederico Knabben. All rights reserved.
