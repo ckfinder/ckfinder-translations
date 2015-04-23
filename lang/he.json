@@ -99,6 +99,7 @@
 	"Mb": "%1MB",
 	"Gb": "%1GB",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "לא היה ניתן להשלים את הבקשה. (שגיאה %1)",
 	"Errors": {
 		"10": "הוראה לא תקינה.",
@@ -207,8 +208,5 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Show more"
 }

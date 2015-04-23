@@ -99,6 +99,7 @@
 	"Mb": "%1MB",
 	"Gb": "%1GB",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "امکان تکمیل درخواست فوق وجود ندارد (خطا: %1)",
 	"Errors": {
 		"10": "دستور نامعتبر.",
@@ -207,8 +208,5 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Show more"
 }

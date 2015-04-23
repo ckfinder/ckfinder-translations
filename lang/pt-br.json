@@ -99,6 +99,7 @@
 	"Mb": "%1 MB",
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "Não foi possível completer o seu pedido. (Erro %1)",
 	"Errors": {
 		"10": "Comando inválido.",
@@ -207,8 +208,5 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Show more"
 }

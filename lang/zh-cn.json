@@ -99,6 +99,7 @@
 	"Mb": "%1 MB",
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "请求的操作未能完成. (错误 %1)",
 	"Errors": {
 		"10": "无效的指令。",
@@ -207,8 +208,5 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Show more"
 }

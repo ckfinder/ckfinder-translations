@@ -99,6 +99,7 @@
 	"Mb": "%1 MB",
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "無法連接到伺服器 ! (錯誤代碼 %1)",
 	"Errors": {
 		"10": "不合法的指令.",
@@ -207,8 +208,5 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Show more"
 }

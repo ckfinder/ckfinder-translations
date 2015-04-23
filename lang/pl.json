@@ -99,6 +99,7 @@
 	"Mb": "%1 MB",
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "Wykonanie operacji zakończyło się niepowodzeniem. (Błąd %1)",
 	"Errors": {
 		"10": "Nieprawidłowe polecenie (command).",
@@ -207,8 +208,5 @@
 		"max": "Maks",
 		"Custom": "Dowolny"
 	},
-	"ShowMore": "Pokaż więcej",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Pokaż więcej"
 }

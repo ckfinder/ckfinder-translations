@@ -115,6 +115,8 @@
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/s",
 
+	"PixelShort": "px",
+
 	"ErrorUnknown": "It was not possible to complete the request. (Error %1)",
 	"Errors": {
 		"10": "Invalid command.",

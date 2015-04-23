@@ -99,6 +99,7 @@
 	"Mb": "%1 Mt",
 	"Gb": "%1 Gt",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "Pyyntöä ei voitu suorittaa. (Virhe %1)",
 	"Errors": {
 		"10": "Virheellinen komento.",
@@ -207,8 +208,5 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Show more"
 }

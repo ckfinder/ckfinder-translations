@@ -99,6 +99,7 @@
 	"Mb": "%1 MB",
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "No ha estat possible completar la solicitut. (Error %1)",
 	"Errors": {
 		"10": "Ordre incorrecte.",
@@ -207,8 +208,5 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Show more"
 }

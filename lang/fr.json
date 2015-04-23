@@ -99,6 +99,7 @@
 	"Mb": "%1 Mo",
 	"Gb": "%1 Go",
 	"SizePerSecond": "%1/s",
+	"PixelShort": "px",
 	"ErrorUnknown": "La demande n'a pas abouti. (Erreur %1)",
 	"Errors": {
 		"10": "Commande invalide.",
@@ -207,8 +208,5 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more",
-	"Imageresize": {},
-	"Gallery": {},
-	"Zip": {}
+	"ShowMore": "Show more"
 }
