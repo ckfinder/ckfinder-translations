@@ -1,4 +1,4 @@
-﻿{
+{
 	"appTitle": "CKFinder",
 
 	"common": {
@@ -52,6 +52,9 @@
 	"CopiedFilesNumber": "Number of files copied: %s.",
 	"MoveOperation": "Moving files",
 	"CopyOperation": "Copying files",
+	"MoveFilesErrorTitle": "Files that cannot be moved:",
+	"CopyFilesErrorTitle": "Files that cannot be copied:",
+	"MoveCopyConfirmAction": "Confirm file action",
 
 	"CopyDragDrop": "Copy Here",
 	"MoveDragDrop": "Move Here",
@@ -228,7 +231,7 @@
 		"loading": "Loading image"
 	},
 
-	"SelectScaledSizes" : {
+	"SelectScaledSizes": {
 		"small": "Small",
 		"medium": "Medium",
 		"large": "Large",
