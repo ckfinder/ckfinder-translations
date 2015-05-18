@@ -109,7 +109,7 @@
 		"11": "Tipul de resursă nu a fost specificat în cerere.",
 		"12": "Tipul de resursă cerut nu este valid.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Nume fișier sau nume dosar invalid.",
 		"103": "Nu a fost posibiliă finalizarea cererii din cauza restricțiilor de autorizare.",
 		"104": "Nu a fost posibiliă finalizarea cererii din cauza restricțiilor de permisiune la sistemul de fișiere.",

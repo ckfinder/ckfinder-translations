@@ -109,7 +109,7 @@
 		"11": "V poizvedbi ni bil jasen tip (resource type).",
 		"12": "Tip datoteke ni primeren.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Napačno ime mape ali datoteke.",
 		"103": "Vašega ukaza se ne da izvesti zaradi težav z avtorizacijo.",
 		"104": "Vašega ukaza se ne da izvesti zaradi težav z nastavitvami pravic v datotečnem sistemu.",

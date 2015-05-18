@@ -109,7 +109,7 @@
 		"11": "El tipo de recurso no ha sido especificado en la solicitud.",
 		"12": "El tipo de recurso solicitado no es válido.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Nombre de archivo o carpeta no válido.",
 		"103": "No se ha podido completar la solicitud debido a las restricciones de autorización.",
 		"104": "No ha sido posible completar la solicitud debido a restricciones en el sistema de archivos.",

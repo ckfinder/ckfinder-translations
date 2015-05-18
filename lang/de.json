@@ -109,7 +109,7 @@
 		"11": "Der Ressourcentyp wurde nicht spezifiziert.",
 		"12": "Der Ressourcentyp ist nicht gültig.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Ungültiger Datei oder Verzeichnisname.",
 		"103": "Ihre Anfrage konnte wegen Authorisierungseinschränkungen nicht durchgeführt werden.",
 		"104": "Ihre Anfrage konnte wegen Dateisystemeinschränkungen nicht durchgeführt werden.",

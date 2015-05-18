@@ -109,7 +109,7 @@
 		"11": "Resursa veids netika norādīts pieprasījumā.",
 		"12": "Pieprasītais resursa veids nav derīgs.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Nederīgs faila vai mapes nosaukums.",
 		"103": "Nav iespējams pabeigt pieprasījumu, autorizācijas aizliegumu dēļ.",
 		"104": "Nav iespējams pabeigt pieprasījumu, failu sistēmas atļauju ierobežojumu dēļ.",

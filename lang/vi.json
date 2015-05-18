@@ -109,7 +109,7 @@
 		"11": "Kiểu tài nguyên không được chỉ định trong yêu cầu.",
 		"12": "Kiểu tài nguyên yêu cầu không hợp lệ.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Tên tập tin hay thư mục không hợp lệ.",
 		"103": "Không thể hoàn tất yêu cầu vì giới hạn quyền.",
 		"104": "Không thể hoàn tất yêu cầu vì giới hạn quyền của hệ thống tập tin.",

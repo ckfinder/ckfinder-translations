@@ -109,7 +109,7 @@
 		"11": "Pyynnön resurssityyppi on määrittelemättä.",
 		"12": "Pyynnön resurssityyppi on virheellinen.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Virheellinen tiedosto- tai kansionimi.",
 		"103": "Oikeutesi eivät riitä pyynnön suorittamiseen.",
 		"104": "Tiedosto-oikeudet eivät riitä pyynnön suorittamiseen.",

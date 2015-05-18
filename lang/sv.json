@@ -109,7 +109,7 @@
 		"11": "Resursens typ var inte specificerad i förfrågan.",
 		"12": "Den efterfrågade resurstypen är inte giltig.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Ogiltigt fil- eller mappnamn.",
 		"103": "Begäran kunde inte utföras p.g.a. restriktioner av rättigheterna.",
 		"104": "Begäran kunde inte utföras p.g.a. restriktioner av rättigheter i filsystemet.",

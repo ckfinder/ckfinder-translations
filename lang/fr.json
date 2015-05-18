@@ -109,7 +109,7 @@
 		"11": "Le type de ressource n'a pas été spécifié dans la commande.",
 		"12": "Le type de ressource n'est pas valide.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Nom de fichier ou de dossier invalide.",
 		"103": "La demande n'a pas abouti : problème d'autorisations.",
 		"104": "La demande n'a pas abouti : problème de restrictions de permissions.",

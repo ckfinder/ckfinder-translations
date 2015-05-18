@@ -109,7 +109,7 @@
 		"11": "A fájl típusa nem lett a kérés során beállítva.",
 		"12": "A kívánt fájl típus érvénytelen.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Érvénytelen fájl vagy könyvtárnév.",
 		"103": "Hitelesítési problémák miatt nem sikerült a kérést teljesíteni.",
 		"104": "Jogosultsági problémák miatt nem sikerült a kérést teljesíteni.",

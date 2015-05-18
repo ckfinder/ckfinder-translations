@@ -109,7 +109,7 @@
 		"11": "Resurso rūšis nenurodyta užklausoje.",
 		"12": "Neteisinga resurso rūšis.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Netinkamas failas arba segtuvo pavadinimas.",
 		"103": "Nepavyko įvykdyti užklausos dėl autorizavimo apribojimų.",
 		"104": "Nepavyko įvykdyti užklausos dėl failų sistemos leidimų apribojimų.",

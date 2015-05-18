@@ -109,7 +109,7 @@
 		"11": "文件类型不在许可范围之内。",
 		"12": "文件类型无效。",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "无效的文件名或文件夹名称。",
 		"103": "由于作者限制，该请求不能完成。",
 		"104": "由于文件系统的限制，该请求不能完成。",

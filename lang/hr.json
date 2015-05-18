@@ -109,7 +109,7 @@
 		"11": "Nije navedena vrsta u zahtjevu.",
 		"12": "Zatražena vrsta nije važeća.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Neispravno naziv datoteke ili direktoija.",
 		"103": "Nije moguće izvršiti zahtjev zbog ograničenja pristupa.",
 		"104": "Nije moguće izvršiti zahtjev zbog ograničenja postavka sustava.",

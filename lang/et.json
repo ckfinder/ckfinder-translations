@@ -109,7 +109,7 @@
 		"11": "Allika liik ei olnud päringus määratud.",
 		"12": "Päritud liik ei ole sobiv.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Sobimatu faili või kausta nimi.",
 		"103": "Piiratud õiguste tõttu ei olnud võimalik päringut lõpetada.",
 		"104": "Failisüsteemi piiratud õiguste tõttu ei olnud võimalik päringut lõpetada.",

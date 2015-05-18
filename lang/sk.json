@@ -109,7 +109,7 @@
 		"11": "V požiadavke nebol špecifikovaný typ súboru.",
 		"12": "Nepodporovaný typ súboru.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Neplatný názov súboru alebo adresára.",
 		"103": "Nebolo možné dokončiť spracovanie požiadavky kvôli nepostačujúcej úrovni oprávnení.",
 		"104": "Nebolo možné dokončiť spracovanie požiadavky kvôli obmedzeniam v prístupových právach k súborom.",

@@ -109,7 +109,7 @@
 		"11": "İstekte kaynak türü belirtilmemiş.",
 		"12": "Talep edilen kaynak türü geçersiz.",
 		"13": "The connector configuration file is invalid.",
-		"14": "[MISSNG]Invalid connector plugin: \"%1\".",
+		"14": "Invalid connector plugin: \"%1\".",
 		"102": "Geçersiz dosya ya da klasör adı.",
 		"103": "Kimlik doğrulama kısıtlamaları nedeni ile talebinizi yerine getiremiyoruz.",
 		"104": "Dosya sistemi kısıtlamaları nedeni ile talebinizi yerine getiremiyoruz.",
