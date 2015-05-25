@@ -40,6 +40,10 @@ Example: use `fr-ca` for French (Canada).
 
 When your translation is ready, you can share it by submitting a [pull request](https://github.com/ckfinder/ckfinder-translations/pulls) on GitHub or sending it to us to [info@cksource.com](info@cksource.com). We will be happy to add it to the official repository. Thank you for your help!
 
+## Translating Edit Image Options
+
+CKFinder includes some image editing options provided by [CamanJS](http://camanjs.com/). If you find some captions from this section unclear (like some filters or presets) and would like to see working examples of what these effects do, visit the CamanJS [Interactive Example](http://camanjs.com/examples/) page. Another idea is to check your favorite (localized) photo editing application for clues.
+
 ## License
 
 Copyright (C) 2007-2015, CKSource - Frederico Knabben. All rights reserved.
