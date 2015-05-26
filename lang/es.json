@@ -16,30 +16,30 @@
 	"FolderNew": "Por favor, escriba el nombre para la nueva carpeta: ",
 	"FolderRename": "Por favor, escriba el nuevo nombre para la carpeta: ",
 	"FolderDelete": "¿Está seguro de que quiere borrar la carpeta \"%1\"?",
-	"DestinationFolder": "Destination Folder",
-	"FileRename": "Por favor, escriba el nuevo nombre del fichero: ",
-	"FileRenameExt": "¿Está seguro de querer cambiar la extensión del fichero? El fichero puede dejar de ser usable.",
-	"FileDelete": "¿Está seguro de que quiere borrar el fichero \"%1\"?",
-	"FilesDelete": "Are you sure you want to delete %1 files?",
+	"DestinationFolder": "Carpeta de destino",
+	"FileRename": "Por favor, escriba el nuevo nombre del archivo: ",
+	"FileRenameExt": "¿Está seguro de querer cambiar la extensión del archivo? El archivo puede dejar de ser usable.",
+	"FileDelete": "¿Está seguro de que quiere borrar el archivo \"%1\"?",
+	"FilesDelete": "¿Está seguro de que quiere borrar %1 archivos?",
 	"FilesLoading": {
-		"title": "Loading...",
-		"text": "Please wait. The files are being loaded."
+		"title": "Cargando...",
+		"text": "Por favor espere. Los archivos están siendo cargados."
 	},
 	"FilesEmpty": {
-		"title": "The folder is empty.",
-		"text": "Use the <strong>Upload</strong> button or <strong>drag and drop</strong> your files here."
+		"title": "La carpeta está vacía.",
+		"text": "Use el botón <strong>Subir</strong> o <strong>arrastre y suelte</strong> sus archivos aquí."
 	},
 	"FilterFilesEmpty": {
-		"title": "Nothing found.",
-		"text": "Please try using different search criteria."
+		"title": "No hay resultados.",
+		"text": "Por favor, pruebe usando otro criterio de búsqueda."
 	},
-	"OperationCompletedErrors": "Operation completed with errors.",
-	"MoveToolbarButton": "Move",
-	"CopyToolbarButton": "Copy",
-	"MoveOneFileDialogTitle": "Move File To...",
-	"CopyOneFileDialogTitle": "Copy File To...",
-	"MoveManyFilesDialogTitle": "Move {count} Files To...",
-	"CopyManyFilesDialogTitle": "Copy {count} Files To...",
+	"OperationCompletedErrors": "Operación completada con errores.",
+	"MoveToolbarButton": "Mover",
+	"CopyToolbarButton": "Copiar",
+	"MoveOneFileDialogTitle": "Mover Archivo A...",
+	"CopyOneFileDialogTitle": "Copiar Archivo A...",
+	"MoveManyFilesDialogTitle": "Mover {count} Archivos A...",
+	"CopyManyFilesDialogTitle": "Copiar {count} Archivos A...",
 	"MoveOneFileWait": "Moving file. Please wait.",
 	"CopyOneFileWait": "Copying file. Please wait.",
 	"MoveManyFilesWait": "Moving %1 files. Please wait.",
@@ -194,24 +194,24 @@
 			"herMajesty": "Her Majesty",
 			"hazyDays": "Hazy Days"
 		},
-		"downloadAction": "Downloading original image.",
-		"transformationAction": "Applying transformations.",
+		"downloadAction": "Descargando imagen original.",
+		"transformationAction": "Aplicando transformaciones.",
 		"uploadAction": "Uploading edited image.",
-		"saveDialogTitle": "Save Changes",
-		"saveDialogOverwrite": "Overwrite File",
-		"saveDialogSaveAs": "Save as:",
-		"saveDialogFileExists": "File with the same name already exists in folder.",
+		"saveDialogTitle": "Guardar cambios",
+		"saveDialogOverwrite": "Sobreescribir archvio",
+		"saveDialogSaveAs": "Guardar como:",
+		"saveDialogFileExists": "Ya existe un archivo con el mismo nombre en la carpeta.",
 		"reset": "Reset",
-		"title": "Edit Image",
-		"save": "Save",
+		"title": "Editar Imagen",
+		"save": "Guardar",
 		"loading": "Loading image"
 	},
 	"ChooseScaledImageSizes": {
-		"small": "Small",
-		"medium": "Medium",
-		"large": "Large",
+		"small": "Pequeño",
+		"medium": "Mediano",
+		"large": "Grande",
 		"max": "Max",
-		"Custom": "Custom"
+		"Custom": "Personalizado"
 	},
-	"ShowMore": "Show more"
+	"ShowMore": "Mostrar más"
 }
