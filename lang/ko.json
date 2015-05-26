@@ -1,0 +1,245 @@
+{
+	"appTitle": "CKFinder",
+
+	"common": {
+		"cancel": "취소",
+		"messageTitle": "정보",
+		"skip": "건너뛰기",
+		"rememberDecision": "내 선택 기억"
+	},
+
+	"dir": "ltr",
+	"LangCode": "ko",
+
+	"DateTime": "yyyy/m/d h:MM aa",
+	"DateAmPm": [
+		"AM",
+		"PM"
+	],
+
+	"FolderNew": "새로운 폴더 이름을 입력해 주십시오: ",
+	"FolderRename": "새로운 폴더 이름을 입력해 주십시오: ",
+	"FolderDelete": "정말 \"%1\" 폴더를 삭제하시겠습니까?",
+	"DestinationFolder": "목적",
+
+	"FileRename": "새로운 파일 이름을 입력해 주십시오	: ",
+	"FileRenameExt": "정말 파일 확장자를 변경하시겠습니까? 파일이 사용불능해 질 수 있습니다.",
+	"FileDelete": "정말 \"%1\" 파일을 삭제하시겠습니까?",
+	"FilesDelete": "정말 %1 파일들을 삭제하시겠습니까?",
+	"FilesLoading": {
+		"title": "로딩중...",
+		"text": "잠시만 기다려 주십시오. 해당 파일들이 로딩중입니다."
+	},
+	"FilesEmpty": {
+		"title": "폴더가 비어있습니다..",
+		"text": "<strong>업로드</strong> 버튼이나 파일을 이곳에 <strong>드레그&드롭</strong> 하십시오."
+	},
+	"FilterFilesEmpty": {
+		"title": "아무것도 찾지 못하였습니다.",
+		"text": "다른 검색어를 사용해 주십시오."
+	},
+
+	"OperationCompletedErrors": "오류와 함께 작업이 완료되었습니다.",
+	"MoveToolbarButton": "이동",
+	"CopyToolbarButton": "복사",
+	"MoveOneFileDialogTitle": "여기로 파일 이동...",
+	"CopyOneFileDialogTitle": "여기로 파일 복사...",
+	"MoveManyFilesDialogTitle": "여기로 {count} 개의 파일 이동...",
+	"CopyManyFilesDialogTitle": "여기로 {count} 개의 파일 복사...",
+	"MoveOneFileWait": "파일을 이동중입니다. 잠시만 기다려 주십시오.",
+	"CopyOneFileWait": "파일을 복사중입니다. 잠시만 기다려 주십시오.",
+	"MoveManyFilesWait": "%1 개의 파일을 이동중입니다. 잠시만 기다려 주십시오.",
+	"CopyManyFilesWait": "%1 개의 파일을 이동중입니다. 잠시만 기다려 주십시오.",
+	"MovedFilesNumber": "이동된 파일의 수: %1.",
+	"CopiedFilesNumber": "복사된 파일의 수: %1.",
+	"MoveOperation": "파일 이동중",
+	"CopyOperation": "파일 복사중",
+	"MoveFilesErrorTitle": "이동에 실패한 파일들:",
+	"CopyFilesErrorTitle": "복사에 실패한 파일들:",
+	"MoveCopyConfirmAction": "파일 작업 확인:",
+
+	"CopyDragDrop": "여기에 복사",
+	"MoveDragDrop": "여기로 이동",
+
+	"Upload": "업로드",
+	"Settings": "설정",
+	"Choose": "선택",
+	"ChooseScaledImage": "Choose Scaled",
+	"OriginalSize": "원본 크기",
+	"Custom": "사용자 정의",
+	"GettingFileData": "파일을 가져오고 있습니다. 잠시만 기다려 주십시오.",
+
+	"View": "보기",
+	"Download": "다운로드",
+
+	"NewSubFolder": "새로운 하위폴더",
+	"Rename": "이름 바꾸기",
+	"Delete": "삭제",
+	"DeleteFiles": "파일들 삭제",
+
+	"RenameDlgTitle": "이름 바꾸기",
+	"NewNameDlgTitle": "새로운 이름",
+	"FileOverwrite": "덮어쓰기",
+	"FileAutorename": "자동 이름변경 ",
+	"OkBtn": "OK",
+	"CancelBtn": "취소",
+	"CloseBtn": "닫기",
+	"UploadSelectLbl": "업로드할 파일을 선택해 주십시오",
+	"UploadProgressLbl": "(업로드가 진행중입니다. 잠시만 기다려 주십시오...)",
+	"UploadBtnCancel": "취소",
+	"UploadNoFolder": "업로드를 하기전에 폴더를 선택해 주십시오.",
+	"UploadNoPerms": "파일 업로드가 허용되지 않습니다.",
+	"UploadUnknError": "파일 전송중 오류.",
+	"UploadExtIncorrect": "이 폴더에서는 해당 파일 확장자가 허용되지 않습니다.",
+	"UploadLabel": {
+		"UploadSelect": "업로드할 파일을 선택해 주십시오",
+		"UploadProgress": "업로드중...",
+		"UploadOk": "업로드 완료!",
+		"UploadError": "오류와 함께 업로드가 완료되었습니다."
+	},
+	"UploadSend": "업로드",
+	"UploadAddFiles": "파일 추가",
+	"UploadSummary": "업로드된 파일들: %1",
+
+	"FileUploaded": "파일이 업로드 되었습니다.",
+
+	"UploadDetails": "자세히",
+	"UploadFilesCountProgress": "{filesTotal} 중 {filesUploaded}",
+	"UploadBytesCountProgress": "({bytesTotal} 중 {bytesUploaded})",
+	"SetDisplay": "표시",
+	"SetDisplayName": "파일 이름",
+	"SetDisplayDate": "날짜",
+	"SetDisplaySize": "파일 크기",
+	"SetDisplayThumbnailSize": "미리보기 크기",
+
+	"FilesCountOne": "1 파일",
+	"FilesCountMany": "%1 파일들",
+
+	"Kb": "%1 KB",
+	"Mb": "%1 MB",
+	"Gb": "%1 GB",
+	"SizePerSecond": "%1/초",
+
+	"PixelShort": "px",
+
+	"ErrorUnknown": "요청을 완료할 수 없었습니다. (오류 %1)",
+	"Errors": {
+		"10": "Invalid command.",
+		"11": "The resource type was not specified in the request.",
+		"12": "The requested resource type is invalid.",
+		"13": "The connector configuration file is invalid.",
+		"14": "Invalid connector plugin: %1.",
+		"102": "Invalid file or folder name.",
+		"103": "It was not possible to complete the request due to authorization restrictions.",
+		"104": "It was not possible to complete the request due to file system permission restrictions.",
+		"105": "Invalid file extension.",
+		"109": "Invalid request.",
+		"110": "Unknown error.",
+		"111": "It was not possible to complete the request due to resulting file size.",
+		"115": "A file or folder with the same name already exists.",
+		"116": "Folder not found. Please refresh and try again.",
+		"117": "File not found. Please refresh the files list and try again.",
+		"118": "Source and target paths are equal.",
+		"201": "A file with the same name already exists. The uploaded file was renamed to \"%1\".",
+		"202": "Invalid file.",
+		"203": "Invalid file. The file size is too big.",
+		"204": "The uploaded file is corrupt.",
+		"205": "No temporary folder is available for upload on the server.",
+		"206": "Upload canceled due to security reasons. The file contains HTML-like data.",
+		"207": "The uploaded file was renamed to \"%1\".",
+		"300": "Moving file(s) failed.",
+		"301": "Copying file(s) failed.",
+		"302": "Deleting file(s) failed.",
+		"500": "The file browser is disabled for security reasons. Please contact your system administrator and check the CKFinder configuration file.",
+		"501": "Thumbnail support is disabled."
+	},
+
+	"ErrorMsg": {
+		"FileInvChar": "파일 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: \n\\ / : * ? \" < > |",
+		"FolderInvChar": "폴더 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: \n\\ / : * ? \" < > |"
+	},
+
+	"Fileeditor": {
+		"contextMenuName": "수정"
+	},
+
+	"Maximize": {
+		"maximize": "최대화",
+		"minimize": "최소화"
+	},
+
+	"Filter": {
+		"filterPlaceholder": "필터"
+	},
+
+	"EditImage": {
+		"apply": "적용",
+		"adjust": "조절 ",
+		"crop": "자르기",
+		"presets": "사전값",
+		"resize": "크기변경",
+		"rotate": "회전",
+
+		"keepAspectRatio": "화면 비율 유지",
+
+		"rotateClockwise": "오른쪽으로 90&deg;",
+		"rotateAntiClockwise": "왼쪽으로 90&deg;",
+
+		"filters": {
+			"brightness": "Brightness",
+			"contrast": "Contrast",
+			"saturation": "Saturation",
+			"vibrance": "Vibrance",
+			"exposure": "Exposure",
+			"hue": "Hue",
+			"sepia": "Sepia",
+			"gamma": "Gamma",
+			"noise": "Noise",
+			"clip": "Clip",
+			"sharpen": "Sharpen",
+			"stackBlur": "Stack Blur"
+		},
+
+		"preset": {
+			"clarity": "Clarity",
+			"pinhole": "Pinhole",
+			"love": "Love",
+			"jarques": "Jarques",
+			"orangePeel": "Orange Peel",
+			"sinCity": "Sin City",
+			"grungy": "Grungy",
+			"oldBoot": "Old Boot",
+			"lomo": "Lomo",
+			"vintage": "Vintage",
+			"crossProcess": "Cross Process",
+			"concentrate": "Concentrate",
+			"glowingSun": "Glowing Sun",
+			"sunrise": "Sunrise",
+			"nostalgia": "Nostalgia",
+			"hemingway": "Hemingway",
+			"herMajesty": "Her Majesty",
+			"hazyDays": "Hazy Days"
+		},
+		"downloadAction": "원본 이미지 다운로드.",
+		"transformationAction": "변환 적용중.",
+		"uploadAction": "수정된 이미지 업로드중.",
+		"saveDialogTitle": "바뀐사항 저장",
+		"saveDialogOverwrite": "파일 덮어쓰기",
+		"saveDialogSaveAs": "다음으로 저장:",
+		"saveDialogFileExists": "같은 이름의 파일이 폴더내에 존재합니다.",
+		"reset": "초기화",
+		"title": "이미지 수정",
+		"save": "저장",
+		"loading": "이미지 로딩중"
+	},
+
+	"ChooseScaledImageSizes": {
+		"small": "작음",
+		"medium": "보통",
+		"large": "큼",
+		"max": "최대",
+		"Custom": "사용자 정의"
+	},
+
+	"ShowMore": "더 보기"
+}
