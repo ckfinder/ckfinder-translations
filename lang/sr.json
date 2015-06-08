@@ -6,12 +6,12 @@
 		"skip": "Прескочи",
 		"rememberDecision": "Запамти мој избор"
 	},
-	"dir": "дир",
-	"LangCode": "ср",
-	"DateTime": "д.м.yyyy ХХ:ММ",
+	"dir": "ltr",
+	"LangCode": "sr",
+	"DateTime": "m/d/yyyy h:MM aa",
 	"DateAmPm": [
 		"AM",
-		"ПM"
+		"PM"
 	],
 	"FolderNew": "Унесите ново име фасцикле: ",
 	"FolderRename": "Унесите ново име фасцикле: ",
@@ -20,16 +20,16 @@
 	"FileRename": "Унесите нови назив датотеке: ",
 	"FileRenameExt": "Да ли сте сигурни да желите променити тип датотеке? Датотека може постати неискористива.",
 	"FileDelete": "Да ли сте сигурни да желите обрисати датотеку \"%1\"?",
-	"датотекеDelete": "Да ли сте сигурни да желите да обришете %1 датотеке?",
-	"датотекеLoading": {
+	"FilesDelete": "Да ли сте сигурни да желите да обришете %1 датотеке?",
+	"FilesLoading": {
 		"title": "Учитавање...",
 		"text": "Молимо причекајте. Датотеке се учитавају."
 	},
-	"датотекеEmpty": {
+	"FilesEmpty": {
 		"title": "Фасцикла је презна.",
 		"text": "Користи <strong>Upload</strong> дугме или <strong>додајте</strong> ваше датотеке овде."
 	},
-	"FilterдатотекеEmpty": {
+	"FilterFilesEmpty": {
 		"title": "Ништа није нађено.",
 		"text": "Молимо користите друге критеријуме за претраживање."
 	},
@@ -38,18 +38,18 @@
 	"CopyToolbarButton": "Копирај",
 	"MoveOneFileDialogTitle": "Премести датотеке у...",
 	"CopyOneFileDialogTitle": "Копирај датотеке у...",
-	"MoveManyдатотекеDialogTitle": "Премести {count} Датотеке у...",
-	"CopyManyдатотекеDialogTitle": "Копирај {count} Датотеке у...",
+	"MoveManyFilesDialogTitle": "Премести {count} Датотеке у...",
+	"CopyManyFilesDialogTitle": "Копирај {count} Датотеке у...",
 	"MoveOneFileWait": "Премештам датотеку. Молимо сачекајте.",
 	"CopyOneFileWait": "Копирам датотеку. Молимо сачекајте.",
-	"MoveManyдатотекеWait": "Премештам %1 датотеке. Молимо сачекајте.",
-	"CopyManyдатотекеWait": "Копирам %1 датотеке. Молимо сачекајте.",
-	"MovedдатотекеNumber": "Број премештених датотека : %1.",
-	"CopiedдатотекеNumber": "Број копираних датотека : %1.",
+	"MoveManyFilesWait": "Премештам %1 датотеке. Молимо сачекајте.",
+	"CopyManyFilesWait": "Копирам %1 датотеке. Молимо сачекајте.",
+	"MovedFilesNumber": "Број премештених датотека : %1.",
+	"CopiedFilesNumber": "Број копираних датотека : %1.",
 	"MoveOperation": "Премештам датотеке",
 	"CopyOperation": "Копирам датотеке",
-	"MoveдатотекеErrorTitle": "Датотека која не може бити премештена:",
-	"CopyдатотекеErrorTitle": "Датотека која не може бити копирана:",
+	"MoveFilesErrorTitle": "Датотека која не може бити премештена:",
+	"CopyFilesErrorTitle": "Датотека која не може бити копирана:",
 	"MoveCopyConfirmAction": "Потврди акцију над датотеком:",
 	"CopyDragDrop": "Копирај датотеку овде",
 	"MoveDragDrop": "Премести датотеку овде",
@@ -65,7 +65,7 @@
 	"NewSubFolder": "Нова подфасцикла",
 	"Rename": "Промени назив",
 	"Delete": "Обриши",
-	"Deleteдатотеке": "Обриши датотеке",
+	"DeleteFiles": "Обриши датотеке",
 	"RenameDlgTitle": "Промени назив",
 	"NewNameDlgTitle": "Нови назив",
 	"FileOverwrite": "Препиши",
@@ -87,19 +87,19 @@
 		"UploadError": "Учитавање завршено са грешком."
 	},
 	"UploadSend": "Учитај",
-	"UploadAddдатотеке": "Додај датотеке",
+	"UploadAddFiles": "Додај датотеке",
 	"UploadSummary": "Учитај датотеке: %1",
 	"FileUploaded": "Датотека учитана",
 	"UploadDetails": "Детаљи",
-	"UploadдатотекеCountProgress": "{filesUploaded} od {filesTotal}",
+	"UploadFilesCountProgress": "{filesUploaded} od {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} od {bytesTotal})",
 	"SetDisplay": "Приказ:",
 	"SetDisplayName": "Назив датотеке",
 	"SetDisplayDate": "Датум",
 	"SetDisplaySize": "Величина датотеке",
 	"SetDisplayThumbnailSize": "Величина приказа",
-	"датотекеCountOne": "1 датотека",
-	"датотекеCountMany": "%1 датотека(е)",
+	"FilesCountOne": "1 датотека",
+	"FilesCountMany": "%1 датотека(е)",
 	"Kb": "%1 КБ",
 	"Mb": "%1 МБ",
 	"Gb": "%1 ГБ",
