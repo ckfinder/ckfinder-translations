@@ -56,7 +56,7 @@
 	"Upload": "Μεταφόρτωση",
 	"Settings": "Ρυθμίσεις",
 	"Choose": "Επιλογή",
-	"ChooseScaledImage": "Επιλογή Μεγέθους",
+	"ChooseResizedImage": "Επιλογή Μεγέθους",
 	"OriginalSize": "Αρχικό μέγεθος",
 	"Custom": "Προσαρμοσμένο",
 	"GettingFileData": "Λήψη δεδομένων αρχείου. Παρακαλούμε περιμένετε.",
@@ -206,7 +206,7 @@
 		"save": "Αποθήκευση",
 		"loading": "Φόρτωση εικόνας"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Μικρό",
 		"medium": "Μεσαίο",
 		"large": "Μεγάλο",

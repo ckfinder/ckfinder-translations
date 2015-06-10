@@ -56,7 +56,7 @@
 	"Upload": "Augšupielādēt",
 	"Settings": "Uzstādījumi",
 	"Choose": "Izvēlēties",
-	"ChooseScaledImage": "Izvēlēties mērogotu",
+	"ChooseResizedImage": "Izvēlēties mērogotu",
 	"OriginalSize": "Oriģinālais izmērs",
 	"Custom": "Norādīts",
 	"GettingFileData": "Iegūst faila datus. Uzgaidiet.",
@@ -206,7 +206,7 @@
 		"save": "Saglabāt",
 		"loading": "Ielādē attēlu"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Mazs",
 		"medium": "Vidējs",
 		"large": "Liels",

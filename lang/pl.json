@@ -56,7 +56,7 @@
 	"Upload": "Wyślij",
 	"Settings": "Ustawienia",
 	"Choose": "Wybierz",
-	"ChooseScaledImage": "Wybierz przeskalowany",
+	"ChooseResizedImage": "Wybierz przeskalowany",
 	"OriginalSize": "Oryginalny rozmiar",
 	"Custom": "Własny rozmiar",
 	"GettingFileData": "Pobieranie informacji o pliku. Proszę czekać.",
@@ -206,7 +206,7 @@
 		"save": "Zapisz",
 		"loading": "Ładowanie obrazka"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Mały",
 		"medium": "Średni",
 		"large": "Duży",

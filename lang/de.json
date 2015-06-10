@@ -56,7 +56,7 @@
 	"Upload": "Hochladen",
 	"Settings": "Einstellungen",
 	"Choose": "Auswählen",
-	"ChooseScaledImage": "Choose Scaled",
+	"ChooseResizedImage": "Choose Resized",
 	"OriginalSize": "Originalgröße",
 	"Custom": "Benutzerdefiniert",
 	"GettingFileData": "Getting file data. Please wait.",
@@ -206,7 +206,7 @@
 		"save": "Speichern",
 		"loading": "Bild wird geladen"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Klein",
 		"medium": "Mittel",
 		"large": "Groß",

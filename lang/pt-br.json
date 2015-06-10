@@ -56,7 +56,7 @@
 	"Upload": "Enviar Arquivo",
 	"Settings": "Configurações",
 	"Choose": "Usar",
-	"ChooseScaledImage": "Usar Redimensionada",
+	"ChooseResizedImage": "Usar Redimensionada",
 	"OriginalSize": "Tamanho Original",
 	"Custom": "Personalizado",
 	"GettingFileData": "Lendo informações do arquivo. Por favor aguarde.",
@@ -206,7 +206,7 @@
 		"save": "Salvar",
 		"loading": "Carregando Imagem..."
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Pequeno",
 		"medium": "Médio",
 		"large": "Grande",

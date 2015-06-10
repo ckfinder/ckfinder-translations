@@ -56,7 +56,7 @@
 	"Upload": "Laadi üles",
 	"Settings": "Sätted",
 	"Choose": "Vali",
-	"ChooseScaledImage": "Vali skaleerimine",
+	"ChooseResizedImage": "Vali skaleerimine",
 	"OriginalSize": "Originaalsuurus",
 	"Custom": "Kohandatud",
 	"GettingFileData": "Faili andmete hankimine. Palun oota.",
@@ -206,7 +206,7 @@
 		"save": "Salvesta",
 		"loading": "Pildi laadimine"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Väike",
 		"medium": "Keskmine",
 		"large": "Suur",

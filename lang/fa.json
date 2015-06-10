@@ -56,7 +56,7 @@
 	"Upload": "آپلود",
 	"Settings": "تنظیمات",
 	"Choose": "انتخاب",
-	"ChooseScaledImage": "انتخاب مقیاس",
+	"ChooseResizedImage": "انتخاب مقیاس",
 	"OriginalSize": "اندازه‌ی اصلی",
 	"Custom": "سفارشی",
 	"GettingFileData": "درحال گرفتن اطلاعات فایل. لطفا صبر کنید.",
@@ -206,7 +206,7 @@
 		"save": "ذخیره",
 		"loading": "درحال بارگیری تصویر"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "کوچک",
 		"medium": "متوسط",
 		"large": "بزرگ",

@@ -64,7 +64,7 @@
 	"Upload": "업로드",
 	"Settings": "설정",
 	"Choose": "선택",
-	"ChooseScaledImage": "크기조절 및 선택",
+	"ChooseResizedImage": "크기조절 및 선택",
 	"OriginalSize": "원본 크기",
 	"Custom": "사용자 정의",
 	"GettingFileData": "파일을 가져오고 있습니다. 잠시만 기다려 주십시오.",
@@ -233,7 +233,7 @@
 		"loading": "이미지 로딩 중"
 	},
 
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "작음",
 		"medium": "보통",
 		"large": "큼",

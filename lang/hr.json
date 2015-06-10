@@ -56,7 +56,7 @@
 	"Upload": "Pošalji",
 	"Settings": "Postavke",
 	"Choose": "Izaberi",
-	"ChooseScaledImage": "Izaberi Scaled",
+	"ChooseResizedImage": "Izaberi Scaled",
 	"OriginalSize": "Originalna Veličina",
 	"Custom": "Custom",
 	"GettingFileData": "Dobavljam podatke o datoteci. Pričekajte.",
@@ -206,7 +206,7 @@
 		"save": "Sačuvaj",
 		"loading": "Učitavanje slike"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Mala",
 		"medium": "Srednja",
 		"large": "Velika",

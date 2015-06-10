@@ -56,7 +56,7 @@
 	"Upload": "Añadir",
 	"Settings": "Configuración",
 	"Choose": "Seleccionar",
-	"ChooseScaledImage": "Seleccionar Escalado",
+	"ChooseResizedImage": "Seleccionar Escalado",
 	"OriginalSize": "Tamaño original",
 	"Custom": "Personalizado",
 	"GettingFileData": "Obteniendo los datos del fichero. Por favor espere.",
@@ -206,7 +206,7 @@
 		"save": "Guardar",
 		"loading": "Cargando imagen"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Pequeño",
 		"medium": "Mediano",
 		"large": "Grande",

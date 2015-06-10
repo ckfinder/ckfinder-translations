@@ -56,7 +56,7 @@
 	"Upload": "Upload",
 	"Settings": "Indstillinger",
 	"Choose": "Vælg",
-	"ChooseScaledImage": "Vælg skaleret",
+	"ChooseResizedImage": "Vælg skaleret",
 	"OriginalSize": "Original størrelse",
 	"Custom": "Brugerdefineret",
 	"GettingFileData": "Henter fil data, vent venligst.",
@@ -206,7 +206,7 @@
 		"save": "Gem",
 		"loading": "Henter billeder"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Lille",
 		"medium": "Medium",
 		"large": "Stor",

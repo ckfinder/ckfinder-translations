@@ -56,7 +56,7 @@
 	"Upload": "Nahrát",
 	"Settings": "Nastavení",
 	"Choose": "Zvolte",
-	"ChooseScaledImage": "Zvolit velikost",
+	"ChooseResizedImage": "Zvolit velikost",
 	"OriginalSize": "Původní velikost",
 	"Custom": "Vlastní",
 	"GettingFileData": "Získávání dat souborů. Čekejte prosím.",
@@ -206,7 +206,7 @@
 		"save": "Uložit",
 		"loading": "Načítání obrázku"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Malá",
 		"medium": "Střední",
 		"large": "Velká",

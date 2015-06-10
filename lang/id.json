@@ -64,7 +64,7 @@
 	"Upload": "Upload",
 	"Settings": "Settings",
 	"Choose": "Choose",
-	"ChooseScaledImage": "Choose Scaled",
+	"ChooseResizedImage": "Choose Resized",
 	"OriginalSize": "Original Size",
 	"Custom": "Custom",
 	"GettingFileData": "Getting file data. Please wait.",
@@ -233,7 +233,7 @@
 		"loading": "Loading image"
 	},
 
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Small",
 		"medium": "Medium",
 		"large": "Large",

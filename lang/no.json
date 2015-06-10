@@ -56,7 +56,7 @@
 	"Upload": "Last opp",
 	"Settings": "Innstillinger",
 	"Choose": "Velg",
-	"ChooseScaledImage": "Velg skalert",
+	"ChooseResizedImage": "Velg skalert",
 	"OriginalSize": "Originalstørrelse",
 	"Custom": "Selvvalgt",
 	"GettingFileData": "Henter fildata, vennligst vent.",
@@ -206,7 +206,7 @@
 		"save": "Lagre",
 		"loading": "Laster bilde"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Liten",
 		"medium": "Middels",
 		"large": "Stor",

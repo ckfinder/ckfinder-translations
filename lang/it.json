@@ -56,7 +56,7 @@
 	"Upload": "Carica",
 	"Settings": "Impostazioni",
 	"Choose": "Seleziona",
-	"ChooseScaledImage": "Seleziona miniatura",
+	"ChooseResizedImage": "Seleziona miniatura",
 	"OriginalSize": "Dimensioni originali",
 	"Custom": "Personalizzato",
 	"GettingFileData": "Recupero dei dati del file. Attendere.",
@@ -206,7 +206,7 @@
 		"save": "Salva",
 		"loading": "Caricamento dell'immagine"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Piccola",
 		"medium": "Media",
 		"large": "Grande",
