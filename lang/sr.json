@@ -8,7 +8,7 @@
 	},
 	"dir": "ltr",
 	"LangCode": "sr",
-	"DateTime": "m/d/yyyy h:MM aa",
+	"DateTime": "dd/mm/yyyy HH:MM",
 	"DateAmPm": [
 		"AM",
 		"PM"
@@ -158,8 +158,8 @@
 		"resize": "Промена величине",
 		"rotate": "Ротирај",
 		"keepAspectRatio": "Задржи омер",
-		"rotateClockwise": "90&степени; Десно",
-		"rotateAntiClockwise": "90&степени; Лево",
+		"rotateClockwise": "90&deg; степени; Десно",
+		"rotateAntiClockwise": "90&deg; степени; Лево",
 		"filters": {
 			"brightness": "Посветљење",
 			"contrast": "Контраст",
