@@ -56,7 +56,7 @@
 	"Upload": "Учитај",
 	"Settings": "Подешавања",
 	"Choose": "Изабери",
-	"ChooseScaledImage": "Изабери скалирано",
+	"ChooseResizedImage": "Изабери скалирано",
 	"OriginalSize": "Оригинална величина",
 	"Custom": "Прилагођена",
 	"GettingFileData": "Преузимање информација о датотеци. Молимо сачекајте.",
@@ -206,7 +206,7 @@
 		"save": "Сачувај",
 		"loading": "Учитавање слике"
 	},
-	"ChooseScaledImageSizes": {
+	"ChooseResizedImageSizes": {
 		"small": "Мала",
 		"medium": "Средња",
 		"large": "Велика",
