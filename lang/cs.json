@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "Název souboru nesmí obsahovat následující znaky: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "Název složky nesmí obsahovat následující znaky: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "Název složky nesmí obsahovat následující znaky: \n\\ / : * ? \" < > |",
+		"MissingFolder": "Složka, kterou chcete zobrazit, již není dostupná.",
+		"MissingFile": "Požadovaný soubor již není dostupný."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Upravit"

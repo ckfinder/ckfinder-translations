@@ -46,10 +46,10 @@
 	"CopyOneFileDialogTitle": "Copy File To...",
 	"MoveManyFilesDialogTitle": "Move {count} Files To...",
 	"CopyManyFilesDialogTitle": "Copy {count} Files To...",
-    "MoveOneFileWait": "Moving file. Please wait.",
-    "CopyOneFileWait": "Copying file. Please wait.",
-    "MoveManyFilesWait": "Moving %1 files. Please wait.",
-    "CopyManyFilesWait": "Copying %1 files. Please wait.",
+	"MoveOneFileWait": "Moving file. Please wait.",
+	"CopyOneFileWait": "Copying file. Please wait.",
+	"MoveManyFilesWait": "Moving %1 files. Please wait.",
+	"CopyManyFilesWait": "Copying %1 files. Please wait.",
 	"MovedFilesNumber": "Number of files moved: %1.",
 	"CopiedFilesNumber": "Number of files copied: %1.",
 	"MoveOperation": "Moving Files",
@@ -156,7 +156,9 @@
 
 	"ErrorMsg": {
 		"FileInvChar": "The file name cannot contain any of the following characters: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "The folder name cannot contain any of the following characters: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "The folder name cannot contain any of the following characters: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 
 	"Fileeditor": {
@@ -197,7 +199,7 @@
 			"noise": "Noise",
 			"clip": "Clip",
 			"sharpen": "Sharpen",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "Blur"
 		},
 
 		"preset": {

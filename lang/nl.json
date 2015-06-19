@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "De bestandsnaam mag de volgende tekens niet bevatten: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "De mapnaam mag de volgende tekens niet bevatten: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "De mapnaam mag de volgende tekens niet bevatten: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Wijzigen"
@@ -172,7 +174,7 @@
 			"noise": "Noise",
 			"clip": "Clip",
 			"sharpen": "Sharpen",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "Blur"
 		},
 		"preset": {
 			"clarity": "Clarity",

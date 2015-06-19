@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "Nazwa pliku nie może zawierać żadnego z podanych znaków: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "Nazwa folderu nie może zawierać żadnego z podanych znaków: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "Nazwa folderu nie może zawierać żadnego z podanych znaków: \n\\ / : * ? \" < > |",
+		"MissingFolder": "Folder, do którego dostęp próbujesz uzyskać, jest już niedostępny.",
+		"MissingFile": "Żądany plik jest już niedostępny."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Edytuj"
@@ -175,24 +177,24 @@
 			"stackBlur": "Rozmyj"
 		},
 		"preset": {
-			"clarity": "Clarity",
-			"pinhole": "Pinhole",
-			"love": "Love",
+			"clarity": "Przejrzystość",
+			"pinhole": "Kamera otworkowa",
+			"love": "Miłość",
 			"jarques": "Jarques",
-			"orangePeel": "Orange Peel",
+			"orangePeel": "Skórka pomarańczowa",
 			"sinCity": "Sin City",
 			"grungy": "Grungy",
-			"oldBoot": "Old Boot",
+			"oldBoot": "Stary but",
 			"lomo": "Lomo",
 			"vintage": "Vintage",
-			"crossProcess": "Cross Process",
-			"concentrate": "Concentrate",
-			"glowingSun": "Glowing Sun",
-			"sunrise": "Sunrise",
+			"crossProcess": "Cross processing",
+			"concentrate": "Koncentracja",
+			"glowingSun": "Promienne słońce",
+			"sunrise": "Wschód słońca",
 			"nostalgia": "Nostalgia",
 			"hemingway": "Hemingway",
-			"herMajesty": "Her Majesty",
-			"hazyDays": "Hazy Days"
+			"herMajesty": "Jej Wysokość",
+			"hazyDays": "Mgliste dni"
 		},
 		"downloadAction": "Pobierz oryginalny obrazek.",
 		"transformationAction": "Aplikowanie transformacji.",

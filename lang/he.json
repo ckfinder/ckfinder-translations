@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "שם הקובץ לא יכול לכלול תווים הבאים: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "שם התיקיה לא יכול לכלול תווים הבאים: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "שם התיקיה לא יכול לכלול תווים הבאים: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 	"Fileeditor": {
 		"contextMenuName": "עריכה"
@@ -172,7 +174,7 @@
 			"noise": "Noise",
 			"clip": "Clip",
 			"sharpen": "Sharpen",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "Blur"
 		},
 		"preset": {
 			"clarity": "Clarity",

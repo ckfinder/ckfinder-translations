@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "Faila nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "Mapes nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "Mapes nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Labot"

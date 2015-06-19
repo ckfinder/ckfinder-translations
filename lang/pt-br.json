@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "O nome do arquivo não pode conter nenhum desses caracteres: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "O nome da pasta não pode conter nenhum desses caracteres: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "O nome da pasta não pode conter nenhum desses caracteres: \n\\ / : * ? \" < > |",
+		"MissingFolder": "A pasta que você está tentando abrir não está mais disponível.",
+		"MissingFile": "O arquivo solicitado não está mais disponível."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Editar"

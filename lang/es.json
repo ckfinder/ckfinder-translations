@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "El nombre del fichero no puede contener ninguno de los caracteres siguientes: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "El nombre de la carpeta no puede contener ninguno de los caracteres siguientes: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "El nombre de la carpeta no puede contener ninguno de los caracteres siguientes: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Editar"

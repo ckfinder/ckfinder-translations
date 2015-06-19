@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "Filnamnet får inte innehålla något av följande tecken: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "Mappens namn får inte innehålla något av följande tecken: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "Mappens namn får inte innehålla något av följande tecken: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Redigera"
@@ -172,7 +174,7 @@
 			"noise": "Noise",
 			"clip": "Clip",
 			"sharpen": "Sharpen",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "Blur"
 		},
 		"preset": {
 			"clarity": "Clarity",

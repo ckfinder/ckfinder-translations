@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "I seguenti caratteri non possono essere usati per comporre il nome del file: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "I seguenti caratteri non possono essere usati per comporre il nome della cartella: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "I seguenti caratteri non possono essere usati per comporre il nome della cartella: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Modifica"

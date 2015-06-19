@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "Имя файла не может содержать любой из перечисленных символов: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "Имя папки не может содержать любой из перечисленных символов: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "Имя папки не может содержать любой из перечисленных символов: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Редактировать"
@@ -172,7 +174,7 @@
 			"noise": "Noise",
 			"clip": "Clip",
 			"sharpen": "Sharpen",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "Blur"
 		},
 		"preset": {
 			"clarity": "Clarity",

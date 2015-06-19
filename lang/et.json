@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: \n\\ / : * ? \" < > |",
+		"MissingFolder": "Kausta, mida püüad avada, pole enam olemas.",
+		"MissingFile": "Faili, mida püüad avada, pole enam saadaval."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Muuda"

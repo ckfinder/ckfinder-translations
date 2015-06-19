@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "文件名不能包含以下字符: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "文件夹名称不能包含以下字符: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "文件夹名称不能包含以下字符: \n\\ / : * ? \" < > |",
+		"MissingFolder": "The folder you are trying to reach is no longer available.",
+		"MissingFile": "The requested file is no longer available."
 	},
 	"Fileeditor": {
 		"contextMenuName": "编辑"
@@ -172,7 +174,7 @@
 			"noise": "Noise",
 			"clip": "Clip",
 			"sharpen": "Sharpen",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "Blur"
 		},
 		"preset": {
 			"clarity": "Clarity",

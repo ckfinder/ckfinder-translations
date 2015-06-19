@@ -42,14 +42,14 @@
 	"CopyManyFilesDialogTitle": "Kopieren {count} Dateien in...",
 	"MoveOneFileWait": "Moving file. Please wait.",
 	"CopyOneFileWait": "Copying file. Please wait.",
-	"MoveManyFilesWait": "Moving %1 files. Please wait.",
-	"CopyManyFilesWait": "Copying %1 files. Please wait.",
-	"MovedFilesNumber": "Number of files moved: %1.",
-	"CopiedFilesNumber": "Number of files copied: %1.",
+	"MoveManyFilesWait": "Verschieben %1 Dateien. Bitte warten.",
+	"CopyManyFilesWait": "Kopieren %1 Dateien. Bitte warten.",
+	"MovedFilesNumber": "Anzahl der Dateien verschoben: %1.",
+	"CopiedFilesNumber": "Anzahl der kopierten Dateien: %1.",
 	"MoveOperation": "Moving Files",
 	"CopyOperation": "Copying Files",
-	"MoveFilesErrorTitle": "Files that cannot be moved:",
-	"CopyFilesErrorTitle": "Files that cannot be copied:",
+	"MoveFilesErrorTitle": "Dateien, die nicht verschoben werden können:",
+	"CopyFilesErrorTitle": "Dateien, die nicht kopiert werden können:",
 	"MoveCopyConfirmAction": "Bestätigen Sie Datei Aktion:",
 	"CopyDragDrop": "Hierher kopieren",
 	"MoveDragDrop": "Hierher verschieben",
@@ -84,12 +84,12 @@
 		"UploadSelect": "Wählen Sie Dateien zum Hochladen",
 		"UploadProgress": "Hochladen...",
 		"UploadOk": "Hochladen ist beendet!",
-		"UploadError": "Upload finished with errors."
+		"UploadError": "Hochladen mit Fehlern abgeschlossen."
 	},
 	"UploadSend": "Hochladen",
 	"UploadAddFiles": "Datei hinzufügen",
-	"UploadSummary": "Uploaded files: %1",
-	"FileUploaded": "File uploaded",
+	"UploadSummary": "Hochgeladene Dateien: %1",
+	"FileUploaded": "Datei hochgeladen",
 	"UploadDetails": "Details",
 	"UploadFilesCountProgress": "{filesUploaded} von {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} von {bytesTotal})",
@@ -110,7 +110,7 @@
 		"10": "Unbekannter Befehl.",
 		"11": "Der Ressourcentyp wurde nicht spezifiziert.",
 		"12": "Der Ressourcentyp ist nicht gültig.",
-		"13": "The connector configuration file is invalid.",
+		"13": "Der Connector-Konfigurationsdatei ist ungültig.",
 		"14": "Invalid connector plugin: %1.",
 		"102": "Ungültiger Datei oder Verzeichnisname.",
 		"103": "Ihre Anfrage konnte wegen Authorisierungseinschränkungen nicht durchgeführt werden.",
@@ -118,7 +118,7 @@
 		"105": "Ungültige Dateierweiterung.",
 		"109": "Unbekannte Anfrage.",
 		"110": "Unbekannter Fehler.",
-		"111": "It was not possible to complete the request due to resulting file size.",
+		"111": "Es war nicht möglich die Anforderung aufgrund resultierende Dateigröße vervollständigen.",
 		"115": "Es existiert bereits eine Datei oder ein Ordner mit dem gleichen Namen.",
 		"116": "Verzeichnis nicht gefunden. Bitte aktualisieren Sie die Anzeige und versuchen es noch einmal.",
 		"117": "Datei nicht gefunden. Bitte aktualisieren Sie die Dateiliste und versuchen es noch einmal.",
@@ -138,7 +138,9 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "Der Dateinamen darf nicht eines der folgenden Zeichen enthalten: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "Der Verzeichnisname darf nicht eines der folgenden Zeichen enthalten: \n\\ / : * ? \" < > |"
+		"FolderInvChar": "Der Verzeichnisname darf nicht eines der folgenden Zeichen enthalten: \n\\ / : * ? \" < > |",
+		"MissingFolder": "Der Ordner, den Sie versuchen zu erreichen, ist nicht mehr verfügbar.",
+		"MissingFile": "Die angeforderte Datei ist nicht mehr verfügbar."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Bearbeitung"
@@ -172,7 +174,7 @@
 			"noise": "Rauschen",
 			"clip": "Clip",
 			"sharpen": "Schärfen",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "Weichzeichnen"
 		},
 		"preset": {
 			"clarity": "Klarheit",
@@ -182,17 +184,17 @@
 			"orangePeel": "Orangenschale",
 			"sinCity": "Sin City",
 			"grungy": "Grungy",
-			"oldBoot": "Old Boot",
+			"oldBoot": "Alten Stiefel",
 			"lomo": "Lomo",
 			"vintage": "Vintage",
-			"crossProcess": "Cross Process",
-			"concentrate": "Concentrate",
-			"glowingSun": "Glowing Sun",
+			"crossProcess": "Crossentwicklung",
+			"concentrate": "Konzentration",
+			"glowingSun": "Glühenden Sonne",
 			"sunrise": "Sonnenaufgang",
 			"nostalgia": "Nostalgie",
 			"hemingway": "Hemingway",
-			"herMajesty": "Her Majesty",
-			"hazyDays": "Hazy Days"
+			"herMajesty": "Ihre Majestät",
+			"hazyDays": "Dunstigen Tagen"
 		},
 		"downloadAction": "Originalbild herunterladen.",
 		"transformationAction": "Applying transformations.",
