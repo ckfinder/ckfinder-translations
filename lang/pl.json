@@ -131,7 +131,7 @@
 		"206": "Przesyłanie pliku zakończyło się niepowodzeniem z powodów bezpieczeństwa. Plik zawiera dane przypominające HTML.",
 		"207": "Nazwa przesłanego pliku została zmieniona na \"%1\".",
 		"300": "Przenoszenie nie powiodło się.",
-		"301": "Kopiowanie nie powiodo się.",
+		"301": "Kopiowanie nie powiodło się.",
 		"302": "Usuwanie nie powiodło się.",
 		"500": "Menedżer plików jest wyłączony z powodów bezpieczeństwa. Skontaktuj się z administratorem oraz sprawdź plik konfiguracyjny CKFindera.",
 		"501": "Tworzenie miniatur jest wyłączone."
