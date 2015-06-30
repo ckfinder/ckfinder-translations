@@ -56,7 +56,6 @@
 	"CopyOperation": "Copying Files",
 	"MoveFilesErrorTitle": "Files that cannot be moved:",
 	"CopyFilesErrorTitle": "Files that cannot be copied:",
-	"MoveCopyConfirmAction": "Confirm file action:",
 
 	"CopyDragDrop": "Copy Here",
 	"MoveDragDrop": "Move Here",

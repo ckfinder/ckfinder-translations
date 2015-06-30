@@ -50,7 +50,6 @@
 	"CopyOperation": "Kopiowanie plików",
 	"MoveFilesErrorTitle": "Następujące pliki nie mogą być przeniesione:",
 	"CopyFilesErrorTitle": "Następujące pliki nie mogą być skopiowane:",
-	"MoveCopyConfirmAction": "Potwierdź, co zrobić z plikiem:",
 	"CopyDragDrop": "Skopiuj tutaj",
 	"MoveDragDrop": "Przenieś tutaj",
 	"Upload": "Wyślij",

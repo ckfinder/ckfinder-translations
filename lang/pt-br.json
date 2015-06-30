@@ -50,7 +50,6 @@
 	"CopyOperation": "Copiando Arquivos",
 	"MoveFilesErrorTitle": "Arquivos que não puderam ser movidos:",
 	"CopyFilesErrorTitle": "Arquivos que não puderam ser copiados:",
-	"MoveCopyConfirmAction": "Confirme a ação no arquivo:",
 	"CopyDragDrop": "Copiar Aqui",
 	"MoveDragDrop": "Mover Aqui",
 	"Upload": "Enviar Arquivo",

@@ -50,7 +50,6 @@
 	"CopyOperation": "Failide kopeerimine",
 	"MoveFilesErrorTitle": "Failid, mida ei saa liigutada:",
 	"CopyFilesErrorTitle": "Failid, mida ei saa kopeerida:",
-	"MoveCopyConfirmAction": "Kinnita failioperatsioon:",
 	"CopyDragDrop": "Kopeeri siia",
 	"MoveDragDrop": "Liiguta siia",
 	"Upload": "Laadi üles",

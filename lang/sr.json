@@ -50,7 +50,6 @@
 	"CopyOperation": "Копирам датотеке",
 	"MoveFilesErrorTitle": "Датотека која не може бити премештена:",
 	"CopyFilesErrorTitle": "Датотека која не може бити копирана:",
-	"MoveCopyConfirmAction": "Потврди акцију над датотеком:",
 	"CopyDragDrop": "Копирај датотеку овде",
 	"MoveDragDrop": "Премести датотеку овде",
 	"Upload": "Учитај",

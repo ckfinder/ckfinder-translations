@@ -50,7 +50,6 @@
 	"CopyOperation": "파일 복사 중",
 	"MoveFilesErrorTitle": "이동에 실패한 파일들:",
 	"CopyFilesErrorTitle": "복사에 실패한 파일들:",
-	"MoveCopyConfirmAction": "파일 작업 확인:",
 	"CopyDragDrop": "여기에 복사",
 	"MoveDragDrop": "여기로 이동",
 	"Upload": "업로드",

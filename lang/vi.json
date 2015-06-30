@@ -50,7 +50,6 @@
 	"CopyOperation": "Copying Files",
 	"MoveFilesErrorTitle": "Files that cannot be moved:",
 	"CopyFilesErrorTitle": "Files that cannot be copied:",
-	"MoveCopyConfirmAction": "Confirm file action:",
 	"CopyDragDrop": "Sao chép ở đây",
 	"MoveDragDrop": "Di chuyển ở đây",
 	"Upload": "Tải lên",

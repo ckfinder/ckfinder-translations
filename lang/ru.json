@@ -50,7 +50,6 @@
 	"CopyOperation": "Копирование файлов",
 	"MoveFilesErrorTitle": "Файлы, которые не могут быть перемещены:",
 	"CopyFilesErrorTitle": "Файлы, которые не могут быть скопированы:",
-	"MoveCopyConfirmAction": "Подтвердите действие:",
 	"CopyDragDrop": "Копировать",
 	"MoveDragDrop": "Переместить",
 	"Upload": "Загрузить файл",

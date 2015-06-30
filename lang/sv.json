@@ -50,7 +50,6 @@
 	"CopyOperation": "Kopierar filer",
 	"MoveFilesErrorTitle": "Filer som inte kan flyttas:",
 	"CopyFilesErrorTitle": "Filer som inte kan kopieras:",
-	"MoveCopyConfirmAction": "Confirm file action:",
 	"CopyDragDrop": "Kopiera hit",
 	"MoveDragDrop": "Flytta hit",
 	"Upload": "Ladda upp",

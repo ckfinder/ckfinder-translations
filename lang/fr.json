@@ -50,7 +50,6 @@
 	"CopyOperation": "Fichiers en cours de copie",
 	"MoveFilesErrorTitle": "Fichiers qui ne peuvent pas être déplacés:",
 	"CopyFilesErrorTitle": "Fichiers qui ne peuvent pas être copiés:",
-	"MoveCopyConfirmAction": "Confirmer l'action sur le fichier:",
 	"CopyDragDrop": "Copier ici",
 	"MoveDragDrop": "Déplacer ici",
 	"Upload": "Envoyer",
