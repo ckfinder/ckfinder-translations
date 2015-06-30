@@ -139,8 +139,8 @@
 	"ErrorMsg": {
 		"FileInvChar": "Faila nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Mapes nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "Mape, kuru mēģiniet atvērt, vairs neeksistē.",
+		"MissingFile": "Pieprasītais fails vairs nav pieejams."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Labot"
@@ -196,7 +196,7 @@
 			"herMajesty": "Jūsu augstība",
 			"hazyDays": "Dūmakains dienas"
 		},
-		"downloadAction": "DIelādēju oriģinālo attēlu.",
+		"downloadAction": "Ielādēju oriģinālo attēlu.",
 		"transformationAction": "Pielietoju transformācijas.",
 		"uploadAction": "Augšupielādēju laboto attēlu.",
 		"saveDialogTitle": "Saglabāt izmaiņas",
