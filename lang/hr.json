@@ -138,8 +138,8 @@
 	"ErrorMsg": {
 		"FileInvChar": "Naziv datoteke ne smije sadržavati niti jedan od sljedećih znakova: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Naziv direktorija ne smije sadržavati niti jedan od sljedećih znakova: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "Direktorij više nije dostupan.",
+		"MissingFile": "Tražena datoteka više nije dostupna."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Promijeni"
@@ -180,26 +180,26 @@
 			"pinhole": "Pinhole",
 			"love": "Ljubav",
 			"jarques": "Jarques",
-			"orangePeel": "Orange Peel",
+			"orangePeel": "Kora Naranče",
 			"sinCity": "Sin City",
 			"grungy": "Grungy",
-			"oldBoot": "Old Boot",
+			"oldBoot": "Stara Čizma",
 			"lomo": "Lomo",
 			"vintage": "Vintage",
 			"crossProcess": "Cross Process",
 			"concentrate": "Concentrate",
-			"glowingSun": "Glowing Sun",
+			"glowingSun": "Sjaj Sunca",
 			"sunrise": "Izlazak sunca",
 			"nostalgia": "Nostalgia",
 			"hemingway": "Hemingway",
-			"herMajesty": "Her Majesty",
+			"herMajesty": "Njeno Visočanstvo",
 			"hazyDays": "Hazy Days"
 		},
 		"downloadAction": "Preuzimanje originalne slike.",
 		"transformationAction": "Primjenjujem transformacije.",
 		"uploadAction": "Uploadanje uređene slike.",
 		"saveDialogTitle": "Sačuvaj Promjene",
-		"saveDialogOverwrite": "Overwrite File",
+		"saveDialogOverwrite": "Prepiši preko datoteke",
 		"saveDialogSaveAs": "Sačuvaj kao:",
 		"saveDialogFileExists": "Datoteka sa istim imenom već postoji u direktoriju.",
 		"reset": "Resetiraj",
@@ -212,7 +212,7 @@
 		"medium": "Srednja",
 		"large": "Velika",
 		"max": "Max",
-		"Custom": "Custom"
+		"Custom": "Odredi"
 	},
 	"ShowMore": "Pokaži više"
 }
