@@ -55,7 +55,7 @@
 	"Upload": "Μεταφόρτωση",
 	"Settings": "Ρυθμίσεις",
 	"Choose": "Επιλογή",
-	"ChooseResizedImage": "Επιλογή Μεγέθους",
+	"ChooseResizedImage": "Προσαρμογή Μεγέθους",
 	"OriginalSize": "Αρχικό μέγεθος",
 	"Custom": "Προσαρμοσμένο",
 	"GettingFileData": "Λήψη δεδομένων αρχείου. Παρακαλούμε περιμένετε.",
@@ -138,8 +138,8 @@
 	"ErrorMsg": {
 		"FileInvChar": "Η ονομασία του αρχείου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Η ονομασία του φακέλου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "Ο φάκελος που προσπαθείτε να ανοίξετε δεν είναι πλέον διαθέσιμος.",
+		"MissingFile": "Το αρχείο που ζητήθηκε δεν είναι πλέον διαθέσιμο."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Επεξεργασία"
@@ -211,8 +211,8 @@
 		"small": "Μικρό",
 		"medium": "Μεσαίο",
 		"large": "Μεγάλο",
-		"max": "Μέγιστο",
-		"Custom": "Προσαρμοσμένο"
+		"max": "Πολύ μεγάλο",
+		"Custom": "Επιλεκτικά"
 	},
 	"ShowMore": "Εμφάνιση περισσοτέρων"
 }
