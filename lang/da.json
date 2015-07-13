@@ -3,7 +3,7 @@
 	"common": {
 		"cancel": "Annullér",
 		"messageTitle": "Information",
-		"skip": "Skip",
+		"skip": "Spring over",
 		"rememberDecision": "Husk denne indstilling"
 	},
 	"dir": "ltr",
@@ -13,11 +13,11 @@
 		"AM",
 		"PM"
 	],
-	"FolderNew": "Skriv navnet på den nye mappe: ",
+	"FolderNew": "Angiv navnet på den nye mappe: ",
 	"FolderRename": "Skriv det nye navn på mappen: ",
 	"FolderDelete": "Er du sikker på, at du vil slette mappen \"%1\"?",
-	"DestinationFolder": "Destination Folder",
-	"FileRename": "Skriv navnet på den nye fil: ",
+	"DestinationFolder": "Destinations mappe",
+	"FileRename": "Angiv navnet på den nye fil: ",
 	"FileRenameExt": "Er du sikker på, at du vil ændre filtypen? Filen kan muligvis ikke bruges bagefter.",
 	"FileDelete": "Er du sikker på, at du vil slette filen \"%1\"?",
 	"FilesDelete": "Er du sikker på du vil slette %1 filer?",
@@ -36,10 +36,10 @@
 	"OperationCompletedErrors": "Opgaven blev fuldført med fejl.",
 	"MoveToolbarButton": "Flyt",
 	"CopyToolbarButton": "Kopier",
-	"MoveOneFileDialogTitle": "Flyt filen til...",
+	"MoveOneFileDialogTitle": "Flyt filen til ...",
 	"CopyOneFileDialogTitle": "Kopier filen til ...",
-	"MoveManyFilesDialogTitle": "Flyt {count} filerne til...",
-	"CopyManyFilesDialogTitle": "Kopier {count} filerne til...",
+	"MoveManyFilesDialogTitle": "Flyt {count} filerne til ...",
+	"CopyManyFilesDialogTitle": "Kopier {count} filerne til ...",
 	"MoveOneFileWait": "Flytter fil. Vent venligst.",
 	"CopyOneFileWait": "Kopierer fil. Vent venligst.",
 	"MoveManyFilesWait": "Flytter %1 filer. Vent venligst.",
@@ -47,18 +47,18 @@
 	"MovedFilesNumber": "Antal flyttede filer: %1.",
 	"CopiedFilesNumber": "Antal kopierede filer: %1.",
 	"MoveOperation": "Flytter filer",
-	"CopyOperation": "Kopierer filer",
-	"MoveFilesErrorTitle": "Filer som ikke kunne flyttes:",
-	"CopyFilesErrorTitle": "Filer som ikke kunne kopieres:",
+	"CopyOperation": "Kopiere filer",
+	"MoveFilesErrorTitle": "Følgende filer kunne ikke flyttes:",
+	"CopyFilesErrorTitle": "Følgende filer kunne ikke kopieres:",
 	"CopyDragDrop": "Kopier hertil",
 	"MoveDragDrop": "Flyt hertil",
 	"Upload": "Upload",
-	"Settings": "Indstillinger",
+	"Settings": "Indstillingér",
 	"Choose": "Vælg",
 	"ChooseResizedImage": "Vælg skaleret",
 	"OriginalSize": "Original størrelse",
 	"Custom": "Brugerdefineret",
-	"GettingFileData": "Henter fil data, vent venligst.",
+	"GettingFileData": "Henter informationer om filen, vent venligst.",
 	"View": "Vis",
 	"Download": "Download",
 	"NewSubFolder": "Ny undermappe",
@@ -68,17 +68,17 @@
 	"RenameDlgTitle": "Omdøb",
 	"NewNameDlgTitle": "Nyt navn",
 	"FileOverwrite": "Overskriv",
-	"FileAutorename": "Auto-omdøb",
-	"OkBtn": "OK",
+	"FileAutorename": "Automatisk-omdøbning",
+	"OkBtn": "Ok",
 	"CancelBtn": "Annullér",
 	"CloseBtn": "Luk",
-	"UploadSelectLbl": "Vælg den fil, som du vil uploade",
+	"UploadSelectLbl": "Vælg den fil, du vil uploade",
 	"UploadProgressLbl": "(Uploader, vent venligst...)",
-	"UploadBtnCancel": "Annuller",
+	"UploadBtnCancel": "Annullér",
 	"UploadNoFolder": "Venligst vælg en mappe før upload startes.",
 	"UploadNoPerms": "Upload er ikke tilladt.",
 	"UploadUnknError": "Fejl ved upload.",
-	"UploadExtIncorrect": "Denne filtype er ikke tilladt i denne mappe.",
+	"UploadExtIncorrect": "Den valgte filtype kan ikke benyttes i denne mappe.",
 	"UploadLabel": {
 		"UploadSelect": "Vælg filer til upload",
 		"UploadProgress": "Uploader...",
@@ -138,14 +138,14 @@
 	"ErrorMsg": {
 		"FileInvChar": "Filnavnet må ikke indeholde et af følgende tegn: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Mappenavnet må ikke indeholde et af følgende tegn: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "Mappen eksistere ikke længere.",
+		"MissingFile": "Filen eksistere ikke længere."
 	},
 	"Fileeditor": {
-		"contextMenuName": "Rediger"
+		"contextMenuName": "Redigér"
 	},
 	"Maximize": {
-		"maximize": "Maximér",
+		"maximize": "Maksimér",
 		"minimize": "Minimér"
 	},
 	"Filter": {
@@ -211,7 +211,7 @@
 		"small": "Lille",
 		"medium": "Medium",
 		"large": "Stor",
-		"max": "Max",
+		"max": "Maksimal",
 		"Custom": "Brugerdefineret"
 	},
 	"ShowMore": "Vis mere"
