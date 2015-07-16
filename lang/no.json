@@ -138,8 +138,8 @@
 	"ErrorMsg": {
 		"FileInvChar": "Filnavnet kan ikke inneholde følgende tegn: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Mappenavnet kan ikke inneholde følgende tegn: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "Mappen du forsøker å nå er ikke lengre tilgjengelig.",
+		"MissingFile": "Den forespurte filen finnes ikke lengre."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Rediger"
