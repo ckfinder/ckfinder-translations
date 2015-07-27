@@ -18,45 +18,45 @@
 	"FolderDelete": "Biztosan törölni szeretné a következő mappát: \"%1\"?",
 	"DestinationFolder": "Cél mappa",
 	"FileRename": "Kérem adja meg a fájl új nevét: ",
-	"FileRenameExt": "Biztosan szeretné módosítani a fájl kiterjesztését? A fájl esetleg használhatatlan lesz.",
+	"FileRenameExt": "Biztosan szeretné módosítani a fájl kiterjesztését? A fájl használhatatlanná válhat.",
 	"FileDelete": "Biztosan törli a következő fájlt: \"%1\"?",
 	"FilesDelete": "Biztosan törli a kijelölt %1 fájlt?",
 	"FilesLoading": {
-		"title": "Loading...",
-		"text": "Please wait. The files are being loaded."
+		"title": "Betöltés...",
+		"text": "Kérem várjon. A fájlok betöltése megkezdődött."
 	},
 	"FilesEmpty": {
-		"title": "The folder is empty.",
-		"text": "Use the <strong>Upload</strong> button or <strong>drag and drop</strong> your files here."
+		"title": "Ez a mappa üres.",
+		"text": "Használja a <strong>Feltöltés</strong> gombot, vagy <strong>húzzan ide</strong> a fájlokat."
 	},
 	"FilterFilesEmpty": {
-		"title": "Nothing found.",
-		"text": "Please try using different search criteria."
+		"title": "Nincs találat.",
+		"text": "Kérem adjon meg más keresési feltételt."
 	},
 	"OperationCompletedErrors": "A művelet közben hiba történt.",
 	"MoveToolbarButton": "Áthelyez",
 	"CopyToolbarButton": "Másol",
-	"MoveOneFileDialogTitle": "Move File To...",
-	"CopyOneFileDialogTitle": "Copy File To...",
+	"MoveOneFileDialogTitle": "Fájl áthelyezése ide...",
+	"CopyOneFileDialogTitle": "Fájl másolása ide...",
 	"MoveManyFilesDialogTitle": "Move {count} Files To...",
 	"CopyManyFilesDialogTitle": "Copy {count} Files To...",
-	"MoveOneFileWait": "Fájl mozgatása. Kérem várjon.",
+	"MoveOneFileWait": "Fájl áthelyezése. Kérem várjon.",
 	"CopyOneFileWait": "Fájl másolása. Kérem várjon.",
-	"MoveManyFilesWait": "Moving %1 files. Please wait.",
-	"CopyManyFilesWait": "Copying %1 files. Please wait.",
+	"MoveManyFilesWait": "Moving %1 files. Kérem várjon.",
+	"CopyManyFilesWait": "Copying %1 files. Kérem várjon.",
 	"MovedFilesNumber": "Az áthelyezett fájlok száma: %1.",
 	"CopiedFilesNumber": "A másolt fájlok száma: %1.",
-	"MoveOperation": "Moving Files",
-	"CopyOperation": "Copying Files",
-	"MoveFilesErrorTitle": "Files that cannot be moved:",
-	"CopyFilesErrorTitle": "Files that cannot be copied:",
+	"MoveOperation": "Fájlok áthelyezése",
+	"CopyOperation": "Fájlok másolása",
+	"MoveFilesErrorTitle": "A következő fájlok nem helyezhetőek át:",
+	"CopyFilesErrorTitle": "A következő fájlok nem másolhatóak:",
 	"CopyDragDrop": "Másolás ide",
 	"MoveDragDrop": "Áthelyezés ide",
 	"Upload": "Feltöltés",
 	"Settings": "Beállítások",
 	"Choose": "Válasszon",
 	"ChooseResizedImage": "Choose Resized",
-	"OriginalSize": "Original Size",
+	"OriginalSize": "Eredeti méret",
 	"Custom": "Custom",
 	"GettingFileData": "Getting file data. Please wait.",
 	"View": "Megtekintés",
@@ -87,7 +87,7 @@
 	},
 	"UploadSend": "Feltöltés",
 	"UploadAddFiles": "Fájl hozzáadása",
-	"UploadSummary": "Uploaded files: %1",
+	"UploadSummary": "Feltöltött fájlok: %1",
 	"FileUploaded": "File uploaded",
 	"UploadDetails": "Részletek",
 	"UploadFilesCountProgress": "{filesUploaded} of {filesTotal}",
@@ -138,8 +138,8 @@
 	"ErrorMsg": {
 		"FileInvChar": "A fájl neve nem tartalmazhatja a következő karaktereket: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "A mappa neve nem tartalmazhatja a következő karaktereket: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "A könyvtár már nem létezik.",
+		"MissingFile": "A fájl már nem létezik."
 	},
 	"Fileeditor": {
 		"contextMenuName": "Szerkesztés"
@@ -196,14 +196,14 @@
 			"hazyDays": "Hazy Days"
 		},
 		"downloadAction": "Eredeti kép letöltése.",
-		"transformationAction": "Applying transformations.",
+		"transformationAction": "Módosítások alkalmazása.",
 		"uploadAction": "Módosított kép feltöltése.",
 		"saveDialogTitle": "Módosítások mentése",
 		"saveDialogOverwrite": "Fájl felülírása",
 		"saveDialogSaveAs": "Mentés másként:",
 		"saveDialogFileExists": "Ilyen nevű fájl már létezik a könyvtárban.",
 		"reset": "Visszaállít",
-		"title": "Edit Image",
+		"title": "Kép szerkesztése",
 		"save": "Mentés",
 		"loading": "Kép betöltése"
 	},
