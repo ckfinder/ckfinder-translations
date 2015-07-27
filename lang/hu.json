@@ -27,19 +27,19 @@
 	},
 	"FilesEmpty": {
 		"title": "Ez a mappa üres.",
-		"text": "Használja a <strong>Feltöltés</strong> gombot, vagy <strong>húzzan ide</strong> a fájlokat."
+		"text": "Használja a <strong>Feltöltés</strong> gombot, vagy <strong>húzzon ide</strong> a fájlokat."
 	},
 	"FilterFilesEmpty": {
 		"title": "Nincs találat.",
 		"text": "Kérem adjon meg más keresési feltételt."
 	},
 	"OperationCompletedErrors": "A művelet közben hiba történt.",
-	"MoveToolbarButton": "Áthelyez",
-	"CopyToolbarButton": "Másol",
+	"MoveToolbarButton": "Áthelyezés",
+	"CopyToolbarButton": "Másolás",
 	"MoveOneFileDialogTitle": "Fájl áthelyezése ide...",
 	"CopyOneFileDialogTitle": "Fájl másolása ide...",
-	"MoveManyFilesDialogTitle": "Move {count} Files To...",
-	"CopyManyFilesDialogTitle": "Copy {count} Files To...",
+	"MoveManyFilesDialogTitle": "{count} fájl áthelyezése ide...",
+	"CopyManyFilesDialogTitle": "{count} fájl másolása ide...",
 	"MoveOneFileWait": "Fájl áthelyezése. Kérem várjon.",
 	"CopyOneFileWait": "Fájl másolása. Kérem várjon.",
 	"MoveManyFilesWait": "Moving %1 files. Kérem várjon.",
@@ -96,7 +96,7 @@
 	"SetDisplayName": "fájl neve",
 	"SetDisplayDate": "dátum",
 	"SetDisplaySize": "fájlméret",
-	"SetDisplayThumbnailSize": "Bélyagkép méret",
+	"SetDisplayThumbnailSize": "Bélyegkép méret",
 	"FilesCountOne": "1 fájl",
 	"FilesCountMany": "%1 fájl",
 	"Kb": "%1 KB",
@@ -152,28 +152,28 @@
 		"filterPlaceholder": "Filter"
 	},
 	"EditImage": {
-		"apply": "Apply",
-		"adjust": "Adjust",
-		"crop": "Kivág",
+		"apply": "Alkalmaz",
+		"adjust": "Beállítások",
+		"crop": "Kivágás",
 		"presets": "Presets",
-		"resize": "Átméretez",
-		"rotate": "Forgat",
+		"resize": "Átméretezés",
+		"rotate": "Forgatás",
 		"keepAspectRatio": "Képarány megtartása",
-		"rotateClockwise": "90&deg; Right",
-		"rotateAntiClockwise": "90&deg; Left",
+		"rotateClockwise": "90&deg; jobbra",
+		"rotateAntiClockwise": "90&deg; balra",
 		"filters": {
-			"brightness": "Brightness",
+			"brightness": "Világosság",
 			"contrast": "Kontraszt",
-			"saturation": "Saturation",
+			"saturation": "Telítettség",
 			"vibrance": "Vibrance",
 			"exposure": "Exposure",
 			"hue": "Hue",
-			"sepia": "Sepia",
+			"sepia": "Szépia",
 			"gamma": "Gamma",
 			"noise": "Noise",
 			"clip": "Kivág",
-			"sharpen": "Élesít",
-			"stackBlur": "Homályosít"
+			"sharpen": "Élesítés",
+			"stackBlur": "Homályosítás"
 		},
 		"preset": {
 			"clarity": "Clarity",
@@ -208,11 +208,11 @@
 		"loading": "Kép betöltése"
 	},
 	"ChooseResizedImageSizes": {
-		"small": "Small",
-		"medium": "Medium",
-		"large": "Large",
+		"small": "Kicsi",
+		"medium": "Közepes",
+		"large": "Nagy",
 		"max": "Max",
-		"Custom": "Custom"
+		"Custom": "Egyedi"
 	},
 	"ShowMore": "Show more"
 }
