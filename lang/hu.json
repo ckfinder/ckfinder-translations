@@ -149,7 +149,7 @@
 		"minimize": "Kis méret"
 	},
 	"Filter": {
-		"filterPlaceholder": "Filter"
+		"filterPlaceholder": "Szűrő"
 	},
 	"EditImage": {
 		"apply": "Alkalmaz",
@@ -172,7 +172,7 @@
 			"gamma": "Gamma",
 			"noise": "Zaj",
 			"clip": "Kivág",
-			"sharpen": "Élesítés",
+			"sharpen": "Élesség",
 			"stackBlur": "Homályosítás"
 		},
 		"preset": {
