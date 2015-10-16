@@ -13,10 +13,13 @@
 		"AM",
 		"PM"
 	],
+	"Abort": "Abort",
 	"FolderNew": "Skriv namnet på den nya mappen: ",
 	"FolderRename": "Skriv det nya namnet på mappen: ",
 	"FolderDelete": "Är du säker på att du vill radera mappen \"%1\"?",
 	"DestinationFolder": "Målmapp",
+	"FilesPane": "Files pane",
+	"FoldersTree": "Folders tree",
 	"FileRename": "Skriv det nya filnamnet: ",
 	"FileRenameExt": "Är du säker på att du vill ändra filändelsen? Filen kan bli oanvändbar.",
 	"FileDelete": "Är du säker på att du vill radera filen \"%1\"?",
@@ -33,6 +36,7 @@
 		"title": "Hittade inget.",
 		"text": "Please try using different search criteria."
 	},
+	"FilesRefresh": "Refreshing files",
 	"OperationCompletedErrors": "Operation completed with errors.",
 	"MoveToolbarButton": "Flytta",
 	"CopyToolbarButton": "Kopiera",
@@ -59,6 +63,7 @@
 	"OriginalSize": "Originalstorlek",
 	"Custom": "Custom",
 	"GettingFileData": "Hämtar fildata. Vänligen vänta.",
+	"PleaseWait": "Please wait.",
 	"View": "Visa",
 	"Download": "Ladda ner",
 	"NewSubFolder": "Ny Undermapp",
@@ -88,7 +93,6 @@
 	"UploadSend": "Ladda upp",
 	"UploadAddFiles": "Lägg till filer",
 	"UploadSummary": "Uploaded files: %1",
-	"FileUploaded": "Fil uppladdad",
 	"UploadDetails": "Detaljer",
 	"UploadFilesCountProgress": "{filesUploaded} av {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} av {bytesTotal})",
@@ -205,7 +209,8 @@
 		"reset": "Reset",
 		"title": "Redigera bild",
 		"save": "Spara",
-		"loading": "Laddar bild"
+		"loading": "Laddar bild",
+		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Liten",
@@ -214,5 +219,65 @@
 		"max": "Max",
 		"Custom": "Eget val"
 	},
-	"ShowMore": "Visa mer"
+	"ShowMore": "Visa mer",
+	"Shortcuts": {
+		"title": "Keyboard Shortcuts",
+		"general": {
+			"title": "General Interface",
+			"focusToolbar": "Focus toolbar",
+			"focusFoldersPane": "Focus folders pane or breadcrumbs",
+			"focusFilesPane": "Focus files pane",
+			"showContextMenu": "Open context menu",
+			"closeButton": "Close",
+			"listShortcuts": "Open this help dialog",
+			"action": "Execute default action",
+			"focusNext": "Focus next pane",
+			"previousItem": "Go to previous item",
+			"nextItem": "Go to next item",
+			"firstItem": "Go to first item",
+			"lastItem": "Go to last item"
+		},
+		"files": {
+			"title": "Files Pane",
+			"delete": "Delete file(s)",
+			"rename": "Rename file",
+			"selectAll": "Select all files",
+			"upload": "Upload file(s)",
+			"refresh": "Refresh files",
+			"addToSelectionLeft": "Add or remove file on the left to selection",
+			"addToSelectionRight": "Add or remove file on the right to selection",
+			"addToSelectionAbove": "Add or remove files above to selection",
+			"addToSelectionBelow": "Add or remove files below to selection"
+		},
+		"folders": {
+			"title": "Folders Pane",
+			"delete": "Delete folder",
+			"rename": "Rename folder",
+			"expandOrSubfolder": "Expand folder / Go to first subfolder",
+			"collapseOrParent": "Collapse folder / Go to parent folder"
+		},
+		"keys": {
+			"ctrl": "Control",
+			"delete": "Delete",
+			"downArrow": "Down arrow",
+			"escape": "Escape",
+			"leftArrow": "Left arrow",
+			"question": "Question mark",
+			"rightArrow": "Right arrow",
+			"upArrow": "Up arrow"
+		},
+		"keysAbbreviations": {
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
+		}
+	},
+	"Operations": {
+		"renameFolder": "Rename Folder",
+		"copyFiles": "Copy Files",
+		"moveFiles": "Move Files"
+	}
 }

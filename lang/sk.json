@@ -13,10 +13,13 @@
 		"AM",
 		"PM"
 	],
+	"Abort": "Abort",
 	"FolderNew": "Zadajte prosím meno nového adresára: ",
 	"FolderRename": "Zadajte prosím meno nového adresára: ",
 	"FolderDelete": "Skutočne zmazať adresár \"%1\"?",
 	"DestinationFolder": "Destination Folder",
+	"FilesPane": "Files pane",
+	"FoldersTree": "Folders tree",
 	"FileRename": "Zadajte prosím meno nového súboru: ",
 	"FileRenameExt": "Skutočne chcete zmeniť príponu súboru? Upozornenie: zmenou prípony sa súbor môže stať nepoužiteľným, pokiaľ prípona nie je podporovaná.",
 	"FileDelete": "Skutočne chcete odstrániť súbor \"%1\"?",
@@ -33,6 +36,7 @@
 		"title": "Nothing found.",
 		"text": "Please try using different search criteria."
 	},
+	"FilesRefresh": "Refreshing files",
 	"OperationCompletedErrors": "Operation completed with errors.",
 	"MoveToolbarButton": "Move",
 	"CopyToolbarButton": "Copy",
@@ -59,6 +63,7 @@
 	"OriginalSize": "Original Size",
 	"Custom": "Custom",
 	"GettingFileData": "Getting file data. Please wait.",
+	"PleaseWait": "Please wait.",
 	"View": "Náhľad",
 	"Download": "Stiahnuť",
 	"NewSubFolder": "Nový podadresár",
@@ -88,7 +93,6 @@
 	"UploadSend": "Prekopírovať na server",
 	"UploadAddFiles": "Pridať súbory",
 	"UploadSummary": "Uploaded files: %1",
-	"FileUploaded": "File uploaded",
 	"UploadDetails": "Details",
 	"UploadFilesCountProgress": "{filesUploaded} of {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} of {bytesTotal})",
@@ -205,7 +209,8 @@
 		"reset": "Reset",
 		"title": "Edit Image",
 		"save": "Save",
-		"loading": "Loading image"
+		"loading": "Loading image",
+		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Small",
@@ -214,5 +219,65 @@
 		"max": "Max",
 		"Custom": "Custom"
 	},
-	"ShowMore": "Show more"
+	"ShowMore": "Show more",
+	"Shortcuts": {
+		"title": "Keyboard Shortcuts",
+		"general": {
+			"title": "General Interface",
+			"focusToolbar": "Focus toolbar",
+			"focusFoldersPane": "Focus folders pane or breadcrumbs",
+			"focusFilesPane": "Focus files pane",
+			"showContextMenu": "Open context menu",
+			"closeButton": "Close",
+			"listShortcuts": "Open this help dialog",
+			"action": "Execute default action",
+			"focusNext": "Focus next pane",
+			"previousItem": "Go to previous item",
+			"nextItem": "Go to next item",
+			"firstItem": "Go to first item",
+			"lastItem": "Go to last item"
+		},
+		"files": {
+			"title": "Files Pane",
+			"delete": "Delete file(s)",
+			"rename": "Rename file",
+			"selectAll": "Select all files",
+			"upload": "Upload file(s)",
+			"refresh": "Refresh files",
+			"addToSelectionLeft": "Add or remove file on the left to selection",
+			"addToSelectionRight": "Add or remove file on the right to selection",
+			"addToSelectionAbove": "Add or remove files above to selection",
+			"addToSelectionBelow": "Add or remove files below to selection"
+		},
+		"folders": {
+			"title": "Folders Pane",
+			"delete": "Delete folder",
+			"rename": "Rename folder",
+			"expandOrSubfolder": "Expand folder / Go to first subfolder",
+			"collapseOrParent": "Collapse folder / Go to parent folder"
+		},
+		"keys": {
+			"ctrl": "Control",
+			"delete": "Delete",
+			"downArrow": "Down arrow",
+			"escape": "Escape",
+			"leftArrow": "Left arrow",
+			"question": "Question mark",
+			"rightArrow": "Right arrow",
+			"upArrow": "Up arrow"
+		},
+		"keysAbbreviations": {
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
+		}
+	},
+	"Operations": {
+		"renameFolder": "Rename Folder",
+		"copyFiles": "Copy Files",
+		"moveFiles": "Move Files"
+	}
 }
