@@ -18,8 +18,8 @@
 	"FolderRename": "Palun sisesta uue kataloogi nimi: ",
 	"FolderDelete": "Kas tahad kindlasti kausta \"%1\" kustutada?",
 	"DestinationFolder": "Sihtkaust",
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
+	"FilesPane": "Failide paneel",
+	"FoldersTree": "Kaustade paneel",
 	"FileRename": "Palun sisesta faili uus nimi: ",
 	"FileRenameExt": "Kas tahad kindlasti faili laiendit muuta? Fail võib muutuda kasutamatuks.",
 	"FileDelete": "Kas tahad kindlasti kustutada faili \"%1\"?",
@@ -36,7 +36,7 @@
 		"title": "Midagi ei leitud.",
 		"text": "Proovi kasutada mingit muud otsingusõna."
 	},
-	"FilesRefresh": "Refreshing files",
+	"FilesRefresh": "Failide värskendamine",
 	"OperationCompletedErrors": "Otsing lõpetati vigadega.",
 	"MoveToolbarButton": "Liiguta",
 	"CopyToolbarButton": "Kopeeri",
@@ -52,8 +52,8 @@
 	"CopiedFilesNumber": "Kopeeritud failide arv: %1.",
 	"MoveOperation": "Failide liigutamine",
 	"CopyOperation": "Failide kopeerimine",
-	"MoveFilesErrorTitle": "Failid, mida ei saa liigutada:",
-	"CopyFilesErrorTitle": "Failid, mida ei saa kopeerida:",
+	"MoveFilesErrorTitle": "Failid, mida ei saanud liigutada:",
+	"CopyFilesErrorTitle": "Failid, mida ei saanud kopeerida:",
 	"CopyDragDrop": "Kopeeri siia",
 	"MoveDragDrop": "Liiguta siia",
 	"Upload": "Laadi üles",
@@ -63,7 +63,7 @@
 	"OriginalSize": "Originaalsuurus",
 	"Custom": "Kohandatud",
 	"GettingFileData": "Faili andmete hankimine. Palun oota.",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "Palun oota.",
 	"View": "Kuva",
 	"Download": "Laadi alla",
 	"NewSubFolder": "Uus alamkaust",
@@ -210,7 +210,7 @@
 		"title": "Pildi muutmine",
 		"save": "Salvesta",
 		"loading": "Pildi laadimine",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Kas tahad ikka sulgeda? Kõik pildile tehtud salvestamata muudatused lähevad nii kaotsi."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Väike",
@@ -223,48 +223,48 @@
 	"Shortcuts": {
 		"title": "Keyboard Shortcuts",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "Üldine liides",
+			"focusToolbar": "Fookusesse tööriistariba",
+			"focusFoldersPane": "Fookusesse kaustade paneel või asukohariba",
+			"focusFilesPane": "Fookusesse failide paneel",
+			"showContextMenu": "Kontekstimenüü avamine",
+			"closeButton": "Sulge",
+			"listShortcuts": "Selle abidialoogi avamine",
+			"action": "Vaikimisi tegevuse käivitamine",
+			"focusNext": "Järgmise paneeli aktiveerimine",
+			"previousItem": "Eelmisele liikumine",
+			"nextItem": "Järgmisele liikumine",
+			"firstItem": "Esimesele liikumine",
+			"lastItem": "Viimasele liikumine"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"title": "Failide paneel",
+			"delete": "Kustuta fail(id)",
+			"rename": "Muuda faili nime",
+			"selectAll": "Vali kõik failid",
+			"upload": "Laadi fail(id) üles",
+			"refresh": "Värskenda faile",
+			"addToSelectionLeft": "Lisa vasakul olev fail valikusse või eemalda",
+			"addToSelectionRight": "Lisa paremal olev fail valikusse või eemalda",
+			"addToSelectionAbove": "Lisa üleval olev fail valikusse või eemalda",
+			"addToSelectionBelow": "Lisa all olev fail valikusse või eemalda",
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Kaustade paneel",
+			"delete": "Kustuta kaust",
+			"rename": "Nimeta kaust ümber",
+			"expandOrSubfolder": "Laienda / liigu esimesse alamkausta",
+			"collapseOrParent": "Sulge / liigu ülemkausta"
 		},
 		"keys": {
 			"ctrl": "Control",
 			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"downArrow": "Allanool",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"leftArrow": "Vasakule nool",
+			"question": "Küsimärk",
+			"rightArrow": "Paremale nool",
+			"upArrow": "Ülesnool"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
@@ -276,8 +276,8 @@
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Nimeta kaust ümber",
+		"copyFiles": "Kopeeri faile",
+		"moveFiles": "Liiguta faile"
 	}
 }
