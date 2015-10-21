@@ -13,12 +13,15 @@
 		"AM",
 		"PM"
 	],
+	"Abort": "Abort",
 	"FolderNew": "새로운 폴더 이름을 입력해 주십시오: ",
 	"FolderRename": "새로운 폴더 이름을 입력해 주십시오: ",
 	"FolderDelete": "정말 \"%1\" 폴더를 삭제하시겠습니까?",
 	"DestinationFolder": "목적지 폴더",
+	"FilesPane": "Files pane",
+	"FoldersTree": "Folders tree",
 	"FileRename": "새로운 파일 이름을 입력해 주십시오: ",
-	"FileRenameExt": "정말 파일 확장자를 변경하시겠습니까? 파일이 사용불능해 질 수 있습니다.",
+	"FileRenameExt": "정말 파일 확장자를 변경하시겠습니까? 파일을 사용할 수 없게 될 수 있습니다.",
 	"FileDelete": "정말 \"%1\" 파일을 삭제하시겠습니까?",
 	"FilesDelete": "정말 %1 파일들을 삭제하시겠습니까?",
 	"FilesLoading": {
@@ -33,17 +36,18 @@
 		"title": "아무것도 찾지 못하였습니다.",
 		"text": "다른 검색어를 사용해 주십시오."
 	},
+	"FilesRefresh": "Refreshing files",
 	"OperationCompletedErrors": "오류와 함께 작업이 완료되었습니다.",
 	"MoveToolbarButton": "이동",
 	"CopyToolbarButton": "복사",
 	"MoveOneFileDialogTitle": "다음으로 파일 이동...",
 	"CopyOneFileDialogTitle": "다음으로 파일 복사...",
-	"MoveManyFilesDialogTitle": "다음으로 {count} 개의 파일 이동...",
-	"CopyManyFilesDialogTitle": "다음으로 {count} 개의 파일 복사...",
+	"MoveManyFilesDialogTitle": "다음으로 {count} 개 파일 이동...",
+	"CopyManyFilesDialogTitle": "다음으로 {count} 개 파일 복사...",
 	"MoveOneFileWait": "파일을 이동 중입니다. 잠시만 기다려 주십시오.",
 	"CopyOneFileWait": "파일을 복사 중입니다. 잠시만 기다려 주십시오.",
-	"MoveManyFilesWait": "%1 개의 파일을 이동 중입니다. 잠시만 기다려 주십시오.",
-	"CopyManyFilesWait": "%1 개의 파일을 이동 중입니다. 잠시만 기다려 주십시오.",
+	"MoveManyFilesWait": "%1 개 파일을 이동 중입니다. 잠시만 기다려 주십시오.",
+	"CopyManyFilesWait": "%1 개 파일을 이동 중입니다. 잠시만 기다려 주십시오.",
 	"MovedFilesNumber": "이동된 파일의 수: %1.",
 	"CopiedFilesNumber": "복사된 파일의 수: %1.",
 	"MoveOperation": "파일 이동 중",
@@ -59,6 +63,7 @@
 	"OriginalSize": "원본 크기",
 	"Custom": "사용자 정의",
 	"GettingFileData": "파일을 가져오고 있습니다. 잠시만 기다려 주십시오.",
+	"PleaseWait": "Please wait.",
 	"View": "보기",
 	"Download": "다운로드",
 	"NewSubFolder": "새로운 하위폴더",
@@ -69,7 +74,7 @@
 	"NewNameDlgTitle": "새로운 이름",
 	"FileOverwrite": "덮어쓰기",
 	"FileAutorename": "자동 이름변경",
-	"OkBtn": "OK",
+	"OkBtn": "확인",
 	"CancelBtn": "취소",
 	"CloseBtn": "닫기",
 	"UploadSelectLbl": "업로드할 파일을 선택해 주십시오",
@@ -88,7 +93,6 @@
 	"UploadSend": "업로드",
 	"UploadAddFiles": "파일 추가",
 	"UploadSummary": "업로드된 파일들: %1",
-	"FileUploaded": "파일이 업로드 되었습니다.",
 	"UploadDetails": "자세히",
 	"UploadFilesCountProgress": "{filesTotal} 중 {filesUploaded}",
 	"UploadBytesCountProgress": "({bytesTotal} 중 {bytesUploaded})",
@@ -117,7 +121,7 @@
 		"105": "올바르지 않은 파일 확장자.",
 		"109": "올바르지 않은 요청.",
 		"110": "알 수 없는 오류.",
-		"111": "It was not possible to complete the request due to resulting file size.",
+		"111": "파일 크기 때문에 요청을 완료할 수 없습니다.",
 		"115": "이미 같은 이름의 파일이나 폴더가 존재합니다.",
 		"116": "폴더를 찾지 못하였습니다. 새로고침을 해 보시고 다시 시도해 주십시오.",
 		"117": "파일을 찾지 못하였습니다. 새로고침을 해 보시고 다시 시도해 주십시오.",
@@ -129,17 +133,17 @@
 		"205": "서버에 업로드를 위한 임시 폴더가 사용가능하지 않습니다.",
 		"206": "보안상의 이유로 업로드가 중단되었습니다. 해당 파일은 HTML 같은 데이터가 포함되어 있습니다.",
 		"207": "업로드한 파일의 이름이 \"%1\" 로 변경되었습니다.",
-		"300": "파일(들) 이동 실패.",
-		"301": "파일(들) 복사 실패.",
-		"302": "파일(들) 삭제 실패.",
+		"300": "파일 이동 실패.",
+		"301": "파일 복사 실패.",
+		"302": "파일 삭제 실패.",
 		"500": "파일 브라우저가 보안상의 이유로 비활성화 되어있습니다. 당신의 시스템 관리자에게 연락을 해 보시고 CKFinder의 설정 파일을 확인해 주십시오.",
 		"501": "미리 보기 지원이 비활성화 되어 있습니다."
 	},
 	"ErrorMsg": {
 		"FileInvChar": "파일 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "폴더 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "도달하려는 폴더에 더이상 접근할 수 없습니다.",
+		"MissingFile": "요청한 파일에 더이상 접근할 수 없습니다."
 	},
 	"Fileeditor": {
 		"contextMenuName": "수정"
@@ -173,27 +177,27 @@
 			"noise": "노이즈",
 			"clip": "클리핑",
 			"sharpen": "선명도",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "흐리게"
 		},
 		"preset": {
-			"clarity": "Clarity",
-			"pinhole": "Pinhole",
-			"love": "Love",
-			"jarques": "Jarques",
-			"orangePeel": "Orange Peel",
-			"sinCity": "Sin City",
-			"grungy": "Grungy",
-			"oldBoot": "Old Boot",
-			"lomo": "Lomo",
-			"vintage": "Vintage",
-			"crossProcess": "Cross Process",
-			"concentrate": "Concentrate",
-			"glowingSun": "Glowing Sun",
-			"sunrise": "Sunrise",
-			"nostalgia": "Nostalgia",
-			"hemingway": "Hemingway",
-			"herMajesty": "Her Majesty",
-			"hazyDays": "Hazy Days"
+			"clarity": "선명하게",
+			"pinhole": "바늘구멍",
+			"love": "사랑",
+			"jarques": "쟈크 필터",
+			"orangePeel": "오렌지 껍질",
+			"sinCity": "씬시티",
+			"grungy": "그런지",
+			"oldBoot": "낡은 장화",
+			"lomo": "로모",
+			"vintage": "빈티지",
+			"crossProcess": "크로스 프로세스",
+			"concentrate": "정광",
+			"glowingSun": "은은한 햇살",
+			"sunrise": "해돋이",
+			"nostalgia": "향수",
+			"hemingway": "헤밍웨이",
+			"herMajesty": "여왕 폐하",
+			"hazyDays": "흐린 날"
 		},
 		"downloadAction": "원본 이미지 다운로드 중.",
 		"transformationAction": "변환 적용 중.",
@@ -205,7 +209,8 @@
 		"reset": "초기화",
 		"title": "이미지 수정",
 		"save": "저장",
-		"loading": "이미지 로딩 중"
+		"loading": "이미지 로딩 중",
+		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "작음",
@@ -214,5 +219,65 @@
 		"max": "최대",
 		"Custom": "사용자 정의"
 	},
-	"ShowMore": "더 보기"
+	"ShowMore": "더보기",
+	"Shortcuts": {
+		"title": "Keyboard Shortcuts",
+		"general": {
+			"title": "General Interface",
+			"focusToolbar": "Focus toolbar",
+			"focusFoldersPane": "Focus folders pane or breadcrumbs",
+			"focusFilesPane": "Focus files pane",
+			"showContextMenu": "Open context menu",
+			"closeButton": "Close",
+			"listShortcuts": "Open this help dialog",
+			"action": "Execute default action",
+			"focusNext": "Focus next pane",
+			"previousItem": "Go to previous item",
+			"nextItem": "Go to next item",
+			"firstItem": "Go to first item",
+			"lastItem": "Go to last item"
+		},
+		"files": {
+			"title": "Files Pane",
+			"delete": "Delete file(s)",
+			"rename": "Rename file",
+			"selectAll": "Select all files",
+			"upload": "Upload file(s)",
+			"refresh": "Refresh files",
+			"addToSelectionLeft": "Add or remove file on the left to selection",
+			"addToSelectionRight": "Add or remove file on the right to selection",
+			"addToSelectionAbove": "Add or remove files above to selection",
+			"addToSelectionBelow": "Add or remove files below to selection"
+		},
+		"folders": {
+			"title": "Folders Pane",
+			"delete": "Delete folder",
+			"rename": "Rename folder",
+			"expandOrSubfolder": "Expand folder / Go to first subfolder",
+			"collapseOrParent": "Collapse folder / Go to parent folder"
+		},
+		"keys": {
+			"ctrl": "Control",
+			"delete": "Delete",
+			"downArrow": "Down arrow",
+			"escape": "Escape",
+			"leftArrow": "Left arrow",
+			"question": "Question mark",
+			"rightArrow": "Right arrow",
+			"upArrow": "Up arrow"
+		},
+		"keysAbbreviations": {
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
+		}
+	},
+	"Operations": {
+		"renameFolder": "Rename Folder",
+		"copyFiles": "Copy Files",
+		"moveFiles": "Move Files"
+	}
 }

@@ -13,10 +13,13 @@
 		"EL",
 		"PL"
 	],
+	"Abort": "Abort",
 	"FolderNew": "Palun sisesta uue kataloogi nimi: ",
 	"FolderRename": "Palun sisesta uue kataloogi nimi: ",
 	"FolderDelete": "Kas tahad kindlasti kausta \"%1\" kustutada?",
 	"DestinationFolder": "Sihtkaust",
+	"FilesPane": "Files pane",
+	"FoldersTree": "Folders tree",
 	"FileRename": "Palun sisesta faili uus nimi: ",
 	"FileRenameExt": "Kas tahad kindlasti faili laiendit muuta? Fail võib muutuda kasutamatuks.",
 	"FileDelete": "Kas tahad kindlasti kustutada faili \"%1\"?",
@@ -33,6 +36,7 @@
 		"title": "Midagi ei leitud.",
 		"text": "Proovi kasutada mingit muud otsingusõna."
 	},
+	"FilesRefresh": "Refreshing files",
 	"OperationCompletedErrors": "Otsing lõpetati vigadega.",
 	"MoveToolbarButton": "Liiguta",
 	"CopyToolbarButton": "Kopeeri",
@@ -59,6 +63,7 @@
 	"OriginalSize": "Originaalsuurus",
 	"Custom": "Kohandatud",
 	"GettingFileData": "Faili andmete hankimine. Palun oota.",
+	"PleaseWait": "Please wait.",
 	"View": "Kuva",
 	"Download": "Laadi alla",
 	"NewSubFolder": "Uus alamkaust",
@@ -88,7 +93,6 @@
 	"UploadSend": "Laadi üles",
 	"UploadAddFiles": "Lisa faile",
 	"UploadSummary": "Üleslaaditud faile: %1",
-	"FileUploaded": "Fail üles laaditud",
 	"UploadDetails": "Andmed",
 	"UploadFilesCountProgress": "{filesUploaded} / {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} / {bytesTotal})",
@@ -205,7 +209,8 @@
 		"reset": "Lähtesta",
 		"title": "Pildi muutmine",
 		"save": "Salvesta",
-		"loading": "Pildi laadimine"
+		"loading": "Pildi laadimine",
+		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Väike",
@@ -214,5 +219,65 @@
 		"max": "Maksimaalne",
 		"Custom": "Kohandatud"
 	},
-	"ShowMore": "Näita veel"
+	"ShowMore": "Näita veel",
+	"Shortcuts": {
+		"title": "Keyboard Shortcuts",
+		"general": {
+			"title": "General Interface",
+			"focusToolbar": "Focus toolbar",
+			"focusFoldersPane": "Focus folders pane or breadcrumbs",
+			"focusFilesPane": "Focus files pane",
+			"showContextMenu": "Open context menu",
+			"closeButton": "Close",
+			"listShortcuts": "Open this help dialog",
+			"action": "Execute default action",
+			"focusNext": "Focus next pane",
+			"previousItem": "Go to previous item",
+			"nextItem": "Go to next item",
+			"firstItem": "Go to first item",
+			"lastItem": "Go to last item"
+		},
+		"files": {
+			"title": "Files Pane",
+			"delete": "Delete file(s)",
+			"rename": "Rename file",
+			"selectAll": "Select all files",
+			"upload": "Upload file(s)",
+			"refresh": "Refresh files",
+			"addToSelectionLeft": "Add or remove file on the left to selection",
+			"addToSelectionRight": "Add or remove file on the right to selection",
+			"addToSelectionAbove": "Add or remove files above to selection",
+			"addToSelectionBelow": "Add or remove files below to selection"
+		},
+		"folders": {
+			"title": "Folders Pane",
+			"delete": "Delete folder",
+			"rename": "Rename folder",
+			"expandOrSubfolder": "Expand folder / Go to first subfolder",
+			"collapseOrParent": "Collapse folder / Go to parent folder"
+		},
+		"keys": {
+			"ctrl": "Control",
+			"delete": "Delete",
+			"downArrow": "Down arrow",
+			"escape": "Escape",
+			"leftArrow": "Left arrow",
+			"question": "Question mark",
+			"rightArrow": "Right arrow",
+			"upArrow": "Up arrow"
+		},
+		"keysAbbreviations": {
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
+		}
+	},
+	"Operations": {
+		"renameFolder": "Rename Folder",
+		"copyFiles": "Copy Files",
+		"moveFiles": "Move Files"
+	}
 }

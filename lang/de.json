@@ -13,10 +13,13 @@
 		"AM",
 		"PM"
 	],
+	"Abort": "Abbrechen",
 	"FolderNew": "Bitte geben Sie den neuen Verzeichnisnamen an: ",
 	"FolderRename": "Bitte geben Sie den neuen Verzeichnisnamen an: ",
 	"FolderDelete": "Wollen Sie wirklich den Ordner \"%1\" löschen?",
 	"DestinationFolder": "Zielverzeichnis",
+	"FilesPane": "Dateibereich",
+	"FoldersTree": "Verzeichnisbaum",
 	"FileRename": "Bitte geben Sie den neuen Dateinamen an: ",
 	"FileRenameExt": "Wollen Sie wirklich die Dateierweiterung ändern? Die Datei könnte unbrauchbar werden!",
 	"FileDelete": "Wollen Sie wirklich die Datei \"%1\" löschen?",
@@ -33,21 +36,22 @@
 		"title": "Nichts gefunden.",
 		"text": "Bitte versuchen Sie es mit anderen Suchkriterien."
 	},
-	"OperationCompletedErrors": "Operation completed with errors.",
+	"FilesRefresh": "Refreshing files",
+	"OperationCompletedErrors": "Der Betrieb wurde mit Fehlern abgeschlossen.",
 	"MoveToolbarButton": "Verschieben",
 	"CopyToolbarButton": "Kopieren",
 	"MoveOneFileDialogTitle": "Verschieben die Datei in...",
 	"CopyOneFileDialogTitle": "Kopieren die Datei in...",
 	"MoveManyFilesDialogTitle": "Verschieben {count} Dateien in...",
 	"CopyManyFilesDialogTitle": "Kopieren {count} Dateien in...",
-	"MoveOneFileWait": "Moving file. Please wait.",
-	"CopyOneFileWait": "Copying file. Please wait.",
+	"MoveOneFileWait": "Verschieben einer Datei. Bitte warten.",
+	"CopyOneFileWait": "Kopieren einer Datei. Bitte warten.",
 	"MoveManyFilesWait": "Verschieben %1 Dateien. Bitte warten.",
 	"CopyManyFilesWait": "Kopieren %1 Dateien. Bitte warten.",
 	"MovedFilesNumber": "Anzahl der Dateien verschoben: %1.",
 	"CopiedFilesNumber": "Anzahl der kopierten Dateien: %1.",
-	"MoveOperation": "Moving Files",
-	"CopyOperation": "Copying Files",
+	"MoveOperation": "Verschieben von Dateien",
+	"CopyOperation": "Kopieren von Dateien",
 	"MoveFilesErrorTitle": "Dateien, die nicht verschoben werden können:",
 	"CopyFilesErrorTitle": "Dateien, die nicht kopiert werden können:",
 	"CopyDragDrop": "Hierher kopieren",
@@ -59,6 +63,7 @@
 	"OriginalSize": "Originalgröße",
 	"Custom": "Benutzerdefiniert",
 	"GettingFileData": "Getting file data. Please wait.",
+	"PleaseWait": "Bitte warten.",
 	"View": "Ansehen",
 	"Download": "Herunterladen",
 	"NewSubFolder": "Neues Unterverzeichnis",
@@ -88,7 +93,6 @@
 	"UploadSend": "Hochladen",
 	"UploadAddFiles": "Datei hinzufügen",
 	"UploadSummary": "Hochgeladene Dateien: %1",
-	"FileUploaded": "Datei hochgeladen",
 	"UploadDetails": "Details",
 	"UploadFilesCountProgress": "{filesUploaded} von {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} von {bytesTotal})",
@@ -197,7 +201,7 @@
 		},
 		"downloadAction": "Originalbild herunterladen.",
 		"transformationAction": "Applying transformations.",
-		"uploadAction": "Uploading edited image.",
+		"uploadAction": "Hochladen bearbeitete Bild.",
 		"saveDialogTitle": "Änderungen speichern",
 		"saveDialogOverwrite": "Datei überschreiben",
 		"saveDialogSaveAs": "Speichern als:",
@@ -205,7 +209,8 @@
 		"reset": "Rücksetzen",
 		"title": "Bild bearbeiten",
 		"save": "Speichern",
-		"loading": "Bild wird geladen"
+		"loading": "Bild wird geladen",
+		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Klein",
@@ -214,5 +219,65 @@
 		"max": "Max",
 		"Custom": "Benutzerdefiniert"
 	},
-	"ShowMore": "Zeig mehr"
+	"ShowMore": "Zeig mehr",
+	"Shortcuts": {
+		"title": "Tastenkombinationen",
+		"general": {
+			"title": "Benutzerschnittstelle",
+			"focusToolbar": "Fokus auf die Werkzeugleiste",
+			"focusFoldersPane": "Fokus auf den Ordnerbereich oder Ordnerpfad",
+			"focusFilesPane": "Fokus auf den Dateibereich",
+			"showContextMenu": "Kontextmenü öffnen",
+			"closeButton": "Schließen",
+			"listShortcuts": "Diese Hilfe-Dialog öffnen",
+			"action": "Standardaktion führen",
+			"focusNext": "Fokus auf das nächste Panel",
+			"previousItem": "Zum vorherigen Element",
+			"nextItem": "Zum nächsten Element",
+			"firstItem": "Zum ersten Element",
+			"lastItem": "Zum letzten Element"
+		},
+		"files": {
+			"title": "Dateibereich",
+			"delete": "Datei(en) löschen",
+			"rename": "Datei umbenennen",
+			"selectAll": "Alle Dateien auswählen",
+			"upload": "Datei(en) hochladen",
+			"refresh": "Dateien aktualisieren",
+			"addToSelectionLeft": "Dateien auf der linken Seite zur Auswahl hinzufügen oder aus der Auswahl entfernen.",
+			"addToSelectionRight": "Dateien auf der rechten Seite zur Auswahl hinzufügen oder aus der Auswahl entfernen.",
+			"addToSelectionAbove": "Dateien von oben zur Auswahl hinzufügen oder aus der Auswahl entfernen.",
+			"addToSelectionBelow": "Dateien von unten zur Auswahl hinzufügen oder aus der Auswahl entfernen."
+		},
+		"folders": {
+			"title": "Ordnerbereich",
+			"delete": "Ordner löschen",
+			"rename": "Ordner umbenennen",
+			"expandOrSubfolder": "Ordner erweitern / Zum ersten Unterverzeichnis",
+			"collapseOrParent": "Ordner reduzieren / Zum übergeordneten Ordner"
+		},
+		"keys": {
+			"ctrl": "Steuerung",
+			"delete": "Entfernen",
+			"downArrow": "Untere Pfeiltaste",
+			"escape": "Escape",
+			"leftArrow": "Linke Pfeiltaste",
+			"question": "Fragezeichen",
+			"rightArrow": "Rechte Pfeiltaste",
+			"upArrow": "Obere Pfeiltaste"
+		},
+		"keysAbbreviations": {
+			"alt": "Alt",
+			"ctrl": "Strg",
+			"del": "Entf",
+			"end": "Ende",
+			"home": "Pos1",
+			"shift": "Shift"
+		}
+	},
+	"Operations": {
+		"renameFolder": "Ordner umbenennen",
+		"copyFiles": "Kopieren von Dateien",
+		"moveFiles": "Verschieben von Dateien"
+	}
 }

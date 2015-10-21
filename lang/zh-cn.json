@@ -13,10 +13,13 @@
 		"上午",
 		"下午"
 	],
+	"Abort": "Abort",
 	"FolderNew": "请输入新文件夹名称: ",
 	"FolderRename": "请输入新文件夹名称: ",
 	"FolderDelete": "您确定要删除文件夹 \"%1\" 吗？",
 	"DestinationFolder": "目标文件夹",
+	"FilesPane": "Files pane",
+	"FoldersTree": "Folders tree",
 	"FileRename": "请输入新文件名: ",
 	"FileRenameExt": "如果改变文件扩展名，可能会导致文件不可用。\r\n确定要更改吗？",
 	"FileDelete": "您确定要删除文件 \"%1\" 吗?",
@@ -33,6 +36,7 @@
 		"title": "没有找到。",
 		"text": "请尝试使用不同的搜索条件。"
 	},
+	"FilesRefresh": "Refreshing files",
 	"OperationCompletedErrors": "操作完成，但有错误。",
 	"MoveToolbarButton": "移动",
 	"CopyToolbarButton": "复制",
@@ -59,6 +63,7 @@
 	"OriginalSize": "原始大小",
 	"Custom": "自定义",
 	"GettingFileData": "正在获取文件数据，请稍候...",
+	"PleaseWait": "Please wait.",
 	"View": "查看",
 	"Download": "下载",
 	"NewSubFolder": "创建子文件夹",
@@ -88,7 +93,6 @@
 	"UploadSend": "上传",
 	"UploadAddFiles": "添加文件",
 	"UploadSummary": "已上传文件： %1",
-	"FileUploaded": "文件已上传",
 	"UploadDetails": "详情",
 	"UploadFilesCountProgress": "{filesTotal}{filesUploaded}",
 	"UploadBytesCountProgress": "({bytesTotal} 中的 {bytesUploaded})",
@@ -205,7 +209,8 @@
 		"reset": "重置",
 		"title": "编辑图像",
 		"save": "保存",
-		"loading": "加载图像"
+		"loading": "加载图像",
+		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "小",
@@ -214,5 +219,65 @@
 		"max": "最大",
 		"Custom": "自定义"
 	},
-	"ShowMore": "更多"
+	"ShowMore": "更多",
+	"Shortcuts": {
+		"title": "Keyboard Shortcuts",
+		"general": {
+			"title": "General Interface",
+			"focusToolbar": "Focus toolbar",
+			"focusFoldersPane": "Focus folders pane or breadcrumbs",
+			"focusFilesPane": "Focus files pane",
+			"showContextMenu": "Open context menu",
+			"closeButton": "Close",
+			"listShortcuts": "Open this help dialog",
+			"action": "Execute default action",
+			"focusNext": "Focus next pane",
+			"previousItem": "Go to previous item",
+			"nextItem": "Go to next item",
+			"firstItem": "Go to first item",
+			"lastItem": "Go to last item"
+		},
+		"files": {
+			"title": "Files Pane",
+			"delete": "Delete file(s)",
+			"rename": "Rename file",
+			"selectAll": "Select all files",
+			"upload": "Upload file(s)",
+			"refresh": "Refresh files",
+			"addToSelectionLeft": "Add or remove file on the left to selection",
+			"addToSelectionRight": "Add or remove file on the right to selection",
+			"addToSelectionAbove": "Add or remove files above to selection",
+			"addToSelectionBelow": "Add or remove files below to selection"
+		},
+		"folders": {
+			"title": "Folders Pane",
+			"delete": "Delete folder",
+			"rename": "Rename folder",
+			"expandOrSubfolder": "Expand folder / Go to first subfolder",
+			"collapseOrParent": "Collapse folder / Go to parent folder"
+		},
+		"keys": {
+			"ctrl": "Control",
+			"delete": "Delete",
+			"downArrow": "Down arrow",
+			"escape": "Escape",
+			"leftArrow": "Left arrow",
+			"question": "Question mark",
+			"rightArrow": "Right arrow",
+			"upArrow": "Up arrow"
+		},
+		"keysAbbreviations": {
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
+		}
+	},
+	"Operations": {
+		"renameFolder": "Rename Folder",
+		"copyFiles": "Copy Files",
+		"moveFiles": "Move Files"
+	}
 }
