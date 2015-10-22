@@ -259,12 +259,12 @@
 		"keys": {
 			"ctrl": "Control",
 			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"downArrow": "Стрелка вниз",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"leftArrow": "Стрелка влево",
+			"question": "Знак вопроса",
+			"rightArrow": "Стрелка вправо",
+			"upArrow": "Стрелка вверх"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
