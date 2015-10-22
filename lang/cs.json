@@ -13,13 +13,13 @@
 		"AM",
 		"PM"
 	],
-	"Abort": "Abort",
+	"Abort": "Ukončit",
 	"FolderNew": "Zadejte název nové složky: ",
 	"FolderRename": "Zadejte nový název složky: ",
 	"FolderDelete": "Opravdu chcete složku \"%1\" smazat?",
 	"DestinationFolder": "Cílová složka",
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
+	"FilesPane": "Panel souborů",
+	"FoldersTree": "Strom složek",
 	"FileRename": "Zadejte nový název souboru: ",
 	"FileRenameExt": "Opravdu chcete změnit příponu souboru? Soubor se může stát nepoužitelným.",
 	"FileDelete": "Opravdu chcete smazat soubor \"%1\"?",
@@ -36,7 +36,7 @@
 		"title": "Nic nenalezeno.",
 		"text": "Zkuste prosím zadat jiné kritérium vyhledávání."
 	},
-	"FilesRefresh": "Refreshing files",
+	"FilesRefresh": "Obnovování souborů",
 	"OperationCompletedErrors": "Operace byla dokončena s chybami.",
 	"MoveToolbarButton": "Přesunout",
 	"CopyToolbarButton": "Kopírovat",
@@ -63,7 +63,7 @@
 	"OriginalSize": "Původní velikost",
 	"Custom": "Vlastní",
 	"GettingFileData": "Získávání dat souborů. Čekejte prosím.",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "Čekejte prosím.",
 	"View": "Zobrazit",
 	"Download": "Uložit jako",
 	"NewSubFolder": "Nová podsložka",
@@ -136,7 +136,7 @@
 		"300": "Přesunování souboru(ů) selhalo.",
 		"301": "Kopírování souboru(ů) selhalo.",
 		"302": "Mazání souborů selhalo.",
-		"500": "Průzkumník souborů je z bezpečnostních důvodů zakázán. Zdělte to prosím správci systému a zkontrolujte soubor nastavení CKFinder.",
+		"500": "Průzkumník souborů je z bezpečnostních důvodů zakázán. Sdělte to prosím správci systému a zkontrolujte soubor nastavení CKFinder.",
 		"501": "Podpora náhledů je zakázána."
 	},
 	"ErrorMsg": {
@@ -210,7 +210,7 @@
 		"title": "Upravit obrázek",
 		"save": "Uložit",
 		"loading": "Načítání obrázku",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Opravdu chcete úpravu zavřít? V obrázku máte neuložené změny."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Malá",
@@ -221,50 +221,50 @@
 	},
 	"ShowMore": "Zobrazit více",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Klávesové zkratky",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "Obecné rozhraní",
+			"focusToolbar": "Zaměřit panel nástrojů",
+			"focusFoldersPane": "Zaměřit panel složek nebo navigační cestu",
+			"focusFilesPane": "Zaměřit panel souborů",
+			"showContextMenu": "Otevřít kontextovou nabídku",
+			"closeButton": "Zavřít",
+			"listShortcuts": "Otevřít toto dialogové okno s nápovědou",
+			"action": "Provést výchozí činnost",
+			"focusNext": "Zaměřit další panel",
+			"previousItem": "Přejít na předchozí položku",
+			"nextItem": "Přejít na další položku",
+			"firstItem": "Přejít na první položku",
+			"lastItem": "Přejít na poslední položku"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"title": "Panel souborů",
+			"delete": "Smazat soubor(y)",
+			"rename": "Přejmenovat soubor",
+			"selectAll": "Vybrat všechny soubory",
+			"upload": "Nahrát soubor(y)",
+			"refresh": "Obnovit soubory",
+			"addToSelectionLeft": "Přidat nebo odebrat soubor nalevo z/do výběru",
+			"addToSelectionRight": "Přidat nebo odebrat soubor napravo z/do výběru",
+			"addToSelectionAbove": "Přidat nebo odebrat soubory výše z/do výběru",
+			"addToSelectionBelow": "Přidat nebo odebrat soubory níže z/do výběru"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Panel složek",
+			"delete": "Smazat složku",
+			"rename": "Přejmenovat složku",
+			"expandOrSubfolder": "Rozbalit složku / Přejít na první podsložku",
+			"collapseOrParent": "Sbalit složku / Přejít na nadřazenou složku"
 		},
 		"keys": {
 			"ctrl": "Control",
 			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"downArrow": "Šipka dolů",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"leftArrow": "Šipka vlevo",
+			"question": "Otazník",
+			"rightArrow": "Šipka vpravo",
+			"upArrow": "Šipka nahoru"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
@@ -276,8 +276,8 @@
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Přejmenovat složku",
+		"copyFiles": "Kopírovat soubory",
+		"moveFiles": "Přesunout soubory"
 	}
 }
