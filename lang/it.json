@@ -1,25 +1,31 @@
 {
 	"appTitle": "CKFinder",
+
 	"common": {
 		"cancel": "Annulla",
 		"messageTitle": "Informazione",
-		"skip": "Ignora",
-		"rememberDecision": "Ricorda mia decisione"
+		"skip": "Salta",
+		"rememberDecision": "Ricorda decisione"
 	},
+
 	"dir": "ltr",
 	"LangCode": "it",
+
 	"DateTime": "dd/mm/yyyy HH:MM",
 	"DateAmPm": [
 		"AM",
 		"PM"
 	],
-	"Abort": "Abort",
+
+	"Abort": "Interrompi",
 	"FolderNew": "Nome della cartella: ",
 	"FolderRename": "Nuovo nome della cartella: ",
 	"FolderDelete": "Eliminare la cartella \"%1\"?",
 	"DestinationFolder": "Cartella di destinazione",
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
+
+	"FilesPane": "Pannello file",
+	"FoldersTree": "Albero cartelle",
+
 	"FileRename": "Nuovo nome del file: ",
 	"FileRenameExt": "Cambiare l'estensione del file? Il file può risultare inutilizzabile.",
 	"FileDelete": "Eliminare il file \"%1\"?",
@@ -37,6 +43,7 @@
 		"text": "Riprovare con criteri di ricerca differenti."
 	},
 	"FilesRefresh": "Refreshing files",
+
 	"OperationCompletedErrors": "L'operazione è stata completata con errori.",
 	"MoveToolbarButton": "Sposta",
 	"CopyToolbarButton": "Copia",
@@ -54,8 +61,10 @@
 	"CopyOperation": "Copia dei file",
 	"MoveFilesErrorTitle": "File che non è possibile spostare:",
 	"CopyFilesErrorTitle": "File che non è possibile copiare:",
+
 	"CopyDragDrop": "Copia qui",
 	"MoveDragDrop": "Sposta qui",
+
 	"Upload": "Carica",
 	"Settings": "Impostazioni",
 	"Choose": "Seleziona",
@@ -63,25 +72,29 @@
 	"OriginalSize": "Dimensioni originali",
 	"Custom": "Personalizzato",
 	"GettingFileData": "Recupero dei dati del file. Attendere.",
-	"PleaseWait": "Please wait.",
+
+	"PleaseWait": "Attendere.",
+
 	"View": "Vedi",
 	"Download": "Scarica",
+
 	"NewSubFolder": "Nuova sotto-cartella",
 	"Rename": "Rinomina",
 	"Delete": "Elimina",
 	"DeleteFiles": "Elimina file",
+
 	"RenameDlgTitle": "Rinomina",
 	"NewNameDlgTitle": "Nuovo nome",
-	"FileOverwrite": "Sovrascrivere",
+	"FileOverwrite": "Sovrascrivi",
 	"FileAutorename": "Rinomina automaticamente",
 	"OkBtn": "OK",
 	"CancelBtn": "Anulla",
 	"CloseBtn": "Chiudi",
-	"UploadSelectLbl": "Seleziona il file",
-	"UploadProgressLbl": "(caricamento in corso, attendere prego...)",
+	"UploadSelectLbl": "Selezionare un file da caricare",
+	"UploadProgressLbl": "(caricamento in corso, attendere...)",
 	"UploadBtnCancel": "Annulla",
-	"UploadNoFolder": "Seleziona la cartella prima di caricare i file.",
-	"UploadNoPerms": "I caricamento dei file non è permesso.",
+	"UploadNoFolder": "Selezionare la cartella prima di caricare i file.",
+	"UploadNoPerms": "Il caricamento dei file non è permesso.",
 	"UploadUnknError": "Errore durante il caricamento del file.",
 	"UploadExtIncorrect": "In questa cartella non sono permessi file con questa estensione.",
 	"UploadLabel": {
@@ -93,22 +106,27 @@
 	"UploadSend": "Carica",
 	"UploadAddFiles": "Aggiungi file",
 	"UploadSummary": "File caricati: %1",
+
 	"UploadDetails": "Dettagli",
 	"UploadFilesCountProgress": "{filesUploaded} di {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} di {bytesTotal})",
 	"SetDisplay": "Informazioni:",
 	"SetDisplayName": "Nome del file",
 	"SetDisplayDate": "Data",
-	"SetDisplaySize": "Dimensione",
+	"SetDisplaySize": "Dimensioni",
 	"SetDisplayThumbnailSize": "Dimensioni miniatura",
+
 	"FilesCountOne": "1 file",
 	"FilesCountMany": "%1 file",
+
 	"Kb": "%1 KB",
 	"Mb": "%1 MB",
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/s",
+
 	"PixelShort": "px",
-	"ErrorUnknown": "Impossibile completare la richiesta (errore %1).",
+
+	"ErrorUnknown": "Non è stato possibile completare la richiesta (errore %1).",
 	"Errors": {
 		"10": "Comando non valido.",
 		"11": "Il tipo di risorsa non è stato specificato nella richiesta.",
@@ -119,13 +137,13 @@
 		"103": "Non è stato possibile completare la richiesta a causa di restrizioni di autorizzazione.",
 		"104": "Non è stato possibile completare la richiesta a causa di restrizioni nei permessi del file system.",
 		"105": "L'estensione del file non è valida.",
-		"109": "Richiesta invalida.",
+		"109": "Richiesta non valida.",
 		"110": "Errore sconosciuto.",
 		"111": "Non è stato possibile completare la richiesta a causa della dimensione finale del file.",
-		"115": "Un file o una cartella con lo stesso nome è già esistente.",
+		"115": "Esiste già un file o una cartella con lo stesso nome.",
 		"116": "Cartella non trovata. Aggiornare e riprovare.",
 		"117": "File non trovato. Aggiornare la lista dei file e riprovare.",
-		"118": "Il percorso di origine e di destinazione sono uguali.",
+		"118": "Il percorso di origine e quello di destinazione sono uguali.",
 		"201": "Un file con lo stesso nome esiste già. Il file caricato è stato rinominato in \"%1\".",
 		"202": "File non valido.",
 		"203": "File non valido. Il file è troppo grande.",
@@ -136,35 +154,43 @@
 		"300": "Non è stato possibile spostare i file.",
 		"301": "Non è stato possibile copiare i file.",
 		"302": "Non è stato possibile eliminare i file.",
-		"500": "Il gestore dei file è disabilitato per motivi di sicurezza. Contattare l'amministratore del sistema e verificare le configurazioni di CKFinder.",
+		"500": "Il gestore dei file è disabilitato per motivi di sicurezza. Contattare l'amministratore del sistema e verificare la configurazione di CKFinder.",
 		"501": "Il supporto alle miniature non è attivo."
 	},
+
 	"ErrorMsg": {
 		"FileInvChar": "I seguenti caratteri non possono essere usati per comporre il nome del file: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "I seguenti caratteri non possono essere usati per comporre il nome della cartella: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "La cartella che si sta cercando di raggiungere non è più disponibile.",
+		"MissingFile": "Il file richiesto non è più disponibile."
 	},
+
 	"Fileeditor": {
 		"contextMenuName": "Modifica"
 	},
+
 	"Maximize": {
 		"maximize": "Ingrandisci",
 		"minimize": "Riduci"
 	},
+
 	"Filter": {
 		"filterPlaceholder": "Filtro"
 	},
+
 	"EditImage": {
 		"apply": "Applica",
-		"adjust": "Correcci",
+		"adjust": "Correggi",
 		"crop": "Ritaglia",
-		"presets": "Preimpostazioni",
+		"presets": "Combinazioni",
 		"resize": "Ridimensiona",
 		"rotate": "Ruota",
+
 		"keepAspectRatio": "Mantieni il rapporto di forma",
+
 		"rotateClockwise": "90&deg; orari",
 		"rotateAntiClockwise": "90&deg; anti-orari",
+
 		"filters": {
 			"brightness": "Luminosità",
 			"contrast": "Contrasto",
@@ -179,6 +205,7 @@
 			"sharpen": "Migliora contorni",
 			"stackBlur": "Sfocatura"
 		},
+
 		"preset": {
 			"clarity": "Limpidezza",
 			"pinhole": "Forellino",
@@ -199,19 +226,20 @@
 			"herMajesty": "Sua Maestà",
 			"hazyDays": "Giorni sfocati"
 		},
-		"downloadAction": "Scaricamento immagine originale.",
+		"downloadAction": "Scaricamento dell'immagine originale.",
 		"transformationAction": "Applicazione delle trasformazioni.",
-		"uploadAction": "Caricamento immagine modificata.",
+		"uploadAction": "Caricamento dell'immagine modificata.",
 		"saveDialogTitle": "Salva modifiche",
 		"saveDialogOverwrite": "Sovrascrivi file",
-		"saveDialogSaveAs": "Salva come:",
+		"saveDialogSaveAs": "Salva con nome:",
 		"saveDialogFileExists": "Un file con lo stesso nome esiste già nella cartella.",
 		"reset": "Reimposta",
 		"title": "Modifica immagine",
 		"save": "Salva",
 		"loading": "Caricamento dell'immagine",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Si è certi di voler chiudere? Sono state apportate delle modifiche all'immagine che non sono ancora state salvate."
 	},
+
 	"ChooseResizedImageSizes": {
 		"small": "Piccola",
 		"medium": "Media",
@@ -219,65 +247,68 @@
 		"max": "Max",
 		"Custom": "Personalizzata"
 	},
+
 	"ShowMore": "Mostra altro",
+
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Tasti rapidi",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "Interfaccia generale",
+			"focusToolbar": "Attiva barra degli strumenti",
+			"focusFoldersPane": "Attiva pannello delle cartelle o breadcrumb",
+			"focusFilesPane": "Attiva pannello dei file",
+			"showContextMenu": "Apri menù contestuale",
+			"closeButton": "Chiudi",
+			"listShortcuts": "Apri questa finestra d'aiuto",
+			"action": "Esegui azione predefinita",
+			"focusNext": "Attiva pannello successivo",
+			"previousItem": "Vai all'elemento precedente",
+			"nextItem": "Vai all'elemento successivo",
+			"firstItem": "Vai al primo elemento",
+			"lastItem": "Vai all'ultimo elemento"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"title": "Pannello dei file",
+			"delete": "Elimina file",
+			"rename": "Rinomina file",
+			"selectAll": "Seleziona tutti i file",
+			"upload": "Carica file",
+			"refresh": "Aggiorna file",
+			"addToSelectionLeft": "Aggiungi o rimuovi file a sinistra della selezione",
+			"addToSelectionRight": "Aggiungi o rimuovi file a destra della selezione",
+			"addToSelectionAbove": "Aggiungi o rimuovi file sopra la selezione",
+			"addToSelectionBelow": "Aggiungi o rimuovi file sotto la selezione"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Pannello delle cartelle",
+			"delete": "Elimina cartella",
+			"rename": "Rinomina cartella",
+			"expandOrSubfolder": "Espandi cartella / Vai alla prima sotto-cartella",
+			"collapseOrParent": "Comprimi cartella / Vai alla cartella padre"
 		},
 		"keys": {
 			"ctrl": "Control",
-			"delete": "Delete",
-			"downArrow": "Down arrow",
-			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"delete": "Canc",
+			"downArrow": "Freccia giù",
+			"escape": "Esc",
+			"leftArrow": "Freccia sinistra",
+			"question": "Punto di domanda",
+			"rightArrow": "Freccia destra",
+			"upArrow": "Freccia su"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
 			"ctrl": "ctrl",
-			"del": "del",
-			"end": "end",
-			"home": "home",
+			"del": "canc",
+			"end": "fine",
+			"home": "inizio",
 			"shift": "shift"
 		}
 	},
+
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Rinomina cartella",
+		"copyFiles": "Copia file",
+		"moveFiles": "Sposta file"
 	}
 }
