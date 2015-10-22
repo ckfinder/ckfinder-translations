@@ -210,7 +210,7 @@
 		"title": "Uredi Sliku",
 		"save": "Sačuvaj",
 		"loading": "Učitavanje slike",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Da li sigurno želiš zatvoriti? Imaš nesačuvane promjene na slici."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Mala",
@@ -221,50 +221,50 @@
 	},
 	"ShowMore": "Pokaži više",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Prečaci na tipkovnici",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "Generalno Sučelje",
+			"focusToolbar": "Fokusiraj alatnu traku",
+			"focusFoldersPane": "Fokusiraj pane foldera ili mrvice",
+			"focusFilesPane": "Fokusiraj pane datoteka",
+			"showContextMenu": "Otvori kontextni menu",
+			"closeButton": "Zatvori",
+			"listShortcuts": "Otvori ovaj dijalog za pomoć",
+			"action": "Izvrši zadanu akciju",
+			"focusNext": "Fokusiraj sljedeći pane",
+			"previousItem": "Idi na prošlu stavku",
+			"nextItem": "Idi na sljedeću stavku",
+			"firstItem": "Idi na prvu stavku",
+			"lastItem": "Idi na posljednju stavku"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"title": "Pane Datoteka",
+			"delete": "Obriši datoteku(e)",
+			"rename": "Preimenuj datoteku",
+			"selectAll": "Odaberi sve datoteke",
+			"upload": "Prenesi datoteku(e)",
+			"refresh": "Osvježi datoteke",
+			"addToSelectionLeft": "Dodaj ili makni datoteke u odabir",
+			"addToSelectionRight": "Dodaj ili makni datoteke u odabir",
+			"addToSelectionAbove": "Dodaj ili makni datoteke u odabir",
+			"addToSelectionBelow": "Dodaj ili makni datoteke u odabir"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Pane Foldera",
+			"delete": "Obriši folder",
+			"rename": "Preimenuj folder",
+			"expandOrSubfolder": "Proširi folder / Pođi na prvi podfolder",
+			"collapseOrParent": "Suzi folder / Pođi na roditeljski folder"
 		},
 		"keys": {
 			"ctrl": "Control",
-			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"delete": "Obriši",
+			"downArrow": "Strelica dolje ↓",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"leftArrow": "←Strelica lijevo",
+			"question": "Upitnik",
+			"rightArrow": "Strelica desno →",
+			"upArrow": "Strelica gore ↑"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
@@ -276,8 +276,8 @@
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Preimenuj Folder",
+		"copyFiles": "Kopiraj Datoteke",
+		"moveFiles": "Prebaci Datoteke"
 	}
 }
