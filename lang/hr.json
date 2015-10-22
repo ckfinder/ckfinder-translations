@@ -63,7 +63,7 @@
 	"OriginalSize": "Originalna Veličina",
 	"Custom": "Custom",
 	"GettingFileData": "Dobavljam podatke o datoteci. Pričekajte.",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "Pričekajte.",
 	"View": "Pogledaj",
 	"Download": "Skini",
 	"NewSubFolder": "Novi poddirektorij",
@@ -259,12 +259,12 @@
 		"keys": {
 			"ctrl": "Control",
 			"delete": "Obriši",
-			"downArrow": "Strelica dolje ↓",
+			"downArrow": "Strelica dolje",
 			"escape": "Escape",
-			"leftArrow": "←Strelica lijevo",
+			"leftArrow": "Strelica lijevo",
 			"question": "Upitnik",
-			"rightArrow": "Strelica desno →",
-			"upArrow": "Strelica gore ↑"
+			"rightArrow": "Strelica desno",
+			"upArrow": "Strelica gore"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
