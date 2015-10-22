@@ -13,13 +13,13 @@
 		"AM",
 		"PM"
 	],
-	"Abort": "Abort",
+	"Abort": "Прервать",
 	"FolderNew": "Пожалуйста, введите новое имя папки: ",
 	"FolderRename": "Пожалуйста, введите новое имя папки: ",
 	"FolderDelete": "Вы уверены, что хотите удалить папку \"%1\"?",
 	"DestinationFolder": "Конечная папка",
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
+	"FilesPane": "Панель файлов",
+	"FoldersTree": "Дерево каталогов",
 	"FileRename": "Пожалуйста, введите новое имя файла: ",
 	"FileRenameExt": "Вы уверены, что хотите изменить расширение файла? Файл может стать недоступным.",
 	"FileDelete": "Вы уверены, что хотите удалить файл \"%1\"?",
@@ -36,7 +36,7 @@
 		"title": "Ничего не найдено.",
 		"text": "Пожалуйста попробуйте другие критерии поиска."
 	},
-	"FilesRefresh": "Refreshing files",
+	"FilesRefresh": "Обновление файлов",
 	"OperationCompletedErrors": "Операция завершилась с ошибками.",
 	"MoveToolbarButton": "Переместить",
 	"CopyToolbarButton": "Копировать",
@@ -63,7 +63,7 @@
 	"OriginalSize": "Оригинальный размер",
 	"Custom": "Пользовательский",
 	"GettingFileData": "Чтение файла. Пожалуйста подождите.",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "Пожалуйста подождите.",
 	"View": "Посмотреть",
 	"Download": "Сохранить",
 	"NewSubFolder": "Новая папка",
@@ -210,7 +210,7 @@
 		"title": "Редактирование изображения",
 		"save": "Сохранить",
 		"loading": "Загрузка изображения",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Вы действительно хотите закрыть? У вас имеются несохраненные изменения."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Маленький",
@@ -221,40 +221,40 @@
 	},
 	"ShowMore": "Ещё",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Горячие клавиши",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "Общий интерфейс",
+			"focusToolbar": "Перейти к панели инструментов",
+			"focusFoldersPane": "Перейти к панели папок",
+			"focusFilesPane": "Перейти к панели файлов",
+			"showContextMenu": "Контекстное меню",
+			"closeButton": "Закрыть",
+			"listShortcuts": "Открыть это справочное окно",
+			"action": "Выполнить действие по умолчанию",
+			"focusNext": "Перейти к следующей панели",
+			"previousItem": "Перейти к предыдущему элементу",
+			"nextItem": "Перейти к следующему элементу",
+			"firstItem": "Перейти к первому элементу",
+			"lastItem": "Перейти к последнему элементу"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"title": "Панель файлов",
+			"delete": "Удалить файл(ы)",
+			"rename": "Переименовать файл",
+			"selectAll": "Выделить все файлы",
+			"upload": "Загрузить файл(ы)",
+			"refresh": "Обновить",
+			"addToSelectionLeft": "Выделить/исключить файл слева от выделенного",
+			"addToSelectionRight": "Выделить/исключить файл справа от выделенного",
+			"addToSelectionAbove": "Выделить/исключить файл сверху от выделенного",
+			"addToSelectionBelow": "Выделить/исключить файл снизу от выделенного"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Панель папок",
+			"delete": "Удалить папку",
+			"rename": "Переименовать папку",
+			"expandOrSubfolder": "Развернуть папку / Перейти к первой подпапке",
+			"collapseOrParent": "Свернуть папку / Перейти к родительской папке"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -276,8 +276,8 @@
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Переименовать папку",
+		"copyFiles": "Копировать файлы",
+		"moveFiles": "Переместить файлы"
 	}
 }
