@@ -13,13 +13,13 @@
 		"ق.ظ",
 		"ب.ظ"
 	],
-	"Abort": "Abort",
+	"Abort": "توقف",
 	"FolderNew": "لطفا نام پوشه جدید را وارد کنید: ",
 	"FolderRename": "لطفا نام پوشه جدید را وارد کنید: ",
 	"FolderDelete": "آیا اطمینان دارید که قصد حذف کردن پوشه \"%1\" را دارید؟",
 	"DestinationFolder": "پوشه‌ی مقصد",
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
+	"FilesPane": "چارچوب فایل‌ها",
+	"FoldersTree": "درخت پوشه‌ها",
 	"FileRename": "لطفا نام جدید فایل را درج کنید: ",
 	"FileRenameExt": "آیا اطمینان دارید که قصد تغییر نام پسوند این فایل را دارید؟ ممکن است فایل غیر قابل استفاده شود",
 	"FileDelete": "آیا اطمینان دارید که قصد حذف نمودن فایل \"%1\" را دارید؟",
@@ -36,7 +36,7 @@
 		"title": "چیزی پیدا نشد.",
 		"text": "لطفا با معیار دیگری تلاش به جستجو کنید."
 	},
-	"FilesRefresh": "Refreshing files",
+	"FilesRefresh": "درحال تازه‌سازی فایل‌ها",
 	"OperationCompletedErrors": "عملیات با خطاهایی به پایان رسید.",
 	"MoveToolbarButton": "انتقال",
 	"CopyToolbarButton": "رونوشت",
@@ -63,7 +63,7 @@
 	"OriginalSize": "اندازه‌ی اصلی",
 	"Custom": "سفارشی",
 	"GettingFileData": "درحال گرفتن اطلاعات فایل. لطفا صبر کنید.",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "لطفا صبر کنید.",
 	"View": "نمایش",
 	"Download": "دانلود",
 	"NewSubFolder": "زیرپوشه جدید",
@@ -133,17 +133,17 @@
 		"205": "هیچ پوشه موقتی برای آپلود فایل در سرور موجود نیست.",
 		"206": "آپلود به دلایل امنیتی متوقف شد. فایل محتوی اطلاعات HTML است.",
 		"207": "فایل آپلود شده به \"%1\" تغییر نام یافت.",
-		"300": "انتقال فایل (ها) شکست خورد.",
-		"301": "کپی فایل (ها) شکست خورد.",
-		"302": "Deleting file(s) failed.",
+		"300": "انتقال فایل‌(ها) شکست خورد.",
+		"301": "کپی فایل‌(ها) شکست خورد.",
+		"302": "حذف فایل‌(ها) شکست خورد.",
 		"500": "مرورگر فایل به دلایل امنیتی غیر فعال است. لطفا با مدیر سامانه تماس بگیرید تا تنظیمات این بخش را بررسی نماید.",
 		"501": "پشتیبانی از تصاویر کوچک غیرفعال شده است"
 	},
 	"ErrorMsg": {
 		"FileInvChar": "نام فایل نباید شامل این کاراکترها باشد: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "نام پوشه نباید شامل این کاراکترها باشد: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
+		"MissingFolder": "پوشه‌ای که در حال تلاش برای دست‌یابی به آن هستید، دیگر در دسترس نیست.",
+		"MissingFile": "فایل درخواست شده دیگر در دسترس نیست."
 	},
 	"Fileeditor": {
 		"contextMenuName": "ویرایش"
@@ -210,7 +210,7 @@
 		"title": "ویرایش تصویر",
 		"save": "ذخیره",
 		"loading": "درحال بارگیری تصویر",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "آیا شما مطمئن هستید که می‌خواهید این صفحه را ببندید؟ شما تغییرات ذخیره نشده‌ای بر تصویر دارید."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "کوچک",
@@ -221,63 +221,63 @@
 	},
 	"ShowMore": "نمایش بیشتر",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "میان‌برهای صفحه‌کلید",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "رابط عمومی",
+			"focusToolbar": "انتخاب نوار ابزار",
+			"focusFoldersPane": "انتخاب چارچوب پوشه‌ها یا نوار آدرس‌دهی",
+			"focusFilesPane": "انتخاب چارچوپ فایل‌ها",
+			"showContextMenu": "بازکردن منوی ابزار‌ها",
+			"closeButton": "بستن",
+			"listShortcuts": "بازکردن پنجره‌ی راهنما",
+			"action": "انجام کار پیش‌فرض",
+			"focusNext": "انتخاب چارچوپ بعدی",
+			"previousItem": "رفتن به مورد قبلی",
+			"nextItem": "رفتن به مورد بعدی",
+			"firstItem": "رفتن به نخستین مورد",
+			"lastItem": "رفتن به آخرین مورد"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"title": "چارچوب فایل‌ها",
+			"delete": "حذف فایل(ها)",
+			"rename": "تغییرنام فایل",
+			"selectAll": "انتخاب همه‌ی فایل‌ها",
+			"upload": "آپلود فایل(ها)",
+			"refresh": "تازه‌سازی فایل‌ها",
+			"addToSelectionLeft": "اضافه یا حذف‌کردن فایل‌های سمت چپ از انتخاب",
+			"addToSelectionRight": "اضافه یا حذف‌کردن فایل‌های سمت راست از انتخاب",
+			"addToSelectionAbove": "اضافه یا حذف‌کردن فایل‌های بالا از انتخاب",
+			"addToSelectionBelow": "اضافه یا حذف‌کردن فایل‌های پایین از انتخاب"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "چارچوب پوشه‌ها",
+			"delete": "حذف پوشه",
+			"rename": "تغییرنام پوشه",
+			"expandOrSubfolder": "بازکردن پوشه / رفتن به اولین زیرپوشه",
+			"collapseOrParent": "بستن پوشه / رفتن به پوشه‌ی والد"
 		},
 		"keys": {
-			"ctrl": "Control",
-			"delete": "Delete",
-			"downArrow": "Down arrow",
-			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"ctrl": "کنترل",
+			"delete": "حذف",
+			"downArrow": "جهت پایین",
+			"escape": "در رفتن",
+			"leftArrow": "جهت چپ",
+			"question": "علامت سوال",
+			"rightArrow": "جهت راست",
+			"upArrow": "جهت بالا"
 		},
 		"keysAbbreviations": {
-			"alt": "alt",
-			"ctrl": "ctrl",
-			"del": "del",
-			"end": "end",
-			"home": "home",
-			"shift": "shift"
+			"alt": "آلت",
+			"ctrl": "کنترل",
+			"del": "حذف",
+			"end": "پایان",
+			"home": "خانه",
+			"shift": "شیفت"
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "تغییرنام پوشه",
+		"copyFiles": "کپی‌کردن فایل‌ها",
+		"moveFiles": "جابجایی فایل‌ها"
 	}
 }
