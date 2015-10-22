@@ -13,13 +13,13 @@
 		"ΜΜ",
 		"ΠΜ"
 	],
-	"Abort": "Abort",
+	"Abort": "Ματαίωση",
 	"FolderNew": "Παρακαλούμε πληκτρολογήστε την ονομασία του νέου φακέλου: ",
 	"FolderRename": "Παρακαλούμε πληκτρολογήστε την νέα ονομασία του φακέλου: ",
 	"FolderDelete": "Είστε σίγουροι ότι θέλετε να διαγράψετε το φάκελο \"%1\";",
 	"DestinationFolder": "Φάκελος Προορισμού",
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
+	"FilesPane": "Καρτέλα αρχείων",
+	"FoldersTree": "Δομή φακέλων",
 	"FileRename": "Παρακαλούμε πληκτρολογήστε την νέα ονομασία του αρχείου: ",
 	"FileRenameExt": "Είστε σίγουροι ότι θέλετε να αλλάξετε την επέκταση του αρχείου; Μετά από αυτή την ενέργεια το αρχείο είναι δυνατόν να μην μπορεί να χρησιμοποιηθεί",
 	"FileDelete": "Είστε σίγουροι ότι θέλετε να διαγράψετε το αρχείο \"%1\"?",
@@ -36,7 +36,7 @@
 		"title": "Δεν βρέθηκαν αρχεία με αυτά τα κριτήρια.",
 		"text": "Παρακαλούμε δοκιμάστε με άλλα κριτήρια αναζήτησης."
 	},
-	"FilesRefresh": "Refreshing files",
+	"FilesRefresh": "Ανανέωση αρχείων σε εξέλιξη",
 	"OperationCompletedErrors": "Η διαδικασία ολοκληρώθηκε με σφάλματα.",
 	"MoveToolbarButton": "Μετακίνηση",
 	"CopyToolbarButton": "Αντιγραφή",
@@ -63,7 +63,7 @@
 	"OriginalSize": "Αρχικό μέγεθος",
 	"Custom": "Προσαρμοσμένο",
 	"GettingFileData": "Λήψη δεδομένων αρχείου. Παρακαλούμε περιμένετε.",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "Παρακαλώ περιμένετε.",
 	"View": "Προβολή",
 	"Download": "Λήψη αρχείου",
 	"NewSubFolder": "Νέος υποφάκελος",
@@ -210,7 +210,7 @@
 		"title": "Επεξεργασία εικόνας",
 		"save": "Αποθήκευση",
 		"loading": "Φόρτωση εικόνας",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Είστε σίγουροι πως θέλετε να επιστρέψετε; Υπάρχουν αλλαγές στην εικόνα που δεν έχουν αποθηκευτεί."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Μικρό",
@@ -221,50 +221,50 @@
 	},
 	"ShowMore": "Εμφάνιση περισσοτέρων",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Συντομεύσεις πληκτρολογίου",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "Γενικό περιβάλλον διεπαφής",
+			"focusToolbar": "Εστίαση σε γραμμή εργαλείων",
+			"focusFoldersPane": "Εστίαση σε καρτέλα φακέλων ή στη διαδρομή (breadcrumbs)",
+			"focusFilesPane": "Εστίαση στην καρτέλα αρχείων",
+			"showContextMenu": "Άνοιγμα μενού επιλογών (context menu)",
+			"closeButton": "Κλείσιμο",
+			"listShortcuts": "Άνοιγμα αυτού του παραθύρου βοηθείας",
+			"action": "Εκτέλεση προεπιλεγμένης ενέργειας",
+			"focusNext": "Εστίαση επόμενης καρτέλας",
+			"previousItem": "Μεταφορά στο προηγούμενο αντικείμενο",
+			"nextItem": "Μεταφορά στο επόμενο αντικείμενο",
+			"firstItem": "Μεταφορά στο πρώτο αντικείμενο",
+			"lastItem": "Μεταφορά στο τελευταίο αντικείμενο"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"title": "Καρτέλα Αρχείων",
+			"delete": "Διαγραφή αρχείου(ων)",
+			"rename": "Μετονομασία αρχείου",
+			"selectAll": "Επιλογή όλων των αρχείων",
+			"upload": "Μεταφόρτωση αρχείου(ων)",
+			"refresh": "Ανανέωση αρχείων",
+			"addToSelectionLeft": "Προσθήκη ή αφαίρεση αρχείου από αριστερά στην επιλογή",
+			"addToSelectionRight": "Προσθήκη ή αφαίρεση αρχείου από δεξιά στην επιλογή",
+			"addToSelectionAbove": "Προσθήκη ή αφαίρεση αρχείου από επάνω  στην επιλογή",
+			"addToSelectionBelow": "Προσθήκη ή αφαίρεση αρχείου από κάτω στην επιλογή"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Καρτέλα Φακέλων",
+			"delete": "Διαγραφή φακέλου",
+			"rename": "Μετονομασία φακέλου",
+			"expandOrSubfolder": "Άνοιγμα φακέλου / Μεταφορά στον πρώτο υποφάκελο",
+			"collapseOrParent": "Κλείσιμο φακέλου / Μεταφορά στον γονικό φάκελο"
 		},
 		"keys": {
 			"ctrl": "Control",
 			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"downArrow": "Κάτω βέλος",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"leftArrow": "Αριστερό βέλος",
+			"question": "Ερωτηματικό",
+			"rightArrow": "Δεξί βέλος",
+			"upArrow": "Πάνω βέλος"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
@@ -276,8 +276,8 @@
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Μετονομασία φακέλου",
+		"copyFiles": "Αντιγραφή αρχείων",
+		"moveFiles": "Μεταφορά αρχείων"
 	}
 }
