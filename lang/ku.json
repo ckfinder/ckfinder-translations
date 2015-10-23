@@ -13,7 +13,7 @@
 		"بەیانی",
 		"ئێوارە"
 	],
-	"Abort": "Abort",
+	"Abort": "لە باربردن",
 	"FolderNew": "ناوی بوخچەی نوێ بنووسە: ",
 	"FolderRename": "ناوی بوخچەی نوێ بنووسە: ",
 	"FolderDelete": "تۆ دڵنیای لە سڕینەوەی ئەم \"%1\" بوخچەیە؟",
@@ -33,10 +33,10 @@
 		"text": "تکایە دوگمەی <strong>بارکردن</strong> کلیک بکە یان <strong>پەڕگەکە بهێنە</strong> بۆ ناو ئێرە."
 	},
 	"FilterFilesEmpty": {
-		"title": "Nهیچ نەدۆزراوە.",
+		"title": "هیچ نەدۆزراوە",
 		"text": "تکایە جۆری هەڵبژاردەی جیاواز هەڵبژێرە بۆ گەڕان."
 	},
-	"FilesRefresh": "Refreshing files",
+	"FilesRefresh": "بووژاندنەوەی پەڕگەکان",
 	"OperationCompletedErrors": "کردارەکە تەواوکرا بە هەڵەوە.",
 	"MoveToolbarButton": "بگوازەوە",
 	"CopyToolbarButton": "کۆپی",
@@ -146,7 +146,7 @@
 		"MissingFile": "پەڕگەی داواکروا بەردەست نیە."
 	},
 	"Fileeditor": {
-		"contextMenuName": "داسکاری"
+		"contextMenuName": "دەسکاری"
 	},
 	"Maximize": {
 		"maximize": "گەورەکردن",
@@ -257,27 +257,27 @@
 			"collapseOrParent": "داخستنی بوخچە / بچۆ بۆ باوانی بوخچە"
 		},
 		"keys": {
-			"ctrl": "Control",
-			"delete": "Delete",
-			"downArrow": "Down arrow",
-			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"ctrl": "کۆنترۆل",
+			"delete": "بیسڕەوە",
+			"downArrow": "تیری خوارەوە",
+			"escape": "چوونە دەرەوە",
+			"leftArrow": "تیری چەپ",
+			"question": "نیشانەی پرسیار",
+			"rightArrow": "تیری ڕاست",
+			"upArrow": "تیری سەرەوە"
 		},
 		"keysAbbreviations": {
-			"alt": "alt",
-			"ctrl": "ctrl",
-			"del": "del",
-			"end": "end",
-			"home": "home",
-			"shift": "shift"
+			"alt": "ئاڵت",
+			"ctrl": "کترل",
+			"del": "دێل",
+			"end": "ئێند",
+			"home": "هۆم",
+			"shift": "شیفت"
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "ناوگۆڕینی بوخچە",
+		"copyFiles": "کۆپیکردنی پەڕگە",
+		"moveFiles": "گواستنەوەی پەڕگە"
 	}
 }
