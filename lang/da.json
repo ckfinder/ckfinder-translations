@@ -210,7 +210,7 @@
 		"title": "Rediger billede",
 		"save": "Gem",
 		"loading": "Henter billeder",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Er du sikker på du vil lukke? Der er ikke gemte ændringer til billedet."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Lille",
@@ -221,50 +221,50 @@
 	},
 	"ShowMore": "Vis mere",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Keyboard genvejstaster",
 		"general": {
 			"title": "General Interface",
 			"focusToolbar": "Focus toolbar",
 			"focusFoldersPane": "Focus folders pane or breadcrumbs",
 			"focusFilesPane": "Focus files pane",
 			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
+			"closeButton": "Luk",
 			"listShortcuts": "Open this help dialog",
 			"action": "Execute default action",
 			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"previousItem": "Gå til forrige element",
+			"nextItem": "Gå til næste element",
+			"firstItem": "Gå til første element",
+			"lastItem": "Gå til sidste element"
 		},
 		"files": {
 			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"delete": "Slet fil(er)",
+			"rename": "Omdøb fil",
+			"selectAll": "Vælg alle filer",
+			"upload": "Upload fil(er)",
+			"refresh": "Opdater filer",
+			"addToSelectionLeft": "Tilføj eller fjern fil til venstre for markeringen",
+			"addToSelectionRight": "Tilføj eller fjern fil til højre for markeringen",
+			"addToSelectionAbove": "Tilføj eller fjern fil over makeringen",
+			"addToSelectionBelow": "Tilføj eller fjern fil under markeringen"
 		},
 		"folders": {
 			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"delete": "Slet mappe",
+			"rename": "Omdøb mappe",
+			"expandOrSubfolder": "Udvid mappe / Gå til første undermappe",
+			"collapseOrParent": "Sammenklap mappe / Gå til forrige mappe"
 		},
 		"keys": {
 			"ctrl": "Control",
 			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"downArrow": "Pil ned",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"leftArrow": "Venstre pil",
+			"question": "Spørgsmålstegn",
+			"rightArrow": "Højre pil",
+			"upArrow": "Pil op"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
@@ -276,8 +276,8 @@
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Omdøb mappe",
+		"copyFiles": "Kopier filer",
+		"moveFiles": "Flyt filer"
 	}
 }
