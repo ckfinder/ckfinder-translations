@@ -13,13 +13,13 @@
 		"AM",
 		"PM"
 	],
-	"Abort": "Abort",
+	"Abort": "Abortar",
 	"FolderNew": "Nome da nova pasta: ",
 	"FolderRename": "Novo nome da pasta: ",
 	"FolderDelete": "Tem certeza que deseja apagar a pasta \"%1\"?",
 	"DestinationFolder": "Pasta Destino",
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
+	"FilesPane": "Painel de arquivos",
+	"FoldersTree": "Árvore de pastas",
 	"FileRename": "Novo nome do arquivo: ",
 	"FileRenameExt": "Tem certeza que deseja alterar a extensão do arquivo? O arquivo pode ser danificado.",
 	"FileDelete": "Tem certeza que deseja apagar o arquivo \"%1\"?",
@@ -36,7 +36,7 @@
 		"title": "Nenhuma ocorrência encontrada.",
 		"text": "Tente outros termos de pesquisa."
 	},
-	"FilesRefresh": "Refreshing files",
+	"FilesRefresh": "Atualizando arquivos",
 	"OperationCompletedErrors": "Operação completada com errors.",
 	"MoveToolbarButton": "Mover",
 	"CopyToolbarButton": "Copiar",
@@ -48,8 +48,8 @@
 	"CopyOneFileWait": "Copiando arquivo. Por favor aguarde.",
 	"MoveManyFilesWait": "Movendo %1 arquivos. Por favor aguarde.",
 	"CopyManyFilesWait": "Copiando %1 arquivos. Por favor aguarde.",
-	"MovedFilesNumber": "Número de arquivos movidos: %s.",
-	"CopiedFilesNumber": "Número de arquivos copiados: %s.",
+	"MovedFilesNumber": "Número de arquivos movidos: %1.",
+	"CopiedFilesNumber": "Número de arquivos copiados: %1.",
 	"MoveOperation": "Movendo Arquivos",
 	"CopyOperation": "Copiando Arquivos",
 	"MoveFilesErrorTitle": "Arquivos que não puderam ser movidos:",
@@ -63,7 +63,7 @@
 	"OriginalSize": "Tamanho Original",
 	"Custom": "Personalizado",
 	"GettingFileData": "Lendo informações do arquivo. Por favor aguarde.",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "Por favor, aguarde.",
 	"View": "Visualizar",
 	"Download": "Download",
 	"NewSubFolder": "Nova Sub-Pasta",
@@ -210,7 +210,7 @@
 		"title": "Edição de Imagem",
 		"save": "Salvar",
 		"loading": "Carregando Imagem...",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Você tem certeza que quer encerrar? Algumas mudanças na imagem não foram registradas."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Pequeno",
@@ -221,63 +221,63 @@
 	},
 	"ShowMore": "Mostrar Mais",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Teclas de Atalho",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "Interface Principal",
+			"focusToolbar": "Foco na barra de ferramentas",
+			"focusFoldersPane": "Foco na árvore de pastas ou no caminho de navegação",
+			"focusFilesPane": "Foco no painel de arquivos",
+			"showContextMenu": "Abrir o menu de contexto",
+			"closeButton": "Fechar",
+			"listShortcuts": "Abrir esta janela de ajuda",
+			"action": "Executar a ação padrão",
+			"focusNext": "Foco no painel sucessivo",
+			"previousItem": "Ir para o item anterior",
+			"nextItem": "Ir para o próximo item",
+			"firstItem": "Ir para o primeiro item",
+			"lastItem": "Ir para o último item"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"title": "Painel de Arquivos",
+			"delete": "Apagar arquivo(s)",
+			"rename": "Renomear arquivo",
+			"selectAll": "Selecionar todos os arquivos",
+			"upload": "Enviar arquivo(s)",
+			"refresh": "Atualizar arquivos",
+			"addToSelectionLeft": "Adicionar ou remover o arquivo da esquerda à seleção",
+			"addToSelectionRight": "Adicionar ou remover o arquivo da direita à seleção",
+			"addToSelectionAbove": "Adicionar ou remover o arquivo de cima à seleção",
+			"addToSelectionBelow": "Adicionar ou remover o arquivo de baixo à seleção"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Painel de Pastas",
+			"delete": "Apagar pasta",
+			"rename": "Renomear pasta",
+			"expandOrSubfolder": "Expandir pasta / Ir para a primeira sub-pasta",
+			"collapseOrParent": "Fechar pasta / Ir para a pasta superior"
 		},
 		"keys": {
-			"ctrl": "Control",
-			"delete": "Delete",
-			"downArrow": "Down arrow",
-			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"ctrl": "CTRL",
+			"delete": "Apagar",
+			"downArrow": "Seta para baixo",
+			"escape": "ESC",
+			"leftArrow": "Seta para a esquerda",
+			"question": "Interrogação",
+			"rightArrow": "Seta para a direita",
+			"upArrow": "Seta para cima"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
 			"ctrl": "ctrl",
-			"del": "del",
+			"del": "delete",
 			"end": "end",
 			"home": "home",
 			"shift": "shift"
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Renomear Pasta",
+		"copyFiles": "Copiar Arquivos",
+		"moveFiles": "Mover Arquivos"
 	}
 }

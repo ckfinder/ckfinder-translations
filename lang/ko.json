@@ -1,31 +1,25 @@
 {
 	"appTitle": "CKFinder",
-
 	"common": {
 		"cancel": "취소",
 		"messageTitle": "정보",
 		"skip": "건너뛰기",
 		"rememberDecision": "내 선택 기억"
 	},
-
 	"dir": "ltr",
 	"LangCode": "ko",
-
 	"DateTime": "yyyy/m/d aa h:MM",
 	"DateAmPm": [
 		"오전",
 		"오후"
 	],
-
 	"Abort": "중단",
 	"FolderNew": "새로운 폴더 이름을 입력해 주십시오: ",
 	"FolderRename": "새로운 폴더 이름을 입력해 주십시오: ",
 	"FolderDelete": "정말 \"%1\" 폴더를 삭제하시겠습니까?",
 	"DestinationFolder": "목적지 폴더",
-
 	"FilesPane": "파일 판",
 	"FoldersTree": "폴더 트리",
-
 	"FileRename": "새로운 파일 이름을 입력해 주십시오: ",
 	"FileRenameExt": "정말 파일 확장자를 변경하시겠습니까? 파일을 사용할 수 없게 될 수 있습니다.",
 	"FileDelete": "정말 \"%1\" 파일을 삭제하시겠습니까?",
@@ -43,7 +37,6 @@
 		"text": "다른 검색어를 사용해 주십시오."
 	},
 	"FilesRefresh": "파일 새로고침",
-
 	"OperationCompletedErrors": "오류와 함께 작업을 마쳤습니다.",
 	"MoveToolbarButton": "이동",
 	"CopyToolbarButton": "복사",
@@ -61,10 +54,8 @@
 	"CopyOperation": "파일 복사 중",
 	"MoveFilesErrorTitle": "이동에 실패한 파일들:",
 	"CopyFilesErrorTitle": "복사에 실패한 파일들:",
-
 	"CopyDragDrop": "여기에 복사",
 	"MoveDragDrop": "여기로 이동",
-
 	"Upload": "업로드",
 	"Settings": "설정",
 	"Choose": "선택",
@@ -72,17 +63,13 @@
 	"OriginalSize": "원본 크기",
 	"Custom": "사용자 정의",
 	"GettingFileData": "파일을 가져오고 있습니다. 잠시만 기다려 주십시오.",
-
 	"PleaseWait": "잠시만 기다려주세요.",
-
 	"View": "보기",
 	"Download": "다운로드",
-
 	"NewSubFolder": "새로운 하위폴더",
 	"Rename": "이름 바꾸기",
 	"Delete": "삭제",
 	"DeleteFiles": "파일들 삭제",
-
 	"RenameDlgTitle": "이름 바꾸기",
 	"NewNameDlgTitle": "새로운 이름",
 	"FileOverwrite": "덮어쓰기",
@@ -106,7 +93,6 @@
 	"UploadSend": "업로드",
 	"UploadAddFiles": "파일 추가",
 	"UploadSummary": "업로드된 파일: %1",
-
 	"UploadDetails": "자세히",
 	"UploadFilesCountProgress": "{filesUploaded} / {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} / {bytesTotal})",
@@ -115,17 +101,13 @@
 	"SetDisplayDate": "날짜",
 	"SetDisplaySize": "파일 크기",
 	"SetDisplayThumbnailSize": "미리 보기 크기",
-
 	"FilesCountOne": "1 파일",
 	"FilesCountMany": "%1 파일들",
-
 	"Kb": "%1 KB",
 	"Mb": "%1 MB",
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/초",
-
 	"PixelShort": "px",
-
 	"ErrorUnknown": "요청을 완료할 수 없었습니다. (오류 %1)",
 	"Errors": {
 		"10": "올바르지 않은 명령.",
@@ -157,27 +139,22 @@
 		"500": "파일 브라우저가 보안상의 이유로 비활성화 되어있습니다. 당신의 시스템 관리자에게 연락을 해 보시고 CKFinder의 설정 파일을 확인해 주십시오.",
 		"501": "미리 보기 지원이 비활성화 되어 있습니다."
 	},
-
 	"ErrorMsg": {
 		"FileInvChar": "파일 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "폴더 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: \n\\ / : * ? \" < > |",
 		"MissingFolder": "도달하려는 폴더에 더이상 접근할 수 없습니다.",
 		"MissingFile": "요청한 파일에 더이상 접근할 수 없습니다."
 	},
-
 	"Fileeditor": {
 		"contextMenuName": "수정"
 	},
-
 	"Maximize": {
 		"maximize": "최대화",
 		"minimize": "최소화"
 	},
-
 	"Filter": {
 		"filterPlaceholder": "필터"
 	},
-
 	"EditImage": {
 		"apply": "적용",
 		"adjust": "조절",
@@ -185,12 +162,9 @@
 		"presets": "사전값",
 		"resize": "크기변경",
 		"rotate": "회전",
-
 		"keepAspectRatio": "화면 비율 유지",
-
 		"rotateClockwise": "오른쪽으로 90&deg;",
 		"rotateAntiClockwise": "왼쪽으로 90&deg;",
-
 		"filters": {
 			"brightness": "밝기",
 			"contrast": "명암",
@@ -205,7 +179,6 @@
 			"sharpen": "선명도",
 			"stackBlur": "흐리게"
 		},
-
 		"preset": {
 			"clarity": "선명하게",
 			"pinhole": "바늘구멍",
@@ -239,7 +212,6 @@
 		"loading": "이미지 로딩 중",
 		"confirmExit": "정말 닫으시겠습니까? 저장되지 않은 이미지 수정 사항이 있습니다."
 	},
-
 	"ChooseResizedImageSizes": {
 		"small": "작음",
 		"medium": "보통",
@@ -247,9 +219,7 @@
 		"max": "최대",
 		"Custom": "사용자 정의"
 	},
-
 	"ShowMore": "더보기",
-
 	"Shortcuts": {
 		"title": "키보드 단축키",
 		"general": {
@@ -305,7 +275,6 @@
 			"shift": "shift"
 		}
 	},
-
 	"Operations": {
 		"renameFolder": "폴더 이름 바꾸기",
 		"copyFiles": "파일 복사",

@@ -1,31 +1,25 @@
 {
 	"appTitle": "CKFinder",
-
 	"common": {
 		"cancel": "Annulla",
 		"messageTitle": "Informazione",
 		"skip": "Salta",
 		"rememberDecision": "Ricorda decisione"
 	},
-
 	"dir": "ltr",
 	"LangCode": "it",
-
 	"DateTime": "dd/mm/yyyy HH:MM",
 	"DateAmPm": [
 		"AM",
 		"PM"
 	],
-
 	"Abort": "Interrompi",
 	"FolderNew": "Nome della cartella: ",
 	"FolderRename": "Nuovo nome della cartella: ",
 	"FolderDelete": "Eliminare la cartella \"%1\"?",
 	"DestinationFolder": "Cartella di destinazione",
-
 	"FilesPane": "Pannello file",
 	"FoldersTree": "Albero cartelle",
-
 	"FileRename": "Nuovo nome del file: ",
 	"FileRenameExt": "Cambiare l'estensione del file? Il file può risultare inutilizzabile.",
 	"FileDelete": "Eliminare il file \"%1\"?",
@@ -42,8 +36,7 @@
 		"title": "Non è stato trovato nulla.",
 		"text": "Riprovare con criteri di ricerca differenti."
 	},
-	"FilesRefresh": "Refreshing files",
-
+	"FilesRefresh": "Aggiornamento dei file",
 	"OperationCompletedErrors": "L'operazione è stata completata con errori.",
 	"MoveToolbarButton": "Sposta",
 	"CopyToolbarButton": "Copia",
@@ -61,10 +54,8 @@
 	"CopyOperation": "Copia dei file",
 	"MoveFilesErrorTitle": "File che non è possibile spostare:",
 	"CopyFilesErrorTitle": "File che non è possibile copiare:",
-
 	"CopyDragDrop": "Copia qui",
 	"MoveDragDrop": "Sposta qui",
-
 	"Upload": "Carica",
 	"Settings": "Impostazioni",
 	"Choose": "Seleziona",
@@ -72,17 +63,13 @@
 	"OriginalSize": "Dimensioni originali",
 	"Custom": "Personalizzato",
 	"GettingFileData": "Recupero dei dati del file. Attendere.",
-
 	"PleaseWait": "Attendere.",
-
 	"View": "Vedi",
 	"Download": "Scarica",
-
 	"NewSubFolder": "Nuova sotto-cartella",
 	"Rename": "Rinomina",
 	"Delete": "Elimina",
 	"DeleteFiles": "Elimina file",
-
 	"RenameDlgTitle": "Rinomina",
 	"NewNameDlgTitle": "Nuovo nome",
 	"FileOverwrite": "Sovrascrivi",
@@ -106,7 +93,6 @@
 	"UploadSend": "Carica",
 	"UploadAddFiles": "Aggiungi file",
 	"UploadSummary": "File caricati: %1",
-
 	"UploadDetails": "Dettagli",
 	"UploadFilesCountProgress": "{filesUploaded} di {filesTotal}",
 	"UploadBytesCountProgress": "({bytesUploaded} di {bytesTotal})",
@@ -115,17 +101,13 @@
 	"SetDisplayDate": "Data",
 	"SetDisplaySize": "Dimensioni",
 	"SetDisplayThumbnailSize": "Dimensioni miniatura",
-
 	"FilesCountOne": "1 file",
 	"FilesCountMany": "%1 file",
-
 	"Kb": "%1 KB",
 	"Mb": "%1 MB",
 	"Gb": "%1 GB",
 	"SizePerSecond": "%1/s",
-
 	"PixelShort": "px",
-
 	"ErrorUnknown": "Non è stato possibile completare la richiesta (errore %1).",
 	"Errors": {
 		"10": "Comando non valido.",
@@ -157,27 +139,22 @@
 		"500": "Il gestore dei file è disabilitato per motivi di sicurezza. Contattare l'amministratore del sistema e verificare la configurazione di CKFinder.",
 		"501": "Il supporto alle miniature non è attivo."
 	},
-
 	"ErrorMsg": {
 		"FileInvChar": "I seguenti caratteri non possono essere usati per comporre il nome del file: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "I seguenti caratteri non possono essere usati per comporre il nome della cartella: \n\\ / : * ? \" < > |",
 		"MissingFolder": "La cartella che si sta cercando di raggiungere non è più disponibile.",
 		"MissingFile": "Il file richiesto non è più disponibile."
 	},
-
 	"Fileeditor": {
 		"contextMenuName": "Modifica"
 	},
-
 	"Maximize": {
 		"maximize": "Ingrandisci",
 		"minimize": "Riduci"
 	},
-
 	"Filter": {
 		"filterPlaceholder": "Filtro"
 	},
-
 	"EditImage": {
 		"apply": "Applica",
 		"adjust": "Correggi",
@@ -185,12 +162,9 @@
 		"presets": "Combinazioni",
 		"resize": "Ridimensiona",
 		"rotate": "Ruota",
-
 		"keepAspectRatio": "Mantieni il rapporto di forma",
-
 		"rotateClockwise": "90&deg; orari",
 		"rotateAntiClockwise": "90&deg; anti-orari",
-
 		"filters": {
 			"brightness": "Luminosità",
 			"contrast": "Contrasto",
@@ -205,7 +179,6 @@
 			"sharpen": "Migliora contorni",
 			"stackBlur": "Sfocatura"
 		},
-
 		"preset": {
 			"clarity": "Limpidezza",
 			"pinhole": "Forellino",
@@ -239,7 +212,6 @@
 		"loading": "Caricamento dell'immagine",
 		"confirmExit": "Si è certi di voler chiudere? Sono state apportate delle modifiche all'immagine che non sono ancora state salvate."
 	},
-
 	"ChooseResizedImageSizes": {
 		"small": "Piccola",
 		"medium": "Media",
@@ -247,9 +219,7 @@
 		"max": "Max",
 		"Custom": "Personalizzata"
 	},
-
 	"ShowMore": "Mostra altro",
-
 	"Shortcuts": {
 		"title": "Tasti rapidi",
 		"general": {
@@ -305,7 +275,6 @@
 			"shift": "shift"
 		}
 	},
-
 	"Operations": {
 		"renameFolder": "Rinomina cartella",
 		"copyFiles": "Copia file",

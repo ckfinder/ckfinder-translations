@@ -63,7 +63,7 @@
 	"OriginalSize": "Taille d'origine",
 	"Custom": "Perconnalisé",
 	"GettingFileData": "Données de fichier en cours d'acquisition. Pacientez.",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "Pacientez.",
 	"View": "Voir",
 	"Download": "Télécharger",
 	"NewSubFolder": "Nouveau sous-dossier",
@@ -210,7 +210,7 @@
 		"title": "Editer l'image",
 		"save": "Enregistrer",
 		"loading": "Chargement de l'image",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Etes-vous sûr que vous voulez fermer? Vous avez des modifications non enregistrées à l'image."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Petit",
@@ -221,15 +221,15 @@
 	},
 	"ShowMore": "Montrer plus",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Raccourcis clavier",
 		"general": {
 			"title": "General Interface",
 			"focusToolbar": "Focus toolbar",
 			"focusFoldersPane": "Focus folders pane or breadcrumbs",
 			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
+			"showContextMenu": "Ouvrir le menu contextuel",
+			"closeButton": "Fermer",
+			"listShortcuts": "Ouvrez cette boîte de dialogue d'aide",
 			"action": "Execute default action",
 			"focusNext": "Focus next pane",
 			"previousItem": "Go to previous item",
@@ -240,10 +240,10 @@
 		"files": {
 			"title": "Files Pane",
 			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
+			"rename": "Renommer le fichier",
+			"selectAll": "Sélectionnez tous les fichiers",
 			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
+			"refresh": "Actualiser les fichiers",
 			"addToSelectionLeft": "Add or remove file on the left to selection",
 			"addToSelectionRight": "Add or remove file on the right to selection",
 			"addToSelectionAbove": "Add or remove files above to selection",
@@ -251,33 +251,33 @@
 		},
 		"folders": {
 			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
+			"delete": "Supprimer le dossier",
+			"rename": "Renommer le dossier",
 			"expandOrSubfolder": "Expand folder / Go to first subfolder",
 			"collapseOrParent": "Collapse folder / Go to parent folder"
 		},
 		"keys": {
 			"ctrl": "Control",
-			"delete": "Delete",
-			"downArrow": "Down arrow",
-			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"delete": "Supprimer",
+			"downArrow": "Flèche basse",
+			"escape": "Échap",
+			"leftArrow": "Flèche gauche",
+			"question": "Point d'interrogation",
+			"rightArrow": "Flèche droite",
+			"upArrow": "Flèche haute"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
 			"ctrl": "ctrl",
 			"del": "del",
-			"end": "end",
-			"home": "home",
-			"shift": "shift"
+			"end": "fin",
+			"home": "retour",
+			"shift": "maj"
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Renommer le dossier",
+		"copyFiles": "Copier les fichiers",
+		"moveFiles": "Déplacer les fichiers"
 	}
 }
