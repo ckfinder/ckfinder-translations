@@ -259,12 +259,12 @@
 		"keys": {
 			"ctrl": "Control",
 			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"downArrow": "Ned-piltast",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
+			"leftArrow": "Venstre piltast",
 			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"rightArrow": "Høyre piltast",
+			"upArrow": "Opp-piltast"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
