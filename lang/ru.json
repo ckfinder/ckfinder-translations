@@ -104,9 +104,9 @@
 	"FilesCountOne": "1 файл",
 	"FilesCountMany": "%1 файлов",
 	"Kb": "%1 KБ",
-	"Mb": "%1 MB",
-	"Gb": "%1 GB",
-	"SizePerSecond": "%1/s",
+	"Mb": "%1 МБ",
+	"Gb": "%1 ГБ",
+	"SizePerSecond": "%1/с",
 	"PixelShort": "пикс",
 	"ErrorUnknown": "Невозможно завершить запрос. (Ошибка %1)",
 	"Errors": {
