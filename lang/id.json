@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Date",
 	"SetDisplaySize": "File Size",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 file",
 	"FilesCountMany": "%1 files",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Thumbnail support is disabled."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "The file name cannot contain any of the following characters: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "The folder name cannot contain any of the following characters: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

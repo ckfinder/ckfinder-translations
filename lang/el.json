@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Ημερομηνία",
 	"SetDisplaySize": "Μέγεθος αρχείου",
 	"SetDisplayThumbnailSize": "Μέγεθος μικρογραφιών",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 αρχείο",
 	"FilesCountMany": "%1 αρχεία",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Η υποστήριξη των μικρογραφιών έχει απενεργοποιηθεί."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Η ονομασία του αρχείου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Η ονομασία του φακέλου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Ο φάκελος που προσπαθείτε να ανοίξετε δεν είναι πλέον διαθέσιμος.",

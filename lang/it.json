@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Data",
 	"SetDisplaySize": "Dimensioni",
 	"SetDisplayThumbnailSize": "Dimensioni miniatura",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 file",
 	"FilesCountMany": "%1 file",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Il supporto alle miniature non è attivo."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "I seguenti caratteri non possono essere usati per comporre il nome del file: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "I seguenti caratteri non possono essere usati per comporre il nome della cartella: \n\\ / : * ? \" < > |",
 		"MissingFolder": "La cartella che si sta cercando di raggiungere non è più disponibile.",

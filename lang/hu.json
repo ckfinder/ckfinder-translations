@@ -101,6 +101,9 @@
 	"SetDisplayDate": "dátum",
 	"SetDisplaySize": "fájlméret",
 	"SetDisplayThumbnailSize": "Bélyegkép méret",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 fájl",
 	"FilesCountMany": "%1 fájl",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "A bélyegkép támogatás nincs engedélyezve."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "A fájl neve nem tartalmazhatja a következő karaktereket: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "A mappa neve nem tartalmazhatja a következő karaktereket: \n\\ / : * ? \" < > |",
 		"MissingFolder": "A könyvtár már nem létezik.",
@@ -210,7 +214,7 @@
 		"title": "Kép szerkesztése",
 		"save": "Mentés",
 		"loading": "Kép betöltése",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "Biztosan bezárja? Még nem mentett változások fűződnek ehhez a képhez."
 	},
 	"ChooseResizedImageSizes": {
 		"small": "Kicsi",
@@ -221,50 +225,50 @@
 	},
 	"ShowMore": "Mutass tübbet",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "Billentyű-kombinációk",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "Általános",
+			"focusToolbar": "Összpontosítás az eszköztárra",
+			"focusFoldersPane": "Összpontosítás a mappákra vagy útvonalra",
+			"focusFilesPane": "Összpontosítás a fájlokra",
+			"showContextMenu": "Kontextus menü megnyitása",
+			"closeButton": "Bezárás",
+			"listShortcuts": "Súgó megnyitása",
+			"action": "Első művelet futtatása",
+			"focusNext": "Összpontosítás a következőre",
+			"previousItem": "Ugrás az előzőre",
+			"nextItem": "Ugrás a következőre",
+			"firstItem": "Ugrás az elsőhöz",
+			"lastItem": "Ugrás az utolsóhoz"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
+			"title": "Fájlok",
+			"delete": "Fájlok törlése",
+			"rename": "Fájl átnevezése",
+			"selectAll": "Minden kijelölése",
+			"upload": "Feltöltés",
+			"refresh": "Frissítés",
 			"addToSelectionLeft": "Add or remove file on the left to selection",
 			"addToSelectionRight": "Add or remove file on the right to selection",
 			"addToSelectionAbove": "Add or remove files above to selection",
 			"addToSelectionBelow": "Add or remove files below to selection"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Mappák",
+			"delete": "Mappa törlése",
+			"rename": "Mappa átnevezése",
+			"expandOrSubfolder": "Mappa kibontása / Ugrás az első almappába",
+			"collapseOrParent": "Mappa összetűzése / Ugrás a szülőkönyvtárba"
 		},
 		"keys": {
 			"ctrl": "Control",
 			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"downArrow": "Le",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"leftArrow": "Bal",
+			"question": "Kérdőjel",
+			"rightArrow": "Jobb",
+			"upArrow": "Fel"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
@@ -276,8 +280,8 @@
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "Mappa átnevezése",
+		"copyFiles": "Fájlok másolása",
+		"moveFiles": "Fájlok áthelyezése"
 	}
 }

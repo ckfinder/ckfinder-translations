@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Data",
 	"SetDisplaySize": "Fitxategi-tamaina",
 	"SetDisplayThumbnailSize": "Koadro txikiaren tamaina",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "Fitxategi bat",
 	"FilesCountMany": "%1 fitxategi",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Koadro txikien euskarria desgaituta dago."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Fitxategi-izenak ezin ditu ondorengo karaktereak eduki: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Karpetaren izenak ezin ditu ondorengo karaktereak eduki: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Atzitu nahi duzun karpeta ez dago erabilgarri jada.",

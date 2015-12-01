@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Fecha",
 	"SetDisplaySize": "Tamaño del archivo",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 archivo",
 	"FilesCountMany": "%1 archivos",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "El soporte para iconos está deshabilitado."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "El nombre del archivo no puede contener ninguno de los caracteres siguientes: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "El nombre de la carpeta no puede contener ninguno de los caracteres siguientes: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

@@ -101,6 +101,9 @@
 	"SetDisplayDate": "日期",
 	"SetDisplaySize": "大小",
 	"SetDisplayThumbnailSize": "缩略图大小",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 个文件",
 	"FilesCountMany": "%1 个文件",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "不支持缩略图方式。"
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "文件名不能包含以下字符：\n\\ / : * ? \" < > |",
 		"FolderInvChar": "文件夹名称不能包含以下字符：\n\\ / : * ? \" < > |",
 		"MissingFolder": "您指定的文件夹已不可用。",

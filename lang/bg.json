@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Дата",
 	"SetDisplaySize": "Размер на файл",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 файл",
 	"FilesCountMany": "%1 файла",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Поддръжката за миниатюри е изключена."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Името на файла не може да съдържа следните знаци: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Името на папката не може да съдържа следните знаци: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

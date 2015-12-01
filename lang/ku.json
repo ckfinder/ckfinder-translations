@@ -101,6 +101,9 @@
 	"SetDisplayDate": "ڕێکەوت",
 	"SetDisplaySize": "قەبارەی پەرگە",
 	"SetDisplayThumbnailSize": "قەبارەی وێنۆچکە",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 پەڕگە",
 	"FilesCountMany": "%1 پەڕگە",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "پشتیوانکردنی وێنۆچکە ناچالاککراوە."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "ناوی پەڕگە نابێت پێکهاتبێت لەم پیتوو هێمایانە: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "ناوی بوخچە نابێت پێکهاتبێت لەم پیتوو هێمایانە: \n\\ / : * ? \" < > |",
 		"MissingFolder": "ئەم بوخچەیەی تۆ هەوڵی گەیشتنی بۆ دەدەی، بەردەست نیە.",

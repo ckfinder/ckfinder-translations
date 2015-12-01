@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Kuupäev",
 	"SetDisplaySize": "Faili suurus",
 	"SetDisplayThumbnailSize": "Pisipildi suurus",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 fail",
 	"FilesCountMany": "%1 faili",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Pisipiltide tugi on keelatud."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Kausta, mida püüad avada, pole enam olemas.",

@@ -101,6 +101,9 @@
 	"SetDisplayDate": "datum",
 	"SetDisplaySize": "velikost datoteke",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 datoteka",
 	"FilesCountMany": "%1 datotek(e)",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Ni podpore za majhne sličice (predogled)."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Ime datoteke ne sme vsebovati naslednjih znakov: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Ime mape ne sme vsebovati naslednjih znakov: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

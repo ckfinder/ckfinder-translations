@@ -101,6 +101,9 @@
 	"SetDisplayDate": "日時",
 	"SetDisplaySize": "ファイルサイズ",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "１つのファイル",
 	"FilesCountMany": "%1個のファイル",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "サムネイル機能は無効になっています。"
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "ファイルに以下の文字は使えません: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "フォルダに以下の文字は使えません: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

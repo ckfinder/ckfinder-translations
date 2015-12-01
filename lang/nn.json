@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Dato",
 	"SetDisplaySize": "Filstørrelse",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 fil",
 	"FilesCountMany": "%1 filer",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Funksjon for minityrbilder er skrudd av."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Filnavnet kan ikke inneholde følgende tegn: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Mappenavnet kan ikke inneholde følgende tegn: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

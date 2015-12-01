@@ -101,6 +101,9 @@
 	"SetDisplayDate": "תאריך",
 	"SetDisplaySize": "גודל קובץ",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "קובץ 1",
 	"FilesCountMany": "%1 קבצים",
 	"Kb": "%1KB",
@@ -140,6 +143,7 @@
 		"501": "התמיכה בתמונות מוקטנות מבוטלת."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "שם הקובץ לא יכול לכלול תווים הבאים: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "שם התיקיה לא יכול לכלול תווים הבאים: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

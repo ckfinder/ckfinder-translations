@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Датум",
 	"SetDisplaySize": "Величина датотеке",
 	"SetDisplayThumbnailSize": "Величина приказа",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 датотека",
 	"FilesCountMany": "%1 датотека(е)",
 	"Kb": "%1 КБ",
@@ -140,6 +143,7 @@
 		"501": "Подршка за приказ није омогућена."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Назив датотеке не сме садржавати ни један од следећих знакова: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Назив фасцикле не сме садржавати ни један од следећих знакова: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

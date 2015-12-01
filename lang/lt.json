@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Data",
 	"SetDisplaySize": "Failo dydis",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 failas",
 	"FilesCountMany": "%1 failai",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Miniatiūrų palaikymas išjungtas."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Failo pavadinimas negali turėti bent vieno iš šių simbolių: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Segtuvo pavadinimas negali turėti bent vieno iš šių simbolių: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Дата",
 	"SetDisplaySize": "Размер файла",
 	"SetDisplayThumbnailSize": "Размер миниатюры",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 файл",
 	"FilesCountMany": "%1 файлов",
 	"Kb": "%1 KБ",
@@ -140,6 +143,7 @@
 		"501": "Поддержка миниатюр отключена."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Имя файла не может содержать любой из перечисленных символов: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Имя папки не может содержать любой из перечисленных символов: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Запрашиваемая папка более не доступен.",

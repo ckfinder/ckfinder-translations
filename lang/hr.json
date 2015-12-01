@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Datum",
 	"SetDisplaySize": "Veličina datoteke",
 	"SetDisplayThumbnailSize": "Veličina sličice",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 datoteka",
 	"FilesCountMany": "%1 datoteka",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Podrška za sličice je onemogućena."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Naziv datoteke ne smije sadržavati niti jedan od sljedećih znakova: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Naziv direktorija ne smije sadržavati niti jedan od sljedećih znakova: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Direktorij više nije dostupan.",

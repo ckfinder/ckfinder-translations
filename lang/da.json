@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Dato",
 	"SetDisplaySize": "Størrelse",
 	"SetDisplayThumbnailSize": "Thumbnail størrelse",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 fil",
 	"FilesCountMany": "%1 filer",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Understøttelse af thumbnails er deaktiveret."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Filnavnet må ikke indeholde et af følgende tegn: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Mappenavnet må ikke indeholde et af følgende tegn: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Mappen eksistere ikke længere.",

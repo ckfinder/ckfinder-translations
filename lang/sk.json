@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Dátum",
 	"SetDisplaySize": "Veľkosť súboru",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 súbor",
 	"FilesCountMany": "%1 súborov",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Momentálne nie je zapnutá podpora pre generáciu miniobrázkov."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Súbor nesmie obsahovať žiadny z nasledujúcich znakov: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Adresár nesmie obsahovať žiadny z nasledujúcich znakov: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

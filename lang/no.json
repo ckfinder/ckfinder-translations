@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Dato",
 	"SetDisplaySize": "Filstørrelse",
 	"SetDisplayThumbnailSize": "Miniatyrbildestørrelse",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 fil",
 	"FilesCountMany": "%1 filer",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Funksjon for miniatyrbilder er skrudd av."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Filnavnet kan ikke inneholde følgende tegn: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Mappenavnet kan ikke inneholde følgende tegn: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Mappen du forsøker å nå er ikke lengre tilgjengelig.",

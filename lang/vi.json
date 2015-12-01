@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Ngày",
 	"SetDisplaySize": "Dung lượng",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 tập tin",
 	"FilesCountMany": "%1 tập tin",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Chức năng hỗ trợ ảnh mẫu bị vô hiệu."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Tên tập tin không thể chưa các kí tự: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Tên thư mục không thể chứa các kí tự: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

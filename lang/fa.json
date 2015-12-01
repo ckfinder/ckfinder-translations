@@ -101,6 +101,9 @@
 	"SetDisplayDate": "تاریخ",
 	"SetDisplaySize": "اندازه فایل",
 	"SetDisplayThumbnailSize": "اندازه تصویر بندانگشتی",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "یک فایل",
 	"FilesCountMany": "%1 فایل",
 	"Kb": "%1KB",
@@ -140,6 +143,7 @@
 		"501": "پشتیبانی از تصاویر کوچک غیرفعال شده است"
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "نام فایل نباید شامل این کاراکترها باشد: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "نام پوشه نباید شامل این کاراکترها باشد: \n\\ / : * ? \" < > |",
 		"MissingFolder": "پوشه‌ای که در حال تلاش برای دست‌یابی به آن هستید، دیگر در دسترس نیست.",

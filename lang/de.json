@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Datum",
 	"SetDisplaySize": "Dateigröße",
 	"SetDisplayThumbnailSize": "Miniaturgröße",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 Datei",
 	"FilesCountMany": "%1 Datei",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Die Miniaturansicht wurde deaktivert."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Der Dateinamen darf nicht eines der folgenden Zeichen enthalten: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Der Verzeichnisname darf nicht eines der folgenden Zeichen enthalten: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Der Ordner, den Sie versuchen zu erreichen, ist nicht mehr verfügbar.",

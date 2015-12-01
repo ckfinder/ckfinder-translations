@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Datumu",
 	"SetDisplaySize": "Faila Izmēru",
 	"SetDisplayThumbnailSize": "Sīktēla izmēru",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 fails",
 	"FilesCountMany": "%1 faili",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Sīkbilžu atbalsts ir atslēgts."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Faila nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Mapes nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Mape, kuru mēģiniet atvērt, vairs neeksistē.",

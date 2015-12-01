@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Päivämäärä",
 	"SetDisplaySize": "Tiedostokoko",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 tiedosto",
 	"FilesCountMany": "%1 tiedostoa",
 	"Kb": "%1 kt",
@@ -140,6 +143,7 @@
 		"501": "Esikatselukuvien tuki on kytketty toiminnasta."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Tiedostonimi ei voi sisältää seuraavia merkkejä: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Kansionimi ei voi sisältää seuraavia merkkejä: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

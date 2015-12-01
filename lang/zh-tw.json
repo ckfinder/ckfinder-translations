@@ -101,6 +101,9 @@
 	"SetDisplayDate": "檔案日期",
 	"SetDisplaySize": "檔案大小",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 個檔案",
 	"FilesCountMany": "%1 個檔案",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "縮圖預覽功能已被停用 !"
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "檔案名稱不能包含以下字元： \n\\ / : * ? \" < > |",
 		"FolderInvChar": "目錄名稱不能包含以下字元： \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

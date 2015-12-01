@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Datum",
 	"SetDisplaySize": "Velikost",
 	"SetDisplayThumbnailSize": "Velikost miniatury",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 soubor",
 	"FilesCountMany": "%1 souborů",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Podpora náhledů je zakázána."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Název souboru nesmí obsahovat následující znaky: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Název složky nesmí obsahovat následující znaky: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Složka, kterou chcete zobrazit, již není dostupná.",

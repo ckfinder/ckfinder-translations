@@ -101,6 +101,9 @@
 	"SetDisplayDate": "તારીખ",
 	"SetDisplaySize": "ફાઈલ સાઈઝ",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 ફાઈલ",
 	"FilesCountMany": "%1 ફાઈલો",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "થમ્બનેલનો સપોર્ટ બંધ કરેલો છે."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "ફાઈલના નામમાં એમના કોઈ પણ કેરેક્ટર ન ચાલે: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "ફોલ્ડરના નામમાં એમના કોઈ પણ કેરેક્ટર ન ચાલે: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

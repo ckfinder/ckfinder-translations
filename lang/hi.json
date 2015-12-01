@@ -101,6 +101,9 @@
 	"SetDisplayDate": "तारीख",
 	"SetDisplaySize": "फाएल साईज",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 फाएल",
 	"FilesCountMany": "%1 फाएल",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "थम्बनेल सपोर्ट डिसेबल किया है."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "फाएलके नाममें यह केरेक्टर नही हो सकते: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "फोल्डरके नाममें यह केरेक्टर नही हो सकते: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

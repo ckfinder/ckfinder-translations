@@ -101,6 +101,9 @@
 	"SetDisplayDate": "날짜",
 	"SetDisplaySize": "파일 크기",
 	"SetDisplayThumbnailSize": "미리 보기 크기",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 파일",
 	"FilesCountMany": "%1 파일들",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "미리 보기 지원이 비활성화 되어 있습니다."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "파일 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "폴더 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: \n\\ / : * ? \" < > |",
 		"MissingFolder": "도달하려는 폴더에 더이상 접근할 수 없습니다.",

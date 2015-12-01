@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Dată",
 	"SetDisplaySize": "Mărime fișier",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 fișier",
 	"FilesCountMany": "%1 fișiere",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Funcționalitatea de creat thumbnails este dezactivată."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Numele fișierului nu poate conține niciunul din următoarele caractere: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Numele dosarului nu poate conține niciunul din următoarele caractere: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

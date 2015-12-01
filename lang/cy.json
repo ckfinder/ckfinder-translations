@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Dyddiad",
 	"SetDisplaySize": "Maint y Ffeil",
 	"SetDisplayThumbnailSize": "Thumbnail Size",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 ffeil",
 	"FilesCountMany": "%1 ffeil",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "Mae cynhaliaeth bawdluniau wedi'i hanalluogi."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Does dim hawl defnyddio'r nodau canlynol i enwi ffeil: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Does dim hawl defnyddio'r nodau canlynol i enwi ffolder: \n\\ / : * ? \" < > |",
 		"MissingFolder": "The folder you are trying to reach is no longer available.",

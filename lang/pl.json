@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Data",
 	"SetDisplaySize": "Rozmiar pliku",
 	"SetDisplayThumbnailSize": "Rozmiar miniatur",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 plik",
 	"FilesCountMany": "Liczba plików: %1",
 	"Kb": "%1 KB",
@@ -119,7 +122,7 @@
 		"103": "Wykonanie operacji nie jest możliwe: brak uprawnień.",
 		"104": "Wykonanie operacji nie powiodło się z powodu niewystarczających uprawnień do systemu plików.",
 		"105": "Nieprawidłowe rozszerzenie.",
-		"109": "Nieprawiłowe żądanie.",
+		"109": "Nieprawidłowe żądanie.",
 		"110": "Niezidentyfikowany błąd.",
 		"111": "Wykonanie operacji nie powiodło się z powodu zbyt dużego rozmiaru pliku wynikowego.",
 		"115": "Plik lub folder o podanej nazwie już istnieje.",
@@ -140,6 +143,7 @@
 		"501": "Tworzenie miniatur jest wyłączone."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "Nazwa pliku nie może zawierać żadnego z podanych znaków: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "Nazwa folderu nie może zawierać żadnego z podanych znaków: \n\\ / : * ? \" < > |",
 		"MissingFolder": "Folder, do którego dostęp próbujesz uzyskać, jest już niedostępny.",

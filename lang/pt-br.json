@@ -101,6 +101,9 @@
 	"SetDisplayDate": "Data",
 	"SetDisplaySize": "Tamanho",
 	"SetDisplayThumbnailSize": "Tamanho da Miniatura",
+	"SetView": "View",
+	"SetViewThumbnails": "Thumbnails",
+	"SetViewList": "List",
 	"FilesCountOne": "1 arquivo",
 	"FilesCountMany": "%1 arquivos",
 	"Kb": "%1 KB",
@@ -140,6 +143,7 @@
 		"501": "O suporte a miniaturas está desabilitado."
 	},
 	"ErrorMsg": {
+		"FileNameNotEmpty": "The file name cannot be empty.",
 		"FileInvChar": "O nome do arquivo não pode conter nenhum desses caracteres: \n\\ / : * ? \" < > |",
 		"FolderInvChar": "O nome da pasta não pode conter nenhum desses caracteres: \n\\ / : * ? \" < > |",
 		"MissingFolder": "A pasta que você está tentando abrir não está mais disponível.",
