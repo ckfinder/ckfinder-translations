@@ -8,7 +8,7 @@ This repository was created to simplify the process of updating or providing new
 
 You are welcome to help **localize CKFinder** into your native language and update existing localizations. You can use one of the methods described below to submit your translation. **Your help will be much appreciated!**
 
-**Important note:** CKFinder language files are in JSON format. A few language strings contain some HTML tags like `<strong>` or placeholders such as `%1` or `{count}`. Please leave these untouched as changing them may prevent CKFinder from working correctly.
+**Important note:** CKFinder language files are in JSON format. A few language strings contain some HTML tags like `<strong>` or placeholders such as `{pleaseWait}` or `{count}`. Please leave these untouched as changing them may prevent CKFinder from working correctly.
 
 ## Creating a Pull Request
 
