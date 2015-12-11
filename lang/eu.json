@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Utzi",
-		"messageTitle": "Informazioa",
-		"skip": "Saltatu",
-		"rememberDecision": "Gogoratu nire erabakia"
-	},
 	"dir": "ltr",
 	"langCode": "eu",
 	"dateTime": "yyyy/m/d h:MM aa",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Abortatu",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Abortatu",
+		"cancel": "Utzi",
+		"close": "Itxi",
+		"messageTitle": "Informazioa",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Gogoratu nire erabakia",
+		"skip": "Saltatu"
+	},
+	"edit": "Editatu",
 	"folderNew": "Idatzi karpeta berriaren izena: ",
-	"folderRename": "Idatzi karpetaren izen berria: ",
+	"folderRenameLabel": "Idatzi karpetaren izen berria: ",
+	"folderRenameTitle": "Aldatu izena karpetari",
 	"folderDelete": "Ziur zaude \"{name}\" karpeta ezabatu nahi duzula?",
 	"destinationFolder": "Helburuko karpeta",
 	"filesPane": "Fitxategiak panela",
@@ -36,6 +44,7 @@
 		"title": "Ez da ezer aurkitu.",
 		"text": "Mesedez saiatu beste bilaketa-irizpideak erabiltzen."
 	},
+	"filterPlaceholder": "Iragazi",
 	"filesRefresh": "Fitxategiak freskatzen",
 	"operationCompletedErrors": "Eragiketa erroreekin osatuta.",
 	"moveToolbarButton": "Aldatu lekuz",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Izen berria",
 	"fileOverwrite": "Gainidatzi",
 	"fileAutorename": "Aldatu izena automatikoki",
-	"okBtn": "Ados",
-	"cancelBtn": "Utzi",
-	"closeBtn": "Itxi",
 	"uploadSelectLbl": "Hautatu fitxategia kargatzeko",
 	"uploadProgressLbl": "(Kargatzen. {pleaseWait})",
-	"uploadBtnCancel": "Utzi",
 	"uploadNoFolder": "Mesedez hautatu karpeta kargatu aurretik.",
 	"uploadNoPerms": "Ez da onartzen fitxategia kargatzea.",
 	"uploadUnknError": "Errorea fitxategia bidaltzean.",
 	"uploadExtIncorrect": "Fitxategi-luzapena ez da onartzen karpeta honetan.",
-	"uploadLabel": {
-		"uploadSelect": "Hautatu fitxategiak kargatzeko",
-		"uploadProgress": "Kargatzen...",
-		"uploadOk": "Kargatzea amaituta!",
-		"uploadError": "Kargatzea erroreekin amaituta."
-	},
 	"uploadSend": "Kargatu",
 	"uploadAddFiles": "Gehitu fitxategiak",
 	"uploadSummary": "Kargatutako fitxategiak: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "Fitxategi bat",
 	"filesCountMany": "{count} fitxategi",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Ezin izan da eskaera burutu. (Errorea {number})",
+	"showMore": "Erakutsi gehiago",
+	"uploadLabel": {
+		"uploadSelect": "Hautatu fitxategiak kargatzeko",
+		"uploadProgress": "Kargatzen...",
+		"uploadOk": "Kargatzea amaituta!",
+		"uploadError": "Kargatzea erroreekin amaituta."
+	},
+	"operations": {
+		"copyFiles": "Kopiatu fitxategiak",
+		"moveFiles": "Aldatu lekuz fitxategiak"
+	},
+	"maximize": {
+		"maximize": "Maximizatu",
+		"minimize": "Minimizatu"
+	},
 	"errors": {
 		"10": "Komando baliogabea.",
 		"11": "Ez da baliabide mota zehaztu eskaeran.",
@@ -147,122 +157,108 @@
 		"501": "Koadro txikien euskarria desgaituta dago."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Fitxategi-izenak ezin ditu ondorengo karaktereak eduki: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Karpetaren izenak ezin ditu ondorengo karaktereak eduki: {disallowedCharacters}",
-		"missingFolder": "Atzitu nahi duzun karpeta ez dago erabilgarri jada.",
-		"missingFile": "Eskatutako fitxategia ez dago erabilgarri jada."
-	},
-	"fileeditor": {
-		"contextMenuName": "Editatu"
-	},
-	"maximize": {
-		"maximize": "Maximizatu",
-		"minimize": "Minimizatu"
-	},
-	"filter": {
-		"filterPlaceholder": "Iragazi"
+		"missingFile": "Eskatutako fitxategia ez dago erabilgarri jada.",
+		"missingFolder": "Atzitu nahi duzun karpeta ez dago erabilgarri jada."
 	},
 	"editImage": {
-		"apply": "Aplikatu",
 		"adjust": "Doitu",
+		"apply": "Aplikatu",
+		"confirmExit": "Ziur zaude itxi nahi duzula? Irudiari egindako gordeko gabeko aldaketak dauzkazu.",
 		"crop": "Moztu",
+		"downloadAction": "Jatorrizko irudia deskargatzen.",
+		"keepAspectRatio": "Mantendu aspektu-erlazioa",
+		"loading": "Irudia kargatzen",
 		"presets": "Aurrezarriak",
+		"reset": "Berrezarri",
 		"resize": "Aldatu tamaina",
 		"rotate": "Biratu",
-		"keepAspectRatio": "Mantendu aspektu-erlazioa",
-		"rotateClockwise": "90&deg; eskuinera",
 		"rotateAntiClockwise": "90&deg; ezkerrera",
+		"rotateClockwise": "90&deg; eskuinera",
+		"save": "Gorde",
+		"saveDialogFileExists": "Izen bereko fitxategi bat existitzen da karpetan jada.",
+		"saveDialogOverwrite": "Gainidatzi fitxategia",
+		"saveDialogSaveAs": "Gorde honela:",
+		"saveDialogTitle": "Gorde aldaketak",
+		"title": "Editatu irudia",
+		"transformationAction": "Eraldaketak aplikatzen.",
+		"uploadAction": "Editatutako irudia kargatzen.",
 		"filters": {
 			"brightness": "Distira",
-			"contrast": "Kontrastea",
-			"saturation": "Saturazioa",
-			"vibrance": "Bizitasuna",
-			"exposure": "Esposizioa",
-			"hue": "Ñabardura",
-			"sepia": "Sepia",
-			"gamma": "Gamma",
-			"noise": "Soinua",
 			"clip": "Clip-a",
+			"contrast": "Kontrastea",
+			"exposure": "Esposizioa",
+			"gamma": "Gamma",
+			"hue": "Ñabardura",
+			"noise": "Soinua",
+			"saturation": "Saturazioa",
+			"sepia": "Sepia",
 			"sharpen": "Araztu",
-			"stackBlur": "Lausotu"
+			"stackBlur": "Lausotu",
+			"vibrance": "Bizitasuna"
 		},
 		"preset": {
 			"clarity": "Argitasuna",
-			"pinhole": "Jostorratz-begia",
-			"love": "Maitasuna",
-			"jarques": "Jarques",
-			"orangePeel": "Laranja-azala",
-			"sinCity": "Sin City",
-			"grungy": "Grungy",
-			"oldBoot": "Bota zaharra",
-			"lomo": "Lomo",
-			"vintage": "Vintage",
-			"crossProcess": "Prozesu gurutzatua",
 			"concentrate": "Konzentratu",
+			"crossProcess": "Prozesu gurutzatua",
 			"glowingSun": "Eguzki distiratsua",
-			"sunrise": "Egunsentia",
-			"nostalgia": "Nostalgia",
+			"grungy": "Grungy",
+			"hazyDays": "Egun lainotsuak",
 			"hemingway": "Hemingway",
 			"herMajesty": "Berorren maiestatea",
-			"hazyDays": "Egun lainotsuak"
-		},
-		"downloadAction": "Jatorrizko irudia deskargatzen.",
-		"transformationAction": "Eraldaketak aplikatzen.",
-		"uploadAction": "Editatutako irudia kargatzen.",
-		"saveDialogTitle": "Gorde aldaketak",
-		"saveDialogOverwrite": "Gainidatzi fitxategia",
-		"saveDialogSaveAs": "Gorde honela:",
-		"saveDialogFileExists": "Izen bereko fitxategi bat existitzen da karpetan jada.",
-		"reset": "Berrezarri",
-		"title": "Editatu irudia",
-		"save": "Gorde",
-		"loading": "Irudia kargatzen",
-		"confirmExit": "Ziur zaude itxi nahi duzula? Irudiari egindako gordeko gabeko aldaketak dauzkazu."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Maitasuna",
+			"nostalgia": "Nostalgia",
+			"oldBoot": "Bota zaharra",
+			"orangePeel": "Laranja-azala",
+			"pinhole": "Jostorratz-begia",
+			"sinCity": "Sin City",
+			"sunrise": "Egunsentia",
+			"vintage": "Vintage"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Txikia",
-		"medium": "Ertaina",
+		"custom": "Pertsonalizatua",
 		"large": "Handia",
 		"max": "Gehienezkoa",
-		"custom": "Pertsonalizatua"
+		"medium": "Ertaina",
+		"small": "Txikia"
 	},
-	"showMore": "Erakutsi gehiago",
 	"shortcuts": {
 		"title": "Laster-teklak",
 		"general": {
-			"title": "Interfaze orokorra",
-			"focusToolbar": "Fokuratu tresna-barra",
-			"focusFoldersPane": "Fokuratu karpeten panela edo ogi apurrak",
-			"focusFilesPane": "Fokuratu fitxategien panela",
-			"showContextMenu": "Ireki testuinguru-menua",
-			"closeButton": "Itxi",
-			"listShortcuts": "Ireki laguntzako elkarrizketa-koadro hau",
 			"action": "Exekutatu ekintza lehenetsia",
-			"focusNext": "Fokuratu hurrengo panela",
-			"previousItem": "Joan aurreko elementura",
-			"nextItem": "Joan hurrengo elementura",
 			"firstItem": "Joan lehen elementura",
-			"lastItem": "Joan azken elementura"
+			"focusFilesPane": "Fokuratu fitxategien panela",
+			"focusFoldersPane": "Fokuratu karpeten panela edo ogi apurrak",
+			"focusNext": "Fokuratu hurrengo panela",
+			"focusToolbar": "Fokuratu tresna-barra",
+			"lastItem": "Joan azken elementura",
+			"listShortcuts": "Ireki laguntzako elkarrizketa-koadro hau",
+			"nextItem": "Joan hurrengo elementura",
+			"previousItem": "Joan aurreko elementura",
+			"showContextMenu": "Ireki testuinguru-menua",
+			"title": "Interfaze orokorra"
 		},
 		"files": {
-			"title": "Fitxategiak panela",
-			"delete": "Ezabatu fitxategia(k)",
-			"rename": "Aldatu izena fitxategiari",
-			"selectAll": "Hautatu fitxategi guztiak",
-			"upload": "Kargatu fitxategia(k)",
-			"refresh": "Freskatu fitxategiak",
+			"addToSelectionAbove": "Gehitu edo kendu hautapenaren gaineko fitxategiak",
+			"addToSelectionBelow": "Gehitu edo kendu hautapenaren azpiko fitxategiak",
 			"addToSelectionLeft": "Gehitu edo kendu hautapenaren ezkerreko fitxategia",
 			"addToSelectionRight": "Gehitu edo kendu hautapenaren eskuineko fitxategia",
-			"addToSelectionAbove": "Gehitu edo kendu hautapenaren gaineko fitxategiak",
-			"addToSelectionBelow": "Gehitu edo kendu hautapenaren azpiko fitxategiak"
+			"delete": "Ezabatu fitxategia(k)",
+			"refresh": "Freskatu fitxategiak",
+			"rename": "Aldatu izena fitxategiari",
+			"selectAll": "Hautatu fitxategi guztiak",
+			"upload": "Kargatu fitxategia(k)"
 		},
 		"folders": {
-			"title": "Karpetak panela",
+			"collapseOrParent": "Tolestu karpeta / Joan karpeta gurasora",
 			"delete": "Ezabatu karpeta",
-			"rename": "Aldatu izena karpetari",
 			"expandOrSubfolder": "Zabaldu karpeta / Joan lehen azpikarpetara",
-			"collapseOrParent": "Tolestu karpeta / Joan karpeta gurasora"
+			"title": "Karpetak panela"
 		},
 		"keys": {
 			"ctrl": "Kontrol",
@@ -282,10 +278,5 @@
 			"home": "etxea",
 			"shift": "maius"
 		}
-	},
-	"operations": {
-		"renameFolder": "Aldatu izena karpetari",
-		"copyFiles": "Kopiatu fitxategiak",
-		"moveFiles": "Aldatu lekuz fitxategiak"
 	}
 }

@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Atcelt",
-		"messageTitle": "Informācija",
-		"skip": "Izlaist",
-		"rememberDecision": "Atcerēties izvēli"
-	},
 	"dir": "ltr",
 	"langCode": "lv",
 	"dateTime": "dd/mm/yyyy H:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "[MISSING]Abort",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "[MISSING]Abort",
+		"cancel": "Atcelt",
+		"close": "Aizvērt",
+		"messageTitle": "Informācija",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Atcerēties izvēli",
+		"skip": "Izlaist"
+	},
+	"edit": "Labot",
 	"folderNew": "Lūdzu ierakstiet mapes nosaukumu: ",
-	"folderRename": "Lūdzu ierakstiet jauno mapes nosaukumu: ",
+	"folderRenameLabel": "Lūdzu ierakstiet jauno mapes nosaukumu: ",
+	"folderRenameTitle": "[MISSING]Rename Folder",
 	"folderDelete": "Vai tiešām vēlaties neatgriezeniski dzēst mapi \"{name}\"?",
 	"destinationFolder": "Mērķa mape",
 	"filesPane": "[MISSING]Files pane",
@@ -36,6 +44,7 @@
 		"title": "Nekas nav atrasts.",
 		"text": "Lūdzu mēģini citus meklēšanas nosacījumus."
 	},
+	"filterPlaceholder": "Filtrs",
 	"filesRefresh": "[MISSING]Refreshing files",
 	"operationCompletedErrors": "Darbība tika pabeigta ar kļūdām.",
 	"moveToolbarButton": "Pārvietot",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Jauns nosaukums",
 	"fileOverwrite": "Pārrakstīt",
 	"fileAutorename": "Automātiski pārsaukt",
-	"okBtn": "Labi",
-	"cancelBtn": "Atcelt",
-	"closeBtn": "Aizvērt",
 	"uploadSelectLbl": "Izvēlieties failu, ko augšupielādēt",
 	"uploadProgressLbl": "(Augšupielādē. {pleaseWait})",
-	"uploadBtnCancel": "Atcelt",
 	"uploadNoFolder": "Lūdzu izvēlieties mapi pirms augšupielādes.",
 	"uploadNoPerms": "Failus augšupielāde nav atļauta.",
 	"uploadUnknError": "Kļūda nosūtot failu.",
 	"uploadExtIncorrect": "Faila paplašinājums nav atļauts šajā mapē.",
-	"uploadLabel": {
-		"uploadSelect": "Izvēlieties failus ko augšupielādēt",
-		"uploadProgress": "Notiek ielāde...",
-		"uploadOk": "Augšupielādē pabeigta!",
-		"uploadError": "Augšupielāde beidzās ar kļūdām."
-	},
 	"uploadSend": "Augšupielādēt",
 	"uploadAddFiles": "Pievienot failus",
 	"uploadSummary": "Augšupielādēti failu: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 fails",
 	"filesCountMany": "{count} faili",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Nebija iespējams pabeigt pieprasījumu. (Kļūda {number})",
+	"showMore": "Rādīt vairāk",
+	"uploadLabel": {
+		"uploadSelect": "Izvēlieties failus ko augšupielādēt",
+		"uploadProgress": "Notiek ielāde...",
+		"uploadOk": "Augšupielādē pabeigta!",
+		"uploadError": "Augšupielāde beidzās ar kļūdām."
+	},
+	"operations": {
+		"copyFiles": "[MISSING]Copy Files",
+		"moveFiles": "[MISSING]Move Files"
+	},
+	"maximize": {
+		"maximize": "Maksimizēt",
+		"minimize": "Minimizēt"
+	},
 	"errors": {
 		"10": "Nederīga komanda.",
 		"11": "Resursa veids netika norādīts pieprasījumā.",
@@ -147,122 +157,108 @@
 		"501": "Sīkbilžu atbalsts ir atslēgts."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Faila nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Mapes nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: {disallowedCharacters}",
-		"missingFolder": "Mape, kuru mēģiniet atvērt, vairs neeksistē.",
-		"missingFile": "Pieprasītais fails vairs nav pieejams."
-	},
-	"fileeditor": {
-		"contextMenuName": "Labot"
-	},
-	"maximize": {
-		"maximize": "Maksimizēt",
-		"minimize": "Minimizēt"
-	},
-	"filter": {
-		"filterPlaceholder": "Filtrs"
+		"missingFile": "Pieprasītais fails vairs nav pieejams.",
+		"missingFolder": "Mape, kuru mēģiniet atvērt, vairs neeksistē."
 	},
 	"editImage": {
-		"apply": "Lietot",
 		"adjust": "Pielāgot",
+		"apply": "Lietot",
+		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
 		"crop": "Apgriezt",
+		"downloadAction": "Ielādēju oriģinālo attēlu.",
+		"keepAspectRatio": "Saglabāt proporciju",
+		"loading": "Ielādē attēlu",
 		"presets": "Sagataves",
+		"reset": "Atcelt",
 		"resize": "Mērogot",
 		"rotate": "Rotēt",
-		"keepAspectRatio": "Saglabāt proporciju",
-		"rotateClockwise": "90&deg; pa labi",
 		"rotateAntiClockwise": "90&deg; pa kreisi",
+		"rotateClockwise": "90&deg; pa labi",
+		"save": "Saglabāt",
+		"saveDialogFileExists": "Fails ar šādu nosaukumu jau eksistē šajā mapē.",
+		"saveDialogOverwrite": "Pārrakstīt failam",
+		"saveDialogSaveAs": "Saglabāt kā:",
+		"saveDialogTitle": "Saglabāt izmaiņas",
+		"title": "Labot attēlu",
+		"transformationAction": "Pielietoju transformācijas.",
+		"uploadAction": "Augšupielādēju laboto attēlu.",
 		"filters": {
 			"brightness": "Gaišums",
-			"contrast": "Kontrasts",
-			"saturation": "Piesātinājums",
-			"vibrance": "Dzīvīgums",
-			"exposure": "Ekspozīcija",
-			"hue": "Nokrāsa",
-			"sepia": "Sēpija",
-			"gamma": "Gamma",
-			"noise": "Troksnis",
 			"clip": "Klips",
+			"contrast": "Kontrasts",
+			"exposure": "Ekspozīcija",
+			"gamma": "Gamma",
+			"hue": "Nokrāsa",
+			"noise": "Troksnis",
+			"saturation": "Piesātinājums",
+			"sepia": "Sēpija",
 			"sharpen": "Asums",
-			"stackBlur": "Miglojums"
+			"stackBlur": "Miglojums",
+			"vibrance": "Dzīvīgums"
 		},
 		"preset": {
 			"clarity": "Skaidrums",
-			"pinhole": "Adatas caurums",
-			"love": "Mīlestība",
-			"jarques": "Jarques",
-			"orangePeel": "Apelsīna miza",
-			"sinCity": "Grēku pilsēta",
-			"grungy": "Grungy",
-			"oldBoot": "Vecs zābaks",
-			"lomo": "Lomo",
-			"vintage": "Vintāža",
-			"crossProcess": "Krustu process",
 			"concentrate": "Koncentrāts",
+			"crossProcess": "Krustu process",
 			"glowingSun": "Spīdoša saule",
-			"sunrise": "Saullēkts",
-			"nostalgia": "Nostaļģija",
+			"grungy": "Grungy",
+			"hazyDays": "Dūmakains dienas",
 			"hemingway": "Hemingvejs",
 			"herMajesty": "Jūsu augstība",
-			"hazyDays": "Dūmakains dienas"
-		},
-		"downloadAction": "Ielādēju oriģinālo attēlu.",
-		"transformationAction": "Pielietoju transformācijas.",
-		"uploadAction": "Augšupielādēju laboto attēlu.",
-		"saveDialogTitle": "Saglabāt izmaiņas",
-		"saveDialogOverwrite": "Pārrakstīt failam",
-		"saveDialogSaveAs": "Saglabāt kā:",
-		"saveDialogFileExists": "Fails ar šādu nosaukumu jau eksistē šajā mapē.",
-		"reset": "Atcelt",
-		"title": "Labot attēlu",
-		"save": "Saglabāt",
-		"loading": "Ielādē attēlu",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Mīlestība",
+			"nostalgia": "Nostaļģija",
+			"oldBoot": "Vecs zābaks",
+			"orangePeel": "Apelsīna miza",
+			"pinhole": "Adatas caurums",
+			"sinCity": "Grēku pilsēta",
+			"sunrise": "Saullēkts",
+			"vintage": "Vintāža"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Mazs",
-		"medium": "Vidējs",
+		"custom": "Norādīts",
 		"large": "Liels",
 		"max": "Maksimāls",
-		"custom": "Norādīts"
+		"medium": "Vidējs",
+		"small": "Mazs"
 	},
-	"showMore": "Rādīt vairāk",
 	"shortcuts": {
 		"title": "[MISSING]Keyboard Shortcuts",
 		"general": {
-			"title": "[MISSING]General Interface",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"showContextMenu": "[MISSING]Open context menu",
-			"closeButton": "[MISSING]Close",
-			"listShortcuts": "[MISSING]Open this help dialog",
 			"action": "[MISSING]Execute default action",
-			"focusNext": "[MISSING]Focus next pane",
-			"previousItem": "[MISSING]Go to previous item",
-			"nextItem": "[MISSING]Go to next item",
 			"firstItem": "[MISSING]Go to first item",
-			"lastItem": "[MISSING]Go to last item"
+			"focusFilesPane": "[MISSING]Focus files pane",
+			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
+			"focusNext": "[MISSING]Focus next pane",
+			"focusToolbar": "[MISSING]Focus toolbar",
+			"lastItem": "[MISSING]Go to last item",
+			"listShortcuts": "[MISSING]Open this help dialog",
+			"nextItem": "[MISSING]Go to next item",
+			"previousItem": "[MISSING]Go to previous item",
+			"showContextMenu": "[MISSING]Open context menu",
+			"title": "[MISSING]General Interface"
 		},
 		"files": {
-			"title": "[MISSING]Files Pane",
-			"delete": "[MISSING]Delete file(s)",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)",
-			"refresh": "[MISSING]Refresh files",
+			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
+			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
 			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
 			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection"
+			"delete": "[MISSING]Delete file(s)",
+			"refresh": "[MISSING]Refresh files",
+			"rename": "[MISSING]Rename file",
+			"selectAll": "[MISSING]Select all files",
+			"upload": "[MISSING]Upload file(s)"
 		},
 		"folders": {
-			"title": "[MISSING]Folders Pane",
+			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
 			"delete": "[MISSING]Delete folder",
-			"rename": "[MISSING]Rename folder",
 			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder"
+			"title": "[MISSING]Folders Pane"
 		},
 		"keys": {
 			"ctrl": "[MISSING]Control",
@@ -282,10 +278,5 @@
 			"home": "[MISSING]home",
 			"shift": "[MISSING]shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "[MISSING]Rename Folder",
-		"copyFiles": "[MISSING]Copy Files",
-		"moveFiles": "[MISSING]Move Files"
 	}
 }

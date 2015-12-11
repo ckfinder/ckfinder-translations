@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "취소",
-		"messageTitle": "정보",
-		"skip": "건너뛰기",
-		"rememberDecision": "내 선택 기억"
-	},
 	"dir": "ltr",
 	"langCode": "ko",
 	"dateTime": "yyyy/m/d aa h:MM",
@@ -13,9 +7,23 @@
 		"오전",
 		"오후"
 	],
-	"abort": "중단",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/초",
+	"common": {
+		"abort": "중단",
+		"cancel": "취소",
+		"close": "닫기",
+		"messageTitle": "정보",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "내 선택 기억",
+		"skip": "건너뛰기"
+	},
+	"edit": "수정",
 	"folderNew": "새로운 폴더 이름을 입력해 주십시오: ",
-	"folderRename": "새로운 폴더 이름을 입력해 주십시오: ",
+	"folderRenameLabel": "새로운 폴더 이름을 입력해 주십시오: ",
+	"folderRenameTitle": "폴더 이름 바꾸기",
 	"folderDelete": "정말 \"{name}\" 폴더를 삭제하시겠습니까?",
 	"destinationFolder": "목적지 폴더",
 	"filesPane": "파일 판",
@@ -36,6 +44,7 @@
 		"title": "아무것도 찾지 못하였습니다.",
 		"text": "다른 검색어를 사용해 주십시오."
 	},
+	"filterPlaceholder": "필터",
 	"filesRefresh": "파일 새로고침",
 	"operationCompletedErrors": "오류와 함께 작업을 마쳤습니다.",
 	"moveToolbarButton": "이동",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "새로운 이름",
 	"fileOverwrite": "덮어쓰기",
 	"fileAutorename": "자동 이름변경",
-	"okBtn": "확인",
-	"cancelBtn": "취소",
-	"closeBtn": "닫기",
 	"uploadSelectLbl": "업로드할 파일을 선택해 주십시오",
 	"uploadProgressLbl": "(업로드가 진행 중입니다. {pleaseWait})",
-	"uploadBtnCancel": "취소",
 	"uploadNoFolder": "업로드를 하기전에 폴더를 선택해 주십시오.",
 	"uploadNoPerms": "파일 업로드가 허용되지 않습니다.",
 	"uploadUnknError": "파일 전송 중 오류.",
 	"uploadExtIncorrect": "이 폴더에서는 해당 파일 확장자가 허용되지 않습니다.",
-	"uploadLabel": {
-		"uploadSelect": "업로드할 파일을 선택해 주십시오",
-		"uploadProgress": "업로드 중...",
-		"uploadOk": "업로드 완료!",
-		"uploadError": "오류와 함께 업로드가 완료되었습니다."
-	},
 	"uploadSend": "업로드",
 	"uploadAddFiles": "파일 추가",
 	"uploadSummary": "업로드된 파일: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 파일",
 	"filesCountMany": "{count} 파일들",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/초",
 	"pixelShort": "px",
 	"errorUnknown": "요청을 완료할 수 없었습니다. (오류 {number})",
+	"showMore": "더보기",
+	"uploadLabel": {
+		"uploadSelect": "업로드할 파일을 선택해 주십시오",
+		"uploadProgress": "업로드 중...",
+		"uploadOk": "업로드 완료!",
+		"uploadError": "오류와 함께 업로드가 완료되었습니다."
+	},
+	"operations": {
+		"copyFiles": "파일 복사",
+		"moveFiles": "파일 이동"
+	},
+	"maximize": {
+		"maximize": "최대화",
+		"minimize": "최소화"
+	},
 	"errors": {
 		"10": "올바르지 않은 명령.",
 		"11": "요청에서 리소스 유형이 특정되지 않았습니다.",
@@ -147,122 +157,108 @@
 		"501": "미리 보기 지원이 비활성화 되어 있습니다."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "파일 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "폴더 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: {disallowedCharacters}",
-		"missingFolder": "도달하려는 폴더에 더이상 접근할 수 없습니다.",
-		"missingFile": "요청한 파일에 더이상 접근할 수 없습니다."
-	},
-	"fileeditor": {
-		"contextMenuName": "수정"
-	},
-	"maximize": {
-		"maximize": "최대화",
-		"minimize": "최소화"
-	},
-	"filter": {
-		"filterPlaceholder": "필터"
+		"missingFile": "요청한 파일에 더이상 접근할 수 없습니다.",
+		"missingFolder": "도달하려는 폴더에 더이상 접근할 수 없습니다."
 	},
 	"editImage": {
-		"apply": "적용",
 		"adjust": "조절",
+		"apply": "적용",
+		"confirmExit": "정말 닫으시겠습니까? 저장되지 않은 이미지 수정 사항이 있습니다.",
 		"crop": "자르기",
+		"downloadAction": "원본 이미지 다운로드 중.",
+		"keepAspectRatio": "화면 비율 유지",
+		"loading": "이미지 로딩 중",
 		"presets": "사전값",
+		"reset": "초기화",
 		"resize": "크기변경",
 		"rotate": "회전",
-		"keepAspectRatio": "화면 비율 유지",
-		"rotateClockwise": "오른쪽으로 90&deg;",
 		"rotateAntiClockwise": "왼쪽으로 90&deg;",
+		"rotateClockwise": "오른쪽으로 90&deg;",
+		"save": "저장",
+		"saveDialogFileExists": "같은 이름의 파일이 폴더내에 존재합니다.",
+		"saveDialogOverwrite": "파일 덮어쓰기",
+		"saveDialogSaveAs": "다음으로 저장:",
+		"saveDialogTitle": "바뀐사항 저장",
+		"title": "이미지 수정",
+		"transformationAction": "변환 적용 중.",
+		"uploadAction": "수정된 이미지 업로드 중.",
 		"filters": {
 			"brightness": "밝기",
-			"contrast": "명암",
-			"saturation": "채도",
-			"vibrance": "활기",
-			"exposure": "노출",
-			"hue": "색조",
-			"sepia": "세피아",
-			"gamma": "감마",
-			"noise": "노이즈",
 			"clip": "클리핑",
+			"contrast": "명암",
+			"exposure": "노출",
+			"gamma": "감마",
+			"hue": "색조",
+			"noise": "노이즈",
+			"saturation": "채도",
+			"sepia": "세피아",
 			"sharpen": "선명도",
-			"stackBlur": "흐리게"
+			"stackBlur": "흐리게",
+			"vibrance": "활기"
 		},
 		"preset": {
 			"clarity": "선명하게",
-			"pinhole": "바늘구멍",
-			"love": "사랑",
-			"jarques": "쟈크 필터",
-			"orangePeel": "오렌지 껍질",
-			"sinCity": "씬시티",
-			"grungy": "그런지",
-			"oldBoot": "낡은 장화",
-			"lomo": "로모",
-			"vintage": "빈티지",
-			"crossProcess": "크로스 프로세스",
 			"concentrate": "정광",
+			"crossProcess": "크로스 프로세스",
 			"glowingSun": "은은한 햇살",
-			"sunrise": "해돋이",
-			"nostalgia": "향수",
+			"grungy": "그런지",
+			"hazyDays": "흐린 날",
 			"hemingway": "헤밍웨이",
 			"herMajesty": "여왕 폐하",
-			"hazyDays": "흐린 날"
-		},
-		"downloadAction": "원본 이미지 다운로드 중.",
-		"transformationAction": "변환 적용 중.",
-		"uploadAction": "수정된 이미지 업로드 중.",
-		"saveDialogTitle": "바뀐사항 저장",
-		"saveDialogOverwrite": "파일 덮어쓰기",
-		"saveDialogSaveAs": "다음으로 저장:",
-		"saveDialogFileExists": "같은 이름의 파일이 폴더내에 존재합니다.",
-		"reset": "초기화",
-		"title": "이미지 수정",
-		"save": "저장",
-		"loading": "이미지 로딩 중",
-		"confirmExit": "정말 닫으시겠습니까? 저장되지 않은 이미지 수정 사항이 있습니다."
+			"jarques": "쟈크 필터",
+			"lomo": "로모",
+			"love": "사랑",
+			"nostalgia": "향수",
+			"oldBoot": "낡은 장화",
+			"orangePeel": "오렌지 껍질",
+			"pinhole": "바늘구멍",
+			"sinCity": "씬시티",
+			"sunrise": "해돋이",
+			"vintage": "빈티지"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "작음",
-		"medium": "보통",
+		"custom": "사용자 정의",
 		"large": "큼",
 		"max": "최대",
-		"custom": "사용자 정의"
+		"medium": "보통",
+		"small": "작음"
 	},
-	"showMore": "더보기",
 	"shortcuts": {
 		"title": "키보드 단축키",
 		"general": {
-			"title": "일반 인터페이스",
-			"focusToolbar": "툴바 보기",
-			"focusFoldersPane": "폴더 판 또는 빵가루 보기",
-			"focusFilesPane": "파일 판 보기",
-			"showContextMenu": "대화 상자 열기",
-			"closeButton": "닫기",
-			"listShortcuts": "이 도움말 상자 열기",
 			"action": "기본 동작 실행",
-			"focusNext": "다음 판 보기",
-			"previousItem": "이전 항목으로 이동",
-			"nextItem": "다음 항목으로 이동",
 			"firstItem": "첫 항목으로 이동",
-			"lastItem": "마지막 항목으로 이동"
+			"focusFilesPane": "파일 판 보기",
+			"focusFoldersPane": "폴더 판 또는 빵가루 보기",
+			"focusNext": "다음 판 보기",
+			"focusToolbar": "툴바 보기",
+			"lastItem": "마지막 항목으로 이동",
+			"listShortcuts": "이 도움말 상자 열기",
+			"nextItem": "다음 항목으로 이동",
+			"previousItem": "이전 항목으로 이동",
+			"showContextMenu": "대화 상자 열기",
+			"title": "일반 인터페이스"
 		},
 		"files": {
-			"title": "파일 판",
-			"delete": "파일 삭제",
-			"rename": "파일 이름 바꾸기",
-			"selectAll": "전체 파일 선택",
-			"upload": "파일 업로드",
-			"refresh": "파일 새로고침",
+			"addToSelectionAbove": "위쪽 파일을 추가하거나 제거하여 선택",
+			"addToSelectionBelow": "아래쪽 파일을 추가하거나 제거하여 선택",
 			"addToSelectionLeft": "왼쪽에 파일을 추가하거나 제거하여 선택",
 			"addToSelectionRight": "오른쪽에 파일을 추가하거나 제거하여 선택",
-			"addToSelectionAbove": "위쪽 파일을 추가하거나 제거하여 선택",
-			"addToSelectionBelow": "아래쪽 파일을 추가하거나 제거하여 선택"
+			"delete": "파일 삭제",
+			"refresh": "파일 새로고침",
+			"rename": "파일 이름 바꾸기",
+			"selectAll": "전체 파일 선택",
+			"upload": "파일 업로드"
 		},
 		"folders": {
-			"title": "폴더 판",
+			"collapseOrParent": "폴더 줄이기 / 상위 폴더로 이동",
 			"delete": "폴더 삭제",
-			"rename": "폴더 이름 바꾸기",
 			"expandOrSubfolder": "폴더 펼치기 / 첫 하위 폴더로 이동",
-			"collapseOrParent": "폴더 줄이기 / 상위 폴더로 이동"
+			"title": "폴더 판"
 		},
 		"keys": {
 			"ctrl": "Ctrl 키",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "폴더 이름 바꾸기",
-		"copyFiles": "파일 복사",
-		"moveFiles": "파일 이동"
 	}
 }

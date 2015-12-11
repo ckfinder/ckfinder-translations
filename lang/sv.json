@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Avbryt",
-		"messageTitle": "Information",
-		"skip": "Hoppa över",
-		"rememberDecision": "Kom ihåg mitt val"
-	},
 	"dir": "ltr",
 	"langCode": "sv",
 	"dateTime": "yyyy-mm-dd HH:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "[MISSING]Abort",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "[MISSING]Abort",
+		"cancel": "Avbryt",
+		"close": "Stäng",
+		"messageTitle": "Information",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Kom ihåg mitt val",
+		"skip": "Hoppa över"
+	},
+	"edit": "Redigera",
 	"folderNew": "Skriv namnet på den nya mappen: ",
-	"folderRename": "Skriv det nya namnet på mappen: ",
+	"folderRenameLabel": "Skriv det nya namnet på mappen: ",
+	"folderRenameTitle": "[MISSING]Rename Folder",
 	"folderDelete": "Är du säker på att du vill radera mappen \"{name}\"?",
 	"destinationFolder": "Målmapp",
 	"filesPane": "[MISSING]Files pane",
@@ -36,6 +44,7 @@
 		"title": "Hittade inget.",
 		"text": "[MISSING]Please try using different search criteria."
 	},
+	"filterPlaceholder": "[MISSING]Filter",
 	"filesRefresh": "[MISSING]Refreshing files",
 	"operationCompletedErrors": "[MISSING]Operation completed with errors.",
 	"moveToolbarButton": "Flytta",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Nytt namn",
 	"fileOverwrite": "Skriv över",
 	"fileAutorename": "Auto-namnändring",
-	"okBtn": "OK",
-	"cancelBtn": "Avbryt",
-	"closeBtn": "Stäng",
 	"uploadSelectLbl": "Välj fil att ladda upp",
 	"uploadProgressLbl": "(Laddar upp filen. {pleaseWait})",
-	"uploadBtnCancel": "Avbryt",
 	"uploadNoFolder": "Välj en mapp före uppladdning.",
 	"uploadNoPerms": "Filuppladdning ej tillåten.",
 	"uploadUnknError": "Fel vid filuppladdning.",
 	"uploadExtIncorrect": "Filändelsen är inte tillåten i denna mapp.",
-	"uploadLabel": {
-		"uploadSelect": "Välj filer att ladda upp",
-		"uploadProgress": "Laddar upp...",
-		"uploadOk": "Uppladdning klar!",
-		"uploadError": "Uppladdning blev klar med fel."
-	},
 	"uploadSend": "Ladda upp",
 	"uploadAddFiles": "Lägg till filer",
 	"uploadSummary": "[MISSING]Uploaded files: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 fil",
 	"filesCountMany": "{count} filer",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "[MISSING]px",
 	"errorUnknown": "Begäran kunde inte utföras eftersom ett fel uppstod. (Fel {number})",
+	"showMore": "Visa mer",
+	"uploadLabel": {
+		"uploadSelect": "Välj filer att ladda upp",
+		"uploadProgress": "Laddar upp...",
+		"uploadOk": "Uppladdning klar!",
+		"uploadError": "Uppladdning blev klar med fel."
+	},
+	"operations": {
+		"copyFiles": "[MISSING]Copy Files",
+		"moveFiles": "[MISSING]Move Files"
+	},
+	"maximize": {
+		"maximize": "Maximera",
+		"minimize": "Minimera"
+	},
 	"errors": {
 		"10": "Ogiltig begäran.",
 		"11": "Resursens typ var inte specificerad i förfrågan.",
@@ -147,122 +157,108 @@
 		"501": "Stöd för tumnaglar har stängts av."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Filnamnet får inte innehålla något av följande tecken: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Mappens namn får inte innehålla något av följande tecken: {disallowedCharacters}",
-		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
-		"missingFile": "Den begärda filen är inte längre tillgänglig."
-	},
-	"fileeditor": {
-		"contextMenuName": "Redigera"
-	},
-	"maximize": {
-		"maximize": "Maximera",
-		"minimize": "Minimera"
-	},
-	"filter": {
-		"filterPlaceholder": "[MISSING]Filter"
+		"missingFile": "Den begärda filen är inte längre tillgänglig.",
+		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available."
 	},
 	"editImage": {
-		"apply": "[MISSING]Apply",
 		"adjust": "Justera",
+		"apply": "[MISSING]Apply",
+		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
 		"crop": "Beskär",
+		"downloadAction": "Laddar ner originalbilden.",
+		"keepAspectRatio": "Behåll förhållande",
+		"loading": "Laddar bild",
 		"presets": "[MISSING]Presets",
+		"reset": "[MISSING]Reset",
 		"resize": "[MISSING]Resize",
 		"rotate": "Rotera",
-		"keepAspectRatio": "Behåll förhållande",
-		"rotateClockwise": "90&deg; höger",
 		"rotateAntiClockwise": "90&deg; vänster",
+		"rotateClockwise": "90&deg; höger",
+		"save": "Spara",
+		"saveDialogFileExists": "En fil med samma namn finns redan i mappen.",
+		"saveDialogOverwrite": "Skriv över fil",
+		"saveDialogSaveAs": "Spara som:",
+		"saveDialogTitle": "Spara ändringar",
+		"title": "Redigera bild",
+		"transformationAction": "[MISSING]Applying transformations.",
+		"uploadAction": "Laddar upp redigerad bild.",
 		"filters": {
 			"brightness": "Ljus",
-			"contrast": "Kontrast",
-			"saturation": "Mättnad",
-			"vibrance": "[MISSING]Vibrance",
-			"exposure": "[MISSING]Exposure",
-			"hue": "[MISSING]Hue",
-			"sepia": "[MISSING]Sepia",
-			"gamma": "[MISSING]Gamma",
-			"noise": "[MISSING]Noise",
 			"clip": "[MISSING]Clip",
+			"contrast": "Kontrast",
+			"exposure": "[MISSING]Exposure",
+			"gamma": "[MISSING]Gamma",
+			"hue": "[MISSING]Hue",
+			"noise": "[MISSING]Noise",
+			"saturation": "Mättnad",
+			"sepia": "[MISSING]Sepia",
 			"sharpen": "[MISSING]Sharpen",
-			"stackBlur": "[MISSING]Blur"
+			"stackBlur": "[MISSING]Blur",
+			"vibrance": "[MISSING]Vibrance"
 		},
 		"preset": {
 			"clarity": "[MISSING]Clarity",
-			"pinhole": "[MISSING]Pinhole",
-			"love": "[MISSING]Love",
-			"jarques": "[MISSING]Jarques",
-			"orangePeel": "[MISSING]Orange Peel",
-			"sinCity": "[MISSING]Sin City",
-			"grungy": "[MISSING]Grungy",
-			"oldBoot": "[MISSING]Old Boot",
-			"lomo": "[MISSING]Lomo",
-			"vintage": "[MISSING]Vintage",
-			"crossProcess": "[MISSING]Cross Process",
 			"concentrate": "[MISSING]Concentrate",
+			"crossProcess": "[MISSING]Cross Process",
 			"glowingSun": "[MISSING]Glowing Sun",
-			"sunrise": "[MISSING]Sunrise",
-			"nostalgia": "[MISSING]Nostalgia",
+			"grungy": "[MISSING]Grungy",
+			"hazyDays": "[MISSING]Hazy Days",
 			"hemingway": "[MISSING]Hemingway",
 			"herMajesty": "[MISSING]Her Majesty",
-			"hazyDays": "[MISSING]Hazy Days"
-		},
-		"downloadAction": "Laddar ner originalbilden.",
-		"transformationAction": "[MISSING]Applying transformations.",
-		"uploadAction": "Laddar upp redigerad bild.",
-		"saveDialogTitle": "Spara ändringar",
-		"saveDialogOverwrite": "Skriv över fil",
-		"saveDialogSaveAs": "Spara som:",
-		"saveDialogFileExists": "En fil med samma namn finns redan i mappen.",
-		"reset": "[MISSING]Reset",
-		"title": "Redigera bild",
-		"save": "Spara",
-		"loading": "Laddar bild",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image."
+			"jarques": "[MISSING]Jarques",
+			"lomo": "[MISSING]Lomo",
+			"love": "[MISSING]Love",
+			"nostalgia": "[MISSING]Nostalgia",
+			"oldBoot": "[MISSING]Old Boot",
+			"orangePeel": "[MISSING]Orange Peel",
+			"pinhole": "[MISSING]Pinhole",
+			"sinCity": "[MISSING]Sin City",
+			"sunrise": "[MISSING]Sunrise",
+			"vintage": "[MISSING]Vintage"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Liten",
-		"medium": "[MISSING]Medium",
+		"custom": "Eget val",
 		"large": "Stor",
 		"max": "[MISSING]Max",
-		"custom": "Eget val"
+		"medium": "[MISSING]Medium",
+		"small": "Liten"
 	},
-	"showMore": "Visa mer",
 	"shortcuts": {
 		"title": "[MISSING]Keyboard Shortcuts",
 		"general": {
-			"title": "[MISSING]General Interface",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"showContextMenu": "[MISSING]Open context menu",
-			"closeButton": "[MISSING]Close",
-			"listShortcuts": "[MISSING]Open this help dialog",
 			"action": "[MISSING]Execute default action",
-			"focusNext": "[MISSING]Focus next pane",
-			"previousItem": "[MISSING]Go to previous item",
-			"nextItem": "[MISSING]Go to next item",
 			"firstItem": "[MISSING]Go to first item",
-			"lastItem": "[MISSING]Go to last item"
+			"focusFilesPane": "[MISSING]Focus files pane",
+			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
+			"focusNext": "[MISSING]Focus next pane",
+			"focusToolbar": "[MISSING]Focus toolbar",
+			"lastItem": "[MISSING]Go to last item",
+			"listShortcuts": "[MISSING]Open this help dialog",
+			"nextItem": "[MISSING]Go to next item",
+			"previousItem": "[MISSING]Go to previous item",
+			"showContextMenu": "[MISSING]Open context menu",
+			"title": "[MISSING]General Interface"
 		},
 		"files": {
-			"title": "[MISSING]Files Pane",
-			"delete": "[MISSING]Delete file(s)",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)",
-			"refresh": "[MISSING]Refresh files",
+			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
+			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
 			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
 			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection"
+			"delete": "[MISSING]Delete file(s)",
+			"refresh": "[MISSING]Refresh files",
+			"rename": "[MISSING]Rename file",
+			"selectAll": "[MISSING]Select all files",
+			"upload": "[MISSING]Upload file(s)"
 		},
 		"folders": {
-			"title": "[MISSING]Folders Pane",
+			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
 			"delete": "[MISSING]Delete folder",
-			"rename": "[MISSING]Rename folder",
 			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder"
+			"title": "[MISSING]Folders Pane"
 		},
 		"keys": {
 			"ctrl": "[MISSING]Control",
@@ -282,10 +278,5 @@
 			"home": "[MISSING]home",
 			"shift": "[MISSING]shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "[MISSING]Rename Folder",
-		"copyFiles": "[MISSING]Copy Files",
-		"moveFiles": "[MISSING]Move Files"
 	}
 }

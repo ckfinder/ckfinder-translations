@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Anuluj",
-		"messageTitle": "Informacja",
-		"skip": "Pomiń",
-		"rememberDecision": "Zapamiętaj mój wybór"
-	},
 	"dir": "ltr",
 	"langCode": "pl",
 	"dateTime": "yyyy-mm-dd HH:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Przerwij",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Przerwij",
+		"cancel": "Anuluj",
+		"close": "Zamknij",
+		"messageTitle": "Informacja",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Zapamiętaj mój wybór",
+		"skip": "Pomiń"
+	},
+	"edit": "Edytuj",
 	"folderNew": "Podaj nazwę nowego folderu: ",
-	"folderRename": "Podaj nową nazwę folderu: ",
+	"folderRenameLabel": "Podaj nową nazwę folderu: ",
+	"folderRenameTitle": "Zmień nazwę folderu",
 	"folderDelete": "Czy na pewno chcesz usunąć folder \"{name}\"?",
 	"destinationFolder": "Folder docelowy",
 	"filesPane": "Panel plików",
@@ -36,6 +44,7 @@
 		"title": "Nic nie znaleziono.",
 		"text": "Spróbuj podać inne parametry wyszukiwania."
 	},
+	"filterPlaceholder": "Filtruj",
 	"filesRefresh": "Odświeżanie plików",
 	"operationCompletedErrors": "Operacja zakończyła się błędem.",
 	"moveToolbarButton": "Przenieś",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Nowa nazwa",
 	"fileOverwrite": "Nadpisz",
 	"fileAutorename": "Zmień automatycznie nazwę",
-	"okBtn": "OK",
-	"cancelBtn": "Anuluj",
-	"closeBtn": "Zamknij",
 	"uploadSelectLbl": "Wybierz plik",
 	"uploadProgressLbl": "(Trwa wysyłanie pliku. {pleaseWait})",
-	"uploadBtnCancel": "Anuluj",
 	"uploadNoFolder": "Wybierz folder przed wysłaniem pliku.",
 	"uploadNoPerms": "Wysyłanie plików nie jest dozwolone.",
 	"uploadUnknError": "Błąd podczas wysyłania pliku.",
 	"uploadExtIncorrect": "Rozszerzenie pliku nie jest dozwolone w tym folderze.",
-	"uploadLabel": {
-		"uploadSelect": "Wybierz pliki do wysłania",
-		"uploadProgress": "Wysyłanie...",
-		"uploadOk": "Wysyłanie zakończone!",
-		"uploadError": "Wysyłanie zakończone z błędami."
-	},
 	"uploadSend": "Wyślij",
 	"uploadAddFiles": "Dodaj pliki",
 	"uploadSummary": "Wysłano plików: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 plik",
 	"filesCountMany": "Liczba plików: {count}",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Wykonanie operacji zakończyło się niepowodzeniem. (Błąd {number})",
+	"showMore": "Pokaż więcej",
+	"uploadLabel": {
+		"uploadSelect": "Wybierz pliki do wysłania",
+		"uploadProgress": "Wysyłanie...",
+		"uploadOk": "Wysyłanie zakończone!",
+		"uploadError": "Wysyłanie zakończone z błędami."
+	},
+	"operations": {
+		"copyFiles": "Skopiuj pliki",
+		"moveFiles": "Przenieś pliki"
+	},
+	"maximize": {
+		"maximize": "Maksymalizuj",
+		"minimize": "Minimalizuj"
+	},
 	"errors": {
 		"10": "Nieprawidłowe polecenie (command).",
 		"11": "Brak wymaganego parametru: typ danych (resource type).",
@@ -147,122 +157,108 @@
 		"501": "Tworzenie miniatur jest wyłączone."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "Nazwa pliku nie może być pusta.",
 		"fileInvChar": "Nazwa pliku nie może zawierać żadnego z podanych znaków: {disallowedCharacters}",
+		"fileNameNotEmpty": "Nazwa pliku nie może być pusta.",
 		"folderInvChar": "Nazwa folderu nie może zawierać żadnego z podanych znaków: {disallowedCharacters}",
-		"missingFolder": "Folder, do którego dostęp próbujesz uzyskać, jest już niedostępny.",
-		"missingFile": "Żądany plik jest już niedostępny."
-	},
-	"fileeditor": {
-		"contextMenuName": "Edytuj"
-	},
-	"maximize": {
-		"maximize": "Maksymalizuj",
-		"minimize": "Minimalizuj"
-	},
-	"filter": {
-		"filterPlaceholder": "Filtruj"
+		"missingFile": "Żądany plik jest już niedostępny.",
+		"missingFolder": "Folder, do którego dostęp próbujesz uzyskać, jest już niedostępny."
 	},
 	"editImage": {
-		"apply": "Zastosuj",
 		"adjust": "Dostosuj",
+		"apply": "Zastosuj",
+		"confirmExit": "Czy jesteś pewien, że chcesz zamknąć okno? Obrazek ma niezapisane zmiany.",
 		"crop": "Kadrowanie",
+		"downloadAction": "Pobierz oryginalny obrazek.",
+		"keepAspectRatio": "Zachowaj proporcje",
+		"loading": "Ładowanie obrazka",
 		"presets": "Predefiniowane opcje",
+		"reset": "Resetuj",
 		"resize": "Zmień rozmiar",
 		"rotate": "Obróć",
-		"keepAspectRatio": "Zachowaj proporcje",
-		"rotateClockwise": "90&deg; w prawo",
 		"rotateAntiClockwise": "90&deg; w lewo",
+		"rotateClockwise": "90&deg; w prawo",
+		"save": "Zapisz",
+		"saveDialogFileExists": "Plik o tej nazwie już istnieje w folderze.",
+		"saveDialogOverwrite": "Nadpisać plik?",
+		"saveDialogSaveAs": "Zapisz jako:",
+		"saveDialogTitle": "Zapisz zmiany",
+		"title": "Edytuj obrazek",
+		"transformationAction": "Aplikowanie transformacji.",
+		"uploadAction": "Wysyłanie zedytowanego obrazka.",
 		"filters": {
 			"brightness": "Jasność",
-			"contrast": "Kontrast",
-			"saturation": "Nasycenie",
-			"vibrance": "Vibrance",
-			"exposure": "Ekspozycja",
-			"hue": "Barwa",
-			"sepia": "Sepia",
-			"gamma": "Gamma",
-			"noise": "Szum",
 			"clip": "Przytnij",
+			"contrast": "Kontrast",
+			"exposure": "Ekspozycja",
+			"gamma": "Gamma",
+			"hue": "Barwa",
+			"noise": "Szum",
+			"saturation": "Nasycenie",
+			"sepia": "Sepia",
 			"sharpen": "Wyostrz",
-			"stackBlur": "Rozmyj"
+			"stackBlur": "Rozmyj",
+			"vibrance": "Vibrance"
 		},
 		"preset": {
 			"clarity": "Przejrzystość",
-			"pinhole": "Kamera otworkowa",
-			"love": "Miłość",
-			"jarques": "Jarques",
-			"orangePeel": "Skórka pomarańczowa",
-			"sinCity": "Sin City",
-			"grungy": "Grungy",
-			"oldBoot": "Stary but",
-			"lomo": "Lomo",
-			"vintage": "Vintage",
-			"crossProcess": "Cross processing",
 			"concentrate": "Koncentracja",
+			"crossProcess": "Cross processing",
 			"glowingSun": "Promienne słońce",
-			"sunrise": "Wschód słońca",
-			"nostalgia": "Nostalgia",
+			"grungy": "Grungy",
+			"hazyDays": "Mgliste dni",
 			"hemingway": "Hemingway",
 			"herMajesty": "Jej Wysokość",
-			"hazyDays": "Mgliste dni"
-		},
-		"downloadAction": "Pobierz oryginalny obrazek.",
-		"transformationAction": "Aplikowanie transformacji.",
-		"uploadAction": "Wysyłanie zedytowanego obrazka.",
-		"saveDialogTitle": "Zapisz zmiany",
-		"saveDialogOverwrite": "Nadpisać plik?",
-		"saveDialogSaveAs": "Zapisz jako:",
-		"saveDialogFileExists": "Plik o tej nazwie już istnieje w folderze.",
-		"reset": "Resetuj",
-		"title": "Edytuj obrazek",
-		"save": "Zapisz",
-		"loading": "Ładowanie obrazka",
-		"confirmExit": "Czy jesteś pewien, że chcesz zamknąć okno? Obrazek ma niezapisane zmiany."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Miłość",
+			"nostalgia": "Nostalgia",
+			"oldBoot": "Stary but",
+			"orangePeel": "Skórka pomarańczowa",
+			"pinhole": "Kamera otworkowa",
+			"sinCity": "Sin City",
+			"sunrise": "Wschód słońca",
+			"vintage": "Vintage"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Mały",
-		"medium": "Średni",
+		"custom": "Własny",
 		"large": "Duży",
 		"max": "Maksymalny",
-		"custom": "Własny"
+		"medium": "Średni",
+		"small": "Mały"
 	},
-	"showMore": "Pokaż więcej",
 	"shortcuts": {
 		"title": "Skróty klawiaturowe",
 		"general": {
-			"title": "Interfejs użytkownika",
-			"focusToolbar": "Wybierz pasek narzędzi",
-			"focusFoldersPane": "Wybierz panel folderów lub ścieżkę folderów",
-			"focusFilesPane": "Wybierz panel plików",
-			"showContextMenu": "Otwórz menu kontekstowe",
-			"closeButton": "Zamknij",
-			"listShortcuts": "Otwórz to okno pomocy",
 			"action": "Wykonaj domyślne działanie",
-			"focusNext": "Wybierz następny panel",
-			"previousItem": "Przejdź do poprzedniego elementu",
-			"nextItem": "Przejdź do następnego elementu",
 			"firstItem": "Przejdź do pierwszego elementu",
-			"lastItem": "Przejdź do ostatniego elementu"
+			"focusFilesPane": "Wybierz panel plików",
+			"focusFoldersPane": "Wybierz panel folderów lub ścieżkę folderów",
+			"focusNext": "Wybierz następny panel",
+			"focusToolbar": "Wybierz pasek narzędzi",
+			"lastItem": "Przejdź do ostatniego elementu",
+			"listShortcuts": "Otwórz to okno pomocy",
+			"nextItem": "Przejdź do następnego elementu",
+			"previousItem": "Przejdź do poprzedniego elementu",
+			"showContextMenu": "Otwórz menu kontekstowe",
+			"title": "Interfejs użytkownika"
 		},
 		"files": {
-			"title": "Panel plików",
-			"delete": "Usuń plik(i)",
-			"rename": "Zmień nazwę pliku",
-			"selectAll": "Zaznacz wszystkie pliki",
-			"upload": "Prześlij plik(i)",
-			"refresh": "Odśwież pliki",
+			"addToSelectionAbove": "Dodaj lub usuń pliki wyżej do zaznaczenia",
+			"addToSelectionBelow": "Dodaj lub usuń pliki niżej do zaznaczenia",
 			"addToSelectionLeft": "Dodaj lub usuń plik po lewej do zaznaczenia",
 			"addToSelectionRight": "Dodaj lub usuń plik po prawej do zaznaczenia",
-			"addToSelectionAbove": "Dodaj lub usuń pliki wyżej do zaznaczenia",
-			"addToSelectionBelow": "Dodaj lub usuń pliki niżej do zaznaczenia"
+			"delete": "Usuń plik(i)",
+			"refresh": "Odśwież pliki",
+			"rename": "Zmień nazwę pliku",
+			"selectAll": "Zaznacz wszystkie pliki",
+			"upload": "Prześlij plik(i)"
 		},
 		"folders": {
-			"title": "Panel folderów",
+			"collapseOrParent": "Zwiń folder / Przejdź do podfolderu nadrzędnego",
 			"delete": "Usuń folder",
-			"rename": "Zmień nazwę folderu",
 			"expandOrSubfolder": "Rozwiń folder / Przejdź do pierwszego podfolderu",
-			"collapseOrParent": "Zwiń folder / Przejdź do podfolderu nadrzędnego"
+			"title": "Panel folderów"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Zmień nazwę folderu",
-		"copyFiles": "Skopiuj pliki",
-		"moveFiles": "Przenieś pliki"
 	}
 }

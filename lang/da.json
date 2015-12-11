@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Annullér",
-		"messageTitle": "Information",
-		"skip": "Spring over",
-		"rememberDecision": "Husk denne indstilling"
-	},
 	"dir": "ltr",
 	"langCode": "da",
 	"dateTime": "dd-mm-yyyy HH:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "[MISSING]Abort",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "[MISSING]Abort",
+		"cancel": "Annullér",
+		"close": "Luk",
+		"messageTitle": "Information",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Husk denne indstilling",
+		"skip": "Spring over"
+	},
+	"edit": "Redigér",
 	"folderNew": "Angiv navnet på den nye mappe: ",
-	"folderRename": "Skriv det nye navn på mappen: ",
+	"folderRenameLabel": "Skriv det nye navn på mappen: ",
+	"folderRenameTitle": "Omdøb mappe",
 	"folderDelete": "Er du sikker på, at du vil slette mappen \"{name}\"?",
 	"destinationFolder": "Destinations mappe",
 	"filesPane": "[MISSING]Files pane",
@@ -36,6 +44,7 @@
 		"title": "Fandt ingenting.",
 		"text": "Venligst prøv at brug forskellige søgekriterier."
 	},
+	"filterPlaceholder": "[MISSING]Filter",
 	"filesRefresh": "[MISSING]Refreshing files",
 	"operationCompletedErrors": "Opgaven blev fuldført med fejl.",
 	"moveToolbarButton": "Flyt",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Nyt navn",
 	"fileOverwrite": "Overskriv",
 	"fileAutorename": "Automatisk-omdøbning",
-	"okBtn": "Ok",
-	"cancelBtn": "Annullér",
-	"closeBtn": "Luk",
 	"uploadSelectLbl": "Vælg den fil, du vil uploade",
 	"uploadProgressLbl": "(Uploader, vent venligst...)",
-	"uploadBtnCancel": "Annullér",
 	"uploadNoFolder": "Venligst vælg en mappe før upload startes.",
 	"uploadNoPerms": "Upload er ikke tilladt.",
 	"uploadUnknError": "Fejl ved upload.",
 	"uploadExtIncorrect": "Den valgte filtype kan ikke benyttes i denne mappe.",
-	"uploadLabel": {
-		"uploadSelect": "Vælg filer til upload",
-		"uploadProgress": "Uploader...",
-		"uploadOk": "Upload gennemført!",
-		"uploadError": "Upload gennemført med fejl."
-	},
 	"uploadSend": "Upload",
 	"uploadAddFiles": "Tilføj filer",
 	"uploadSummary": "Uploadede filer: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 fil",
 	"filesCountMany": "{count} filer",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Det var ikke muligt at fuldføre handlingen. (Fejl: {number})",
+	"showMore": "Vis mere",
+	"uploadLabel": {
+		"uploadSelect": "Vælg filer til upload",
+		"uploadProgress": "Uploader...",
+		"uploadOk": "Upload gennemført!",
+		"uploadError": "Upload gennemført med fejl."
+	},
+	"operations": {
+		"copyFiles": "Kopier filer",
+		"moveFiles": "Flyt filer"
+	},
+	"maximize": {
+		"maximize": "Maksimér",
+		"minimize": "Minimér"
+	},
 	"errors": {
 		"10": "Ugyldig handling.",
 		"11": "Ressourcetypen blev ikke angivet i anmodningen.",
@@ -147,122 +157,108 @@
 		"501": "Understøttelse af thumbnails er deaktiveret."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Filnavnet må ikke indeholde et af følgende tegn: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Mappenavnet må ikke indeholde et af følgende tegn: {disallowedCharacters}",
-		"missingFolder": "Mappen eksistere ikke længere.",
-		"missingFile": "Filen eksistere ikke længere."
-	},
-	"fileeditor": {
-		"contextMenuName": "Redigér"
-	},
-	"maximize": {
-		"maximize": "Maksimér",
-		"minimize": "Minimér"
-	},
-	"filter": {
-		"filterPlaceholder": "[MISSING]Filter"
+		"missingFile": "Filen eksistere ikke længere.",
+		"missingFolder": "Mappen eksistere ikke længere."
 	},
 	"editImage": {
-		"apply": "Tilføj",
 		"adjust": "Justér",
+		"apply": "Tilføj",
+		"confirmExit": "Er du sikker på du vil lukke? Der er ikke gemte ændringer til billedet.",
 		"crop": "Beskær",
+		"downloadAction": "Henter original billede.",
+		"keepAspectRatio": "Behold størrelseforhold",
+		"loading": "Henter billeder",
 		"presets": "Pre indstillinger",
+		"reset": "Nulstil",
 		"resize": "Reskalér",
 		"rotate": "Rotér",
-		"keepAspectRatio": "Behold størrelseforhold",
-		"rotateClockwise": "90&deg; Højre",
 		"rotateAntiClockwise": "90&deg; Venstre",
+		"rotateClockwise": "90&deg; Højre",
+		"save": "Gem",
+		"saveDialogFileExists": "Der eksisterer allerede en fil med samme navn i mappen.",
+		"saveDialogOverwrite": "Overskriv fil",
+		"saveDialogSaveAs": "Gem som:",
+		"saveDialogTitle": "Gem ændringer",
+		"title": "Rediger billede",
+		"transformationAction": "Tilføj ændringer.",
+		"uploadAction": "Uploader det redigerede billede.",
 		"filters": {
 			"brightness": "Lysstyrke",
-			"contrast": "Kontrast",
-			"saturation": "Farvemætning",
-			"vibrance": "Vibrering",
-			"exposure": "Eksponering",
-			"hue": "Hue",
-			"sepia": "Sepia",
-			"gamma": "Gamma",
-			"noise": "Støj",
 			"clip": "Clip",
+			"contrast": "Kontrast",
+			"exposure": "Eksponering",
+			"gamma": "Gamma",
+			"hue": "Hue",
+			"noise": "Støj",
+			"saturation": "Farvemætning",
+			"sepia": "Sepia",
 			"sharpen": "Skarpere",
-			"stackBlur": "[MISSING]Blur"
+			"stackBlur": "[MISSING]Blur",
+			"vibrance": "Vibrering"
 		},
 		"preset": {
 			"clarity": "[MISSING]Clarity",
-			"pinhole": "[MISSING]Pinhole",
-			"love": "Kærlighed",
-			"jarques": "Jarques",
-			"orangePeel": "Orange skal",
-			"sinCity": "[MISSING]Sin City",
-			"grungy": "[MISSING]Grungy",
-			"oldBoot": "Gammel støvle",
-			"lomo": "Lomo",
-			"vintage": "Gammeldags",
-			"crossProcess": "[MISSING]Cross Process",
 			"concentrate": "[MISSING]Concentrate",
+			"crossProcess": "[MISSING]Cross Process",
 			"glowingSun": "Glødende sol",
-			"sunrise": "Solopgang",
-			"nostalgia": "Nostalgi",
+			"grungy": "[MISSING]Grungy",
+			"hazyDays": "Disede dage",
 			"hemingway": "Hemingway",
 			"herMajesty": "Hendes majestæt",
-			"hazyDays": "Disede dage"
-		},
-		"downloadAction": "Henter original billede.",
-		"transformationAction": "Tilføj ændringer.",
-		"uploadAction": "Uploader det redigerede billede.",
-		"saveDialogTitle": "Gem ændringer",
-		"saveDialogOverwrite": "Overskriv fil",
-		"saveDialogSaveAs": "Gem som:",
-		"saveDialogFileExists": "Der eksisterer allerede en fil med samme navn i mappen.",
-		"reset": "Nulstil",
-		"title": "Rediger billede",
-		"save": "Gem",
-		"loading": "Henter billeder",
-		"confirmExit": "Er du sikker på du vil lukke? Der er ikke gemte ændringer til billedet."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Kærlighed",
+			"nostalgia": "Nostalgi",
+			"oldBoot": "Gammel støvle",
+			"orangePeel": "Orange skal",
+			"pinhole": "[MISSING]Pinhole",
+			"sinCity": "[MISSING]Sin City",
+			"sunrise": "Solopgang",
+			"vintage": "Gammeldags"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Lille",
-		"medium": "Medium",
+		"custom": "Brugerdefineret",
 		"large": "Stor",
 		"max": "Maksimal",
-		"custom": "Brugerdefineret"
+		"medium": "Medium",
+		"small": "Lille"
 	},
-	"showMore": "Vis mere",
 	"shortcuts": {
 		"title": "Keyboard genvejstaster",
 		"general": {
-			"title": "[MISSING]General Interface",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"showContextMenu": "[MISSING]Open context menu",
-			"closeButton": "Luk",
-			"listShortcuts": "[MISSING]Open this help dialog",
 			"action": "[MISSING]Execute default action",
-			"focusNext": "[MISSING]Focus next pane",
-			"previousItem": "Gå til forrige element",
-			"nextItem": "Gå til næste element",
 			"firstItem": "Gå til første element",
-			"lastItem": "Gå til sidste element"
+			"focusFilesPane": "[MISSING]Focus files pane",
+			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
+			"focusNext": "[MISSING]Focus next pane",
+			"focusToolbar": "[MISSING]Focus toolbar",
+			"lastItem": "Gå til sidste element",
+			"listShortcuts": "[MISSING]Open this help dialog",
+			"nextItem": "Gå til næste element",
+			"previousItem": "Gå til forrige element",
+			"showContextMenu": "[MISSING]Open context menu",
+			"title": "[MISSING]General Interface"
 		},
 		"files": {
-			"title": "[MISSING]Files Pane",
-			"delete": "Slet fil(er)",
-			"rename": "Omdøb fil",
-			"selectAll": "Vælg alle filer",
-			"upload": "Upload fil(er)",
-			"refresh": "Opdater filer",
+			"addToSelectionAbove": "Tilføj eller fjern fil over makeringen",
+			"addToSelectionBelow": "Tilføj eller fjern fil under markeringen",
 			"addToSelectionLeft": "Tilføj eller fjern fil til venstre for markeringen",
 			"addToSelectionRight": "Tilføj eller fjern fil til højre for markeringen",
-			"addToSelectionAbove": "Tilføj eller fjern fil over makeringen",
-			"addToSelectionBelow": "Tilføj eller fjern fil under markeringen"
+			"delete": "Slet fil(er)",
+			"refresh": "Opdater filer",
+			"rename": "Omdøb fil",
+			"selectAll": "Vælg alle filer",
+			"upload": "Upload fil(er)"
 		},
 		"folders": {
-			"title": "[MISSING]Folders Pane",
+			"collapseOrParent": "Sammenklap mappe / Gå til forrige mappe",
 			"delete": "Slet mappe",
-			"rename": "Omdøb mappe",
 			"expandOrSubfolder": "Udvid mappe / Gå til første undermappe",
-			"collapseOrParent": "Sammenklap mappe / Gå til forrige mappe"
+			"title": "[MISSING]Folders Pane"
 		},
 		"keys": {
 			"ctrl": "[MISSING]Control",
@@ -282,10 +278,5 @@
 			"home": "[MISSING]home",
 			"shift": "[MISSING]shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Omdøb mappe",
-		"copyFiles": "Kopier filer",
-		"moveFiles": "Flyt filer"
 	}
 }

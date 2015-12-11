@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Abbrechen",
-		"messageTitle": "Information",
-		"skip": "Überspringen",
-		"rememberDecision": "Entscheidung merken"
-	},
 	"dir": "ltr",
 	"langCode": "de",
 	"dateTime": "d.m.yyyy H:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Abbrechen",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Abbrechen",
+		"cancel": "Abbrechen",
+		"close": "Schließen",
+		"messageTitle": "Information",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Entscheidung merken",
+		"skip": "Überspringen"
+	},
+	"edit": "Bearbeitung",
 	"folderNew": "Bitte geben Sie den neuen Verzeichnisnamen an: ",
-	"folderRename": "Bitte geben Sie den neuen Verzeichnisnamen an: ",
+	"folderRenameLabel": "Bitte geben Sie den neuen Verzeichnisnamen an: ",
+	"folderRenameTitle": "Ordner umbenennen",
 	"folderDelete": "Wollen Sie wirklich den Ordner \"{name}\" löschen?",
 	"destinationFolder": "Zielverzeichnis",
 	"filesPane": "Dateibereich",
@@ -36,6 +44,7 @@
 		"title": "Nichts gefunden.",
 		"text": "Bitte versuchen Sie es mit anderen Suchkriterien."
 	},
+	"filterPlaceholder": "Filter",
 	"filesRefresh": "[MISSING]Refreshing files",
 	"operationCompletedErrors": "Der Betrieb wurde mit Fehlern abgeschlossen.",
 	"moveToolbarButton": "Verschieben",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Neuer Name",
 	"fileOverwrite": "Überschreiben",
 	"fileAutorename": "Automatisch umbenennen",
-	"okBtn": "OK",
-	"cancelBtn": "Abbrechen",
-	"closeBtn": "Schließen",
 	"uploadSelectLbl": "Bitte wählen Sie die Datei aus",
 	"uploadProgressLbl": "(Die Daten werden übertragen. {pleaseWait})",
-	"uploadBtnCancel": "Abbrechen",
 	"uploadNoFolder": "Bitte ein Verzeichnis vor dem Hochladen wählen.",
 	"uploadNoPerms": "Datei hochladen nicht erlaubt.",
 	"uploadUnknError": "Fehler bei Dateitragung.",
 	"uploadExtIncorrect": "Dateinamekürzel nicht in diesem Verzeichnis erlaubt.",
-	"uploadLabel": {
-		"uploadSelect": "Wählen Sie Dateien zum Hochladen",
-		"uploadProgress": "Hochladen...",
-		"uploadOk": "Hochladen ist beendet!",
-		"uploadError": "Hochladen mit Fehlern abgeschlossen."
-	},
 	"uploadSend": "Hochladen",
 	"uploadAddFiles": "Datei hinzufügen",
 	"uploadSummary": "Hochgeladene Dateien: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 Datei",
 	"filesCountMany": "{count} Datei",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Ihre Anfrage konnte nicht bearbeitet werden. (Fehler {number})",
+	"showMore": "Zeig mehr",
+	"uploadLabel": {
+		"uploadSelect": "Wählen Sie Dateien zum Hochladen",
+		"uploadProgress": "Hochladen...",
+		"uploadOk": "Hochladen ist beendet!",
+		"uploadError": "Hochladen mit Fehlern abgeschlossen."
+	},
+	"operations": {
+		"copyFiles": "Kopieren von Dateien",
+		"moveFiles": "Verschieben von Dateien"
+	},
+	"maximize": {
+		"maximize": "Maximieren",
+		"minimize": "Minimieren"
+	},
 	"errors": {
 		"10": "Unbekannter Befehl.",
 		"11": "Der Ressourcentyp wurde nicht spezifiziert.",
@@ -147,122 +157,108 @@
 		"501": "Die Miniaturansicht wurde deaktivert."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "Der Dateiname darf nicht leer sein.",
 		"fileInvChar": "Der Dateiname darf nicht eines der folgenden Zeichen enthalten: {disallowedCharacters}",
+		"fileNameNotEmpty": "Der Dateiname darf nicht leer sein.",
 		"folderInvChar": "Der Verzeichnisname darf nicht eines der folgenden Zeichen enthalten: {disallowedCharacters}",
-		"missingFolder": "Der Ordner, den Sie versuchen zu erreichen, ist nicht mehr verfügbar.",
-		"missingFile": "Die angeforderte Datei ist nicht mehr verfügbar."
-	},
-	"fileeditor": {
-		"contextMenuName": "Bearbeitung"
-	},
-	"maximize": {
-		"maximize": "Maximieren",
-		"minimize": "Minimieren"
-	},
-	"filter": {
-		"filterPlaceholder": "Filter"
+		"missingFile": "Die angeforderte Datei ist nicht mehr verfügbar.",
+		"missingFolder": "Der Ordner, den Sie versuchen zu erreichen, ist nicht mehr verfügbar."
 	},
 	"editImage": {
-		"apply": "Anwenden",
 		"adjust": "Anpassen",
+		"apply": "Anwenden",
+		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
 		"crop": "Zuschneiden",
+		"downloadAction": "Originalbild herunterladen.",
+		"keepAspectRatio": "Seitenverhältnis beibehalten",
+		"loading": "Bild wird geladen",
 		"presets": "[MISSING]Presets",
+		"reset": "Rücksetzen",
 		"resize": "Größe ändern",
 		"rotate": "Drehen",
-		"keepAspectRatio": "Seitenverhältnis beibehalten",
-		"rotateClockwise": "90&deg; nach rechts",
 		"rotateAntiClockwise": "90&deg; nach links",
+		"rotateClockwise": "90&deg; nach rechts",
+		"save": "Speichern",
+		"saveDialogFileExists": "Eine Datei mit demselben Namen im Verzeichnis vorhanden ist.",
+		"saveDialogOverwrite": "Datei überschreiben",
+		"saveDialogSaveAs": "Speichern als:",
+		"saveDialogTitle": "Änderungen speichern",
+		"title": "Bild bearbeiten",
+		"transformationAction": "[MISSING]Applying transformations.",
+		"uploadAction": "Hochladen bearbeitete Bild.",
 		"filters": {
 			"brightness": "Helligkeit",
-			"contrast": "Kontrast",
-			"saturation": "Sättigung",
-			"vibrance": "Vibrance",
-			"exposure": "Belichtung",
-			"hue": "Farbton",
-			"sepia": "Sepia",
-			"gamma": "Gamma",
-			"noise": "Rauschen",
 			"clip": "[MISSING]Clip",
+			"contrast": "Kontrast",
+			"exposure": "Belichtung",
+			"gamma": "Gamma",
+			"hue": "Farbton",
+			"noise": "Rauschen",
+			"saturation": "Sättigung",
+			"sepia": "Sepia",
 			"sharpen": "Schärfen",
-			"stackBlur": "Weichzeichnen"
+			"stackBlur": "Weichzeichnen",
+			"vibrance": "Vibrance"
 		},
 		"preset": {
 			"clarity": "Klarheit",
-			"pinhole": "Lochkamera",
-			"love": "Liebe",
-			"jarques": "Jarques",
-			"orangePeel": "Orangenschale",
-			"sinCity": "Sin City",
-			"grungy": "Grungy",
-			"oldBoot": "Alten Stiefel",
-			"lomo": "Lomo",
-			"vintage": "Vintage",
-			"crossProcess": "Crossentwicklung",
 			"concentrate": "Konzentration",
+			"crossProcess": "Crossentwicklung",
 			"glowingSun": "Glühenden Sonne",
-			"sunrise": "Sonnenaufgang",
-			"nostalgia": "Nostalgie",
+			"grungy": "Grungy",
+			"hazyDays": "Dunstigen Tagen",
 			"hemingway": "Hemingway",
 			"herMajesty": "Ihre Majestät",
-			"hazyDays": "Dunstigen Tagen"
-		},
-		"downloadAction": "Originalbild herunterladen.",
-		"transformationAction": "[MISSING]Applying transformations.",
-		"uploadAction": "Hochladen bearbeitete Bild.",
-		"saveDialogTitle": "Änderungen speichern",
-		"saveDialogOverwrite": "Datei überschreiben",
-		"saveDialogSaveAs": "Speichern als:",
-		"saveDialogFileExists": "Eine Datei mit demselben Namen im Verzeichnis vorhanden ist.",
-		"reset": "Rücksetzen",
-		"title": "Bild bearbeiten",
-		"save": "Speichern",
-		"loading": "Bild wird geladen",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Liebe",
+			"nostalgia": "Nostalgie",
+			"oldBoot": "Alten Stiefel",
+			"orangePeel": "Orangenschale",
+			"pinhole": "Lochkamera",
+			"sinCity": "Sin City",
+			"sunrise": "Sonnenaufgang",
+			"vintage": "Vintage"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Klein",
-		"medium": "Mittel",
+		"custom": "Benutzerdefiniert",
 		"large": "Groß",
 		"max": "Max",
-		"custom": "Benutzerdefiniert"
+		"medium": "Mittel",
+		"small": "Klein"
 	},
-	"showMore": "Zeig mehr",
 	"shortcuts": {
 		"title": "Tastenkombinationen",
 		"general": {
-			"title": "Benutzerschnittstelle",
-			"focusToolbar": "Fokus auf die Werkzeugleiste",
-			"focusFoldersPane": "Fokus auf den Ordnerbereich oder Ordnerpfad",
-			"focusFilesPane": "Fokus auf den Dateibereich",
-			"showContextMenu": "Kontextmenü öffnen",
-			"closeButton": "Schließen",
-			"listShortcuts": "Diese Hilfe-Dialog öffnen",
 			"action": "Standardaktion führen",
-			"focusNext": "Fokus auf das nächste Panel",
-			"previousItem": "Zum vorherigen Element",
-			"nextItem": "Zum nächsten Element",
 			"firstItem": "Zum ersten Element",
-			"lastItem": "Zum letzten Element"
+			"focusFilesPane": "Fokus auf den Dateibereich",
+			"focusFoldersPane": "Fokus auf den Ordnerbereich oder Ordnerpfad",
+			"focusNext": "Fokus auf das nächste Panel",
+			"focusToolbar": "Fokus auf die Werkzeugleiste",
+			"lastItem": "Zum letzten Element",
+			"listShortcuts": "Diese Hilfe-Dialog öffnen",
+			"nextItem": "Zum nächsten Element",
+			"previousItem": "Zum vorherigen Element",
+			"showContextMenu": "Kontextmenü öffnen",
+			"title": "Benutzerschnittstelle"
 		},
 		"files": {
-			"title": "Dateibereich",
-			"delete": "Datei(en) löschen",
-			"rename": "Datei umbenennen",
-			"selectAll": "Alle Dateien auswählen",
-			"upload": "Datei(en) hochladen",
-			"refresh": "Dateien aktualisieren",
+			"addToSelectionAbove": "Dateien von oben zur Auswahl hinzufügen oder aus der Auswahl entfernen.",
+			"addToSelectionBelow": "Dateien von unten zur Auswahl hinzufügen oder aus der Auswahl entfernen.",
 			"addToSelectionLeft": "Dateien auf der linken Seite zur Auswahl hinzufügen oder aus der Auswahl entfernen.",
 			"addToSelectionRight": "Dateien auf der rechten Seite zur Auswahl hinzufügen oder aus der Auswahl entfernen.",
-			"addToSelectionAbove": "Dateien von oben zur Auswahl hinzufügen oder aus der Auswahl entfernen.",
-			"addToSelectionBelow": "Dateien von unten zur Auswahl hinzufügen oder aus der Auswahl entfernen."
+			"delete": "Datei(en) löschen",
+			"refresh": "Dateien aktualisieren",
+			"rename": "Datei umbenennen",
+			"selectAll": "Alle Dateien auswählen",
+			"upload": "Datei(en) hochladen"
 		},
 		"folders": {
-			"title": "Ordnerbereich",
+			"collapseOrParent": "Ordner reduzieren / Zum übergeordneten Ordner",
 			"delete": "Ordner löschen",
-			"rename": "Ordner umbenennen",
 			"expandOrSubfolder": "Ordner erweitern / Zum ersten Unterverzeichnis",
-			"collapseOrParent": "Ordner reduzieren / Zum übergeordneten Ordner"
+			"title": "Ordnerbereich"
 		},
 		"keys": {
 			"ctrl": "Steuerung",
@@ -282,10 +278,5 @@
 			"home": "Pos1",
 			"shift": "Shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Ordner umbenennen",
-		"copyFiles": "Kopieren von Dateien",
-		"moveFiles": "Verschieben von Dateien"
 	}
 }

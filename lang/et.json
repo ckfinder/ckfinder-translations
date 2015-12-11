@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Loobu",
-		"messageTitle": "Andmed",
-		"skip": "Jäta vahele",
-		"rememberDecision": "Jäta valik meelde"
-	},
 	"dir": "ltr",
 	"langCode": "et",
 	"dateTime": "yyyy-mm-dd H:MM",
@@ -13,9 +7,23 @@
 		"eL",
 		"pL"
 	],
-	"abort": "[MISSING]Abort",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "[MISSING]Abort",
+		"cancel": "Loobu",
+		"close": "Sulge",
+		"messageTitle": "Andmed",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Jäta valik meelde",
+		"skip": "Jäta vahele"
+	},
+	"edit": "Muuda",
 	"folderNew": "Palun sisesta uue kataloogi nimi: ",
-	"folderRename": "Palun sisesta uue kataloogi nimi: ",
+	"folderRenameLabel": "Palun sisesta uue kataloogi nimi: ",
+	"folderRenameTitle": "Nimeta kaust ümber",
 	"folderDelete": "Kas tahad kindlasti kausta \"{name}\" kustutada?",
 	"destinationFolder": "Sihtkaust",
 	"filesPane": "Failide paneel",
@@ -36,6 +44,7 @@
 		"title": "Midagi ei leitud.",
 		"text": "Proovi kasutada mingit muud otsingusõna."
 	},
+	"filterPlaceholder": "[MISSING]Filter",
 	"filesRefresh": "Failide värskendamine",
 	"operationCompletedErrors": "Otsing lõpetati vigadega.",
 	"moveToolbarButton": "Liiguta",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Uue nime andmine",
 	"fileOverwrite": "Kirjuta üle",
 	"fileAutorename": "Muuda automaatselt nime",
-	"okBtn": "Olgu",
-	"cancelBtn": "Loobu",
-	"closeBtn": "Sulge",
 	"uploadSelectLbl": "Vali üleslaadimiseks fail",
 	"uploadProgressLbl": "(Üleslaadimine. {pleaseWait})",
-	"uploadBtnCancel": "Loobu",
 	"uploadNoFolder": "Palun vali enne üleslaadimist kataloog.",
 	"uploadNoPerms": "Failide üleslaadimine pole lubatud.",
 	"uploadUnknError": "Viga faili saatmisel.",
 	"uploadExtIncorrect": "Selline faili laiend pole selles kaustas lubatud.",
-	"uploadLabel": {
-		"uploadSelect": "Vali üleslaadimiseks failid",
-		"uploadProgress": "Üleslaadimine...",
-		"uploadOk": "Üleslaadimine lõpetati!",
-		"uploadError": "Üleslaadimine lõpetati vigadega."
-	},
 	"uploadSend": "Laadi üles",
 	"uploadAddFiles": "Lisa faile",
 	"uploadSummary": "Üleslaaditud faile: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 fail",
 	"filesCountMany": "{count} faili",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Päringu täitmine polnud võimalik. (Viga {number})",
+	"showMore": "Näita veel",
+	"uploadLabel": {
+		"uploadSelect": "Vali üleslaadimiseks failid",
+		"uploadProgress": "Üleslaadimine...",
+		"uploadOk": "Üleslaadimine lõpetati!",
+		"uploadError": "Üleslaadimine lõpetati vigadega."
+	},
+	"operations": {
+		"copyFiles": "Kopeeri faile",
+		"moveFiles": "Liiguta faile"
+	},
+	"maximize": {
+		"maximize": "Maksimeeri",
+		"minimize": "Minimeeri"
+	},
 	"errors": {
 		"10": "Vigane käsk.",
 		"11": "Allika liik polnud päringus määratud.",
@@ -147,122 +157,108 @@
 		"501": "Pisipiltide tugi on keelatud."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: {disallowedCharacters}",
-		"missingFolder": "Kausta, mida püüad avada, pole enam olemas.",
-		"missingFile": "Faili, mida püüad avada, pole enam saadaval."
-	},
-	"fileeditor": {
-		"contextMenuName": "Muuda"
-	},
-	"maximize": {
-		"maximize": "Maksimeeri",
-		"minimize": "Minimeeri"
-	},
-	"filter": {
-		"filterPlaceholder": "[MISSING]Filter"
+		"missingFile": "Faili, mida püüad avada, pole enam saadaval.",
+		"missingFolder": "Kausta, mida püüad avada, pole enam olemas."
 	},
 	"editImage": {
-		"apply": "Nõus",
 		"adjust": "Värvid",
+		"apply": "Nõus",
+		"confirmExit": "Kas tahad ikka sulgeda? Kõik pildile tehtud salvestamata muudatused lähevad nii kaotsi.",
 		"crop": "Kärpimine",
+		"downloadAction": "Lähtepildi allalaadimine.",
+		"keepAspectRatio": "Külgede suhte säilitamine",
+		"loading": "Pildi laadimine",
 		"presets": "Mallid",
+		"reset": "Lähtesta",
 		"resize": "Suurus",
 		"rotate": "Pööramine",
-		"keepAspectRatio": "Külgede suhte säilitamine",
-		"rotateClockwise": "90&deg; paremale",
 		"rotateAntiClockwise": "90&deg; vasakule",
+		"rotateClockwise": "90&deg; paremale",
+		"save": "Salvesta",
+		"saveDialogFileExists": "Samanimeline fail on kaustas juba olemas.",
+		"saveDialogOverwrite": "Faili ülekirjutamine",
+		"saveDialogSaveAs": "Salvesta kui:",
+		"saveDialogTitle": "Muudatuste salvestamine",
+		"title": "Pildi muutmine",
+		"transformationAction": "Muudatuste rakendamine.",
+		"uploadAction": "Muudetud pildi üleslaadimine.",
 		"filters": {
 			"brightness": "Heledus",
-			"contrast": "Kontrastsus",
-			"saturation": "Küllastus",
-			"vibrance": "Värvilisus",
-			"exposure": "Säri",
-			"hue": "Värvitoon",
-			"sepia": "Seepia",
-			"gamma": "Gamma",
-			"noise": "Müra",
 			"clip": "Lõikamine",
+			"contrast": "Kontrastsus",
+			"exposure": "Säri",
+			"gamma": "Gamma",
+			"hue": "Värvitoon",
+			"noise": "Müra",
+			"saturation": "Küllastus",
+			"sepia": "Seepia",
 			"sharpen": "Teravus",
-			"stackBlur": "Udune"
+			"stackBlur": "Udune",
+			"vibrance": "Värvilisus"
 		},
 		"preset": {
 			"clarity": "Selgus",
-			"pinhole": "Lukuauk",
-			"love": "Armas",
-			"jarques": "Vana film",
-			"orangePeel": "Oranž film",
-			"sinCity": "Julm",
-			"grungy": "Grunge",
-			"oldBoot": "Vähevärviline",
-			"lomo": "Sünge",
-			"vintage": "Vana",
-			"crossProcess": "Töötlus",
 			"concentrate": "Kontsentraat",
+			"crossProcess": "Töötlus",
 			"glowingSun": "Hele päike",
-			"sunrise": "Päikesetõus",
-			"nostalgia": "Nostalgia",
+			"grungy": "Grunge",
+			"hazyDays": "Kerge udu",
 			"hemingway": "Hemingway",
 			"herMajesty": "Kuninganna",
-			"hazyDays": "Kerge udu"
-		},
-		"downloadAction": "Lähtepildi allalaadimine.",
-		"transformationAction": "Muudatuste rakendamine.",
-		"uploadAction": "Muudetud pildi üleslaadimine.",
-		"saveDialogTitle": "Muudatuste salvestamine",
-		"saveDialogOverwrite": "Faili ülekirjutamine",
-		"saveDialogSaveAs": "Salvesta kui:",
-		"saveDialogFileExists": "Samanimeline fail on kaustas juba olemas.",
-		"reset": "Lähtesta",
-		"title": "Pildi muutmine",
-		"save": "Salvesta",
-		"loading": "Pildi laadimine",
-		"confirmExit": "Kas tahad ikka sulgeda? Kõik pildile tehtud salvestamata muudatused lähevad nii kaotsi."
+			"jarques": "Vana film",
+			"lomo": "Sünge",
+			"love": "Armas",
+			"nostalgia": "Nostalgia",
+			"oldBoot": "Vähevärviline",
+			"orangePeel": "Oranž film",
+			"pinhole": "Lukuauk",
+			"sinCity": "Julm",
+			"sunrise": "Päikesetõus",
+			"vintage": "Vana"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Väike",
-		"medium": "Keskmine",
+		"custom": "Kohandatud",
 		"large": "Suur",
 		"max": "Maksimaalne",
-		"custom": "Kohandatud"
+		"medium": "Keskmine",
+		"small": "Väike"
 	},
-	"showMore": "Näita veel",
 	"shortcuts": {
 		"title": "[MISSING]Keyboard Shortcuts",
 		"general": {
-			"title": "Üldine liides",
-			"focusToolbar": "Fookusesse tööriistariba",
-			"focusFoldersPane": "Fookusesse kaustade paneel või asukohariba",
-			"focusFilesPane": "Fookusesse failide paneel",
-			"showContextMenu": "Kontekstimenüü avamine",
-			"closeButton": "Sulge",
-			"listShortcuts": "Selle abidialoogi avamine",
 			"action": "Vaikimisi tegevuse käivitamine",
-			"focusNext": "Järgmise paneeli aktiveerimine",
-			"previousItem": "Eelmisele liikumine",
-			"nextItem": "Järgmisele liikumine",
 			"firstItem": "Esimesele liikumine",
-			"lastItem": "Viimasele liikumine"
+			"focusFilesPane": "Fookusesse failide paneel",
+			"focusFoldersPane": "Fookusesse kaustade paneel või asukohariba",
+			"focusNext": "Järgmise paneeli aktiveerimine",
+			"focusToolbar": "Fookusesse tööriistariba",
+			"lastItem": "Viimasele liikumine",
+			"listShortcuts": "Selle abidialoogi avamine",
+			"nextItem": "Järgmisele liikumine",
+			"previousItem": "Eelmisele liikumine",
+			"showContextMenu": "Kontekstimenüü avamine",
+			"title": "Üldine liides"
 		},
 		"files": {
-			"title": "Failide paneel",
-			"delete": "Kustuta fail(id)",
-			"rename": "Muuda faili nime",
-			"selectAll": "Vali kõik failid",
-			"upload": "Laadi fail(id) üles",
-			"refresh": "Värskenda faile",
+			"addToSelectionAbove": "Lisa üleval olev fail valikusse või eemalda",
+			"addToSelectionBelow": "Lisa all olev fail valikusse või eemalda",
 			"addToSelectionLeft": "Lisa vasakul olev fail valikusse või eemalda",
 			"addToSelectionRight": "Lisa paremal olev fail valikusse või eemalda",
-			"addToSelectionAbove": "Lisa üleval olev fail valikusse või eemalda",
-			"addToSelectionBelow": "Lisa all olev fail valikusse või eemalda"
+			"delete": "Kustuta fail(id)",
+			"refresh": "Värskenda faile",
+			"rename": "Muuda faili nime",
+			"selectAll": "Vali kõik failid",
+			"upload": "Laadi fail(id) üles"
 		},
 		"folders": {
-			"title": "Kaustade paneel",
+			"collapseOrParent": "Sulge / liigu ülemkausta",
 			"delete": "Kustuta kaust",
-			"rename": "Nimeta kaust ümber",
 			"expandOrSubfolder": "Laienda / liigu esimesse alamkausta",
-			"collapseOrParent": "Sulge / liigu ülemkausta"
+			"title": "Kaustade paneel"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Nimeta kaust ümber",
-		"copyFiles": "Kopeeri faile",
-		"moveFiles": "Liiguta faile"
 	}
 }

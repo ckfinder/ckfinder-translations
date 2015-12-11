@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Annuler",
-		"messageTitle": "Information",
-		"skip": "Passer",
-		"rememberDecision": "Se rappeler de la décision"
-	},
 	"dir": "ltr",
 	"langCode": "fr",
 	"dateTime": "dd/mm/yyyy H:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Abandonner",
+	"kb": "{size} Ko",
+	"mb": "{size} Mo",
+	"gb": "{size} Go",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Abandonner",
+		"cancel": "Annuler",
+		"close": "Fermer",
+		"messageTitle": "Information",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Se rappeler de la décision",
+		"skip": "Passer"
+	},
+	"edit": "Edition",
 	"folderNew": "Entrez le nom du nouveau dossier: ",
-	"folderRename": "Entrez le nouveau nom du dossier: ",
+	"folderRenameLabel": "Entrez le nouveau nom du dossier: ",
+	"folderRenameTitle": "Renommer le dossier",
 	"folderDelete": "Êtes-vous sûr de vouloir effacer le dossier \"{name}\"?",
 	"destinationFolder": "Dossier de destination",
 	"filesPane": "Fenêtre des fichiers",
@@ -36,6 +44,7 @@
 		"title": "Rien trouvé.",
 		"text": "Veuillez utiliser d'autres critères de recherche."
 	},
+	"filterPlaceholder": "Filtre",
 	"filesRefresh": "Actualisation des fichiers",
 	"operationCompletedErrors": "Operation terminée avec des erreurs.",
 	"moveToolbarButton": "Déplacer",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Nouveau fichier",
 	"fileOverwrite": "Ré-écrire",
 	"fileAutorename": "Re-nommage automatique",
-	"okBtn": "OK",
-	"cancelBtn": "Annuler",
-	"closeBtn": "Fermer",
 	"uploadSelectLbl": "Sélectionner le fichier à télécharger",
 	"uploadProgressLbl": "(Envoi en cours. {pleaseWait})",
-	"uploadBtnCancel": "Annuler",
 	"uploadNoFolder": "Merci de sélectionner un répertoire avant l'envoi.",
 	"uploadNoPerms": "L'envoi de fichier n'est pas autorisé.",
 	"uploadUnknError": "Erreur pendant l'envoi du fichier.",
 	"uploadExtIncorrect": "L'extension du fichier n'est pas autorisée dans ce dossier.",
-	"uploadLabel": {
-		"uploadSelect": "Selectionner les fichiers à envoyer",
-		"uploadProgress": "Envoi en cours...",
-		"uploadOk": "Envoi terminé!",
-		"uploadError": "Envoi terminé avec des erreurs."
-	},
 	"uploadSend": "Envoyer",
 	"uploadAddFiles": "Ajouter des fichiers",
 	"uploadSummary": "Fichiers envoyés: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 fichier",
 	"filesCountMany": "{count} fichiers",
-	"kb": "{size} Ko",
-	"mb": "{size} Mo",
-	"gb": "{size} Go",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "La demande n'a pas abouti. (Erreur {number})",
+	"showMore": "Montrer plus",
+	"uploadLabel": {
+		"uploadSelect": "Selectionner les fichiers à envoyer",
+		"uploadProgress": "Envoi en cours...",
+		"uploadOk": "Envoi terminé!",
+		"uploadError": "Envoi terminé avec des erreurs."
+	},
+	"operations": {
+		"copyFiles": "Copier les fichiers",
+		"moveFiles": "Déplacer les fichiers"
+	},
+	"maximize": {
+		"maximize": "Agrandir",
+		"minimize": "Minimiser"
+	},
 	"errors": {
 		"10": "Commande invalide.",
 		"11": "Le type de ressource n'a pas été spécifié dans la commande.",
@@ -147,122 +157,108 @@
 		"501": "La fonction \"miniatures\" est désactivée."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "Le nom de fichier ne peut pas être vide.",
 		"fileInvChar": "Le nom du fichier ne peut pas contenir les charactères suivants: {disallowedCharacters}",
+		"fileNameNotEmpty": "Le nom de fichier ne peut pas être vide.",
 		"folderInvChar": "Le nom du dossier ne peut pas contenir les charactères suivants: {disallowedCharacters}",
-		"missingFolder": "Le dossier auquel vous tentez d'accéder n'est plus disponible.",
-		"missingFile": "Le fichier demandé n'est plus disponible."
-	},
-	"fileeditor": {
-		"contextMenuName": "Edition"
-	},
-	"maximize": {
-		"maximize": "Agrandir",
-		"minimize": "Minimiser"
-	},
-	"filter": {
-		"filterPlaceholder": "Filtre"
+		"missingFile": "Le fichier demandé n'est plus disponible.",
+		"missingFolder": "Le dossier auquel vous tentez d'accéder n'est plus disponible."
 	},
 	"editImage": {
-		"apply": "Appliquer",
 		"adjust": "Ajuster",
+		"apply": "Appliquer",
+		"confirmExit": "Etes-vous sûr que vous voulez fermer? Vous avez des modifications non enregistrées à l'image.",
 		"crop": "Rogner",
+		"downloadAction": "Téléchargement de l'image originale.",
+		"keepAspectRatio": "Consever les proportions",
+		"loading": "Chargement de l'image",
 		"presets": "Préconfigurer",
+		"reset": "Reset",
 		"resize": "Redimensionner",
 		"rotate": "Rotation",
-		"keepAspectRatio": "Consever les proportions",
-		"rotateClockwise": "90&deg; vers la droite",
 		"rotateAntiClockwise": "90&deg; vers la gauche",
+		"rotateClockwise": "90&deg; vers la droite",
+		"save": "Enregistrer",
+		"saveDialogFileExists": "Un fichier de même nom existe déjà dans le dossier.",
+		"saveDialogOverwrite": "Ecraser le fichier",
+		"saveDialogSaveAs": "Enregistrer comme:",
+		"saveDialogTitle": "Enregistrer les modifications",
+		"title": "Editer l'image",
+		"transformationAction": "Application des transformations.",
+		"uploadAction": "Envoi de l'image éditée.",
 		"filters": {
 			"brightness": "Brillance",
-			"contrast": "Contraste",
-			"saturation": "Saturation",
-			"vibrance": "Vibrance",
-			"exposure": "Exposition",
-			"hue": "Nuance",
-			"sepia": "Sépia",
-			"gamma": "Gamma",
-			"noise": "Bruit",
 			"clip": "Clip",
+			"contrast": "Contraste",
+			"exposure": "Exposition",
+			"gamma": "Gamma",
+			"hue": "Nuance",
+			"noise": "Bruit",
+			"saturation": "Saturation",
+			"sepia": "Sépia",
 			"sharpen": "Accentuation",
-			"stackBlur": "Flou"
+			"stackBlur": "Flou",
+			"vibrance": "Vibrance"
 		},
 		"preset": {
 			"clarity": "Clareté",
-			"pinhole": "Sténopé",
-			"love": "Amour",
-			"jarques": "Jarques",
-			"orangePeel": "Peau d'orange",
-			"sinCity": "Ville du péché",
-			"grungy": "Crasseux",
-			"oldBoot": "Vieille botte",
-			"lomo": "Lomo",
-			"vintage": "Vendanges",
-			"crossProcess": "Traitement croisé",
 			"concentrate": "Concentré",
+			"crossProcess": "Traitement croisé",
 			"glowingSun": "Soleil ardent",
-			"sunrise": "Lever du soleil",
-			"nostalgia": "Nostalgie",
+			"grungy": "Crasseux",
+			"hazyDays": "Jours de brume",
 			"hemingway": "Hemingway",
 			"herMajesty": "Sa Majesté",
-			"hazyDays": "Jours de brume"
-		},
-		"downloadAction": "Téléchargement de l'image originale.",
-		"transformationAction": "Application des transformations.",
-		"uploadAction": "Envoi de l'image éditée.",
-		"saveDialogTitle": "Enregistrer les modifications",
-		"saveDialogOverwrite": "Ecraser le fichier",
-		"saveDialogSaveAs": "Enregistrer comme:",
-		"saveDialogFileExists": "Un fichier de même nom existe déjà dans le dossier.",
-		"reset": "Reset",
-		"title": "Editer l'image",
-		"save": "Enregistrer",
-		"loading": "Chargement de l'image",
-		"confirmExit": "Etes-vous sûr que vous voulez fermer? Vous avez des modifications non enregistrées à l'image."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Amour",
+			"nostalgia": "Nostalgie",
+			"oldBoot": "Vieille botte",
+			"orangePeel": "Peau d'orange",
+			"pinhole": "Sténopé",
+			"sinCity": "Ville du péché",
+			"sunrise": "Lever du soleil",
+			"vintage": "Vendanges"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Petit",
-		"medium": "Moyen",
+		"custom": "Personnalisé",
 		"large": "Grand",
 		"max": "Max",
-		"custom": "Personnalisé"
+		"medium": "Moyen",
+		"small": "Petit"
 	},
-	"showMore": "Montrer plus",
 	"shortcuts": {
 		"title": "Raccourcis clavier",
 		"general": {
-			"title": "Interface générale",
-			"focusToolbar": "Se concentrer sur la barre d'outils",
-			"focusFoldersPane": "Se concentrer sur la fenêtre des dossiers ou le fil dAriane",
-			"focusFilesPane": "Se concentrer sur la fenêtre des fichiers",
-			"showContextMenu": "Ouvrir le menu contextuel",
-			"closeButton": "Fermer",
-			"listShortcuts": "Ouvrez cette boîte de dialogue d'aide",
 			"action": "Exécuter l'action par défaut",
-			"focusNext": "Se concentrer sur la fenêtre suivante",
-			"previousItem": "Aller à l'élément précédent",
-			"nextItem": "Aller à l'élément suivant",
 			"firstItem": "Aller au premier élément",
-			"lastItem": "Aller au dernier élément"
+			"focusFilesPane": "Se concentrer sur la fenêtre des fichiers",
+			"focusFoldersPane": "Se concentrer sur la fenêtre des dossiers ou le fil dAriane",
+			"focusNext": "Se concentrer sur la fenêtre suivante",
+			"focusToolbar": "Se concentrer sur la barre d'outils",
+			"lastItem": "Aller au dernier élément",
+			"listShortcuts": "Ouvrez cette boîte de dialogue d'aide",
+			"nextItem": "Aller à l'élément suivant",
+			"previousItem": "Aller à l'élément précédent",
+			"showContextMenu": "Ouvrir le menu contextuel",
+			"title": "Interface générale"
 		},
 		"files": {
-			"title": "Fenêtre des fichiers",
-			"delete": "Supprimer fichier(s)",
-			"rename": "Renommer le fichier",
-			"selectAll": "Sélectionnez tous les fichiers",
-			"upload": "Envoyer fichier(s)",
-			"refresh": "Actualiser les fichiers",
+			"addToSelectionAbove": "Ajouter à la sélection ou supprimer de celle ci les fichiers du haut",
+			"addToSelectionBelow": "Ajouter à la sélection ou supprimer de celle ci les fichiers du bas",
 			"addToSelectionLeft": "Ajouter à la sélection ou supprimer de celle ci les fichiers sur la gauche",
 			"addToSelectionRight": "Ajouter à la sélection ou supprimer de celle ci les fichiers sur la droite",
-			"addToSelectionAbove": "Ajouter à la sélection ou supprimer de celle ci les fichiers du haut",
-			"addToSelectionBelow": "Ajouter à la sélection ou supprimer de celle ci les fichiers du bas"
+			"delete": "Supprimer fichier(s)",
+			"refresh": "Actualiser les fichiers",
+			"rename": "Renommer le fichier",
+			"selectAll": "Sélectionnez tous les fichiers",
+			"upload": "Envoyer fichier(s)"
 		},
 		"folders": {
-			"title": "Fenêtre des dossiers",
+			"collapseOrParent": "Replier le dossier / Aller au dossier parent",
 			"delete": "Supprimer le dossier",
-			"rename": "Renommer le dossier",
 			"expandOrSubfolder": "Déplier le dossier / Aller au premier sous-dossier",
-			"collapseOrParent": "Replier le dossier / Aller au dossier parent"
+			"title": "Fenêtre des dossiers"
 		},
 		"keys": {
 			"ctrl": "Contrôle",
@@ -282,10 +278,5 @@
 			"home": "début",
 			"shift": "maj"
 		}
-	},
-	"operations": {
-		"renameFolder": "Renommer le dossier",
-		"copyFiles": "Copier les fichiers",
-		"moveFiles": "Déplacer les fichiers"
 	}
 }

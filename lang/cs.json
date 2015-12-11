@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Zrušit",
-		"messageTitle": "Informace",
-		"skip": "Přeskočit",
-		"rememberDecision": "Zapamatovat si mé rozhodnutí"
-	},
 	"dir": "ltr",
 	"langCode": "cs",
 	"dateTime": "d/m/yyyy H:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Ukončit",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Ukončit",
+		"cancel": "Zrušit",
+		"close": "Zavřít",
+		"messageTitle": "Informace",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Zapamatovat si mé rozhodnutí",
+		"skip": "Přeskočit"
+	},
+	"edit": "Upravit",
 	"folderNew": "Zadejte název nové složky: ",
-	"folderRename": "Zadejte nový název složky: ",
+	"folderRenameLabel": "Zadejte nový název složky: ",
+	"folderRenameTitle": "Přejmenovat složku",
 	"folderDelete": "Opravdu chcete složku \"{name}\" smazat?",
 	"destinationFolder": "Cílová složka",
 	"filesPane": "Panel souborů",
@@ -36,6 +44,7 @@
 		"title": "Nic nenalezeno.",
 		"text": "Zkuste prosím zadat jiné kritérium vyhledávání."
 	},
+	"filterPlaceholder": "Filtrovat",
 	"filesRefresh": "Obnovování souborů",
 	"operationCompletedErrors": "Operace byla dokončena s chybami.",
 	"moveToolbarButton": "Přesunout",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Nový název",
 	"fileOverwrite": "Přepsat",
 	"fileAutorename": "Automaticky přejmenovat",
-	"okBtn": "OK",
-	"cancelBtn": "Zrušit",
-	"closeBtn": "Zavřít",
 	"uploadSelectLbl": "Zvolit soubor k nahrání",
 	"uploadProgressLbl": "(Probíhá nahrávání. {pleaseWait})",
-	"uploadBtnCancel": "Zrušit",
 	"uploadNoFolder": "Před nahráváním vyberte složku prosím.",
 	"uploadNoPerms": "Nahrávání souborů není povoleno.",
 	"uploadUnknError": "Chyba při posílání souboru.",
 	"uploadExtIncorrect": "Přípona souboru není v této složce povolena.",
-	"uploadLabel": {
-		"uploadSelect": "Vyberte soubory k nahrání",
-		"uploadProgress": "Nahrávání...",
-		"uploadOk": "Nahrávání dokončeno!",
-		"uploadError": "Nahrávání bylo dokončeno s chybami."
-	},
 	"uploadSend": "Nahrát",
 	"uploadAddFiles": "Přidat soubory",
 	"uploadSummary": "Nahrané soubory: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 soubor",
 	"filesCountMany": "{count} souborů",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Příkaz nebylo možné dokončit. (Chyba {number})",
+	"showMore": "Zobrazit více",
+	"uploadLabel": {
+		"uploadSelect": "Vyberte soubory k nahrání",
+		"uploadProgress": "Nahrávání...",
+		"uploadOk": "Nahrávání dokončeno!",
+		"uploadError": "Nahrávání bylo dokončeno s chybami."
+	},
+	"operations": {
+		"copyFiles": "Kopírovat soubory",
+		"moveFiles": "Přesunout soubory"
+	},
+	"maximize": {
+		"maximize": "Maximalizovat",
+		"minimize": "Minimalizovat"
+	},
 	"errors": {
 		"10": "Neplatný příkaz.",
 		"11": "Typ zdroje nebyl v požadavku určen.",
@@ -147,122 +157,108 @@
 		"501": "Podpora náhledů je zakázána."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Název souboru nesmí obsahovat následující znaky: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Název složky nesmí obsahovat následující znaky: {disallowedCharacters}",
-		"missingFolder": "Složka, kterou chcete zobrazit, již není dostupná.",
-		"missingFile": "Požadovaný soubor již není dostupný."
-	},
-	"fileeditor": {
-		"contextMenuName": "Upravit"
-	},
-	"maximize": {
-		"maximize": "Maximalizovat",
-		"minimize": "Minimalizovat"
-	},
-	"filter": {
-		"filterPlaceholder": "Filtrovat"
+		"missingFile": "Požadovaný soubor již není dostupný.",
+		"missingFolder": "Složka, kterou chcete zobrazit, již není dostupná."
 	},
 	"editImage": {
-		"apply": "Použít",
 		"adjust": "Přizpůsobit",
+		"apply": "Použít",
+		"confirmExit": "Opravdu chcete úpravu zavřít? V obrázku máte neuložené změny.",
 		"crop": "Oříznout",
+		"downloadAction": "Stahování původního obrázku.",
+		"keepAspectRatio": "Zachovat poměr stran",
+		"loading": "Načítání obrázku",
 		"presets": "Přednastavené",
+		"reset": "Resetovat",
 		"resize": "Změnit velikost",
 		"rotate": "Otočit",
-		"keepAspectRatio": "Zachovat poměr stran",
-		"rotateClockwise": "90&deg; doprava",
 		"rotateAntiClockwise": "90&deg; doleva",
+		"rotateClockwise": "90&deg; doprava",
+		"save": "Uložit",
+		"saveDialogFileExists": "V této složce již existuje soubor s tímto názvem.",
+		"saveDialogOverwrite": "Přepsat soubor",
+		"saveDialogSaveAs": "Uložit jako:",
+		"saveDialogTitle": "Uložit změny",
+		"title": "Upravit obrázek",
+		"transformationAction": "Používání transformací.",
+		"uploadAction": "Nahrávání upraveného obrázku.",
 		"filters": {
 			"brightness": "Jas",
-			"contrast": "Kontrast",
-			"saturation": "Nasycení",
-			"vibrance": "Zářivost",
-			"exposure": "Expozice",
-			"hue": "Odstín",
-			"sepia": "Sépie",
-			"gamma": "Gama",
-			"noise": "Šum",
 			"clip": "Sestřihnout",
+			"contrast": "Kontrast",
+			"exposure": "Expozice",
+			"gamma": "Gama",
+			"hue": "Odstín",
+			"noise": "Šum",
+			"saturation": "Nasycení",
+			"sepia": "Sépie",
 			"sharpen": "Zostření",
-			"stackBlur": "Rozostření"
+			"stackBlur": "Rozostření",
+			"vibrance": "Zářivost"
 		},
 		"preset": {
 			"clarity": "Čistota",
-			"pinhole": "Děrovaný papír",
-			"love": "Láska",
-			"jarques": "Jarques",
-			"orangePeel": "Pomerančová slupka",
-			"sinCity": "Město hříchu",
-			"grungy": "Výstřední",
-			"oldBoot": "Stará bota",
-			"lomo": "Lomo",
-			"vintage": "Zastaralé",
-			"crossProcess": "Cross Process",
 			"concentrate": "Koncentrace",
+			"crossProcess": "Cross Process",
 			"glowingSun": "Zářící slunce",
-			"sunrise": "Svítání",
-			"nostalgia": "Nostalgie",
+			"grungy": "Výstřední",
+			"hazyDays": "Zamlžené",
 			"hemingway": "Hemingway",
 			"herMajesty": "Její Výsost",
-			"hazyDays": "Zamlžené"
-		},
-		"downloadAction": "Stahování původního obrázku.",
-		"transformationAction": "Používání transformací.",
-		"uploadAction": "Nahrávání upraveného obrázku.",
-		"saveDialogTitle": "Uložit změny",
-		"saveDialogOverwrite": "Přepsat soubor",
-		"saveDialogSaveAs": "Uložit jako:",
-		"saveDialogFileExists": "V této složce již existuje soubor s tímto názvem.",
-		"reset": "Resetovat",
-		"title": "Upravit obrázek",
-		"save": "Uložit",
-		"loading": "Načítání obrázku",
-		"confirmExit": "Opravdu chcete úpravu zavřít? V obrázku máte neuložené změny."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Láska",
+			"nostalgia": "Nostalgie",
+			"oldBoot": "Stará bota",
+			"orangePeel": "Pomerančová slupka",
+			"pinhole": "Děrovaný papír",
+			"sinCity": "Město hříchu",
+			"sunrise": "Svítání",
+			"vintage": "Zastaralé"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Malá",
-		"medium": "Střední",
+		"custom": "Vlastní",
 		"large": "Velká",
 		"max": "Maximální",
-		"custom": "Vlastní"
+		"medium": "Střední",
+		"small": "Malá"
 	},
-	"showMore": "Zobrazit více",
 	"shortcuts": {
 		"title": "Klávesové zkratky",
 		"general": {
-			"title": "Obecné rozhraní",
-			"focusToolbar": "Zaměřit panel nástrojů",
-			"focusFoldersPane": "Zaměřit panel složek nebo navigační cestu",
-			"focusFilesPane": "Zaměřit panel souborů",
-			"showContextMenu": "Otevřít kontextovou nabídku",
-			"closeButton": "Zavřít",
-			"listShortcuts": "Otevřít toto dialogové okno s nápovědou",
 			"action": "Provést výchozí činnost",
-			"focusNext": "Zaměřit další panel",
-			"previousItem": "Přejít na předchozí položku",
-			"nextItem": "Přejít na další položku",
 			"firstItem": "Přejít na první položku",
-			"lastItem": "Přejít na poslední položku"
+			"focusFilesPane": "Zaměřit panel souborů",
+			"focusFoldersPane": "Zaměřit panel složek nebo navigační cestu",
+			"focusNext": "Zaměřit další panel",
+			"focusToolbar": "Zaměřit panel nástrojů",
+			"lastItem": "Přejít na poslední položku",
+			"listShortcuts": "Otevřít toto dialogové okno s nápovědou",
+			"nextItem": "Přejít na další položku",
+			"previousItem": "Přejít na předchozí položku",
+			"showContextMenu": "Otevřít kontextovou nabídku",
+			"title": "Obecné rozhraní"
 		},
 		"files": {
-			"title": "Panel souborů",
-			"delete": "Smazat soubor(y)",
-			"rename": "Přejmenovat soubor",
-			"selectAll": "Vybrat všechny soubory",
-			"upload": "Nahrát soubor(y)",
-			"refresh": "Obnovit soubory",
+			"addToSelectionAbove": "Přidat nebo odebrat soubory výše z/do výběru",
+			"addToSelectionBelow": "Přidat nebo odebrat soubory níže z/do výběru",
 			"addToSelectionLeft": "Přidat nebo odebrat soubor nalevo z/do výběru",
 			"addToSelectionRight": "Přidat nebo odebrat soubor napravo z/do výběru",
-			"addToSelectionAbove": "Přidat nebo odebrat soubory výše z/do výběru",
-			"addToSelectionBelow": "Přidat nebo odebrat soubory níže z/do výběru"
+			"delete": "Smazat soubor(y)",
+			"refresh": "Obnovit soubory",
+			"rename": "Přejmenovat soubor",
+			"selectAll": "Vybrat všechny soubory",
+			"upload": "Nahrát soubor(y)"
 		},
 		"folders": {
-			"title": "Panel složek",
+			"collapseOrParent": "Sbalit složku / Přejít na nadřazenou složku",
 			"delete": "Smazat složku",
-			"rename": "Přejmenovat složku",
 			"expandOrSubfolder": "Rozbalit složku / Přejít na první podsložku",
-			"collapseOrParent": "Sbalit složku / Přejít na nadřazenou složku"
+			"title": "Panel složek"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Přejmenovat složku",
-		"copyFiles": "Kopírovat soubory",
-		"moveFiles": "Přesunout soubory"
 	}
 }

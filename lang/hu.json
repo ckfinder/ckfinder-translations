@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Mégsem",
-		"messageTitle": "Információ",
-		"skip": "Kihagy",
-		"rememberDecision": "Jegyezze meg a választásomat"
-	},
 	"dir": "ltr",
 	"langCode": "hu",
 	"dateTime": "yyyy.mm.dd. HH:MM",
@@ -13,9 +7,23 @@
 		"de.",
 		"du."
 	],
-	"abort": "[MISSING]Abort",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "[MISSING]Abort",
+		"cancel": "Mégsem",
+		"close": "Bezárás",
+		"messageTitle": "Információ",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Jegyezze meg a választásomat",
+		"skip": "Kihagy"
+	},
+	"edit": "Szerkesztés",
 	"folderNew": "Kérem adja meg a mappa nevét: ",
-	"folderRename": "Kérem adja meg a mappa új nevét: ",
+	"folderRenameLabel": "Kérem adja meg a mappa új nevét: ",
+	"folderRenameTitle": "Mappa átnevezése",
 	"folderDelete": "Biztosan törölni szeretné a következő mappát: \"{name}\"?",
 	"destinationFolder": "Cél mappa",
 	"filesPane": "[MISSING]Files pane",
@@ -36,6 +44,7 @@
 		"title": "Nincs találat.",
 		"text": "Kérem adjon meg más keresési feltételt."
 	},
+	"filterPlaceholder": "Szűrő",
 	"filesRefresh": "[MISSING]Refreshing files",
 	"operationCompletedErrors": "A művelet közben hiba történt.",
 	"moveToolbarButton": "Áthelyezés",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Új név",
 	"fileOverwrite": "Felülír",
 	"fileAutorename": "Automatikus átnevezés",
-	"okBtn": "OK",
-	"cancelBtn": "Mégsem",
-	"closeBtn": "Bezárás",
 	"uploadSelectLbl": "Válassza ki a feltölteni kívánt fájlt",
 	"uploadProgressLbl": "(A feltöltés folyamatban. {pleaseWait})",
-	"uploadBtnCancel": "Mégsem",
 	"uploadNoFolder": "A feltöltés előtt válasszon mappát.",
 	"uploadNoPerms": "A fájlok feltöltése nem engedélyezett.",
 	"uploadUnknError": "Hiba a fájl feltöltése közben.",
 	"uploadExtIncorrect": "A fájl kiterjesztése nem engedélyezett ebben a mappában.",
-	"uploadLabel": {
-		"uploadSelect": "Válassza ki a feltöltendő fájlokat",
-		"uploadProgress": "Feltöltés...",
-		"uploadOk": "A feltöltés befejeződött!",
-		"uploadError": "A feltöltés befejeződött hibákkal."
-	},
 	"uploadSend": "Feltöltés",
 	"uploadAddFiles": "Fájl hozzáadása",
 	"uploadSummary": "Feltöltött fájlok: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 fájl",
 	"filesCountMany": "{count} fájl",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "[MISSING]px",
 	"errorUnknown": "A parancsot nem sikerült végrehajtani. (Hiba: {number})",
+	"showMore": "Mutass tübbet",
+	"uploadLabel": {
+		"uploadSelect": "Válassza ki a feltöltendő fájlokat",
+		"uploadProgress": "Feltöltés...",
+		"uploadOk": "A feltöltés befejeződött!",
+		"uploadError": "A feltöltés befejeződött hibákkal."
+	},
+	"operations": {
+		"copyFiles": "Fájlok másolása",
+		"moveFiles": "Fájlok áthelyezése"
+	},
+	"maximize": {
+		"maximize": "Teljes méret",
+		"minimize": "Kis méret"
+	},
 	"errors": {
 		"10": "Érvénytelen parancs.",
 		"11": "A fájl típusa nem lett a kérés során beállítva.",
@@ -147,122 +157,108 @@
 		"501": "A bélyegkép támogatás nincs engedélyezve."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "A fájl neve nem tartalmazhatja a következő karaktereket: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "A mappa neve nem tartalmazhatja a következő karaktereket: {disallowedCharacters}",
-		"missingFolder": "A könyvtár már nem létezik.",
-		"missingFile": "A fájl már nem létezik."
-	},
-	"fileeditor": {
-		"contextMenuName": "Szerkesztés"
-	},
-	"maximize": {
-		"maximize": "Teljes méret",
-		"minimize": "Kis méret"
-	},
-	"filter": {
-		"filterPlaceholder": "Szűrő"
+		"missingFile": "A fájl már nem létezik.",
+		"missingFolder": "A könyvtár már nem létezik."
 	},
 	"editImage": {
-		"apply": "Alkalmaz",
 		"adjust": "Beállítások",
+		"apply": "Alkalmaz",
+		"confirmExit": "Biztosan bezárja? Még nem mentett változások fűződnek ehhez a képhez.",
 		"crop": "Kivágás",
+		"downloadAction": "Eredeti kép letöltése.",
+		"keepAspectRatio": "Képarány megtartása",
+		"loading": "Kép betöltése",
 		"presets": "Effektek",
+		"reset": "Visszaállít",
 		"resize": "Átméretezés",
 		"rotate": "Forgatás",
-		"keepAspectRatio": "Képarány megtartása",
-		"rotateClockwise": "90&deg; jobbra",
 		"rotateAntiClockwise": "90&deg; balra",
+		"rotateClockwise": "90&deg; jobbra",
+		"save": "Mentés",
+		"saveDialogFileExists": "Ilyen nevű fájl már létezik a könyvtárban.",
+		"saveDialogOverwrite": "Fájl felülírása",
+		"saveDialogSaveAs": "Mentés másként:",
+		"saveDialogTitle": "Módosítások mentése",
+		"title": "Kép szerkesztése",
+		"transformationAction": "Módosítások alkalmazása.",
+		"uploadAction": "Módosított kép feltöltése.",
 		"filters": {
 			"brightness": "Világosság",
-			"contrast": "Kontraszt",
-			"saturation": "Telítettség",
-			"vibrance": "[MISSING]Vibrance",
-			"exposure": "Expozíció",
-			"hue": "[MISSING]Hue",
-			"sepia": "Szépia",
-			"gamma": "[MISSING]Gamma",
-			"noise": "Zaj",
 			"clip": "Kivág",
+			"contrast": "Kontraszt",
+			"exposure": "Expozíció",
+			"gamma": "[MISSING]Gamma",
+			"hue": "[MISSING]Hue",
+			"noise": "Zaj",
+			"saturation": "Telítettség",
+			"sepia": "Szépia",
 			"sharpen": "Élesség",
-			"stackBlur": "Homályosítás"
+			"stackBlur": "Homályosítás",
+			"vibrance": "[MISSING]Vibrance"
 		},
 		"preset": {
 			"clarity": "Világosság",
-			"pinhole": "A tű foka",
-			"love": "Szerelem",
-			"jarques": "[MISSING]Jarques",
-			"orangePeel": "Narancs héj",
-			"sinCity": "[MISSING]Sin City",
-			"grungy": "Trutyis",
-			"oldBoot": "Öreg csizma",
-			"lomo": "[MISSING]Lomo",
-			"vintage": "Klasszikus",
-			"crossProcess": "[MISSING]Cross Process",
 			"concentrate": "Koncentrált",
+			"crossProcess": "[MISSING]Cross Process",
 			"glowingSun": "Ragyogó nap",
-			"sunrise": "Napkelte",
-			"nostalgia": "Nosztalgia",
+			"grungy": "Trutyis",
+			"hazyDays": "Ködös nap",
 			"hemingway": "[MISSING]Hemingway",
 			"herMajesty": "Őfelsége",
-			"hazyDays": "Ködös nap"
-		},
-		"downloadAction": "Eredeti kép letöltése.",
-		"transformationAction": "Módosítások alkalmazása.",
-		"uploadAction": "Módosított kép feltöltése.",
-		"saveDialogTitle": "Módosítások mentése",
-		"saveDialogOverwrite": "Fájl felülírása",
-		"saveDialogSaveAs": "Mentés másként:",
-		"saveDialogFileExists": "Ilyen nevű fájl már létezik a könyvtárban.",
-		"reset": "Visszaállít",
-		"title": "Kép szerkesztése",
-		"save": "Mentés",
-		"loading": "Kép betöltése",
-		"confirmExit": "Biztosan bezárja? Még nem mentett változások fűződnek ehhez a képhez."
+			"jarques": "[MISSING]Jarques",
+			"lomo": "[MISSING]Lomo",
+			"love": "Szerelem",
+			"nostalgia": "Nosztalgia",
+			"oldBoot": "Öreg csizma",
+			"orangePeel": "Narancs héj",
+			"pinhole": "A tű foka",
+			"sinCity": "[MISSING]Sin City",
+			"sunrise": "Napkelte",
+			"vintage": "Klasszikus"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Kicsi",
-		"medium": "Közepes",
+		"custom": "Egyedi",
 		"large": "Nagy",
 		"max": "[MISSING]Max",
-		"custom": "Egyedi"
+		"medium": "Közepes",
+		"small": "Kicsi"
 	},
-	"showMore": "Mutass tübbet",
 	"shortcuts": {
 		"title": "Billentyű-kombinációk",
 		"general": {
-			"title": "Általános",
-			"focusToolbar": "Összpontosítás az eszköztárra",
-			"focusFoldersPane": "Összpontosítás a mappákra vagy útvonalra",
-			"focusFilesPane": "Összpontosítás a fájlokra",
-			"showContextMenu": "Kontextus menü megnyitása",
-			"closeButton": "Bezárás",
-			"listShortcuts": "Súgó megnyitása",
 			"action": "Első művelet futtatása",
-			"focusNext": "Összpontosítás a következőre",
-			"previousItem": "Ugrás az előzőre",
-			"nextItem": "Ugrás a következőre",
 			"firstItem": "Ugrás az elsőhöz",
-			"lastItem": "Ugrás az utolsóhoz"
+			"focusFilesPane": "Összpontosítás a fájlokra",
+			"focusFoldersPane": "Összpontosítás a mappákra vagy útvonalra",
+			"focusNext": "Összpontosítás a következőre",
+			"focusToolbar": "Összpontosítás az eszköztárra",
+			"lastItem": "Ugrás az utolsóhoz",
+			"listShortcuts": "Súgó megnyitása",
+			"nextItem": "Ugrás a következőre",
+			"previousItem": "Ugrás az előzőre",
+			"showContextMenu": "Kontextus menü megnyitása",
+			"title": "Általános"
 		},
 		"files": {
-			"title": "Fájlok",
-			"delete": "Fájlok törlése",
-			"rename": "Fájl átnevezése",
-			"selectAll": "Minden kijelölése",
-			"upload": "Feltöltés",
-			"refresh": "Frissítés",
+			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
+			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
 			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
 			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection"
+			"delete": "Fájlok törlése",
+			"refresh": "Frissítés",
+			"rename": "Fájl átnevezése",
+			"selectAll": "Minden kijelölése",
+			"upload": "Feltöltés"
 		},
 		"folders": {
-			"title": "Mappák",
+			"collapseOrParent": "Mappa összetűzése / Ugrás a szülőkönyvtárba",
 			"delete": "Mappa törlése",
-			"rename": "Mappa átnevezése",
 			"expandOrSubfolder": "Mappa kibontása / Ugrás az első almappába",
-			"collapseOrParent": "Mappa összetűzése / Ugrás a szülőkönyvtárba"
+			"title": "Mappák"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Mappa átnevezése",
-		"copyFiles": "Fájlok másolása",
-		"moveFiles": "Fájlok áthelyezése"
 	}
 }

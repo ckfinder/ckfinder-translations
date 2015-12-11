@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder دۆزەرەوەی",
-	"common": {
-		"cancel": "هەڵوەشاندن",
-		"messageTitle": "زانیاری",
-		"skip": "تێپەڕاندن",
-		"rememberDecision": "بڕیارەکەم بیر بهێنەوە"
-	},
 	"dir": "rtl",
 	"langCode": "ku",
 	"dateTime": "yyyy/mm/dd h:MM aa",
@@ -13,9 +7,23 @@
 		"بەیانی",
 		"ئێوارە"
 	],
-	"abort": "لە باربردن",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "لە باربردن",
+		"cancel": "هەڵوەشاندن",
+		"close": "دابخە",
+		"messageTitle": "زانیاری",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "بڕیارەکەم بیر بهێنەوە",
+		"skip": "تێپەڕاندن"
+	},
+	"edit": "دەسکاری",
 	"folderNew": "ناوی بوخچەی نوێ بنووسە: ",
-	"folderRename": "ناوی بوخچەی نوێ بنووسە: ",
+	"folderRenameLabel": "ناوی بوخچەی نوێ بنووسە: ",
+	"folderRenameTitle": "ناوگۆڕینی بوخچە",
 	"folderDelete": "تۆ دڵنیای لە سڕینەوەی ئەم \"{name}\" بوخچەیە؟",
 	"destinationFolder": "جێگای مەبەستی بوخچەی",
 	"filesPane": "بەشی پەڕگەکان",
@@ -36,6 +44,7 @@
 		"title": "هیچ نەدۆزراوە",
 		"text": "تکایە جۆری هەڵبژاردەی جیاواز هەڵبژێرە بۆ گەڕان."
 	},
+	"filterPlaceholder": "فیلتەر",
 	"filesRefresh": "بووژاندنەوەی پەڕگەکان",
 	"operationCompletedErrors": "کردارەکە تەواوکرا بە هەڵەوە.",
 	"moveToolbarButton": "بگوازەوە",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "ناوی نوێ",
 	"fileOverwrite": "سەرنوسینەوە",
 	"fileAutorename": "دووبارەناوگۆڕینی خۆکارانە",
-	"okBtn": "باشە",
-	"cancelBtn": "هەڵوەشاندن",
-	"closeBtn": "دابخە",
 	"uploadSelectLbl": "پەڕگەیەک هەڵبژێرە بۆ بارکردن",
 	"uploadProgressLbl": "(لە ژێر بارکردندایە. {pleaseWait})",
-	"uploadBtnCancel": "هەڵوەشاندن",
 	"uploadNoFolder": "تکایە پێشتر بوخچەیەک هەڵبژێرە بۆ بارکردن.",
 	"uploadNoPerms": "ڕێگەنەدراوە بە پەرگە بارکردن.",
 	"uploadUnknError": "هەڵە لە ناردنی پەڕگەکە.",
 	"uploadExtIncorrect": "پێوەکاری ئەم پەڕگەیە ڕێگەنەدراوە.",
-	"uploadLabel": {
-		"uploadSelect": "پەڕگەیەک هەڵبژێرە بۆ بارکردن",
-		"uploadProgress": "باردەکرێت...",
-		"uploadOk": "بارکردنەکە کۆتایی هات!",
-		"uploadError": "بارکردنەکە کۆتایی هات بە هەڵەوە."
-	},
 	"uploadSend": "بارکردن",
 	"uploadAddFiles": "خستنەسەری پەڕگە",
 	"uploadSummary": "بارکردنی پەڕگە: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 پەڕگە",
 	"filesCountMany": "{count} پەڕگە",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "پیلس؛",
 	"errorUnknown": "ئەستەم بوو داواکاریەکەت بە تەواوی جێبەجێبکرێت. (هەڵە {number})",
+	"showMore": "زیاتر پیشانبدە",
+	"uploadLabel": {
+		"uploadSelect": "پەڕگەیەک هەڵبژێرە بۆ بارکردن",
+		"uploadProgress": "باردەکرێت...",
+		"uploadOk": "بارکردنەکە کۆتایی هات!",
+		"uploadError": "بارکردنەکە کۆتایی هات بە هەڵەوە."
+	},
+	"operations": {
+		"copyFiles": "کۆپیکردنی پەڕگە",
+		"moveFiles": "گواستنەوەی پەڕگە"
+	},
+	"maximize": {
+		"maximize": "گەورەکردن",
+		"minimize": "بچوکردن"
+	},
 	"errors": {
 		"10": "فەرمانێکی نادروست.",
 		"11": "جۆری کەرستەکە دەستنیشان نەکراوە لە داواکاریەکە.",
@@ -147,122 +157,108 @@
 		"501": "پشتیوانکردنی وێنۆچکە ناچالاککراوە."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "ناوی پەڕگە نابێت پێکهاتبێت لەم پیتوو هێمایانە: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "ناوی بوخچە نابێت پێکهاتبێت لەم پیتوو هێمایانە: {disallowedCharacters}",
-		"missingFolder": "ئەم بوخچەیەی تۆ هەوڵی گەیشتنی بۆ دەدەی، بەردەست نیە.",
-		"missingFile": "پەڕگەی داواکروا بەردەست نیە."
-	},
-	"fileeditor": {
-		"contextMenuName": "دەسکاری"
-	},
-	"maximize": {
-		"maximize": "گەورەکردن",
-		"minimize": "بچوکردن"
-	},
-	"filter": {
-		"filterPlaceholder": "فیلتەر"
+		"missingFile": "پەڕگەی داواکروا بەردەست نیە.",
+		"missingFolder": "ئەم بوخچەیەی تۆ هەوڵی گەیشتنی بۆ دەدەی، بەردەست نیە."
 	},
 	"editImage": {
-		"apply": "داواکردن",
 		"adjust": "ڕێککردن",
+		"apply": "داواکردن",
+		"confirmExit": "تۆ دڵنیایی لە داخستنی? تۆ هێشتا دەسکرایەکەی وێنەکەت پاشکەوتنەکردووە.",
 		"crop": "بڕین",
+		"downloadAction": "وێنەی ڕەسەن ئەسڵی دادەگیرێت.",
+		"keepAspectRatio": "هێشتنەوەی ڕووی ڕێژەیی",
+		"loading": "هێنانی وێنە",
 		"presets": "لەپێش",
+		"reset": "ڕێکخستنەوه",
 		"resize": "قەبارەکردن",
 		"rotate": "سووڕاندن",
-		"keepAspectRatio": "هێشتنەوەی ڕووی ڕێژەیی",
-		"rotateClockwise": "90&deg; ڕاست",
 		"rotateAntiClockwise": "90&deg; جەپ",
+		"rotateClockwise": "90&deg; ڕاست",
+		"save": "پاشكەوت",
+		"saveDialogFileExists": "پەڕگە بەهەمان ناو هەیە لە بوخچەکە.",
+		"saveDialogOverwrite": "لەسەر پەڕگەکەی بنووسەوە",
+		"saveDialogSaveAs": "پاشکەوتکردنی وەک:",
+		"saveDialogTitle": "گۆڕانکاریەکان پاشکەوتبکە",
+		"title": "دەسکاری وێنە",
+		"transformationAction": "داواکردنی گۆرین.",
+		"uploadAction": "وێنەی دەسکاریکراو باردەکرێت.",
 		"filters": {
 			"brightness": "ڕووشاندن",
-			"contrast": "جیاوازی",
-			"saturation": "تێرایی - تێربوون",
-			"vibrance": "لەرزاندن",
-			"exposure": "خستنەڕوو",
-			"hue": "ڕەنگ",
-			"sepia": "قاوەیی",
-			"gamma": "گاما",
-			"noise": "خشەخش",
 			"clip": "گرتە",
+			"contrast": "جیاوازی",
+			"exposure": "خستنەڕوو",
+			"gamma": "گاما",
+			"hue": "ڕەنگ",
+			"noise": "خشەخش",
+			"saturation": "تێرایی - تێربوون",
+			"sepia": "قاوەیی",
 			"sharpen": "ڕوونکردن",
-			"stackBlur": "لێڵی پشت"
+			"stackBlur": "لێڵی پشت",
+			"vibrance": "لەرزاندن"
 		},
 		"preset": {
 			"clarity": "ڕۆنکردن",
-			"pinhole": "پینهۆڵ",
-			"love": "خۆشەویستی",
-			"jarques": "جاڕك",
-			"orangePeel": "توێکڵی پڕتەقاڵ",
-			"sinCity": "تاوان",
-			"grungy": "گڕاونجی",
-			"oldBoot": "بۆتی کۆن",
-			"lomo": "سووری تاریک",
-			"vintage": "وەرزی",
-			"crossProcess": "کاری تێکەڵ",
 			"concentrate": "چڕکردنەوە",
+			"crossProcess": "کاری تێکەڵ",
 			"glowingSun": "پەرۆشی خۆر",
-			"sunrise": "خۆرهەڵاتن",
-			"nostalgia": "بەسۆز",
+			"grungy": "گڕاونجی",
+			"hazyDays": "تەم و مژاوی",
 			"hemingway": "هێمینگوەی",
 			"herMajesty": "خاوەنشکۆ",
-			"hazyDays": "تەم و مژاوی"
-		},
-		"downloadAction": "وێنەی ڕەسەن ئەسڵی دادەگیرێت.",
-		"transformationAction": "داواکردنی گۆرین.",
-		"uploadAction": "وێنەی دەسکاریکراو باردەکرێت.",
-		"saveDialogTitle": "گۆڕانکاریەکان پاشکەوتبکە",
-		"saveDialogOverwrite": "لەسەر پەڕگەکەی بنووسەوە",
-		"saveDialogSaveAs": "پاشکەوتکردنی وەک:",
-		"saveDialogFileExists": "پەڕگە بەهەمان ناو هەیە لە بوخچەکە.",
-		"reset": "ڕێکخستنەوه",
-		"title": "دەسکاری وێنە",
-		"save": "پاشكەوت",
-		"loading": "هێنانی وێنە",
-		"confirmExit": "تۆ دڵنیایی لە داخستنی? تۆ هێشتا دەسکرایەکەی وێنەکەت پاشکەوتنەکردووە."
+			"jarques": "جاڕك",
+			"lomo": "سووری تاریک",
+			"love": "خۆشەویستی",
+			"nostalgia": "بەسۆز",
+			"oldBoot": "بۆتی کۆن",
+			"orangePeel": "توێکڵی پڕتەقاڵ",
+			"pinhole": "پینهۆڵ",
+			"sinCity": "تاوان",
+			"sunrise": "خۆرهەڵاتن",
+			"vintage": "وەرزی"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "بچووک",
-		"medium": "مامناوەند",
+		"custom": "درووستکراو",
 		"large": "گەورە",
 		"max": "ئەوپەڕی",
-		"custom": "درووستکراو"
+		"medium": "مامناوەند",
+		"small": "بچووک"
 	},
-	"showMore": "زیاتر پیشانبدە",
 	"shortcuts": {
 		"title": "کلیلی قەدبڕەکان",
 		"general": {
-			"title": "ڕووکاری گشتی",
-			"focusToolbar": "سەرنجدانی تووڵامراز",
-			"focusFoldersPane": "سەرنجدانی بەشی بوخچەکان",
-			"focusFilesPane": "سەرجندانی بەشی پەڕگەکان",
-			"showContextMenu": "کردنەوەی شانەی لیستە",
-			"closeButton": "دابخە",
-			"listShortcuts": "ئەم دیالۆگی یارمەتیە بکەوە",
 			"action": "بەجێهێنانی فەرمنای بنچینەیی",
-			"focusNext": "سەرنجدانی بەشی داهاتوو",
-			"previousItem": "بچۆ بۆ بەرهەمی پێشوو",
-			"nextItem": "بچٶ بۆ بەرهەمی داهاتوو",
 			"firstItem": "بچۆ بۆ بەرهەمی یەکەم",
-			"lastItem": "بچۆ بۆ بەرهەمی کۆتایی"
+			"focusFilesPane": "سەرجندانی بەشی پەڕگەکان",
+			"focusFoldersPane": "سەرنجدانی بەشی بوخچەکان",
+			"focusNext": "سەرنجدانی بەشی داهاتوو",
+			"focusToolbar": "سەرنجدانی تووڵامراز",
+			"lastItem": "بچۆ بۆ بەرهەمی کۆتایی",
+			"listShortcuts": "ئەم دیالۆگی یارمەتیە بکەوە",
+			"nextItem": "بچٶ بۆ بەرهەمی داهاتوو",
+			"previousItem": "بچۆ بۆ بەرهەمی پێشوو",
+			"showContextMenu": "کردنەوەی شانەی لیستە",
+			"title": "ڕووکاری گشتی"
 		},
 		"files": {
-			"title": "بەشی پەڕگەکان",
-			"delete": "سڕینەوەی پەڕگە",
-			"rename": "ناوگۆڕینی پەڕگە",
-			"selectAll": "دیاریکردنی سەرجەم پەڕگەکان",
-			"upload": "بارکردنی پەڕگە",
-			"refresh": "نوێکردنەوەی پەڕگەکان",
+			"addToSelectionAbove": "زیادکردن یان سڕینەوەی پەڕگە لە سەرەوە بۆ هەڵبژاردن",
+			"addToSelectionBelow": "زیادکردن یان سڕینەوەی پەڕگە لە ژێرەوە بۆ هەڵبژاردن",
 			"addToSelectionLeft": "زیادکردن یان سڕینەوەی پەڕگە لە لای چەپ بۆ هەڵبژاردن",
 			"addToSelectionRight": "زیادکردن یان سڕینەوەی پەڕگە لە لای ڕاست بۆ هەڵبژاردن",
-			"addToSelectionAbove": "زیادکردن یان سڕینەوەی پەڕگە لە سەرەوە بۆ هەڵبژاردن",
-			"addToSelectionBelow": "زیادکردن یان سڕینەوەی پەڕگە لە ژێرەوە بۆ هەڵبژاردن"
+			"delete": "سڕینەوەی پەڕگە",
+			"refresh": "نوێکردنەوەی پەڕگەکان",
+			"rename": "ناوگۆڕینی پەڕگە",
+			"selectAll": "دیاریکردنی سەرجەم پەڕگەکان",
+			"upload": "بارکردنی پەڕگە"
 		},
 		"folders": {
-			"title": "بەشی بوخچەکان",
+			"collapseOrParent": "داخستنی بوخچە / بچۆ بۆ باوانی بوخچە",
 			"delete": "سڕینەوەی بوخچە",
-			"rename": "ناوگۆڕینی بوخچە",
 			"expandOrSubfolder": "پانکردنەوەی بوخچە / بچۆ بۆ ژێرلقە بوخچەی یەکەم",
-			"collapseOrParent": "داخستنی بوخچە / بچۆ بۆ باوانی بوخچە"
+			"title": "بەشی بوخچەکان"
 		},
 		"keys": {
 			"ctrl": "کۆنترۆل",
@@ -282,10 +278,5 @@
 			"home": "هۆم",
 			"shift": "شیفت"
 		}
-	},
-	"operations": {
-		"renameFolder": "ناوگۆڕینی بوخچە",
-		"copyFiles": "کۆپیکردنی پەڕگە",
-		"moveFiles": "گواستنەوەی پەڕگە"
 	}
 }

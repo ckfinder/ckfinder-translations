@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "取消",
-		"messageTitle": "提示",
-		"skip": "跳过",
-		"rememberDecision": "下次不再询问"
-	},
 	"dir": "ltr",
 	"langCode": "zh-cn",
 	"dateTime": "yyyy年m月d日 h:MM aa",
@@ -13,9 +7,23 @@
 		"上午",
 		"下午"
 	],
-	"abort": "[MISSING]Abort",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "[MISSING]Abort",
+		"cancel": "取消",
+		"close": "关闭",
+		"messageTitle": "提示",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "下次不再询问",
+		"skip": "跳过"
+	},
+	"edit": "编辑",
 	"folderNew": "请输入新文件夹名称: ",
-	"folderRename": "请输入新文件夹名称: ",
+	"folderRenameLabel": "请输入新文件夹名称: ",
+	"folderRenameTitle": "[MISSING]Rename Folder",
 	"folderDelete": "您确定要删除文件夹 \"{name}\" 吗？",
 	"destinationFolder": "目标文件夹",
 	"filesPane": "[MISSING]Files pane",
@@ -36,6 +44,7 @@
 		"title": "没有找到。",
 		"text": "请尝试使用不同的搜索条件。"
 	},
+	"filterPlaceholder": "过滤",
 	"filesRefresh": "[MISSING]Refreshing files",
 	"operationCompletedErrors": "操作完成，但有错误。",
 	"moveToolbarButton": "移动",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "新文件名",
 	"fileOverwrite": "自动覆盖重名文件",
 	"fileAutorename": "给重名文件自动命名",
-	"okBtn": "确定",
-	"cancelBtn": "取消",
-	"closeBtn": "关闭",
 	"uploadSelectLbl": "选择要上传的文件",
 	"uploadProgressLbl": "(正在上传文件，{pleaseWait})",
-	"uploadBtnCancel": "取消",
 	"uploadNoFolder": "需先选择一个文件。",
 	"uploadNoPerms": "无文件上传权限。",
 	"uploadUnknError": "上传文件出错。",
 	"uploadExtIncorrect": "此文件扩展名在当前文件夹中不可用。",
-	"uploadLabel": {
-		"uploadSelect": "选择要上传的文件",
-		"uploadProgress": "正在上传...",
-		"uploadOk": "上传完成！",
-		"uploadError": "上传完成，但有错误。"
-	},
 	"uploadSend": "上传",
 	"uploadAddFiles": "添加文件",
 	"uploadSummary": "已上传文件： {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 个文件",
 	"filesCountMany": "{count} 个文件",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "[MISSING]px",
 	"errorUnknown": "请求的操作未能完成。(错误 {number})",
+	"showMore": "更多",
+	"uploadLabel": {
+		"uploadSelect": "选择要上传的文件",
+		"uploadProgress": "正在上传...",
+		"uploadOk": "上传完成！",
+		"uploadError": "上传完成，但有错误。"
+	},
+	"operations": {
+		"copyFiles": "[MISSING]Copy Files",
+		"moveFiles": "[MISSING]Move Files"
+	},
+	"maximize": {
+		"maximize": "全屏",
+		"minimize": "最小化"
+	},
 	"errors": {
 		"10": "无效的指令。",
 		"11": "文件类型不在许可范围之内。",
@@ -147,122 +157,108 @@
 		"501": "不支持缩略图方式。"
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "文件名不能包含以下字符：{disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "文件夹名称不能包含以下字符：{disallowedCharacters}",
-		"missingFolder": "您指定的文件夹已不可用。",
-		"missingFile": "请求的文件已不可用。"
-	},
-	"fileeditor": {
-		"contextMenuName": "编辑"
-	},
-	"maximize": {
-		"maximize": "全屏",
-		"minimize": "最小化"
-	},
-	"filter": {
-		"filterPlaceholder": "过滤"
+		"missingFile": "请求的文件已不可用。",
+		"missingFolder": "您指定的文件夹已不可用。"
 	},
 	"editImage": {
-		"apply": "应用",
 		"adjust": "调整",
+		"apply": "应用",
+		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
 		"crop": "裁剪",
+		"downloadAction": "正在下载原始图像...",
+		"keepAspectRatio": "保持纵横比",
+		"loading": "加载图像",
 		"presets": "预设",
+		"reset": "重置",
 		"resize": "缩放",
 		"rotate": "旋转",
-		"keepAspectRatio": "保持纵横比",
-		"rotateClockwise": "顺时针 90&deg;",
 		"rotateAntiClockwise": "逆时针 90&deg;",
+		"rotateClockwise": "顺时针 90&deg;",
+		"save": "保存",
+		"saveDialogFileExists": "文件夹中已存在相同名称的文件。",
+		"saveDialogOverwrite": "覆盖文件",
+		"saveDialogSaveAs": "另存为：",
+		"saveDialogTitle": "保存更改",
+		"title": "编辑图像",
+		"transformationAction": "正在应用变换...",
+		"uploadAction": "正在上传编辑的图像...",
 		"filters": {
 			"brightness": "亮度",
-			"contrast": "对比度",
-			"saturation": "饱和度",
-			"vibrance": "鲜艳度",
-			"exposure": "曝光度",
-			"hue": "色调",
-			"sepia": "怀旧",
-			"gamma": "伽玛",
-			"noise": "噪点",
 			"clip": "修剪",
+			"contrast": "对比度",
+			"exposure": "曝光度",
+			"gamma": "伽玛",
+			"hue": "色调",
+			"noise": "噪点",
+			"saturation": "饱和度",
+			"sepia": "怀旧",
 			"sharpen": "锐化",
-			"stackBlur": "模糊"
+			"stackBlur": "模糊",
+			"vibrance": "鲜艳度"
 		},
 		"preset": {
 			"clarity": "清晰",
-			"pinhole": "针孔",
-			"love": "[MISSING]Love",
-			"jarques": "[MISSING]Jarques",
-			"orangePeel": "橘皮",
-			"sinCity": "罪恶之城",
-			"grungy": "油渍",
-			"oldBoot": "旧靴子",
-			"lomo": "LOMO",
-			"vintage": "复古",
-			"crossProcess": "胶片",
 			"concentrate": "[MISSING]Concentrate",
+			"crossProcess": "胶片",
 			"glowingSun": "光照",
-			"sunrise": "日出",
-			"nostalgia": "怀旧",
+			"grungy": "油渍",
+			"hazyDays": "雨雾",
 			"hemingway": "[MISSING]Hemingway",
 			"herMajesty": "[MISSING]Her Majesty",
-			"hazyDays": "雨雾"
-		},
-		"downloadAction": "正在下载原始图像...",
-		"transformationAction": "正在应用变换...",
-		"uploadAction": "正在上传编辑的图像...",
-		"saveDialogTitle": "保存更改",
-		"saveDialogOverwrite": "覆盖文件",
-		"saveDialogSaveAs": "另存为：",
-		"saveDialogFileExists": "文件夹中已存在相同名称的文件。",
-		"reset": "重置",
-		"title": "编辑图像",
-		"save": "保存",
-		"loading": "加载图像",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image."
+			"jarques": "[MISSING]Jarques",
+			"lomo": "LOMO",
+			"love": "[MISSING]Love",
+			"nostalgia": "怀旧",
+			"oldBoot": "旧靴子",
+			"orangePeel": "橘皮",
+			"pinhole": "针孔",
+			"sinCity": "罪恶之城",
+			"sunrise": "日出",
+			"vintage": "复古"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "小",
-		"medium": "中",
+		"custom": "自定义",
 		"large": "大",
 		"max": "最大",
-		"custom": "自定义"
+		"medium": "中",
+		"small": "小"
 	},
-	"showMore": "更多",
 	"shortcuts": {
 		"title": "[MISSING]Keyboard Shortcuts",
 		"general": {
-			"title": "[MISSING]General Interface",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"showContextMenu": "[MISSING]Open context menu",
-			"closeButton": "[MISSING]Close",
-			"listShortcuts": "[MISSING]Open this help dialog",
 			"action": "[MISSING]Execute default action",
-			"focusNext": "[MISSING]Focus next pane",
-			"previousItem": "[MISSING]Go to previous item",
-			"nextItem": "[MISSING]Go to next item",
 			"firstItem": "[MISSING]Go to first item",
-			"lastItem": "[MISSING]Go to last item"
+			"focusFilesPane": "[MISSING]Focus files pane",
+			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
+			"focusNext": "[MISSING]Focus next pane",
+			"focusToolbar": "[MISSING]Focus toolbar",
+			"lastItem": "[MISSING]Go to last item",
+			"listShortcuts": "[MISSING]Open this help dialog",
+			"nextItem": "[MISSING]Go to next item",
+			"previousItem": "[MISSING]Go to previous item",
+			"showContextMenu": "[MISSING]Open context menu",
+			"title": "[MISSING]General Interface"
 		},
 		"files": {
-			"title": "[MISSING]Files Pane",
-			"delete": "[MISSING]Delete file(s)",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)",
-			"refresh": "[MISSING]Refresh files",
+			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
+			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
 			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
 			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection"
+			"delete": "[MISSING]Delete file(s)",
+			"refresh": "[MISSING]Refresh files",
+			"rename": "[MISSING]Rename file",
+			"selectAll": "[MISSING]Select all files",
+			"upload": "[MISSING]Upload file(s)"
 		},
 		"folders": {
-			"title": "[MISSING]Folders Pane",
+			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
 			"delete": "[MISSING]Delete folder",
-			"rename": "[MISSING]Rename folder",
 			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder"
+			"title": "[MISSING]Folders Pane"
 		},
 		"keys": {
 			"ctrl": "[MISSING]Control",
@@ -282,10 +278,5 @@
 			"home": "[MISSING]home",
 			"shift": "[MISSING]shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "[MISSING]Rename Folder",
-		"copyFiles": "[MISSING]Copy Files",
-		"moveFiles": "[MISSING]Move Files"
 	}
 }

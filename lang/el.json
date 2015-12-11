@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Ακύρωση",
-		"messageTitle": "Πληροφορίες",
-		"skip": "Παράβλεψη",
-		"rememberDecision": "Να θυμάσαι την απόφασή μου"
-	},
 	"dir": "ltr",
 	"langCode": "el",
 	"dateTime": "dd/mm/yyyy HH:MM",
@@ -13,9 +7,23 @@
 		"ΜΜ",
 		"ΠΜ"
 	],
-	"abort": "Ματαίωση",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Ματαίωση",
+		"cancel": "Ακύρωση",
+		"close": "Κλείσιμο",
+		"messageTitle": "Πληροφορίες",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Να θυμάσαι την απόφασή μου",
+		"skip": "Παράβλεψη"
+	},
+	"edit": "Επεξεργασία",
 	"folderNew": "Παρακαλούμε πληκτρολογήστε την ονομασία του νέου φακέλου: ",
-	"folderRename": "Παρακαλούμε πληκτρολογήστε την νέα ονομασία του φακέλου: ",
+	"folderRenameLabel": "Παρακαλούμε πληκτρολογήστε την νέα ονομασία του φακέλου: ",
+	"folderRenameTitle": "Μετονομασία φακέλου",
 	"folderDelete": "Είστε σίγουροι ότι θέλετε να διαγράψετε το φάκελο \"{name}\";",
 	"destinationFolder": "Φάκελος Προορισμού",
 	"filesPane": "Καρτέλα αρχείων",
@@ -36,6 +44,7 @@
 		"title": "Δεν βρέθηκαν αρχεία με αυτά τα κριτήρια.",
 		"text": "Παρακαλούμε δοκιμάστε με άλλα κριτήρια αναζήτησης."
 	},
+	"filterPlaceholder": "Φίλτρο",
 	"filesRefresh": "Ανανέωση αρχείων σε εξέλιξη",
 	"operationCompletedErrors": "Η διαδικασία ολοκληρώθηκε με σφάλματα.",
 	"moveToolbarButton": "Μετακίνηση",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Νέα ονομασία",
 	"fileOverwrite": "Αντικατάσταση αρχείου",
 	"fileAutorename": "Αυτόματη μετονομασία",
-	"okBtn": "OK",
-	"cancelBtn": "Ακύρωση",
-	"closeBtn": "Κλείσιμο",
 	"uploadSelectLbl": "επιλέξτε το αρχείο που θέλετε να μεταφερθεί κάνοντας κλίκ στο κουμπί",
 	"uploadProgressLbl": "(Η μεταφόρτωση εκτελείται. {pleaseWait})",
-	"uploadBtnCancel": "Ακύρωση",
 	"uploadNoFolder": "Παρακαλούμε επιλέξτε ένα φάκελο πριν εκκινήσετε την διαδικασία της μεταφόρτωσης.",
 	"uploadNoPerms": "Η μεταφόρτωση των αρχείων δεν επιτρέπεται.",
 	"uploadUnknError": "Παρουσιάστηκε σφάλμα κατά την αποστολή του αρχείου.",
 	"uploadExtIncorrect": "Η επέκταση του αρχείου δεν επιτρέπεται σε αυτόν τον φάκελο.",
-	"uploadLabel": {
-		"uploadSelect": "Επιλέξτε αρχεία για μεταφόρτωση",
-		"uploadProgress": "Μεταφόρτωση...",
-		"uploadOk": "Η μεταφόρτωση ολοκληρώθηκε!",
-		"uploadError": "Η μεταφόρτωση ολοκληρώθηκε με σφάλματα."
-	},
 	"uploadSend": "Μεταφόρτωση",
 	"uploadAddFiles": "Προσθήκη αρχείων",
 	"uploadSummary": "Αρχεία που μεταφορτώθηκαν: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 αρχείο",
 	"filesCountMany": "{count} αρχεία",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Η ενέργεια δεν ήταν δυνατόν να εκτελεστεί. (Σφάλμα {number})",
+	"showMore": "Εμφάνιση περισσοτέρων",
+	"uploadLabel": {
+		"uploadSelect": "Επιλέξτε αρχεία για μεταφόρτωση",
+		"uploadProgress": "Μεταφόρτωση...",
+		"uploadOk": "Η μεταφόρτωση ολοκληρώθηκε!",
+		"uploadError": "Η μεταφόρτωση ολοκληρώθηκε με σφάλματα."
+	},
+	"operations": {
+		"copyFiles": "Αντιγραφή αρχείων",
+		"moveFiles": "Μεταφορά αρχείων"
+	},
+	"maximize": {
+		"maximize": "Μεγιστοποίηση",
+		"minimize": "Ελαχιστοποίηση"
+	},
 	"errors": {
 		"10": "Λανθασμένη Εντολή.",
 		"11": "Ο τύπος πόρου (resource type) δεν ήταν δυνατόν να προσδιοριστεί.",
@@ -147,122 +157,108 @@
 		"501": "Η υποστήριξη των μικρογραφιών έχει απενεργοποιηθεί."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Η ονομασία του αρχείου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Η ονομασία του φακέλου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: {disallowedCharacters}",
-		"missingFolder": "Ο φάκελος που προσπαθείτε να ανοίξετε δεν είναι πλέον διαθέσιμος.",
-		"missingFile": "Το αρχείο που ζητήθηκε δεν είναι πλέον διαθέσιμο."
-	},
-	"fileeditor": {
-		"contextMenuName": "Επεξεργασία"
-	},
-	"maximize": {
-		"maximize": "Μεγιστοποίηση",
-		"minimize": "Ελαχιστοποίηση"
-	},
-	"filter": {
-		"filterPlaceholder": "Φίλτρο"
+		"missingFile": "Το αρχείο που ζητήθηκε δεν είναι πλέον διαθέσιμο.",
+		"missingFolder": "Ο φάκελος που προσπαθείτε να ανοίξετε δεν είναι πλέον διαθέσιμος."
 	},
 	"editImage": {
-		"apply": "Εφαρμογή",
 		"adjust": "Ρύθμιση",
+		"apply": "Εφαρμογή",
+		"confirmExit": "Είστε σίγουροι πως θέλετε να επιστρέψετε; Υπάρχουν αλλαγές στην εικόνα που δεν έχουν αποθηκευτεί.",
 		"crop": "Περικοπή",
+		"downloadAction": "Λήψη πρωτότυπης εικόνας.",
+		"keepAspectRatio": "Διατήρηση Λόγου Διαστάσεων",
+		"loading": "Φόρτωση εικόνας",
 		"presets": "Προεπιλογές",
+		"reset": "Επαναφορά",
 		"resize": "Αλλαγή μεγέθους",
 		"rotate": "Περιστροφή",
-		"keepAspectRatio": "Διατήρηση Λόγου Διαστάσεων",
-		"rotateClockwise": "90&deg; Δεξιά",
 		"rotateAntiClockwise": "90&deg; Αριστερά",
+		"rotateClockwise": "90&deg; Δεξιά",
+		"save": "Αποθήκευση",
+		"saveDialogFileExists": "Υπάρχει ήδη αρχείο με το ίδιο όνομα στον φάκελο.",
+		"saveDialogOverwrite": "Αντικατάσταση Αρχείου",
+		"saveDialogSaveAs": "Αποθήκευση ως:",
+		"saveDialogTitle": "Αποθήκευση Αλλαγών",
+		"title": "Επεξεργασία εικόνας",
+		"transformationAction": "Γίνεται εφαρμογή των μετασχηματισμών.",
+		"uploadAction": "Μεταφόρτωση επεξεργασμένης εικόνας.",
 		"filters": {
 			"brightness": "Φωτεινότητα",
-			"contrast": "Αντίθεση",
-			"saturation": "Κορεσμός",
-			"vibrance": "Zωηρότητα (Vibrance)",
-			"exposure": "Έκθεση",
-			"hue": "Απόχρωση",
-			"sepia": "Sepia",
-			"gamma": "Διόρθωση (Gamma)",
-			"noise": "Θόρυβος",
 			"clip": "Υπερέκθεση (Clip)",
+			"contrast": "Αντίθεση",
+			"exposure": "Έκθεση",
+			"gamma": "Διόρθωση (Gamma)",
+			"hue": "Απόχρωση",
+			"noise": "Θόρυβος",
+			"saturation": "Κορεσμός",
+			"sepia": "Sepia",
 			"sharpen": "Όξυνση",
-			"stackBlur": "Θόλωση (Stack Blur)"
+			"stackBlur": "Θόλωση (Stack Blur)",
+			"vibrance": "Zωηρότητα (Vibrance)"
 		},
 		"preset": {
 			"clarity": "Διαύγεια",
-			"pinhole": "Σκοτεινός θάλαμος",
-			"love": "Αγάπη",
-			"jarques": "Jarques",
-			"orangePeel": "Φλούδα πορτοκαλιού",
-			"sinCity": "Sin City",
-			"grungy": "Τραχύτητα",
-			"oldBoot": "Ψυχρότητα",
-			"lomo": "Λομογραφία",
-			"vintage": "Εποχής",
-			"crossProcess": "Ένταση",
 			"concentrate": "Συγκέντρωση",
+			"crossProcess": "Ένταση",
 			"glowingSun": "Λαμπρός ήλιος",
-			"sunrise": "Ανατολή ηλίου",
-			"nostalgia": "Νοσταλγία",
+			"grungy": "Τραχύτητα",
+			"hazyDays": "Θολές ημέρες",
 			"hemingway": "Χέμινγουεϊ",
 			"herMajesty": "Αυτού εξοχότης",
-			"hazyDays": "Θολές ημέρες"
-		},
-		"downloadAction": "Λήψη πρωτότυπης εικόνας.",
-		"transformationAction": "Γίνεται εφαρμογή των μετασχηματισμών.",
-		"uploadAction": "Μεταφόρτωση επεξεργασμένης εικόνας.",
-		"saveDialogTitle": "Αποθήκευση Αλλαγών",
-		"saveDialogOverwrite": "Αντικατάσταση Αρχείου",
-		"saveDialogSaveAs": "Αποθήκευση ως:",
-		"saveDialogFileExists": "Υπάρχει ήδη αρχείο με το ίδιο όνομα στον φάκελο.",
-		"reset": "Επαναφορά",
-		"title": "Επεξεργασία εικόνας",
-		"save": "Αποθήκευση",
-		"loading": "Φόρτωση εικόνας",
-		"confirmExit": "Είστε σίγουροι πως θέλετε να επιστρέψετε; Υπάρχουν αλλαγές στην εικόνα που δεν έχουν αποθηκευτεί."
+			"jarques": "Jarques",
+			"lomo": "Λομογραφία",
+			"love": "Αγάπη",
+			"nostalgia": "Νοσταλγία",
+			"oldBoot": "Ψυχρότητα",
+			"orangePeel": "Φλούδα πορτοκαλιού",
+			"pinhole": "Σκοτεινός θάλαμος",
+			"sinCity": "Sin City",
+			"sunrise": "Ανατολή ηλίου",
+			"vintage": "Εποχής"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Μικρό",
-		"medium": "Μεσαίο",
+		"custom": "Επιλεκτικά",
 		"large": "Μεγάλο",
 		"max": "Πολύ μεγάλο",
-		"custom": "Επιλεκτικά"
+		"medium": "Μεσαίο",
+		"small": "Μικρό"
 	},
-	"showMore": "Εμφάνιση περισσοτέρων",
 	"shortcuts": {
 		"title": "Συντομεύσεις πληκτρολογίου",
 		"general": {
-			"title": "Γενικό περιβάλλον διεπαφής",
-			"focusToolbar": "Εστίαση σε γραμμή εργαλείων",
-			"focusFoldersPane": "Εστίαση σε καρτέλα φακέλων ή στη διαδρομή (breadcrumbs)",
-			"focusFilesPane": "Εστίαση στην καρτέλα αρχείων",
-			"showContextMenu": "Άνοιγμα μενού επιλογών (context menu)",
-			"closeButton": "Κλείσιμο",
-			"listShortcuts": "Άνοιγμα αυτού του παραθύρου βοηθείας",
 			"action": "Εκτέλεση προεπιλεγμένης ενέργειας",
-			"focusNext": "Εστίαση επόμενης καρτέλας",
-			"previousItem": "Μεταφορά στο προηγούμενο αντικείμενο",
-			"nextItem": "Μεταφορά στο επόμενο αντικείμενο",
 			"firstItem": "Μεταφορά στο πρώτο αντικείμενο",
-			"lastItem": "Μεταφορά στο τελευταίο αντικείμενο"
+			"focusFilesPane": "Εστίαση στην καρτέλα αρχείων",
+			"focusFoldersPane": "Εστίαση σε καρτέλα φακέλων ή στη διαδρομή (breadcrumbs)",
+			"focusNext": "Εστίαση επόμενης καρτέλας",
+			"focusToolbar": "Εστίαση σε γραμμή εργαλείων",
+			"lastItem": "Μεταφορά στο τελευταίο αντικείμενο",
+			"listShortcuts": "Άνοιγμα αυτού του παραθύρου βοηθείας",
+			"nextItem": "Μεταφορά στο επόμενο αντικείμενο",
+			"previousItem": "Μεταφορά στο προηγούμενο αντικείμενο",
+			"showContextMenu": "Άνοιγμα μενού επιλογών (context menu)",
+			"title": "Γενικό περιβάλλον διεπαφής"
 		},
 		"files": {
-			"title": "Καρτέλα Αρχείων",
-			"delete": "Διαγραφή αρχείου(ων)",
-			"rename": "Μετονομασία αρχείου",
-			"selectAll": "Επιλογή όλων των αρχείων",
-			"upload": "Μεταφόρτωση αρχείου(ων)",
-			"refresh": "Ανανέωση αρχείων",
+			"addToSelectionAbove": "Προσθήκη ή αφαίρεση αρχείου από επάνω  στην επιλογή",
+			"addToSelectionBelow": "Προσθήκη ή αφαίρεση αρχείου από κάτω στην επιλογή",
 			"addToSelectionLeft": "Προσθήκη ή αφαίρεση αρχείου από αριστερά στην επιλογή",
 			"addToSelectionRight": "Προσθήκη ή αφαίρεση αρχείου από δεξιά στην επιλογή",
-			"addToSelectionAbove": "Προσθήκη ή αφαίρεση αρχείου από επάνω  στην επιλογή",
-			"addToSelectionBelow": "Προσθήκη ή αφαίρεση αρχείου από κάτω στην επιλογή"
+			"delete": "Διαγραφή αρχείου(ων)",
+			"refresh": "Ανανέωση αρχείων",
+			"rename": "Μετονομασία αρχείου",
+			"selectAll": "Επιλογή όλων των αρχείων",
+			"upload": "Μεταφόρτωση αρχείου(ων)"
 		},
 		"folders": {
-			"title": "Καρτέλα Φακέλων",
+			"collapseOrParent": "Κλείσιμο φακέλου / Μεταφορά στον γονικό φάκελο",
 			"delete": "Διαγραφή φακέλου",
-			"rename": "Μετονομασία φακέλου",
 			"expandOrSubfolder": "Άνοιγμα φακέλου / Μεταφορά στον πρώτο υποφάκελο",
-			"collapseOrParent": "Κλείσιμο φακέλου / Μεταφορά στον γονικό φάκελο"
+			"title": "Καρτέλα Φακέλων"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Μετονομασία φακέλου",
-		"copyFiles": "Αντιγραφή αρχείων",
-		"moveFiles": "Μεταφορά αρχείων"
 	}
 }

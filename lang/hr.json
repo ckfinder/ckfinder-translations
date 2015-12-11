@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Poništi",
-		"messageTitle": "Informacija",
-		"skip": "Preskoči",
-		"rememberDecision": "Zapamti moj izbor"
-	},
 	"dir": "ltr",
 	"langCode": "hr",
 	"dateTime": "dd/mm/yyyy HH:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Prekini",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Prekini",
+		"cancel": "Poništi",
+		"close": "Zatvori",
+		"messageTitle": "Informacija",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Zapamti moj izbor",
+		"skip": "Preskoči"
+	},
+	"edit": "Promijeni",
 	"folderNew": "Unesite ime novog direktorija: ",
-	"folderRename": "Unesite novo ime direktorija: ",
+	"folderRenameLabel": "Unesite novo ime direktorija: ",
+	"folderRenameTitle": "Preimenuj Folder",
 	"folderDelete": "Sigurno želite obrisati direktorij \"{name}\"?",
 	"destinationFolder": "Odredišni Folder",
 	"filesPane": "Panel Datoteka",
@@ -36,6 +44,7 @@
 		"title": "Ništa nije nađeno.",
 		"text": "Pokušajte koristiti drugačiji kriterij pretraživanja."
 	},
+	"filterPlaceholder": "Filter",
 	"filesRefresh": "Osvježavanje datoteka",
 	"operationCompletedErrors": "Operacija je izvršena, ali sa greškama.",
 	"moveToolbarButton": "Premjesti",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Novi naziv",
 	"fileOverwrite": "Prepiši",
 	"fileAutorename": "Automatska promjena naziva",
-	"okBtn": "U redu",
-	"cancelBtn": "Poništi",
-	"closeBtn": "Zatvori",
 	"uploadSelectLbl": "Odaberi datoteku za slanje",
 	"uploadProgressLbl": "(Slanje u tijeku. {pleaseWait})",
-	"uploadBtnCancel": "Poništi",
 	"uploadNoFolder": "Odaberite direktorije prije slanja.",
 	"uploadNoPerms": "Slanje datoteka nije dozvoljeno.",
 	"uploadUnknError": "Greška kod slanja datoteke.",
 	"uploadExtIncorrect": "Vrsta datoteka nije dozvoljena.",
-	"uploadLabel": {
-		"uploadSelect": "Odaberite datoteke za upload",
-		"uploadProgress": "Uploadanje...",
-		"uploadOk": "Upload dovršen!",
-		"uploadError": "Upload dovršen sa greškama."
-	},
 	"uploadSend": "Pošalji",
 	"uploadAddFiles": "Dodaj datoteke",
 	"uploadSummary": "Uploadane datoteke: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 datoteka",
 	"filesCountMany": "{count} datoteka",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Nije moguće završiti zahtjev. (Greška {number})",
+	"showMore": "Pokaži više",
+	"uploadLabel": {
+		"uploadSelect": "Odaberite datoteke za upload",
+		"uploadProgress": "Uploadanje...",
+		"uploadOk": "Upload dovršen!",
+		"uploadError": "Upload dovršen sa greškama."
+	},
+	"operations": {
+		"copyFiles": "Kopiraj Datoteke",
+		"moveFiles": "Prebaci Datoteke"
+	},
+	"maximize": {
+		"maximize": "Povećaj",
+		"minimize": "Smanji"
+	},
 	"errors": {
 		"10": "Nepoznata naredba.",
 		"11": "Nije navedena vrsta u zahtjevu.",
@@ -147,122 +157,108 @@
 		"501": "Podrška za sličice je onemogućena."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Naziv datoteke ne smije sadržavati niti jedan od sljedećih znakova: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Naziv direktorija ne smije sadržavati niti jedan od sljedećih znakova: {disallowedCharacters}",
-		"missingFolder": "Direktorij više nije dostupan.",
-		"missingFile": "Tražena datoteka više nije dostupna."
-	},
-	"fileeditor": {
-		"contextMenuName": "Promijeni"
-	},
-	"maximize": {
-		"maximize": "Povećaj",
-		"minimize": "Smanji"
-	},
-	"filter": {
-		"filterPlaceholder": "Filter"
+		"missingFile": "Tražena datoteka više nije dostupna.",
+		"missingFolder": "Direktorij više nije dostupan."
 	},
 	"editImage": {
-		"apply": "Primijeni",
 		"adjust": "Prilagodi",
+		"apply": "Primijeni",
+		"confirmExit": "Da li sigurno želiš zatvoriti? Imaš nesačuvane promjene na slici.",
 		"crop": "Izreži",
+		"downloadAction": "Preuzimanje originalne slike.",
+		"keepAspectRatio": "Zadrži Aspect Ratio",
+		"loading": "Učitavanje slike",
 		"presets": "Presets",
+		"reset": "Resetiraj",
 		"resize": "Resize",
 		"rotate": "Rotiraj",
-		"keepAspectRatio": "Zadrži Aspect Ratio",
-		"rotateClockwise": "90&deg; Desno",
 		"rotateAntiClockwise": "90&deg; Lijevo",
+		"rotateClockwise": "90&deg; Desno",
+		"save": "Sačuvaj",
+		"saveDialogFileExists": "Datoteka sa istim imenom već postoji u direktoriju.",
+		"saveDialogOverwrite": "Prepiši preko datoteke",
+		"saveDialogSaveAs": "Sačuvaj kao:",
+		"saveDialogTitle": "Sačuvaj Promjene",
+		"title": "Uredi Sliku",
+		"transformationAction": "Primjenjujem transformacije.",
+		"uploadAction": "Uploadanje uređene slike.",
 		"filters": {
 			"brightness": "Svjetlina",
-			"contrast": "Kontrast",
-			"saturation": "Zasićenje",
-			"vibrance": "Vibrance",
-			"exposure": "Expozicija",
-			"hue": "Nijansa",
-			"sepia": "Sepia",
-			"gamma": "Gamma",
-			"noise": "Noise",
 			"clip": "Clip",
+			"contrast": "Kontrast",
+			"exposure": "Expozicija",
+			"gamma": "Gamma",
+			"hue": "Nijansa",
+			"noise": "Noise",
+			"saturation": "Zasićenje",
+			"sepia": "Sepia",
 			"sharpen": "Izoštri",
-			"stackBlur": "Stack Blur"
+			"stackBlur": "Stack Blur",
+			"vibrance": "Vibrance"
 		},
 		"preset": {
 			"clarity": "Jasnoća",
-			"pinhole": "Pinhole",
-			"love": "Ljubav",
-			"jarques": "Jarques",
-			"orangePeel": "Kora Naranče",
-			"sinCity": "Sin City",
-			"grungy": "Grungy",
-			"oldBoot": "Stara Čizma",
-			"lomo": "Lomo",
-			"vintage": "Vintage",
-			"crossProcess": "Cross Process",
 			"concentrate": "Concentrate",
+			"crossProcess": "Cross Process",
 			"glowingSun": "Sjaj Sunca",
-			"sunrise": "Izlazak sunca",
-			"nostalgia": "Nostalgia",
+			"grungy": "Grungy",
+			"hazyDays": "Hazy Days",
 			"hemingway": "Hemingway",
 			"herMajesty": "Njeno Visočanstvo",
-			"hazyDays": "Hazy Days"
-		},
-		"downloadAction": "Preuzimanje originalne slike.",
-		"transformationAction": "Primjenjujem transformacije.",
-		"uploadAction": "Uploadanje uređene slike.",
-		"saveDialogTitle": "Sačuvaj Promjene",
-		"saveDialogOverwrite": "Prepiši preko datoteke",
-		"saveDialogSaveAs": "Sačuvaj kao:",
-		"saveDialogFileExists": "Datoteka sa istim imenom već postoji u direktoriju.",
-		"reset": "Resetiraj",
-		"title": "Uredi Sliku",
-		"save": "Sačuvaj",
-		"loading": "Učitavanje slike",
-		"confirmExit": "Da li sigurno želiš zatvoriti? Imaš nesačuvane promjene na slici."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Ljubav",
+			"nostalgia": "Nostalgia",
+			"oldBoot": "Stara Čizma",
+			"orangePeel": "Kora Naranče",
+			"pinhole": "Pinhole",
+			"sinCity": "Sin City",
+			"sunrise": "Izlazak sunca",
+			"vintage": "Vintage"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Mala",
-		"medium": "Srednja",
+		"custom": "Odredi",
 		"large": "Velika",
 		"max": "Max",
-		"custom": "Odredi"
+		"medium": "Srednja",
+		"small": "Mala"
 	},
-	"showMore": "Pokaži više",
 	"shortcuts": {
 		"title": "Prečaci na tipkovnici",
 		"general": {
-			"title": "Generalno Sučelje",
-			"focusToolbar": "Fokusiraj alatnu traku",
-			"focusFoldersPane": "Fokusiraj panel foldera ili mrvice",
-			"focusFilesPane": "Fokusiraj panel datoteka",
-			"showContextMenu": "Otvori kontextni menu",
-			"closeButton": "Zatvori",
-			"listShortcuts": "Otvori ovaj dijalog za pomoć",
 			"action": "Izvrši zadanu akciju",
-			"focusNext": "Fokusiraj sljedeći panel",
-			"previousItem": "Idi na prošlu stavku",
-			"nextItem": "Idi na sljedeću stavku",
 			"firstItem": "Idi na prvu stavku",
-			"lastItem": "Idi na posljednju stavku"
+			"focusFilesPane": "Fokusiraj panel datoteka",
+			"focusFoldersPane": "Fokusiraj panel foldera ili mrvice",
+			"focusNext": "Fokusiraj sljedeći panel",
+			"focusToolbar": "Fokusiraj alatnu traku",
+			"lastItem": "Idi na posljednju stavku",
+			"listShortcuts": "Otvori ovaj dijalog za pomoć",
+			"nextItem": "Idi na sljedeću stavku",
+			"previousItem": "Idi na prošlu stavku",
+			"showContextMenu": "Otvori kontextni menu",
+			"title": "Generalno Sučelje"
 		},
 		"files": {
-			"title": "Pane Datoteka",
-			"delete": "Obriši datoteku(e)",
-			"rename": "Preimenuj datoteku",
-			"selectAll": "Odaberi sve datoteke",
-			"upload": "Prenesi datoteku(e)",
-			"refresh": "Osvježi datoteke",
+			"addToSelectionAbove": "Dodaj ili makni datoteke u odabir",
+			"addToSelectionBelow": "Dodaj ili makni datoteke u odabir",
 			"addToSelectionLeft": "Dodaj ili makni datoteke u odabir",
 			"addToSelectionRight": "Dodaj ili makni datoteke u odabir",
-			"addToSelectionAbove": "Dodaj ili makni datoteke u odabir",
-			"addToSelectionBelow": "Dodaj ili makni datoteke u odabir"
+			"delete": "Obriši datoteku(e)",
+			"refresh": "Osvježi datoteke",
+			"rename": "Preimenuj datoteku",
+			"selectAll": "Odaberi sve datoteke",
+			"upload": "Prenesi datoteku(e)"
 		},
 		"folders": {
-			"title": "Panel Foldera",
+			"collapseOrParent": "Suzi folder / Pođi na roditeljski folder",
 			"delete": "Obriši folder",
-			"rename": "Preimenuj folder",
 			"expandOrSubfolder": "Proširi folder / Pođi na prvi podfolder",
-			"collapseOrParent": "Suzi folder / Pođi na roditeljski folder"
+			"title": "Panel Foldera"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Preimenuj Folder",
-		"copyFiles": "Kopiraj Datoteke",
-		"moveFiles": "Prebaci Datoteke"
 	}
 }

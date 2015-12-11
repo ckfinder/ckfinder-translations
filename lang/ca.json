@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Cancel·lar",
-		"messageTitle": "Informació",
-		"skip": "Ometre",
-		"rememberDecision": "Recordar la meva decisió"
-	},
 	"dir": "ltr",
 	"langCode": "ca",
 	"dateTime": "dd/mm/yyyy H:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "[MISSING]Abort",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "[MISSING]Abort",
+		"cancel": "Cancel·lar",
+		"close": "Tancar",
+		"messageTitle": "Informació",
+		"ok": "Acceptar",
+		"rememberDecision": "Recordar la meva decisió",
+		"skip": "Ometre"
+	},
+	"edit": "Editar",
 	"folderNew": "Si us plau, escriu el nom per la nova carpeta: ",
-	"folderRename": "Si us plau, escriu el nom per la carpeta: ",
+	"folderRenameLabel": "Si us plau, escriu el nom per la carpeta: ",
+	"folderRenameTitle": "[MISSING]Rename Folder",
 	"folderDelete": "Estàs segur que vols esborrar la carpeta \"{name}\"?",
 	"destinationFolder": "Carpeta de destinació",
 	"filesPane": "[MISSING]Files pane",
@@ -36,6 +44,7 @@
 		"title": "[MISSING]Nothing found.",
 		"text": "[MISSING]Please try using different search criteria."
 	},
+	"filterPlaceholder": "[MISSING]Filter",
 	"filesRefresh": "[MISSING]Refreshing files",
 	"operationCompletedErrors": "Operació completada amb errors.",
 	"moveToolbarButton": "[MISSING]Move",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Nou nom",
 	"fileOverwrite": "Sobreescriure",
 	"fileAutorename": "Auto-renombrar",
-	"okBtn": "Acceptar",
-	"cancelBtn": "Cancel·lar",
-	"closeBtn": "Tancar",
 	"uploadSelectLbl": "Triar el fitxer a pujar",
 	"uploadProgressLbl": "(Pujada en progrés. {pleaseWait})",
-	"uploadBtnCancel": "Cancel·lar",
 	"uploadNoFolder": "Si us plau, escull la carpeta abans d'iniciar la pujada.",
 	"uploadNoPerms": "No pot pujar fitxers.",
 	"uploadUnknError": "Error enviant el fitxer.",
 	"uploadExtIncorrect": "La extensió del fitxer no està permesa en aquesta carpeta.",
-	"uploadLabel": {
-		"uploadSelect": "[MISSING]Select files to upload",
-		"uploadProgress": "[MISSING]Uploading...",
-		"uploadOk": "[MISSING]Upload finished!",
-		"uploadError": "[MISSING]Upload finished with errors."
-	},
 	"uploadSend": "Afegir",
 	"uploadAddFiles": "Afegir fitxers",
 	"uploadSummary": "[MISSING]Uploaded files: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 fitxer",
 	"filesCountMany": "{count} fitxers",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "[MISSING]px",
 	"errorUnknown": "No ha estat possible completar la solicitut. (Error {number})",
+	"showMore": "[MISSING]Show more",
+	"uploadLabel": {
+		"uploadSelect": "[MISSING]Select files to upload",
+		"uploadProgress": "[MISSING]Uploading...",
+		"uploadOk": "[MISSING]Upload finished!",
+		"uploadError": "[MISSING]Upload finished with errors."
+	},
+	"operations": {
+		"copyFiles": "[MISSING]Copy Files",
+		"moveFiles": "[MISSING]Move Files"
+	},
+	"maximize": {
+		"maximize": "Maximitzar",
+		"minimize": "Minimitzar"
+	},
 	"errors": {
 		"10": "Ordre incorrecte.",
 		"11": "El tipus de recurs no ha estat especificat a la solicitut.",
@@ -147,122 +157,108 @@
 		"501": "El suport per a icones està deshabilitat."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "El nom del fitxer no pot contenir cap dels caràcters següents: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "El nom de la carpeta no pot contenir cap dels caràcters següents: {disallowedCharacters}",
-		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
-		"missingFile": "[MISSING]The requested file is no longer available."
-	},
-	"fileeditor": {
-		"contextMenuName": "Editar"
-	},
-	"maximize": {
-		"maximize": "Maximitzar",
-		"minimize": "Minimitzar"
-	},
-	"filter": {
-		"filterPlaceholder": "[MISSING]Filter"
+		"missingFile": "[MISSING]The requested file is no longer available.",
+		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available."
 	},
 	"editImage": {
-		"apply": "[MISSING]Apply",
 		"adjust": "[MISSING]Adjust",
+		"apply": "[MISSING]Apply",
+		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
 		"crop": "[MISSING]Crop",
+		"downloadAction": "[MISSING]Downloading original image.",
+		"keepAspectRatio": "[MISSING]Keep Aspect Ratio",
+		"loading": "[MISSING]Loading image",
 		"presets": "[MISSING]Presets",
+		"reset": "[MISSING]Reset",
 		"resize": "[MISSING]Resize",
 		"rotate": "[MISSING]Rotate",
-		"keepAspectRatio": "[MISSING]Keep Aspect Ratio",
-		"rotateClockwise": "[MISSING]90&deg; Right",
 		"rotateAntiClockwise": "[MISSING]90&deg; Left",
+		"rotateClockwise": "[MISSING]90&deg; Right",
+		"save": "[MISSING]Save",
+		"saveDialogFileExists": "[MISSING]File with the same name already exists in folder.",
+		"saveDialogOverwrite": "[MISSING]Overwrite File",
+		"saveDialogSaveAs": "[MISSING]Save as:",
+		"saveDialogTitle": "[MISSING]Save Changes",
+		"title": "[MISSING]Edit Image",
+		"transformationAction": "[MISSING]Applying transformations.",
+		"uploadAction": "[MISSING]Uploading edited image.",
 		"filters": {
 			"brightness": "[MISSING]Brightness",
-			"contrast": "[MISSING]Contrast",
-			"saturation": "[MISSING]Saturation",
-			"vibrance": "[MISSING]Vibrance",
-			"exposure": "[MISSING]Exposure",
-			"hue": "[MISSING]Hue",
-			"sepia": "[MISSING]Sepia",
-			"gamma": "[MISSING]Gamma",
-			"noise": "[MISSING]Noise",
 			"clip": "[MISSING]Clip",
+			"contrast": "[MISSING]Contrast",
+			"exposure": "[MISSING]Exposure",
+			"gamma": "[MISSING]Gamma",
+			"hue": "[MISSING]Hue",
+			"noise": "[MISSING]Noise",
+			"saturation": "[MISSING]Saturation",
+			"sepia": "[MISSING]Sepia",
 			"sharpen": "[MISSING]Sharpen",
-			"stackBlur": "[MISSING]Blur"
+			"stackBlur": "[MISSING]Blur",
+			"vibrance": "[MISSING]Vibrance"
 		},
 		"preset": {
 			"clarity": "[MISSING]Clarity",
-			"pinhole": "[MISSING]Pinhole",
-			"love": "[MISSING]Love",
-			"jarques": "[MISSING]Jarques",
-			"orangePeel": "[MISSING]Orange Peel",
-			"sinCity": "[MISSING]Sin City",
-			"grungy": "[MISSING]Grungy",
-			"oldBoot": "[MISSING]Old Boot",
-			"lomo": "[MISSING]Lomo",
-			"vintage": "[MISSING]Vintage",
-			"crossProcess": "[MISSING]Cross Process",
 			"concentrate": "[MISSING]Concentrate",
+			"crossProcess": "[MISSING]Cross Process",
 			"glowingSun": "[MISSING]Glowing Sun",
-			"sunrise": "[MISSING]Sunrise",
-			"nostalgia": "[MISSING]Nostalgia",
+			"grungy": "[MISSING]Grungy",
+			"hazyDays": "[MISSING]Hazy Days",
 			"hemingway": "[MISSING]Hemingway",
 			"herMajesty": "[MISSING]Her Majesty",
-			"hazyDays": "[MISSING]Hazy Days"
-		},
-		"downloadAction": "[MISSING]Downloading original image.",
-		"transformationAction": "[MISSING]Applying transformations.",
-		"uploadAction": "[MISSING]Uploading edited image.",
-		"saveDialogTitle": "[MISSING]Save Changes",
-		"saveDialogOverwrite": "[MISSING]Overwrite File",
-		"saveDialogSaveAs": "[MISSING]Save as:",
-		"saveDialogFileExists": "[MISSING]File with the same name already exists in folder.",
-		"reset": "[MISSING]Reset",
-		"title": "[MISSING]Edit Image",
-		"save": "[MISSING]Save",
-		"loading": "[MISSING]Loading image",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image."
+			"jarques": "[MISSING]Jarques",
+			"lomo": "[MISSING]Lomo",
+			"love": "[MISSING]Love",
+			"nostalgia": "[MISSING]Nostalgia",
+			"oldBoot": "[MISSING]Old Boot",
+			"orangePeel": "[MISSING]Orange Peel",
+			"pinhole": "[MISSING]Pinhole",
+			"sinCity": "[MISSING]Sin City",
+			"sunrise": "[MISSING]Sunrise",
+			"vintage": "[MISSING]Vintage"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "[MISSING]Small",
-		"medium": "[MISSING]Medium",
+		"custom": "[MISSING]Custom",
 		"large": "[MISSING]Large",
 		"max": "[MISSING]Max",
-		"custom": "[MISSING]Custom"
+		"medium": "[MISSING]Medium",
+		"small": "[MISSING]Small"
 	},
-	"showMore": "[MISSING]Show more",
 	"shortcuts": {
 		"title": "[MISSING]Keyboard Shortcuts",
 		"general": {
-			"title": "[MISSING]General Interface",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"showContextMenu": "[MISSING]Open context menu",
-			"closeButton": "[MISSING]Close",
-			"listShortcuts": "[MISSING]Open this help dialog",
 			"action": "[MISSING]Execute default action",
-			"focusNext": "[MISSING]Focus next pane",
-			"previousItem": "[MISSING]Go to previous item",
-			"nextItem": "[MISSING]Go to next item",
 			"firstItem": "[MISSING]Go to first item",
-			"lastItem": "[MISSING]Go to last item"
+			"focusFilesPane": "[MISSING]Focus files pane",
+			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
+			"focusNext": "[MISSING]Focus next pane",
+			"focusToolbar": "[MISSING]Focus toolbar",
+			"lastItem": "[MISSING]Go to last item",
+			"listShortcuts": "[MISSING]Open this help dialog",
+			"nextItem": "[MISSING]Go to next item",
+			"previousItem": "[MISSING]Go to previous item",
+			"showContextMenu": "[MISSING]Open context menu",
+			"title": "[MISSING]General Interface"
 		},
 		"files": {
-			"title": "[MISSING]Files Pane",
-			"delete": "[MISSING]Delete file(s)",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)",
-			"refresh": "[MISSING]Refresh files",
+			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
+			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
 			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
 			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection"
+			"delete": "[MISSING]Delete file(s)",
+			"refresh": "[MISSING]Refresh files",
+			"rename": "[MISSING]Rename file",
+			"selectAll": "[MISSING]Select all files",
+			"upload": "[MISSING]Upload file(s)"
 		},
 		"folders": {
-			"title": "[MISSING]Folders Pane",
+			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
 			"delete": "[MISSING]Delete folder",
-			"rename": "[MISSING]Rename folder",
 			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder"
+			"title": "[MISSING]Folders Pane"
 		},
 		"keys": {
 			"ctrl": "[MISSING]Control",
@@ -282,10 +278,5 @@
 			"home": "[MISSING]home",
 			"shift": "[MISSING]shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "[MISSING]Rename Folder",
-		"copyFiles": "[MISSING]Copy Files",
-		"moveFiles": "[MISSING]Move Files"
 	}
 }

@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Cancelar",
-		"messageTitle": "Informação",
-		"skip": "Ignorar",
-		"rememberDecision": "Lembrar minha decisão"
-	},
 	"dir": "ltr",
 	"langCode": "pt-br",
 	"dateTime": "dd/mm/yyyy HH:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Abortar",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Abortar",
+		"cancel": "Cancelar",
+		"close": "Fechar",
+		"messageTitle": "Informação",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Lembrar minha decisão",
+		"skip": "Ignorar"
+	},
+	"edit": "Editar",
 	"folderNew": "Nome da nova pasta: ",
-	"folderRename": "Novo nome da pasta: ",
+	"folderRenameLabel": "Novo nome da pasta: ",
+	"folderRenameTitle": "Renomear Pasta",
 	"folderDelete": "Tem certeza que deseja apagar a pasta \"{name}\"?",
 	"destinationFolder": "Pasta Destino",
 	"filesPane": "Painel de arquivos",
@@ -36,6 +44,7 @@
 		"title": "Nenhuma ocorrência encontrada.",
 		"text": "Tente outros termos de pesquisa."
 	},
+	"filterPlaceholder": "Filtro",
 	"filesRefresh": "Atualizando arquivos",
 	"operationCompletedErrors": "Operação completada com errors.",
 	"moveToolbarButton": "Mover",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Novo Nome",
 	"fileOverwrite": "Sobrescrever",
 	"fileAutorename": "Renomear automaticamente",
-	"okBtn": "OK",
-	"cancelBtn": "Cancelar",
-	"closeBtn": "Fechar",
 	"uploadSelectLbl": "Selecione o arquivo para enviar",
 	"uploadProgressLbl": "(Enviando arquivo. {pleaseWait})",
-	"uploadBtnCancel": "Cancelar",
 	"uploadNoFolder": "Selecione a pasta antes the enviar o arquivo.",
 	"uploadNoPerms": "Não é permitido o envio de arquivos.",
 	"uploadUnknError": "Erro no envio do arquivo.",
 	"uploadExtIncorrect": "A extensão deste arquivo não é permitida nesta pasta.",
-	"uploadLabel": {
-		"uploadSelect": "Selecione os arquivos para enviar",
-		"uploadProgress": "Enviando...",
-		"uploadOk": "Enviado com sucesso!",
-		"uploadError": "Envio terminado com errors."
-	},
 	"uploadSend": "Enviar Arquivo",
 	"uploadAddFiles": "Adicionar Arquivos",
 	"uploadSummary": "Arquivos enviados: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 arquivo",
 	"filesCountMany": "{count} arquivos",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Não foi possível completer o seu pedido. (Erro {number})",
+	"showMore": "Mostrar Mais",
+	"uploadLabel": {
+		"uploadSelect": "Selecione os arquivos para enviar",
+		"uploadProgress": "Enviando...",
+		"uploadOk": "Enviado com sucesso!",
+		"uploadError": "Envio terminado com errors."
+	},
+	"operations": {
+		"copyFiles": "Copiar Arquivos",
+		"moveFiles": "Mover Arquivos"
+	},
+	"maximize": {
+		"maximize": "Maximizar",
+		"minimize": "Minimizar"
+	},
 	"errors": {
 		"10": "Comando inválido.",
 		"11": "O tipo de recurso não foi especificado na solicitação.",
@@ -147,122 +157,108 @@
 		"501": "O suporte a miniaturas está desabilitado."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "O nome do arquivo não pode conter nenhum desses caracteres: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "O nome da pasta não pode conter nenhum desses caracteres: {disallowedCharacters}",
-		"missingFolder": "A pasta que você está tentando abrir não está mais disponível.",
-		"missingFile": "O arquivo solicitado não está mais disponível."
-	},
-	"fileeditor": {
-		"contextMenuName": "Editar"
-	},
-	"maximize": {
-		"maximize": "Maximizar",
-		"minimize": "Minimizar"
-	},
-	"filter": {
-		"filterPlaceholder": "Filtro"
+		"missingFile": "O arquivo solicitado não está mais disponível.",
+		"missingFolder": "A pasta que você está tentando abrir não está mais disponível."
 	},
 	"editImage": {
-		"apply": "Aplicar",
 		"adjust": "Ajustar",
+		"apply": "Aplicar",
+		"confirmExit": "Você tem certeza que quer encerrar? Algumas mudanças na imagem não foram registradas.",
 		"crop": "Cortar",
+		"downloadAction": "Carregando imagem original.",
+		"keepAspectRatio": "Manter as Proporções",
+		"loading": "Carregando Imagem...",
 		"presets": "Pre-Configurações",
+		"reset": "Restaurar",
 		"resize": "Redimensionar",
 		"rotate": "Girar",
-		"keepAspectRatio": "Manter as Proporções",
-		"rotateClockwise": "90&deg; à Direita",
 		"rotateAntiClockwise": "90&deg; à Esquerda",
+		"rotateClockwise": "90&deg; à Direita",
+		"save": "Salvar",
+		"saveDialogFileExists": "Já existe nesta pasta um arquivo com o mesmo nome.",
+		"saveDialogOverwrite": "Sobrescrever Arquivo",
+		"saveDialogSaveAs": "Salvar como:",
+		"saveDialogTitle": "Salvar Alterações",
+		"title": "Edição de Imagem",
+		"transformationAction": "Aplicando modificações.",
+		"uploadAction": "Enviando a imagem modificada.",
 		"filters": {
 			"brightness": "Brilho",
-			"contrast": "Contraste",
-			"saturation": "Saturação",
-			"vibrance": "Vibração",
-			"exposure": "Exposição",
-			"hue": "Matiz",
-			"sepia": "Sépia",
-			"gamma": "Gama",
-			"noise": "Ruído",
 			"clip": "Redução",
+			"contrast": "Contraste",
+			"exposure": "Exposição",
+			"gamma": "Gama",
+			"hue": "Matiz",
+			"noise": "Ruído",
+			"saturation": "Saturação",
+			"sepia": "Sépia",
 			"sharpen": "Nitidez",
-			"stackBlur": "Desfocagem"
+			"stackBlur": "Desfocagem",
+			"vibrance": "Vibração"
 		},
 		"preset": {
 			"clarity": "Clareza",
-			"pinhole": "Câmera Obscura",
-			"love": "Amor",
-			"jarques": "Jarques",
-			"orangePeel": "Casca de Laranja",
-			"sinCity": "Sin City",
-			"grungy": "Enlameado",
-			"oldBoot": "Old Boot",
-			"lomo": "Lomo",
-			"vintage": "Antigo",
-			"crossProcess": "Processo Cruzado",
 			"concentrate": "Concentrado",
+			"crossProcess": "Processo Cruzado",
 			"glowingSun": "Sol Crescente",
-			"sunrise": "Nascer do Sol",
-			"nostalgia": "Saudades",
+			"grungy": "Enlameado",
+			"hazyDays": "Dia Nublado",
 			"hemingway": "Hemingway",
 			"herMajesty": "Sua Majestade",
-			"hazyDays": "Dia Nublado"
-		},
-		"downloadAction": "Carregando imagem original.",
-		"transformationAction": "Aplicando modificações.",
-		"uploadAction": "Enviando a imagem modificada.",
-		"saveDialogTitle": "Salvar Alterações",
-		"saveDialogOverwrite": "Sobrescrever Arquivo",
-		"saveDialogSaveAs": "Salvar como:",
-		"saveDialogFileExists": "Já existe nesta pasta um arquivo com o mesmo nome.",
-		"reset": "Restaurar",
-		"title": "Edição de Imagem",
-		"save": "Salvar",
-		"loading": "Carregando Imagem...",
-		"confirmExit": "Você tem certeza que quer encerrar? Algumas mudanças na imagem não foram registradas."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Amor",
+			"nostalgia": "Saudades",
+			"oldBoot": "Old Boot",
+			"orangePeel": "Casca de Laranja",
+			"pinhole": "Câmera Obscura",
+			"sinCity": "Sin City",
+			"sunrise": "Nascer do Sol",
+			"vintage": "Antigo"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Pequeno",
-		"medium": "Médio",
+		"custom": "Personalizado",
 		"large": "Grande",
 		"max": "Máx",
-		"custom": "Personalizado"
+		"medium": "Médio",
+		"small": "Pequeno"
 	},
-	"showMore": "Mostrar Mais",
 	"shortcuts": {
 		"title": "Teclas de Atalho",
 		"general": {
-			"title": "Interface Principal",
-			"focusToolbar": "Foco na barra de ferramentas",
-			"focusFoldersPane": "Foco na árvore de pastas ou no caminho de navegação",
-			"focusFilesPane": "Foco no painel de arquivos",
-			"showContextMenu": "Abrir o menu de contexto",
-			"closeButton": "Fechar",
-			"listShortcuts": "Abrir esta janela de ajuda",
 			"action": "Executar a ação padrão",
-			"focusNext": "Foco no painel sucessivo",
-			"previousItem": "Ir para o item anterior",
-			"nextItem": "Ir para o próximo item",
 			"firstItem": "Ir para o primeiro item",
-			"lastItem": "Ir para o último item"
+			"focusFilesPane": "Foco no painel de arquivos",
+			"focusFoldersPane": "Foco na árvore de pastas ou no caminho de navegação",
+			"focusNext": "Foco no painel sucessivo",
+			"focusToolbar": "Foco na barra de ferramentas",
+			"lastItem": "Ir para o último item",
+			"listShortcuts": "Abrir esta janela de ajuda",
+			"nextItem": "Ir para o próximo item",
+			"previousItem": "Ir para o item anterior",
+			"showContextMenu": "Abrir o menu de contexto",
+			"title": "Interface Principal"
 		},
 		"files": {
-			"title": "Painel de Arquivos",
-			"delete": "Apagar arquivo(s)",
-			"rename": "Renomear arquivo",
-			"selectAll": "Selecionar todos os arquivos",
-			"upload": "Enviar arquivo(s)",
-			"refresh": "Atualizar arquivos",
+			"addToSelectionAbove": "Adicionar ou remover o arquivo de cima à seleção",
+			"addToSelectionBelow": "Adicionar ou remover o arquivo de baixo à seleção",
 			"addToSelectionLeft": "Adicionar ou remover o arquivo da esquerda à seleção",
 			"addToSelectionRight": "Adicionar ou remover o arquivo da direita à seleção",
-			"addToSelectionAbove": "Adicionar ou remover o arquivo de cima à seleção",
-			"addToSelectionBelow": "Adicionar ou remover o arquivo de baixo à seleção"
+			"delete": "Apagar arquivo(s)",
+			"refresh": "Atualizar arquivos",
+			"rename": "Renomear arquivo",
+			"selectAll": "Selecionar todos os arquivos",
+			"upload": "Enviar arquivo(s)"
 		},
 		"folders": {
-			"title": "Painel de Pastas",
+			"collapseOrParent": "Fechar pasta / Ir para a pasta superior",
 			"delete": "Apagar pasta",
-			"rename": "Renomear pasta",
 			"expandOrSubfolder": "Expandir pasta / Ir para a primeira sub-pasta",
-			"collapseOrParent": "Fechar pasta / Ir para a pasta superior"
+			"title": "Painel de Pastas"
 		},
 		"keys": {
 			"ctrl": "CTRL",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Renomear Pasta",
-		"copyFiles": "Copiar Arquivos",
-		"moveFiles": "Mover Arquivos"
 	}
 }

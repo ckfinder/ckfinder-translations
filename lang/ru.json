@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Отмена",
-		"messageTitle": "Информация",
-		"skip": "Пропустить",
-		"rememberDecision": "Запомнить мой выбор"
-	},
 	"dir": "ltr",
 	"langCode": "ru",
 	"dateTime": "dd.mm.yyyy H:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Прервать",
+	"kb": "{size} KБ",
+	"mb": "{size} МБ",
+	"gb": "{size} ГБ",
+	"sizePerSecond": "{size}/с",
+	"common": {
+		"abort": "Прервать",
+		"cancel": "Отмена",
+		"close": "Закрыть",
+		"messageTitle": "Информация",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Запомнить мой выбор",
+		"skip": "Пропустить"
+	},
+	"edit": "Редактировать",
 	"folderNew": "Пожалуйста, введите новое имя папки: ",
-	"folderRename": "Пожалуйста, введите новое имя папки: ",
+	"folderRenameLabel": "Пожалуйста, введите новое имя папки: ",
+	"folderRenameTitle": "Переименовать папку",
 	"folderDelete": "Вы уверены, что хотите удалить папку \"{name}\"?",
 	"destinationFolder": "Конечная папка",
 	"filesPane": "Панель файлов",
@@ -36,6 +44,7 @@
 		"title": "Ничего не найдено.",
 		"text": "Пожалуйста попробуйте другие критерии поиска."
 	},
+	"filterPlaceholder": "Фильтр",
 	"filesRefresh": "Обновление файлов",
 	"operationCompletedErrors": "Операция завершилась с ошибками.",
 	"moveToolbarButton": "Переместить",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Новое имя",
 	"fileOverwrite": "Заменить файл",
 	"fileAutorename": "Автоматически переименовывать",
-	"okBtn": "ОК",
-	"cancelBtn": "Отмена",
-	"closeBtn": "Закрыть",
 	"uploadSelectLbl": "Выбрать файл для загрузки",
 	"uploadProgressLbl": "(Загрузка в процессе. {pleaseWait})",
-	"uploadBtnCancel": "Отмена",
 	"uploadNoFolder": "Пожалуйста, выберите папку, в которую вы хотите загрузить файл.",
 	"uploadNoPerms": "Загрузка файлов запрещена.",
 	"uploadUnknError": "Ошибка при передаче файла.",
 	"uploadExtIncorrect": "В эту папку нельзя загружать файлы с таким расширением.",
-	"uploadLabel": {
-		"uploadSelect": "Выберите файлы для загрузки",
-		"uploadProgress": "Загрузка...",
-		"uploadOk": "Загрузка завершена!",
-		"uploadError": "Загрузка завершена с ошибками."
-	},
 	"uploadSend": "Загрузить файл",
 	"uploadAddFiles": "Добавить файлы",
 	"uploadSummary": "Загружено файлов: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 файл",
 	"filesCountMany": "{count} файлов",
-	"kb": "{size} KБ",
-	"mb": "{size} МБ",
-	"gb": "{size} ГБ",
-	"sizePerSecond": "{size}/с",
 	"pixelShort": "пикс",
 	"errorUnknown": "Невозможно завершить запрос. (Ошибка {number})",
+	"showMore": "Ещё",
+	"uploadLabel": {
+		"uploadSelect": "Выберите файлы для загрузки",
+		"uploadProgress": "Загрузка...",
+		"uploadOk": "Загрузка завершена!",
+		"uploadError": "Загрузка завершена с ошибками."
+	},
+	"operations": {
+		"copyFiles": "Копировать файлы",
+		"moveFiles": "Переместить файлы"
+	},
+	"maximize": {
+		"maximize": "Развернуть",
+		"minimize": "Свернуть"
+	},
 	"errors": {
 		"10": "Неверная команда.",
 		"11": "Тип ресурса не указан в запросе.",
@@ -147,122 +157,108 @@
 		"501": "Поддержка миниатюр отключена."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Имя файла не может содержать любой из перечисленных символов: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Имя папки не может содержать любой из перечисленных символов: {disallowedCharacters}",
-		"missingFolder": "Запрашиваемая папка более не доступен.",
-		"missingFile": "Запрашиваемый файл более не доступен."
-	},
-	"fileeditor": {
-		"contextMenuName": "Редактировать"
-	},
-	"maximize": {
-		"maximize": "Развернуть",
-		"minimize": "Свернуть"
-	},
-	"filter": {
-		"filterPlaceholder": "Фильтр"
+		"missingFile": "Запрашиваемый файл более не доступен.",
+		"missingFolder": "Запрашиваемая папка более не доступен."
 	},
 	"editImage": {
-		"apply": "Применить",
 		"adjust": "Цветокоррекция",
+		"apply": "Применить",
+		"confirmExit": "Вы действительно хотите закрыть? У вас имеются несохраненные изменения.",
 		"crop": "Обрезка",
+		"downloadAction": "Скачивание оригинального изображения.",
+		"keepAspectRatio": "Сохранять соотношение сторон",
+		"loading": "Загрузка изображения",
 		"presets": "Предустановки",
+		"reset": "Сбросить",
 		"resize": "Изменение размера",
 		"rotate": "Поворот",
-		"keepAspectRatio": "Сохранять соотношение сторон",
-		"rotateClockwise": "90&deg; влево",
 		"rotateAntiClockwise": "90&deg; вправо",
+		"rotateClockwise": "90&deg; влево",
+		"save": "Сохранить",
+		"saveDialogFileExists": "Файл с таким именем уже существует в папке.",
+		"saveDialogOverwrite": "Переписать файл",
+		"saveDialogSaveAs": "Сохранить как:",
+		"saveDialogTitle": "Сохранить изменения",
+		"title": "Редактирование изображения",
+		"transformationAction": "Применений трансформаций.",
+		"uploadAction": "Загрузка измененного изображения.",
 		"filters": {
 			"brightness": "Яркость",
-			"contrast": "Контраст",
-			"saturation": "Насыщенность",
-			"vibrance": "Сощность",
-			"exposure": "Экспозиция",
-			"hue": "Тон",
-			"sepia": "Сепия",
-			"gamma": "Гамма",
-			"noise": "Шум",
 			"clip": "[MISSING]Clip",
+			"contrast": "Контраст",
+			"exposure": "Экспозиция",
+			"gamma": "Гамма",
+			"hue": "Тон",
+			"noise": "Шум",
+			"saturation": "Насыщенность",
+			"sepia": "Сепия",
 			"sharpen": "Резкость",
-			"stackBlur": "Размытие"
+			"stackBlur": "Размытие",
+			"vibrance": "Сощность"
 		},
 		"preset": {
 			"clarity": "Четкость",
-			"pinhole": "Пинхол",
-			"love": "Любовь",
-			"jarques": "[MISSING]Jarques",
-			"orangePeel": "Апельсин",
-			"sinCity": "Город Грехов",
-			"grungy": "Гранж",
-			"oldBoot": "Старый башмак",
-			"lomo": "Ломо",
-			"vintage": "Винтаж",
-			"crossProcess": "Кросспроцесс",
 			"concentrate": "Концентрат",
+			"crossProcess": "Кросспроцесс",
 			"glowingSun": "Солнечный свет",
-			"sunrise": "Восход солнца",
-			"nostalgia": "Ностальгия",
+			"grungy": "Гранж",
+			"hazyDays": "Туман",
 			"hemingway": "Хемингуэй",
 			"herMajesty": "Ее величество",
-			"hazyDays": "Туман"
-		},
-		"downloadAction": "Скачивание оригинального изображения.",
-		"transformationAction": "Применений трансформаций.",
-		"uploadAction": "Загрузка измененного изображения.",
-		"saveDialogTitle": "Сохранить изменения",
-		"saveDialogOverwrite": "Переписать файл",
-		"saveDialogSaveAs": "Сохранить как:",
-		"saveDialogFileExists": "Файл с таким именем уже существует в папке.",
-		"reset": "Сбросить",
-		"title": "Редактирование изображения",
-		"save": "Сохранить",
-		"loading": "Загрузка изображения",
-		"confirmExit": "Вы действительно хотите закрыть? У вас имеются несохраненные изменения."
+			"jarques": "[MISSING]Jarques",
+			"lomo": "Ломо",
+			"love": "Любовь",
+			"nostalgia": "Ностальгия",
+			"oldBoot": "Старый башмак",
+			"orangePeel": "Апельсин",
+			"pinhole": "Пинхол",
+			"sinCity": "Город Грехов",
+			"sunrise": "Восход солнца",
+			"vintage": "Винтаж"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Маленький",
-		"medium": "Средний",
+		"custom": "Пользовательский",
 		"large": "Большой",
 		"max": "Максимальный",
-		"custom": "Пользовательский"
+		"medium": "Средний",
+		"small": "Маленький"
 	},
-	"showMore": "Ещё",
 	"shortcuts": {
 		"title": "Горячие клавиши",
 		"general": {
-			"title": "Общий интерфейс",
-			"focusToolbar": "Перейти к панели инструментов",
-			"focusFoldersPane": "Перейти к панели папок",
-			"focusFilesPane": "Перейти к панели файлов",
-			"showContextMenu": "Контекстное меню",
-			"closeButton": "Закрыть",
-			"listShortcuts": "Открыть это справочное окно",
 			"action": "Выполнить действие по умолчанию",
-			"focusNext": "Перейти к следующей панели",
-			"previousItem": "Перейти к предыдущему элементу",
-			"nextItem": "Перейти к следующему элементу",
 			"firstItem": "Перейти к первому элементу",
-			"lastItem": "Перейти к последнему элементу"
+			"focusFilesPane": "Перейти к панели файлов",
+			"focusFoldersPane": "Перейти к панели папок",
+			"focusNext": "Перейти к следующей панели",
+			"focusToolbar": "Перейти к панели инструментов",
+			"lastItem": "Перейти к последнему элементу",
+			"listShortcuts": "Открыть это справочное окно",
+			"nextItem": "Перейти к следующему элементу",
+			"previousItem": "Перейти к предыдущему элементу",
+			"showContextMenu": "Контекстное меню",
+			"title": "Общий интерфейс"
 		},
 		"files": {
-			"title": "Панель файлов",
-			"delete": "Удалить файл(ы)",
-			"rename": "Переименовать файл",
-			"selectAll": "Выделить все файлы",
-			"upload": "Загрузить файл(ы)",
-			"refresh": "Обновить",
+			"addToSelectionAbove": "Выделить/исключить файл сверху от выделенного",
+			"addToSelectionBelow": "Выделить/исключить файл снизу от выделенного",
 			"addToSelectionLeft": "Выделить/исключить файл слева от выделенного",
 			"addToSelectionRight": "Выделить/исключить файл справа от выделенного",
-			"addToSelectionAbove": "Выделить/исключить файл сверху от выделенного",
-			"addToSelectionBelow": "Выделить/исключить файл снизу от выделенного"
+			"delete": "Удалить файл(ы)",
+			"refresh": "Обновить",
+			"rename": "Переименовать файл",
+			"selectAll": "Выделить все файлы",
+			"upload": "Загрузить файл(ы)"
 		},
 		"folders": {
-			"title": "Панель папок",
+			"collapseOrParent": "Свернуть папку / Перейти к родительской папке",
 			"delete": "Удалить папку",
-			"rename": "Переименовать папку",
 			"expandOrSubfolder": "Развернуть папку / Перейти к первой подпапке",
-			"collapseOrParent": "Свернуть папку / Перейти к родительской папке"
+			"title": "Панель папок"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -282,10 +278,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Переименовать папку",
-		"copyFiles": "Копировать файлы",
-		"moveFiles": "Переместить файлы"
 	}
 }

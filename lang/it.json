@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Annulla",
-		"messageTitle": "Informazione",
-		"skip": "Salta",
-		"rememberDecision": "Ricorda decisione"
-	},
 	"dir": "ltr",
 	"langCode": "it",
 	"dateTime": "dd/mm/yyyy HH:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Interrompi",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Interrompi",
+		"cancel": "Annulla",
+		"close": "Chiudi",
+		"messageTitle": "Informazione",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Ricorda decisione",
+		"skip": "Salta"
+	},
+	"edit": "Modifica",
 	"folderNew": "Nome della cartella: ",
-	"folderRename": "Nuovo nome della cartella: ",
+	"folderRenameLabel": "Nuovo nome della cartella: ",
+	"folderRenameTitle": "Rinomina cartella",
 	"folderDelete": "Eliminare la cartella \"{name}\"?",
 	"destinationFolder": "Cartella di destinazione",
 	"filesPane": "Pannello file",
@@ -36,6 +44,7 @@
 		"title": "Non è stato trovato nulla.",
 		"text": "Riprovare con criteri di ricerca differenti."
 	},
+	"filterPlaceholder": "Filtro",
 	"filesRefresh": "Aggiornamento dei file",
 	"operationCompletedErrors": "L'operazione è stata completata con errori.",
 	"moveToolbarButton": "Sposta",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Nuovo nome",
 	"fileOverwrite": "Sovrascrivi",
 	"fileAutorename": "Rinomina automaticamente",
-	"okBtn": "OK",
-	"cancelBtn": "Anulla",
-	"closeBtn": "Chiudi",
 	"uploadSelectLbl": "Selezionare un file da caricare",
 	"uploadProgressLbl": "(caricamento in corso. {pleaseWait})",
-	"uploadBtnCancel": "Annulla",
 	"uploadNoFolder": "Selezionare la cartella prima di caricare i file.",
 	"uploadNoPerms": "Il caricamento dei file non è permesso.",
 	"uploadUnknError": "Errore durante il caricamento del file.",
 	"uploadExtIncorrect": "In questa cartella non sono permessi file con questa estensione.",
-	"uploadLabel": {
-		"uploadSelect": "Selezionare i file da caricare",
-		"uploadProgress": "Caricamento in corso...",
-		"uploadOk": "Caricamento completato!",
-		"uploadError": "Caricamento completato con errori."
-	},
 	"uploadSend": "Carica",
 	"uploadAddFiles": "Aggiungi file",
 	"uploadSummary": "File caricati: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 file",
 	"filesCountMany": "{count} file",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Non è stato possibile completare la richiesta (errore {number}).",
+	"showMore": "Mostra altro",
+	"uploadLabel": {
+		"uploadSelect": "Selezionare i file da caricare",
+		"uploadProgress": "Caricamento in corso...",
+		"uploadOk": "Caricamento completato!",
+		"uploadError": "Caricamento completato con errori."
+	},
+	"operations": {
+		"copyFiles": "Copia file",
+		"moveFiles": "Sposta file"
+	},
+	"maximize": {
+		"maximize": "Ingrandisci",
+		"minimize": "Riduci"
+	},
 	"errors": {
 		"10": "Comando non valido.",
 		"11": "Il tipo di risorsa non è stato specificato nella richiesta.",
@@ -147,122 +157,108 @@
 		"501": "Il supporto alle miniature non è attivo."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "I seguenti caratteri non possono essere usati per comporre il nome del file: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "I seguenti caratteri non possono essere usati per comporre il nome della cartella: {disallowedCharacters}",
-		"missingFolder": "La cartella che si sta cercando di raggiungere non è più disponibile.",
-		"missingFile": "Il file richiesto non è più disponibile."
-	},
-	"fileeditor": {
-		"contextMenuName": "Modifica"
-	},
-	"maximize": {
-		"maximize": "Ingrandisci",
-		"minimize": "Riduci"
-	},
-	"filter": {
-		"filterPlaceholder": "Filtro"
+		"missingFile": "Il file richiesto non è più disponibile.",
+		"missingFolder": "La cartella che si sta cercando di raggiungere non è più disponibile."
 	},
 	"editImage": {
-		"apply": "Applica",
 		"adjust": "Correggi",
+		"apply": "Applica",
+		"confirmExit": "Si è certi di voler chiudere? Sono state apportate delle modifiche all'immagine che non sono ancora state salvate.",
 		"crop": "Ritaglia",
+		"downloadAction": "Scaricamento dell'immagine originale.",
+		"keepAspectRatio": "Mantieni il rapporto di forma",
+		"loading": "Caricamento dell'immagine",
 		"presets": "Combinazioni",
+		"reset": "Reimposta",
 		"resize": "Ridimensiona",
 		"rotate": "Ruota",
-		"keepAspectRatio": "Mantieni il rapporto di forma",
-		"rotateClockwise": "90&deg; orari",
 		"rotateAntiClockwise": "90&deg; anti-orari",
+		"rotateClockwise": "90&deg; orari",
+		"save": "Salva",
+		"saveDialogFileExists": "Un file con lo stesso nome esiste già nella cartella.",
+		"saveDialogOverwrite": "Sovrascrivi file",
+		"saveDialogSaveAs": "Salva con nome:",
+		"saveDialogTitle": "Salva modifiche",
+		"title": "Modifica immagine",
+		"transformationAction": "Applicazione delle trasformazioni.",
+		"uploadAction": "Caricamento dell'immagine modificata.",
 		"filters": {
 			"brightness": "Luminosità",
-			"contrast": "Contrasto",
-			"saturation": "Saturazione",
-			"vibrance": "Brillantezza",
-			"exposure": "Esposizione",
-			"hue": "Tinta",
-			"sepia": "Seppia",
-			"gamma": "Gamma",
-			"noise": "Rumore",
 			"clip": "Ritaglio",
+			"contrast": "Contrasto",
+			"exposure": "Esposizione",
+			"gamma": "Gamma",
+			"hue": "Tinta",
+			"noise": "Rumore",
+			"saturation": "Saturazione",
+			"sepia": "Seppia",
 			"sharpen": "Migliora contorni",
-			"stackBlur": "Sfocatura"
+			"stackBlur": "Sfocatura",
+			"vibrance": "Brillantezza"
 		},
 		"preset": {
 			"clarity": "Limpidezza",
-			"pinhole": "Forellino",
-			"love": "Amore",
-			"jarques": "Jarques",
-			"orangePeel": "Buccia d'arancia",
-			"sinCity": "Sin City",
-			"grungy": "Sporco",
-			"oldBoot": "Vecchio stivale",
-			"lomo": "Lomo",
-			"vintage": "Vintage",
-			"crossProcess": "Interprocesso",
 			"concentrate": "Concentra",
+			"crossProcess": "Interprocesso",
 			"glowingSun": "Sole brillante",
-			"sunrise": "Alba",
-			"nostalgia": "Nostalgia",
+			"grungy": "Sporco",
+			"hazyDays": "Giorni sfocati",
 			"hemingway": "Hemingway",
 			"herMajesty": "Sua Maestà",
-			"hazyDays": "Giorni sfocati"
-		},
-		"downloadAction": "Scaricamento dell'immagine originale.",
-		"transformationAction": "Applicazione delle trasformazioni.",
-		"uploadAction": "Caricamento dell'immagine modificata.",
-		"saveDialogTitle": "Salva modifiche",
-		"saveDialogOverwrite": "Sovrascrivi file",
-		"saveDialogSaveAs": "Salva con nome:",
-		"saveDialogFileExists": "Un file con lo stesso nome esiste già nella cartella.",
-		"reset": "Reimposta",
-		"title": "Modifica immagine",
-		"save": "Salva",
-		"loading": "Caricamento dell'immagine",
-		"confirmExit": "Si è certi di voler chiudere? Sono state apportate delle modifiche all'immagine che non sono ancora state salvate."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Amore",
+			"nostalgia": "Nostalgia",
+			"oldBoot": "Vecchio stivale",
+			"orangePeel": "Buccia d'arancia",
+			"pinhole": "Forellino",
+			"sinCity": "Sin City",
+			"sunrise": "Alba",
+			"vintage": "Vintage"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Piccola",
-		"medium": "Media",
+		"custom": "Personalizzata",
 		"large": "Grande",
 		"max": "Max",
-		"custom": "Personalizzata"
+		"medium": "Media",
+		"small": "Piccola"
 	},
-	"showMore": "Mostra altro",
 	"shortcuts": {
 		"title": "Tasti rapidi",
 		"general": {
-			"title": "Interfaccia generale",
-			"focusToolbar": "Attiva barra degli strumenti",
-			"focusFoldersPane": "Attiva pannello delle cartelle o breadcrumb",
-			"focusFilesPane": "Attiva pannello dei file",
-			"showContextMenu": "Apri menù contestuale",
-			"closeButton": "Chiudi",
-			"listShortcuts": "Apri questa finestra d'aiuto",
 			"action": "Esegui azione predefinita",
-			"focusNext": "Attiva pannello successivo",
-			"previousItem": "Vai all'elemento precedente",
-			"nextItem": "Vai all'elemento successivo",
 			"firstItem": "Vai al primo elemento",
-			"lastItem": "Vai all'ultimo elemento"
+			"focusFilesPane": "Attiva pannello dei file",
+			"focusFoldersPane": "Attiva pannello delle cartelle o breadcrumb",
+			"focusNext": "Attiva pannello successivo",
+			"focusToolbar": "Attiva barra degli strumenti",
+			"lastItem": "Vai all'ultimo elemento",
+			"listShortcuts": "Apri questa finestra d'aiuto",
+			"nextItem": "Vai all'elemento successivo",
+			"previousItem": "Vai all'elemento precedente",
+			"showContextMenu": "Apri menù contestuale",
+			"title": "Interfaccia generale"
 		},
 		"files": {
-			"title": "Pannello dei file",
-			"delete": "Elimina file",
-			"rename": "Rinomina file",
-			"selectAll": "Seleziona tutti i file",
-			"upload": "Carica file",
-			"refresh": "Aggiorna file",
+			"addToSelectionAbove": "Aggiungi o rimuovi file sopra la selezione",
+			"addToSelectionBelow": "Aggiungi o rimuovi file sotto la selezione",
 			"addToSelectionLeft": "Aggiungi o rimuovi file a sinistra della selezione",
 			"addToSelectionRight": "Aggiungi o rimuovi file a destra della selezione",
-			"addToSelectionAbove": "Aggiungi o rimuovi file sopra la selezione",
-			"addToSelectionBelow": "Aggiungi o rimuovi file sotto la selezione"
+			"delete": "Elimina file",
+			"refresh": "Aggiorna file",
+			"rename": "Rinomina file",
+			"selectAll": "Seleziona tutti i file",
+			"upload": "Carica file"
 		},
 		"folders": {
-			"title": "Pannello delle cartelle",
+			"collapseOrParent": "Comprimi cartella / Vai alla cartella padre",
 			"delete": "Elimina cartella",
-			"rename": "Rinomina cartella",
 			"expandOrSubfolder": "Espandi cartella / Vai alla prima sotto-cartella",
-			"collapseOrParent": "Comprimi cartella / Vai alla cartella padre"
+			"title": "Pannello delle cartelle"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -282,10 +278,5 @@
 			"home": "inizio",
 			"shift": "shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "Rinomina cartella",
-		"copyFiles": "Copia file",
-		"moveFiles": "Sposta file"
 	}
 }

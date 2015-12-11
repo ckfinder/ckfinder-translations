@@ -1,11 +1,5 @@
 {
 	"appTitle": "CKFinder",
-	"common": {
-		"cancel": "Rezignu",
-		"messageTitle": "Informo",
-		"skip": "Transsaltu",
-		"rememberDecision": "Memoru la decidon"
-	},
 	"dir": "ltr",
 	"langCode": "eo",
 	"dateTime": "dd/mm/yyyy H:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "Ĉesigu",
+	"kb": "{size} KB",
+	"mb": "{size} MB",
+	"gb": "{size} GB",
+	"sizePerSecond": "{size}/s",
+	"common": {
+		"abort": "Ĉesigu",
+		"cancel": "Rezignu",
+		"close": "Fermi",
+		"messageTitle": "Informo",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Memoru la decidon",
+		"skip": "Transsaltu"
+	},
+	"edit": "Redakti",
 	"folderNew": "Bonvolu entajpi la nomon de la nova dosierujo: ",
-	"folderRename": "Bonvolu entajpi la novan nomon de la dosierujo: ",
+	"folderRenameLabel": "Bonvolu entajpi la novan nomon de la dosierujo: ",
+	"folderRenameTitle": "Renomu dosierujon",
 	"folderDelete": "Ĉu vi certas, ke vi volas forigi la \"{name}\"dosierujon?",
 	"destinationFolder": "Celdosierujo",
 	"filesPane": "Dosiera fenestro",
@@ -36,6 +44,7 @@
 		"title": "Nenio trovita.",
 		"text": "Bonvolu provi uzi malsamajn serĉkriteriojn."
 	},
+	"filterPlaceholder": "Filtro",
 	"filesRefresh": "Aktualigo de dosieroj",
 	"operationCompletedErrors": "Operacio plenumita kun eraroj.",
 	"moveToolbarButton": "Movu",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Nova dosiero",
 	"fileOverwrite": "Anstataŭigu",
 	"fileAutorename": "Aŭtomata renomo",
-	"okBtn": "Bone",
-	"cancelBtn": "Rezigni",
-	"closeBtn": "Fermi",
 	"uploadSelectLbl": "Selektu la alŝutotan dosieron",
 	"uploadProgressLbl": "(Estas alŝutata. {pleaseWait})",
-	"uploadBtnCancel": "Rezignu",
 	"uploadNoFolder": "Bonvolu selekti dosierujon antaŭ la alŝuto.",
 	"uploadNoPerms": "La dosieralŝuto ne estas permesita.",
 	"uploadUnknError": "Eraro dum la dosieralŝuto.",
 	"uploadExtIncorrect": "La dosiernoma finaĵo ne estas permesita en tiu  dosierujo.",
-	"uploadLabel": {
-		"uploadSelect": "Selektu dosierojn alŝutotajn",
-		"uploadProgress": "Alŝuto okazanta...",
-		"uploadOk": "Alŝuto finita!",
-		"uploadError": "Alŝuto finita kun eraroj."
-	},
 	"uploadSend": "Alŝutu",
 	"uploadAddFiles": "Almetu dosierojn",
 	"uploadSummary": "Alŝutitaj dosieroj: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 dosiero",
 	"filesCountMany": "{count} dosieroj",
-	"kb": "{size} KB",
-	"mb": "{size} MB",
-	"gb": "{size} GB",
-	"sizePerSecond": "{size}/s",
 	"pixelShort": "px",
 	"errorUnknown": "Ne eblis plenumi la peton. (Eraro {number})",
+	"showMore": "Montru pli",
+	"uploadLabel": {
+		"uploadSelect": "Selektu dosierojn alŝutotajn",
+		"uploadProgress": "Alŝuto okazanta...",
+		"uploadOk": "Alŝuto finita!",
+		"uploadError": "Alŝuto finita kun eraroj."
+	},
+	"operations": {
+		"copyFiles": "Kopiu dosierojn",
+		"moveFiles": "Movu dosierojn"
+	},
+	"maximize": {
+		"maximize": "Pligrandigi",
+		"minimize": "Malpligrandigi"
+	},
 	"errors": {
 		"10": "Nevalida komando.",
 		"11": "La risurctipo ne estas indikita en la komando.",
@@ -147,122 +157,108 @@
 		"501": "La eblo de miniaturoj estas malvalidigita."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "La dosiernomo ne povas esti malplena.",
 		"fileInvChar": "La dosiernomo ne povas enhavi la sekvajn signojn : {disallowedCharacters}",
+		"fileNameNotEmpty": "La dosiernomo ne povas esti malplena.",
 		"folderInvChar": "La dosierujnomo ne povas enhavi la sekvajn signojn : {disallowedCharacters}",
-		"missingFolder": "La dosierujo, kiun vi provas atingi, ne plu estas disponebla.",
-		"missingFile": "La petita dosiero ne plu estas disponebla."
-	},
-	"fileeditor": {
-		"contextMenuName": "Redakti"
-	},
-	"maximize": {
-		"maximize": "Pligrandigi",
-		"minimize": "Malpligrandigi"
-	},
-	"filter": {
-		"filterPlaceholder": "Filtro"
+		"missingFile": "La petita dosiero ne plu estas disponebla.",
+		"missingFolder": "La dosierujo, kiun vi provas atingi, ne plu estas disponebla."
 	},
 	"editImage": {
-		"apply": "Apliku",
 		"adjust": "Akomodu",
+		"apply": "Apliku",
+		"confirmExit": "Ĉu vi certas ke vi volas fermi ? Vi havas nekonservitajn ŝanĝojn en la bildo.",
 		"crop": "Pritondu",
+		"downloadAction": "Elŝuto de la origina bildo.",
+		"keepAspectRatio": "Konservu Aspektrejŝon",
+		"loading": "La bildo estas ŝargata",
 		"presets": "Antaŭagordo",
+		"reset": "Rekomencigo",
 		"resize": "Ŝanĝu grandon",
 		"rotate": "Turnu",
-		"keepAspectRatio": "Konservu Aspektrejŝon",
-		"rotateClockwise": "90&deg; Dekstren",
 		"rotateAntiClockwise": "90&deg; Maldekstren",
+		"rotateClockwise": "90&deg; Dekstren",
+		"save": "Konservu",
+		"saveDialogFileExists": "Dosiero kun la sama nomo jam ekzistas en dosierujo.",
+		"saveDialogOverwrite": "Anstataŭigu Dosieron",
+		"saveDialogSaveAs": "Konservu kiel:",
+		"saveDialogTitle": "Konservu ŝanĝojn",
+		"title": "Redaktu bildon",
+		"transformationAction": "Apliko de la transformoj.",
+		"uploadAction": "Alŝuto de la redaktita bildo.",
 		"filters": {
 			"brightness": "Brileco",
-			"contrast": "Kontrasto",
-			"saturation": "Satureco",
-			"vibrance": "Vibranco",
-			"exposure": "Ekspono",
-			"hue": "Kolortono",
-			"sepia": "Sepia",
-			"gamma": "Gamma",
-			"noise": "Bruo",
 			"clip": "Clip",
+			"contrast": "Kontrasto",
+			"exposure": "Ekspono",
+			"gamma": "Gamma",
+			"hue": "Kolortono",
+			"noise": "Bruo",
+			"saturation": "Satureco",
+			"sepia": "Sepia",
 			"sharpen": "Pliakrigo",
-			"stackBlur": "Malklareco"
+			"stackBlur": "Malklareco",
+			"vibrance": "Vibranco"
 		},
 		"preset": {
 			"clarity": "Klareco",
-			"pinhole": "Stenopo",
-			"love": "Amo",
-			"jarques": "Jarques",
-			"orangePeel": "Oranĝŝelo",
-			"sinCity": "Pekurbo",
-			"grungy": "Malpura",
-			"oldBoot": "Malnova boto",
-			"lomo": "Lomo",
-			"vintage": "Vinberrikolto",
-			"crossProcess": "Krucproceso",
 			"concentrate": "Densigitaĵo",
+			"crossProcess": "Krucproceso",
 			"glowingSun": "Arda Suno",
-			"sunrise": "Sunleviĝo",
-			"nostalgia": "Nostalgio",
+			"grungy": "Malpura",
+			"hazyDays": "Brumaj Tagoj",
 			"hemingway": "Hemingway",
 			"herMajesty": "Reĝina Moŝto",
-			"hazyDays": "Brumaj Tagoj"
-		},
-		"downloadAction": "Elŝuto de la origina bildo.",
-		"transformationAction": "Apliko de la transformoj.",
-		"uploadAction": "Alŝuto de la redaktita bildo.",
-		"saveDialogTitle": "Konservu ŝanĝojn",
-		"saveDialogOverwrite": "Anstataŭigu Dosieron",
-		"saveDialogSaveAs": "Konservu kiel:",
-		"saveDialogFileExists": "Dosiero kun la sama nomo jam ekzistas en dosierujo.",
-		"reset": "Rekomencigo",
-		"title": "Redaktu bildon",
-		"save": "Konservu",
-		"loading": "La bildo estas ŝargata",
-		"confirmExit": "Ĉu vi certas ke vi volas fermi ? Vi havas nekonservitajn ŝanĝojn en la bildo."
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Amo",
+			"nostalgia": "Nostalgio",
+			"oldBoot": "Malnova boto",
+			"orangePeel": "Oranĝŝelo",
+			"pinhole": "Stenopo",
+			"sinCity": "Pekurbo",
+			"sunrise": "Sunleviĝo",
+			"vintage": "Vinberrikolto"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Malgranda",
-		"medium": "Mezgranda",
+		"custom": "Personigita",
 		"large": "Granda",
 		"max": "Plej granda",
-		"custom": "Personigita"
+		"medium": "Mezgranda",
+		"small": "Malgranda"
 	},
-	"showMore": "Montru pli",
 	"shortcuts": {
 		"title": "Klavkombinaĵoj",
 		"general": {
-			"title": "Ĝenerala interfaco",
-			"focusToolbar": "Fokuso al ilbreto",
-			"focusFoldersPane": "Fokuso al dosieruja fenestro aŭ paĝnivela navigo",
-			"focusFilesPane": "Fokuso al dosiera fenestro",
-			"showContextMenu": "Malfermu la kuntekstan menuon ",
-			"closeButton": "Fermu",
-			"listShortcuts": "Malfermu tiun helpdialogon",
 			"action": "Plenumu la defaŭltan agon",
-			"focusNext": "Fokuso al la sekva fenestro",
-			"previousItem": "Iru al la antaŭa elemento",
-			"nextItem": "Iru al la sekva elemento",
 			"firstItem": "Iru al la unua elemento",
-			"lastItem": "Iru al la lasta elemento"
+			"focusFilesPane": "Fokuso al dosiera fenestro",
+			"focusFoldersPane": "Fokuso al dosieruja fenestro aŭ paĝnivela navigo",
+			"focusNext": "Fokuso al la sekva fenestro",
+			"focusToolbar": "Fokuso al ilbreto",
+			"lastItem": "Iru al la lasta elemento",
+			"listShortcuts": "Malfermu tiun helpdialogon",
+			"nextItem": "Iru al la sekva elemento",
+			"previousItem": "Iru al la antaŭa elemento",
+			"showContextMenu": "Malfermu la kuntekstan menuon ",
+			"title": "Ĝenerala interfaco"
 		},
 		"files": {
-			"title": "Dosiera fenestro",
-			"delete": "Forigu dosiero(j)n",
-			"rename": "Renomu dosieron",
-			"selectAll": "Selektu ĉiujn dosierojn",
-			"upload": "Alŝutu dosiero(j)n",
-			"refresh": "Aktualigu dosierojn",
+			"addToSelectionAbove": "Almetu al la selektaĵo aŭ forigu el ĝi suprajn dosierojn",
+			"addToSelectionBelow": "Almetu al la selektaĵo aŭ forigu el ĝi malsuprajn dosierojn",
 			"addToSelectionLeft": "Almetu al la selektaĵo aŭ forigu el ĝi dosierojn de la maldekstra flanko",
 			"addToSelectionRight": "Almetu al la selektaĵo aŭ forigu el ĝi dosierojn de la dekstra flanko",
-			"addToSelectionAbove": "Almetu al la selektaĵo aŭ forigu el ĝi suprajn dosierojn",
-			"addToSelectionBelow": "Almetu al la selektaĵo aŭ forigu el ĝi malsuprajn dosierojn"
+			"delete": "Forigu dosiero(j)n",
+			"refresh": "Aktualigu dosierojn",
+			"rename": "Renomu dosieron",
+			"selectAll": "Selektu ĉiujn dosierojn",
+			"upload": "Alŝutu dosiero(j)n"
 		},
 		"folders": {
-			"title": "Dosieruja fenestro",
+			"collapseOrParent": "Maletendu dosierujon / Iru al la patra dosierujo",
 			"delete": "Forigi dosierujon",
-			"rename": "Renomu dosierujon",
 			"expandOrSubfolder": "Etendu dosierujon / Iru al la unua subdosierujo",
-			"collapseOrParent": "Maletendu dosierujon / Iru al la patra dosierujo"
+			"title": "Dosieruja fenestro"
 		},
 		"keys": {
 			"ctrl": "Stirklavo",
@@ -282,10 +278,5 @@
 			"home": "hejmo",
 			"shift": "maj"
 		}
-	},
-	"operations": {
-		"renameFolder": "Renomu dosierujon",
-		"copyFiles": "Kopiu dosierojn",
-		"moveFiles": "Movu dosierojn"
 	}
 }

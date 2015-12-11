@@ -1,11 +1,5 @@
 {
 	"appTitle": "Датотеке",
-	"common": {
-		"cancel": "Поништи",
-		"messageTitle": "Информација",
-		"skip": "Прескочи",
-		"rememberDecision": "Запамти мој избор"
-	},
 	"dir": "ltr",
 	"langCode": "sr",
 	"dateTime": "dd/mm/yyyy HH:MM",
@@ -13,9 +7,23 @@
 		"AM",
 		"PM"
 	],
-	"abort": "[MISSING]Abort",
+	"kb": "{size} КБ",
+	"mb": "{size} МБ",
+	"gb": "{size} ГБ",
+	"sizePerSecond": "{size}/с",
+	"common": {
+		"abort": "[MISSING]Abort",
+		"cancel": "Поништи",
+		"close": "Затвори",
+		"messageTitle": "Информација",
+		"ok": "[MISSING]OK",
+		"rememberDecision": "Запамти мој избор",
+		"skip": "Прескочи"
+	},
+	"edit": "Промени",
 	"folderNew": "Унесите ново име фасцикле: ",
-	"folderRename": "Унесите ново име фасцикле: ",
+	"folderRenameLabel": "Унесите ново име фасцикле: ",
+	"folderRenameTitle": "[MISSING]Rename Folder",
 	"folderDelete": "Да ли сте сигурни да желите обрисати фасциклу \"{name}\"?",
 	"destinationFolder": "Одредишна фасцикла",
 	"filesPane": "[MISSING]Files pane",
@@ -36,6 +44,7 @@
 		"title": "Ништа није нађено.",
 		"text": "Молимо користите друге критеријуме за претраживање."
 	},
+	"filterPlaceholder": "Филтер",
 	"filesRefresh": "[MISSING]Refreshing files",
 	"operationCompletedErrors": "Операција извршена са грешкама.",
 	"moveToolbarButton": "Премести",
@@ -74,22 +83,12 @@
 	"newNameDlgTitle": "Нови назив",
 	"fileOverwrite": "Препиши",
 	"fileAutorename": "Аутоматска промена назива",
-	"okBtn": "У реду",
-	"cancelBtn": "Поништи",
-	"closeBtn": "Затвори",
 	"uploadSelectLbl": "Одабери датотеку за учитавање",
 	"uploadProgressLbl": "(Слање у току. {pleaseWait})",
-	"uploadBtnCancel": "Поништи",
 	"uploadNoFolder": "Одаберите фасцикле прије учитавања.",
 	"uploadNoPerms": "Учитавање датотеке није дозвољено.",
 	"uploadUnknError": "Грешка приликом учитавања датотеке.",
 	"uploadExtIncorrect": "Тип датотеке није дозвољен.",
-	"uploadLabel": {
-		"uploadSelect": "Изаберите датотеку за учитавање",
-		"uploadProgress": "Учитавање...",
-		"uploadOk": "Учитавање завршено!",
-		"uploadError": "Учитавање завршено са грешком."
-	},
 	"uploadSend": "Учитај",
 	"uploadAddFiles": "Додај датотеке",
 	"uploadSummary": "Учитај датотеке: {count}",
@@ -110,12 +109,23 @@
 	"setSortDescending": "[MISSING]Descending",
 	"filesCountOne": "1 датотека",
 	"filesCountMany": "{count} датотека(е)",
-	"kb": "{size} КБ",
-	"mb": "{size} МБ",
-	"gb": "{size} ГБ",
-	"sizePerSecond": "{size}/с",
 	"pixelShort": "[MISSING]px",
 	"errorUnknown": "Није могуће изавршити захтев. (Грешка {number})",
+	"showMore": "Прикажи више",
+	"uploadLabel": {
+		"uploadSelect": "Изаберите датотеку за учитавање",
+		"uploadProgress": "Учитавање...",
+		"uploadOk": "Учитавање завршено!",
+		"uploadError": "Учитавање завршено са грешком."
+	},
+	"operations": {
+		"copyFiles": "[MISSING]Copy Files",
+		"moveFiles": "[MISSING]Move Files"
+	},
+	"maximize": {
+		"maximize": "Повећај",
+		"minimize": "Смањи"
+	},
 	"errors": {
 		"10": "Непозната наредба.",
 		"11": "Није наведена врста у захтеву.",
@@ -147,122 +157,108 @@
 		"501": "Подршка за приказ није омогућена."
 	},
 	"errorMsg": {
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"fileInvChar": "Назив датотеке не сме садржавати ни један од следећих знакова: {disallowedCharacters}",
+		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvChar": "Назив фасцикле не сме садржавати ни један од следећих знакова: {disallowedCharacters}",
-		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
-		"missingFile": "[MISSING]The requested file is no longer available."
-	},
-	"fileeditor": {
-		"contextMenuName": "Промени"
-	},
-	"maximize": {
-		"maximize": "Повећај",
-		"minimize": "Смањи"
-	},
-	"filter": {
-		"filterPlaceholder": "Филтер"
+		"missingFile": "[MISSING]The requested file is no longer available.",
+		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available."
 	},
 	"editImage": {
-		"apply": "Примени",
 		"adjust": "Прилагоди",
+		"apply": "Примени",
+		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
 		"crop": "Обрежи",
+		"downloadAction": "Преузимање оригиналне слике.",
+		"keepAspectRatio": "Задржи омер",
+		"loading": "Учитавање слике",
 		"presets": "Унапред постављен",
+		"reset": "Ресетуј",
 		"resize": "Промена величине",
 		"rotate": "Ротирај",
-		"keepAspectRatio": "Задржи омер",
-		"rotateClockwise": "90&deg; степени; Десно",
 		"rotateAntiClockwise": "90&deg; степени; Лево",
+		"rotateClockwise": "90&deg; степени; Десно",
+		"save": "Сачувај",
+		"saveDialogFileExists": "Датотека са истим именом већ постоји у фасцикли.",
+		"saveDialogOverwrite": "Препиши датотеку",
+		"saveDialogSaveAs": "Сачувај као:",
+		"saveDialogTitle": "Сачувај промене",
+		"title": "Уреди слику",
+		"transformationAction": "Примењујем трансформације.",
+		"uploadAction": "Учитавам уређену слику.",
 		"filters": {
 			"brightness": "Посветљење",
-			"contrast": "Контраст",
-			"saturation": "Засићење",
-			"vibrance": "Живост боја",
-			"exposure": "Експозиција",
-			"hue": "Нијанса",
-			"sepia": "Сепија",
-			"gamma": "Гама",
-			"noise": "Шум",
 			"clip": "Оквир",
+			"contrast": "Контраст",
+			"exposure": "Експозиција",
+			"gamma": "Гама",
+			"hue": "Нијанса",
+			"noise": "Шум",
+			"saturation": "Засићење",
+			"sepia": "Сепија",
 			"sharpen": "Изоштрити",
-			"stackBlur": "Замаглити"
+			"stackBlur": "Замаглити",
+			"vibrance": "Живост боја"
 		},
 		"preset": {
 			"clarity": "Јасноћа",
-			"pinhole": "Пинхоле",
-			"love": "Љубав",
-			"jarques": "Јаркуес",
-			"orangePeel": "Кора поморанџе",
-			"sinCity": "Град греха",
-			"grungy": "Грунги",
-			"oldBoot": "Стара ципела",
-			"lomo": "Ломо",
-			"vintage": "Старо",
-			"crossProcess": "Укрштено",
 			"concentrate": "Концентрисано",
+			"crossProcess": "Укрштено",
 			"glowingSun": "Јако сунце",
-			"sunrise": "Излазак сунца",
-			"nostalgia": "Носталгија",
+			"grungy": "Грунги",
+			"hazyDays": "Магловит дан",
 			"hemingway": "Хемингвеј",
 			"herMajesty": "Њено височанство",
-			"hazyDays": "Магловит дан"
-		},
-		"downloadAction": "Преузимање оригиналне слике.",
-		"transformationAction": "Примењујем трансформације.",
-		"uploadAction": "Учитавам уређену слику.",
-		"saveDialogTitle": "Сачувај промене",
-		"saveDialogOverwrite": "Препиши датотеку",
-		"saveDialogSaveAs": "Сачувај као:",
-		"saveDialogFileExists": "Датотека са истим именом већ постоји у фасцикли.",
-		"reset": "Ресетуј",
-		"title": "Уреди слику",
-		"save": "Сачувај",
-		"loading": "Учитавање слике",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image."
+			"jarques": "Јаркуес",
+			"lomo": "Ломо",
+			"love": "Љубав",
+			"nostalgia": "Носталгија",
+			"oldBoot": "Стара ципела",
+			"orangePeel": "Кора поморанџе",
+			"pinhole": "Пинхоле",
+			"sinCity": "Град греха",
+			"sunrise": "Излазак сунца",
+			"vintage": "Старо"
+		}
 	},
 	"chooseResizedImageSizes": {
-		"small": "Мала",
-		"medium": "Средња",
+		"custom": "Прилагођена",
 		"large": "Велика",
 		"max": "Максимална",
-		"custom": "Прилагођена"
+		"medium": "Средња",
+		"small": "Мала"
 	},
-	"showMore": "Прикажи више",
 	"shortcuts": {
 		"title": "[MISSING]Keyboard Shortcuts",
 		"general": {
-			"title": "[MISSING]General Interface",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"showContextMenu": "[MISSING]Open context menu",
-			"closeButton": "[MISSING]Close",
-			"listShortcuts": "[MISSING]Open this help dialog",
 			"action": "[MISSING]Execute default action",
-			"focusNext": "[MISSING]Focus next pane",
-			"previousItem": "[MISSING]Go to previous item",
-			"nextItem": "[MISSING]Go to next item",
 			"firstItem": "[MISSING]Go to first item",
-			"lastItem": "[MISSING]Go to last item"
+			"focusFilesPane": "[MISSING]Focus files pane",
+			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
+			"focusNext": "[MISSING]Focus next pane",
+			"focusToolbar": "[MISSING]Focus toolbar",
+			"lastItem": "[MISSING]Go to last item",
+			"listShortcuts": "[MISSING]Open this help dialog",
+			"nextItem": "[MISSING]Go to next item",
+			"previousItem": "[MISSING]Go to previous item",
+			"showContextMenu": "[MISSING]Open context menu",
+			"title": "[MISSING]General Interface"
 		},
 		"files": {
-			"title": "[MISSING]Files Pane",
-			"delete": "[MISSING]Delete file(s)",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)",
-			"refresh": "[MISSING]Refresh files",
+			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
+			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
 			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
 			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection"
+			"delete": "[MISSING]Delete file(s)",
+			"refresh": "[MISSING]Refresh files",
+			"rename": "[MISSING]Rename file",
+			"selectAll": "[MISSING]Select all files",
+			"upload": "[MISSING]Upload file(s)"
 		},
 		"folders": {
-			"title": "[MISSING]Folders Pane",
+			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
 			"delete": "[MISSING]Delete folder",
-			"rename": "[MISSING]Rename folder",
 			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder"
+			"title": "[MISSING]Folders Pane"
 		},
 		"keys": {
 			"ctrl": "[MISSING]Control",
@@ -282,10 +278,5 @@
 			"home": "[MISSING]home",
 			"shift": "[MISSING]shift"
 		}
-	},
-	"operations": {
-		"renameFolder": "[MISSING]Rename Folder",
-		"copyFiles": "[MISSING]Copy Files",
-		"moveFiles": "[MISSING]Move Files"
 	}
 }
