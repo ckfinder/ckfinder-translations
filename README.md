@@ -2,17 +2,33 @@
 
 This repository contains language files for **CKFinder 3**.
 
+There are two branches available:
+* `master` &ndash; Language files from the **latest stable CKFinder release**.
+* `major` (default) &ndash; Language files from the **most current development snapshot** of the next CKFinder release. May contain language strings for new features that are not published in any release available now.
+
 ## Contributing
 
 This repository was created to simplify the process of updating or providing new language files.
 
 You are welcome to help **localize CKFinder** into your native language and update existing localizations. You can use one of the methods described below to submit your translation. **Your help will be much appreciated!**
 
-**Important note:** CKFinder language files are in JSON format. A few language strings contain some HTML tags like `<strong>` or placeholders such as `{pleaseWait}` or `{count}`. Please leave these untouched as changing them may prevent CKFinder from working correctly.
+**Important notes:**
 
+CKFinder language files are in JSON format. A few language strings contain some HTML tags like `<strong>` or placeholders such as `{name}` or `{count}`. Please leave these untouched as changing them may prevent CKFinder from working correctly.
+
+All untranslated entries are marked with `[MISSING]`. When you translate, remove the `[MISSING]` part to mark the translation "done" and provide your localization. For example:
+
+Untranslated:
+
+	"deleteFiles": "[MISSING]Delete Files",
+	
+Translated:
+
+	"deleteFiles": "Dateien löschen",
+	
 ## Creating a Pull Request
 
-If you are familiar with Git, you can fork this repository and submit a [pull request](https://github.com/ckfinder/ckfinder-translations/pulls) with your changes.
+If you are familiar with Git, you can fork this repository and submit a [pull request](https://github.com/ckfinder/ckfinder-translations/pulls) with your changes for the `major` branch.
 
 ## Editing Files on GitHub
 
@@ -31,12 +47,12 @@ To add a new language file and use it in CKFinder, you need to adjust the config
   * Optionally, you might need to set [config.language](http://docs.cksource.com/ckfinder3/#!/api/CKFinder.Config-cfg-language) 
     if the language detection mechanism turns on a different language by default.
 
-Finally create an appropriate language file in the `lang` folder of CKFinder. Use `en.json` as a base for creating 
+Finally create an appropriate language file in the `lang` folder of CKFinder. Use `_template.json` as a base for creating 
 your language file. Use the two-letter [ISO 639-1](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code 
-as a name for the language file, optionally using the two-letter [ISO 3166-1](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) 
+as a name for the language file, optionally adding the two-letter [ISO 3166-1](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) 
 country code as a suffix.
 
-Example: use `fr-ca` for French (Canada).
+Example: For French (Canada), copy the `_template.json` file and save it as `fr-ca.json`.
 
 When your translation is ready, you can share it by submitting a [pull request](https://github.com/ckfinder/ckfinder-translations/pulls) on GitHub or sending it to us to [info@cksource.com](info@cksource.com). We will be happy to add it to the official repository. Thank you for your help!
 
