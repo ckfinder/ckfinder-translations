@@ -18,11 +18,11 @@ CKFinder language files are in JSON format. A few language strings contain some 
 
 All untranslated entries are marked with `[MISSING]`. When you translate, remove the `[MISSING]` part to mark the translation "done" and provide your localization. For example:
 
-Was:
+Untranslated:
 
 	"deleteFiles": "[MISSING]Delete Files",
 	
-Is:
+Translated:
 
 	"deleteFiles": "Dateien löschen",
 	
