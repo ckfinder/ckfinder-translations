@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Καρτέλα αρχείων",
 		"filesRefresh": "Ανανέωση αρχείων σε εξέλιξη",
 		"filterPlaceholder": "Φίλτρο",
-		"gettingFileData": "Λήψη δεδομένων αρχείου. {pleaseWait}",
+		"gettingFileData": "Λήψη δεδομένων αρχείου.",
 		"overwrite": "Αντικατάσταση αρχείου",
 		"loadingFilesPane": {
 			"title": "Φόρτωση...",
-			"text": "{pleaseWait} Φόρτωση αρχείων σε εξέλιξη."
+			"text": "Φόρτωση αρχείων σε εξέλιξη."
 		},
 		"emptyFilesPane": {
 			"title": "Ο φάκελος είναι άδειος.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Αντέγραψε εδώ",
 		"errorDialogTitle": "Αρχεία που δεν είναι δυνατό να αντιγραφούν:",
 		"manyFilesDialogTitle": "Αντιγραφή {count} Αρχείων Σε...",
-		"manyFilesWait": "Αντιγραφή {count} αρχείων. {pleaseWait}",
+		"manyFilesWait": "Αντιγραφή {count} αρχείων.",
 		"oneFileDialogTitle": "Αντιγραφή Αρχείου Σε...",
-		"oneFileWait": "Αντιγραφή αρχείου. {pleaseWait}",
+		"oneFileWait": "Αντιγραφή αρχείου.",
 		"operationLabel": "Αντιγραφή Αρχείων",
 		"operationSummary": "Αριθμός αρχείων που αντιγράφηκαν: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Μετακίνησε εδώ",
 		"errorDialogTitle": "Αρχεία που δεν είναι δυνατό να μετακινηθούν:",
 		"manyFilesDialogTitle": "Μετακίνηση {count} Αρχείων Σε...",
-		"manyFilesWait": "Μετακίνηση {count} αρχείων. {pleaseWait}",
+		"manyFilesWait": "Μετακίνηση {count} αρχείων.",
 		"oneFileDialogTitle": "Μετακίνηση Αρχείου Σε...",
-		"oneFileWait": "Μετακίνηση αρχείου. {pleaseWait}",
+		"oneFileWait": "Μετακίνηση αρχείου.",
 		"operationLabel": "Μετακίνηση Αρχείων",
 		"operationSummary": "Αριθμός αρχείων που μετακινήθηκαν: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} από {bytesTotal})",
 		"details": "Λεπτομέρειες",
 		"filesCountProgress": "{filesUploaded} από {filesTotal}",
-		"progressLabel": "(Η μεταφόρτωση εκτελείται. {pleaseWait})",
+		"progressLabel": "Η μεταφόρτωση εκτελείται.",
 		"progressMessage": "Μεταφόρτωση...",
 		"selectFileLabel": "επιλέξτε το αρχείο που θέλετε να μεταφερθεί κάνοντας κλίκ στο κουμπί",
 		"selectFiles": "Επιλέξτε αρχεία για μεταφόρτωση",

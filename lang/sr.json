@@ -48,11 +48,11 @@
 		"filesPaneTitle": "[MISSING]Files pane",
 		"filesRefresh": "[MISSING]Refreshing files",
 		"filterPlaceholder": "Филтер",
-		"gettingFileData": "Преузимање информација о датотеци. {pleaseWait}",
+		"gettingFileData": "Преузимање информација о датотеци.",
 		"overwrite": "Препиши",
 		"loadingFilesPane": {
 			"title": "Учитавање...",
-			"text": "{pleaseWait} Датотеке се учитавају."
+			"text": "Датотеке се учитавају."
 		},
 		"emptyFilesPane": {
 			"title": "Фасцикла је презна.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Копирај датотеку овде",
 		"errorDialogTitle": "Датотека која не може бити копирана:",
 		"manyFilesDialogTitle": "Копирај {count} Датотеке у...",
-		"manyFilesWait": "Копирам {count} датотеке. {pleaseWait}",
+		"manyFilesWait": "Копирам {count} датотеке.",
 		"oneFileDialogTitle": "Копирај датотеке у...",
-		"oneFileWait": "Копирам датотеку. {pleaseWait}",
+		"oneFileWait": "Копирам датотеку.",
 		"operationLabel": "Копирам датотеке",
 		"operationSummary": "Број копираних датотека : {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Премести датотеку овде",
 		"errorDialogTitle": "Датотека која не може бити премештена:",
 		"manyFilesDialogTitle": "Премести {count} Датотеке у...",
-		"manyFilesWait": "Премештам {count} датотеке. {pleaseWait}",
+		"manyFilesWait": "Премештам {count} датотеке.",
 		"oneFileDialogTitle": "Премести датотеке у...",
-		"oneFileWait": "Премештам датотеку. {pleaseWait}",
+		"oneFileWait": "Премештам датотеку.",
 		"operationLabel": "Премештам датотеке",
 		"operationSummary": "Број премештених датотека : {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} od {bytesTotal})",
 		"details": "Детаљи",
 		"filesCountProgress": "{filesUploaded} od {filesTotal}",
-		"progressLabel": "(Слање у току. {pleaseWait})",
+		"progressLabel": "Слање у току.",
 		"progressMessage": "Учитавање...",
 		"selectFileLabel": "Одабери датотеку за учитавање",
 		"selectFiles": "Изаберите датотеку за учитавање",

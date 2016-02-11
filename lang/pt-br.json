@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Painel de arquivos",
 		"filesRefresh": "Atualizando arquivos",
 		"filterPlaceholder": "Filtro",
-		"gettingFileData": "Lendo informações do arquivo. {pleaseWait}",
+		"gettingFileData": "Lendo informações do arquivo.",
 		"overwrite": "Sobrescrever",
 		"loadingFilesPane": {
 			"title": "Carregando...",
-			"text": "{pleaseWait} Carregando os arquivos."
+			"text": "Carregando os arquivos."
 		},
 		"emptyFilesPane": {
 			"title": "Esta pasta está vazia.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Copiar Aqui",
 		"errorDialogTitle": "Arquivos que não puderam ser copiados:",
 		"manyFilesDialogTitle": "Copiar {count} Arquivos Para...",
-		"manyFilesWait": "Copiando {count} arquivos. {pleaseWait}",
+		"manyFilesWait": "Copiando {count} arquivos.",
 		"oneFileDialogTitle": "Copiar Arquivo Para...",
-		"oneFileWait": "Copiando arquivo. {pleaseWait}",
+		"oneFileWait": "Copiando arquivo.",
 		"operationLabel": "Copiando Arquivos",
 		"operationSummary": "Número de arquivos copiados: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Mover Aqui",
 		"errorDialogTitle": "Arquivos que não puderam ser movidos:",
 		"manyFilesDialogTitle": "Mover {count} Arquivos Para...",
-		"manyFilesWait": "Movendo {count} arquivos. {pleaseWait}",
+		"manyFilesWait": "Movendo {count} arquivos.",
 		"oneFileDialogTitle": "Mover Arquivo Para...",
-		"oneFileWait": "Movendo arquivo. {pleaseWait}",
+		"oneFileWait": "Movendo arquivo.",
 		"operationLabel": "Movendo Arquivos",
 		"operationSummary": "Número de arquivos movidos: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} de {bytesTotal})",
 		"details": "Detalhes",
 		"filesCountProgress": "{filesUploaded} de {filesTotal}",
-		"progressLabel": "(Enviando arquivo. {pleaseWait})",
+		"progressLabel": "Enviando arquivo.",
 		"progressMessage": "Enviando...",
 		"selectFileLabel": "Selecione o arquivo para enviar",
 		"selectFiles": "Selecione os arquivos para enviar",

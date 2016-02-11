@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Files pane",
 		"filesRefresh": "Refreshing files",
 		"filterPlaceholder": "Filter",
-		"gettingFileData": "Getting file data. {pleaseWait}",
+		"gettingFileData": "Getting file data.",
 		"overwrite": "Overwrite",
 		"loadingFilesPane": {
 			"title": "Loading...",
-			"text": "{pleaseWait} The files are being loaded."
+			"text": "The files are being loaded."
 		},
 		"emptyFilesPane": {
 			"title": "The folder is empty.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Copy Here",
 		"errorDialogTitle": "Files that cannot be copied:",
 		"manyFilesDialogTitle": "Copy {count} Files To...",
-		"manyFilesWait": "Copying {count} files. {pleaseWait}",
+		"manyFilesWait": "Copying {count} files.",
 		"oneFileDialogTitle": "Copy File To...",
-		"oneFileWait": "Copying file. {pleaseWait}",
+		"oneFileWait": "Copying file.",
 		"operationLabel": "Copying Files",
 		"operationSummary": "Number of files copied: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Move Here",
 		"errorDialogTitle": "Files that cannot be moved:",
 		"manyFilesDialogTitle": "Move {count} Files To...",
-		"manyFilesWait": "Moving {count} files. {pleaseWait}",
+		"manyFilesWait": "Moving {count} files.",
 		"oneFileDialogTitle": "Move File To...",
-		"oneFileWait": "Moving file. {pleaseWait}",
+		"oneFileWait": "Moving file.",
 		"operationLabel": "Moving Files",
 		"operationSummary": "Number of files moved: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} of {bytesTotal})",
 		"details": "Details",
 		"filesCountProgress": "{filesUploaded} of {filesTotal}",
-		"progressLabel": "(Upload in progress. {pleaseWait})",
+		"progressLabel": "Upload in progress.",
 		"progressMessage": "Uploading...",
 		"selectFileLabel": "Select a file to upload",
 		"selectFiles": "Select files to upload",

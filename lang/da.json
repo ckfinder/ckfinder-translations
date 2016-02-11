@@ -52,7 +52,7 @@
 		"overwrite": "Overskriv",
 		"loadingFilesPane": {
 			"title": "[MISSING]Loading...",
-			"text": "{pleaseWait} Filerne bliver hentet."
+			"text": "Filerne bliver hentet."
 		},
 		"emptyFilesPane": {
 			"title": "Mappen er tom.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Kopier hertil",
 		"errorDialogTitle": "Følgende filer kunne ikke kopieres:",
 		"manyFilesDialogTitle": "Kopier {count} filerne til...",
-		"manyFilesWait": "Kopierer {count} files. {pleaseWait}",
+		"manyFilesWait": "Kopierer {count} files.",
 		"oneFileDialogTitle": "Kopier filen til...",
-		"oneFileWait": "Kopierer fil. {pleaseWait}",
+		"oneFileWait": "Kopierer fil.",
 		"operationLabel": "Kopiere filer",
 		"operationSummary": "Antal kopierede filer: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Flyt hertil",
 		"errorDialogTitle": "Følgende filer kunne ikke flyttes:",
 		"manyFilesDialogTitle": "Flyt {count} filerne til...",
-		"manyFilesWait": "Flytter {count} filer. {pleaseWait}",
+		"manyFilesWait": "Flytter {count} filer.",
 		"oneFileDialogTitle": "Flyt filen til...",
-		"oneFileWait": "Flytter fil. {pleaseWait}",
+		"oneFileWait": "Flytter fil.",
 		"operationLabel": "Flytter filer",
 		"operationSummary": "Antal flyttede filer: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} af {bytesTotal})",
 		"details": "Detaljer",
 		"filesCountProgress": "{filesUploaded} af {filesTotal}",
-		"progressLabel": "(Uploader, vent venligst...)",
+		"progressLabel": "Uploader, vent venligst...",
 		"progressMessage": "Uploader...",
 		"selectFileLabel": "Vælg den fil, du vil uploade",
 		"selectFiles": "Vælg filer til upload",

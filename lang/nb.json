@@ -48,11 +48,11 @@
 		"filesPaneTitle": "[MISSING]Files pane",
 		"filesRefresh": "[MISSING]Refreshing files",
 		"filterPlaceholder": "Filter",
-		"gettingFileData": "Henter fildata, {pleaseWait}",
+		"gettingFileData": "Henter fildata,",
 		"overwrite": "Overskriv",
 		"loadingFilesPane": {
 			"title": "Laster...",
-			"text": "{pleaseWait} Filene lastes."
+			"text": "Filene lastes."
 		},
 		"emptyFilesPane": {
 			"title": "Mappen er tom.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Kopier hit",
 		"errorDialogTitle": "Filer som ikke kan kopieres:",
 		"manyFilesDialogTitle": "Kopier {count} filer til...",
-		"manyFilesWait": "Kopierer {count} filer, {pleaseWait}",
+		"manyFilesWait": "Kopierer {count} filer,",
 		"oneFileDialogTitle": "Kopier filen til...",
-		"oneFileWait": "Kopierer filen, {pleaseWait}",
+		"oneFileWait": "Kopierer filen,",
 		"operationLabel": "Kopierer filer",
 		"operationSummary": "Antall filer kopiert: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Flytt hit",
 		"errorDialogTitle": "Filer som ikke kan flyttes:",
 		"manyFilesDialogTitle": "Flytt {count} filer til...",
-		"manyFilesWait": "Flytter {count} filer, {pleaseWait}",
+		"manyFilesWait": "Flytter {count} filer,",
 		"oneFileDialogTitle": "Flytt filen til...",
-		"oneFileWait": "Flytter filen, {pleaseWait}",
+		"oneFileWait": "Flytter filen,",
 		"operationLabel": "Flytter filer",
 		"operationSummary": "Antall filer flyttet: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} av {bytesTotal})",
 		"details": "Detaljer",
 		"filesCountProgress": "{filesUploaded} av {filesTotal}",
-		"progressLabel": "(Laster opp filen, {pleaseWait}..)",
+		"progressLabel": "Laster opp filen.",
 		"progressMessage": "Laster opp...",
 		"selectFileLabel": "Velg filen du vil laste opp",
 		"selectFiles": "Velg filer for opplasting",

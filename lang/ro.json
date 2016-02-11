@@ -48,11 +48,11 @@
 		"filesPaneTitle": "[MISSING]Files pane",
 		"filesRefresh": "[MISSING]Refreshing files",
 		"filterPlaceholder": "[MISSING]Filter",
-		"gettingFileData": "[MISSING]Getting file data. {pleaseWait}",
+		"gettingFileData": "[MISSING]Getting file data.",
 		"overwrite": "Suprascriere",
 		"loadingFilesPane": {
 			"title": "[MISSING]Loading...",
-			"text": "[MISSING]{pleaseWait} The files are being loaded."
+			"text": "[MISSING]The files are being loaded."
 		},
 		"emptyFilesPane": {
 			"title": "[MISSING]The folder is empty.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Copiază aici",
 		"errorDialogTitle": "[MISSING]Files that cannot be copied:",
 		"manyFilesDialogTitle": "[MISSING]Copy {count} Files To...",
-		"manyFilesWait": "[MISSING]Copying {count} files. {pleaseWait}",
+		"manyFilesWait": "[MISSING]Copying {count} files.",
 		"oneFileDialogTitle": "[MISSING]Copy File To...",
-		"oneFileWait": "[MISSING]Copying file. {pleaseWait}",
+		"oneFileWait": "[MISSING]Copying file.",
 		"operationLabel": "[MISSING]Copying Files",
 		"operationSummary": "[MISSING]Number of files copied: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Mută aici",
 		"errorDialogTitle": "[MISSING]Files that cannot be moved:",
 		"manyFilesDialogTitle": "[MISSING]Move {count} Files To...",
-		"manyFilesWait": "[MISSING]Moving {count} files. {pleaseWait}",
+		"manyFilesWait": "[MISSING]Moving {count} files.",
 		"oneFileDialogTitle": "[MISSING]Move File To...",
-		"oneFileWait": "[MISSING]Moving file. {pleaseWait}",
+		"oneFileWait": "[MISSING]Moving file.",
 		"operationLabel": "[MISSING]Moving Files",
 		"operationSummary": "[MISSING]Number of files moved: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "[MISSING]({bytesUploaded} of {bytesTotal})",
 		"details": "[MISSING]Details",
 		"filesCountProgress": "[MISSING]{filesUploaded} of {filesTotal}",
-		"progressLabel": "(Încărcare în progres. {pleaseWait})",
+		"progressLabel": "Încărcare în progres.",
 		"progressMessage": "[MISSING]Uploading...",
 		"selectFileLabel": "Selectează un fișier de încărcat",
 		"selectFiles": "[MISSING]Select files to upload",

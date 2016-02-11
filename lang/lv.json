@@ -48,11 +48,11 @@
 		"filesPaneTitle": "[MISSING]Files pane",
 		"filesRefresh": "[MISSING]Refreshing files",
 		"filterPlaceholder": "Filtrs",
-		"gettingFileData": "Iegūst faila datus. {pleaseWait}",
+		"gettingFileData": "Iegūst faila datus.",
 		"overwrite": "Pārrakstīt",
 		"loadingFilesPane": {
 			"title": "Notiek ielāde...",
-			"text": "{pleaseWait} Tiek ielādēti faili.."
+			"text": "Tiek ielādēti faili.."
 		},
 		"emptyFilesPane": {
 			"title": "Mape ir tukša.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Kopēt šeit",
 		"errorDialogTitle": "Faili, kurus nevar pārkopēt:",
 		"manyFilesDialogTitle": "Kopēt {count} failus uz...",
-		"manyFilesWait": "{count} faili tiek kopēti. {pleaseWait}",
+		"manyFilesWait": "{count} faili tiek kopēti.",
 		"oneFileDialogTitle": "Kopēt failu uz...",
-		"oneFileWait": "Fails tiek kopēts. {pleaseWait}",
+		"oneFileWait": "Fails tiek kopēts.",
 		"operationLabel": "Kopēju failus",
 		"operationSummary": "Kopā pārkopēti faili: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Pārvietot šeit",
 		"errorDialogTitle": "Faili, kurus nevar pārvietot:",
 		"manyFilesDialogTitle": "Pārvietot {count} failus uz...",
-		"manyFilesWait": "{count} faili tiek pārvietoti. {pleaseWait}",
+		"manyFilesWait": "{count} faili tiek pārvietoti.",
 		"oneFileDialogTitle": "Pārvietot failu uz...",
-		"oneFileWait": "Fails tiek pārvietots. {pleaseWait}",
+		"oneFileWait": "Fails tiek pārvietots.",
 		"operationLabel": "Pārvietoju failus",
 		"operationSummary": "Kopā pārvietoti faili: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} no {bytesTotal})",
 		"details": "Detaļas",
 		"filesCountProgress": "{filesUploaded} no {filesTotal}",
-		"progressLabel": "(Augšupielādē. {pleaseWait})",
+		"progressLabel": "Augšupielādē.",
 		"progressMessage": "Notiek ielāde...",
 		"selectFileLabel": "Izvēlieties failu, ko augšupielādēt",
 		"selectFiles": "Izvēlieties failus ko augšupielādēt",

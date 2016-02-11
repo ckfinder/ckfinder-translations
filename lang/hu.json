@@ -48,11 +48,11 @@
 		"filesPaneTitle": "[MISSING]Files pane",
 		"filesRefresh": "[MISSING]Refreshing files",
 		"filterPlaceholder": "Szűrő",
-		"gettingFileData": "A fájl adatainak lekérdezése. {pleaseWait}",
+		"gettingFileData": "A fájl adatainak lekérdezése.",
 		"overwrite": "Felülír",
 		"loadingFilesPane": {
 			"title": "Betöltés...",
-			"text": "{pleaseWait} A fájlok betöltése megkezdődött."
+			"text": "A fájlok betöltése megkezdődött."
 		},
 		"emptyFilesPane": {
 			"title": "Ez a mappa üres.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Másolás ide",
 		"errorDialogTitle": "A következő fájlok nem másolhatóak:",
 		"manyFilesDialogTitle": "{count} fájl másolása ide...",
-		"manyFilesWait": "{count} fájl másolása. {pleaseWait}",
+		"manyFilesWait": "{count} fájl másolása.",
 		"oneFileDialogTitle": "Fájl másolása ide...",
-		"oneFileWait": "Fájl másolása. {pleaseWait}",
+		"oneFileWait": "Fájl másolása.",
 		"operationLabel": "Fájlok másolása",
 		"operationSummary": "A másolt fájlok száma: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Áthelyezés ide",
 		"errorDialogTitle": "A következő fájlok nem helyezhetőek át:",
 		"manyFilesDialogTitle": "{count} fájl áthelyezése ide...",
-		"manyFilesWait": "{count} fájl áthelyezése. {pleaseWait}",
+		"manyFilesWait": "{count} fájl áthelyezése.",
 		"oneFileDialogTitle": "Fájl áthelyezése ide...",
-		"oneFileWait": "Fájl áthelyezése. {pleaseWait}",
+		"oneFileWait": "Fájl áthelyezése.",
 		"operationLabel": "Fájlok áthelyezése",
 		"operationSummary": "Az áthelyezett fájlok száma: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} / {bytesTotal})",
 		"details": "Részletek",
 		"filesCountProgress": "{filesUploaded} / {filesTotal}",
-		"progressLabel": "(A feltöltés folyamatban. {pleaseWait})",
+		"progressLabel": "A feltöltés folyamatban.",
 		"progressMessage": "Feltöltés...",
 		"selectFileLabel": "Válassza ki a feltölteni kívánt fájlt",
 		"selectFiles": "Válassza ki a feltöltendő fájlokat",

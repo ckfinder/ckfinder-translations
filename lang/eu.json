@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Fitxategiak panela",
 		"filesRefresh": "Fitxategiak freskatzen",
 		"filterPlaceholder": "Iragazi",
-		"gettingFileData": "Fitxategiaren datuak eskuratzen. {pleaseWait}",
+		"gettingFileData": "Fitxategiaren datuak eskuratzen.",
 		"overwrite": "Gainidatzi",
 		"loadingFilesPane": {
 			"title": "Kargatzen...",
-			"text": "{pleaseWait} Fitxategiak kargatzen ari dira."
+			"text": "Fitxategiak kargatzen ari dira."
 		},
 		"emptyFilesPane": {
 			"title": "Karpeta hutsik dago.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Kopiatu hona",
 		"errorDialogTitle": "Kopiatu ezin diren fitxategiak:",
 		"manyFilesDialogTitle": "Kopiatu {count} fitxategi hona...",
-		"manyFilesWait": "{count} fitxategi kopiatzen. {pleaseWait}",
+		"manyFilesWait": "{count} fitxategi kopiatzen.",
 		"oneFileDialogTitle": "Kopiatu fitxategia hona...",
-		"oneFileWait": "Fitxategia kopiatzen. {pleaseWait}",
+		"oneFileWait": "Fitxategia kopiatzen.",
 		"operationLabel": "Fitxategiak kopiatzen",
 		"operationSummary": "Kopiatutako fitxategi kopurua: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Aldatu lekuz hona",
 		"errorDialogTitle": "Lekuz aldatu ezin diren fitxategiak:",
 		"manyFilesDialogTitle": "Aldatu lekuz {count} fitxategi hona...",
-		"manyFilesWait": "{count} fitxategi lekuz aldatzen. {pleaseWait}",
+		"manyFilesWait": "{count} fitxategi lekuz aldatzen.",
 		"oneFileDialogTitle": "Aldatu lekuz fitxategia hona...",
-		"oneFileWait": "Fitxategia lekuz aldatzen. {pleaseWait}",
+		"oneFileWait": "Fitxategia lekuz aldatzen.",
 		"operationLabel": "Fitxategiak lekuz aldatzen",
 		"operationSummary": "Lekuz aldatutako fitxategi kopurua: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} / {bytesTotal})",
 		"details": "Xehetasunak",
 		"filesCountProgress": "{filesUploaded} / {filesTotal}",
-		"progressLabel": "(Kargatzen. {pleaseWait})",
+		"progressLabel": "Kargatzen.",
 		"progressMessage": "Kargatzen...",
 		"selectFileLabel": "Hautatu fitxategia kargatzeko",
 		"selectFiles": "Hautatu fitxategiak kargatzeko",

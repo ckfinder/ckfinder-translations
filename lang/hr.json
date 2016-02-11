@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Panel Datoteka",
 		"filesRefresh": "Osvježavanje datoteka",
 		"filterPlaceholder": "Filter",
-		"gettingFileData": "Dobavljam podatke o datoteci. {pleaseWait}",
+		"gettingFileData": "Dobavljam podatke o datoteci.",
 		"overwrite": "Prepiši",
 		"loadingFilesPane": {
 			"title": "Učitavam...",
-			"text": "{pleaseWait} Datoteke se učitavaju."
+			"text": "Datoteke se učitavaju."
 		},
 		"emptyFilesPane": {
 			"title": "Direktorij je prazan.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Kopiraj ovdje",
 		"errorDialogTitle": "Datoteke koje ne mogu biti kopirane:",
 		"manyFilesDialogTitle": "Kopiraj {count} datoteke u...",
-		"manyFilesWait": "Kopiranje {count} datoteka. {pleaseWait}",
+		"manyFilesWait": "Kopiranje {count} datoteka.",
 		"oneFileDialogTitle": "Kopiraj datoteku u...",
-		"oneFileWait": "Kopiram datoteke. {pleaseWait}",
+		"oneFileWait": "Kopiram datoteke.",
 		"operationLabel": "Kopiranje datoteka",
 		"operationSummary": "Broj kopiranih datoteka: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Premjesti ovdje",
 		"errorDialogTitle": "Datoteke koje ne mogu biti premještene:",
 		"manyFilesDialogTitle": "Premjesti {count} datoteke u...",
-		"manyFilesWait": "Premještanje {count} datoteka. {pleaseWait}",
+		"manyFilesWait": "Premještanje {count} datoteka.",
 		"oneFileDialogTitle": "Premjesti datoteku u...",
-		"oneFileWait": "Premještam datoteke. {pleaseWait}",
+		"oneFileWait": "Premještam datoteke.",
 		"operationLabel": "Premještanje datoteka",
 		"operationSummary": "Broj premještenih datoteka: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} od {bytesTotal})",
 		"details": "Detalji",
 		"filesCountProgress": "{filesUploaded} od {filesTotal}",
-		"progressLabel": "(Slanje u tijeku. {pleaseWait})",
+		"progressLabel": "Slanje u tijeku.",
 		"progressMessage": "Uploadanje...",
 		"selectFileLabel": "Odaberi datoteku za slanje",
 		"selectFiles": "Odaberite datoteke za upload",

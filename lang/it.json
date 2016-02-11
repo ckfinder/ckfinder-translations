@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Pannello file",
 		"filesRefresh": "Aggiornamento dei file",
 		"filterPlaceholder": "Filtro",
-		"gettingFileData": "Recupero dei dati del file. {pleaseWait}",
+		"gettingFileData": "Recupero dei dati del file.",
 		"overwrite": "Sovrascrivi",
 		"loadingFilesPane": {
 			"title": "Caricamento...",
-			"text": "{pleaseWait} i file vengono caricati."
+			"text": "i file vengono caricati."
 		},
 		"emptyFilesPane": {
 			"title": "La cartella è vuota.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Copia qui",
 		"errorDialogTitle": "File che non è possibile copiare:",
 		"manyFilesDialogTitle": "Copia {count} file in...",
-		"manyFilesWait": "Copia di {count} file in corso. {pleaseWait}",
+		"manyFilesWait": "Copia di {count} file in corso.",
 		"oneFileDialogTitle": "Copia il file in...",
-		"oneFileWait": "Copia del file in corso. {pleaseWait}",
+		"oneFileWait": "Copia del file in corso.",
 		"operationLabel": "Copia dei file",
 		"operationSummary": "Numero di file copiati: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Sposta qui",
 		"errorDialogTitle": "File che non è possibile spostare:",
 		"manyFilesDialogTitle": "Sposta {count} file in...",
-		"manyFilesWait": "Spostamento di {count} file in corso. {pleaseWait}",
+		"manyFilesWait": "Spostamento di {count} file in corso.",
 		"oneFileDialogTitle": "Sposta il file in...",
-		"oneFileWait": "Spostamento del file in corso. {pleaseWait}",
+		"oneFileWait": "Spostamento del file in corso.",
 		"operationLabel": "Spostamento dei file",
 		"operationSummary": "Numero di file spostati: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} di {bytesTotal})",
 		"details": "Dettagli",
 		"filesCountProgress": "{filesUploaded} di {filesTotal}",
-		"progressLabel": "(caricamento in corso. {pleaseWait})",
+		"progressLabel": "caricamento in corso.",
 		"progressMessage": "Caricamento in corso...",
 		"selectFileLabel": "Selezionare un file da caricare",
 		"selectFiles": "Selezionare i file da caricare",

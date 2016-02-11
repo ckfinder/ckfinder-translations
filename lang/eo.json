@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Dosiera fenestro",
 		"filesRefresh": "Aktualigo de dosieroj",
 		"filterPlaceholder": "Filtro",
-		"gettingFileData": "Akiro de dosieraj datumoj. {pleaseWait}",
+		"gettingFileData": "Akiro de dosieraj datumoj.",
 		"overwrite": "Anstataŭigu",
 		"loadingFilesPane": {
 			"title": "Ŝargata...",
-			"text": "{pleaseWait} La dosieroj estas ŝargataj."
+			"text": "La dosieroj estas ŝargataj."
 		},
 		"emptyFilesPane": {
 			"title": "La dosierujo estas malplena.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Kopiu tien",
 		"errorDialogTitle": "Dosieroj kiujn oni ne povas kopii:",
 		"manyFilesDialogTitle": "Kopiu {count} dosierojn al...",
-		"manyFilesWait": "{count} dosieroj kopiataj. {pleaseWait}",
+		"manyFilesWait": "{count} dosieroj kopiataj.",
 		"oneFileDialogTitle": "Kopiu dosieron al...",
-		"oneFileWait": "Dosiero kopiata. {pleaseWait}",
+		"oneFileWait": "Dosiero kopiata.",
 		"operationLabel": "Dosieroj kopiataj",
 		"operationSummary": "Nombro de dosieroj kopiitaj: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Movu tien",
 		"errorDialogTitle": "Dosieroj kiujn oni ne povas movi:",
 		"manyFilesDialogTitle": "Movu {count} dosierojn al...",
-		"manyFilesWait": "{count} dosieroj movataj. {pleaseWait}",
+		"manyFilesWait": "{count} dosieroj movataj.",
 		"oneFileDialogTitle": "Movu dosieron al...",
-		"oneFileWait": "Dosiero movata. {pleaseWait}",
+		"oneFileWait": "Dosiero movata.",
 		"operationLabel": "Dosieroj movataj",
 		"operationSummary": "Nombro de dosieroj movitaj: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} el {bytesTotal})",
 		"details": "Detaloj",
 		"filesCountProgress": "{filesUploaded} el {filesTotal}",
-		"progressLabel": "(Estas alŝutata. {pleaseWait})",
+		"progressLabel": "Estas alŝutata.",
 		"progressMessage": "Alŝuto okazanta...",
 		"selectFileLabel": "Selektu la alŝutotan dosieron",
 		"selectFiles": "Selektu dosierojn alŝutotajn",

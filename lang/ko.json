@@ -48,11 +48,11 @@
 		"filesPaneTitle": "파일 판",
 		"filesRefresh": "파일 새로고침",
 		"filterPlaceholder": "필터",
-		"gettingFileData": "파일을 가져오고 있습니다. {pleaseWait}",
+		"gettingFileData": "파일을 가져오고 있습니다.",
 		"overwrite": "덮어쓰기",
 		"loadingFilesPane": {
 			"title": "불러오는 중...",
-			"text": "{pleaseWait} 해당 파일들이 로딩 중입니다."
+			"text": "해당 파일들이 로딩 중입니다."
 		},
 		"emptyFilesPane": {
 			"title": "폴더가 비어있습니다..",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "여기에 복사",
 		"errorDialogTitle": "복사에 실패한 파일들:",
 		"manyFilesDialogTitle": "다음으로 {count} 개 파일 복사...",
-		"manyFilesWait": "{count} 개 파일을 이동 중입니다. {pleaseWait}",
+		"manyFilesWait": "{count} 개 파일을 이동 중입니다.",
 		"oneFileDialogTitle": "다음으로 파일 복사...",
-		"oneFileWait": "파일을 복사 중입니다. {pleaseWait}",
+		"oneFileWait": "파일을 복사 중입니다.",
 		"operationLabel": "파일 복사 중",
 		"operationSummary": "복사된 파일의 수: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "여기로 이동",
 		"errorDialogTitle": "이동에 실패한 파일들:",
 		"manyFilesDialogTitle": "다음으로 {count} 개 파일 이동...",
-		"manyFilesWait": "{count} 개 파일을 이동 중입니다. {pleaseWait}",
+		"manyFilesWait": "{count} 개 파일을 이동 중입니다.",
 		"oneFileDialogTitle": "다음으로 파일 이동...",
-		"oneFileWait": "파일을 이동 중입니다. {pleaseWait}",
+		"oneFileWait": "파일을 이동 중입니다.",
 		"operationLabel": "파일 이동 중",
 		"operationSummary": "이동된 파일의 수: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} / {bytesTotal})",
 		"details": "자세히",
 		"filesCountProgress": "{filesUploaded} / {filesTotal}",
-		"progressLabel": "(업로드가 진행 중입니다. {pleaseWait})",
+		"progressLabel": "업로드가 진행 중입니다.",
 		"progressMessage": "업로드 중...",
 		"selectFileLabel": "업로드할 파일을 선택해 주십시오",
 		"selectFiles": "업로드할 파일을 선택해 주십시오",

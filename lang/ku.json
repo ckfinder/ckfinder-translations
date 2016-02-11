@@ -48,11 +48,11 @@
 		"filesPaneTitle": "بەشی پەڕگەکان",
 		"filesRefresh": "بووژاندنەوەی پەڕگەکان",
 		"filterPlaceholder": "فیلتەر",
-		"gettingFileData": "زانیاری پەڕگە دەهێندرێت. {pleaseWait}",
+		"gettingFileData": "زانیاری پەڕگە دەهێندرێت.",
 		"overwrite": "سەرنوسینەوە",
 		"loadingFilesPane": {
 			"title": "ئامادەدەکرێت...",
-			"text": "{pleaseWait} پەرگەکە لە ئامادەکردن دایە."
+			"text": "پەرگەکە لە ئامادەکردن دایە."
 		},
 		"emptyFilesPane": {
 			"title": "بوخچەکە خاڵیە.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "کۆپی ئێرە بکە",
 		"errorDialogTitle": "پەڕگانەی ناتوانرێت کۆپی بکرێت:",
 		"manyFilesDialogTitle": "کۆپیکردنی {count} پەرگە بۆ...",
-		"manyFilesWait": "کۆپیدەکرێت {count} پەڕگەکان. {pleaseWait}",
+		"manyFilesWait": "کۆپیدەکرێت {count} پەڕگەکان.",
 		"oneFileDialogTitle": "پەڕگەکە کۆپی بکە بۆ...",
-		"oneFileWait": "کۆپی پەرگە. {pleaseWait}",
+		"oneFileWait": "کۆپی پەرگە.",
 		"operationLabel": "کۆپیکردنی پەڕگە",
 		"operationSummary": "ژمارەی ئەم پەڕگانەی کۆپیکراوە: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "بیگوازەوە ئێرە",
 		"errorDialogTitle": "پەڕگانەی ناتوانرێت بگوازرێتەوە:",
 		"manyFilesDialogTitle": "گواستنەوەی {count} پەرگە بۆ...",
-		"manyFilesWait": "دەگوازرێتەوە {count} پەڕگەکان. {pleaseWait}",
+		"manyFilesWait": "دەگوازرێتەوە {count} پەڕگەکان.",
 		"oneFileDialogTitle": "پەڕگەکە بگوازەوە بۆ...",
-		"oneFileWait": "گواستنەوەی پەرگە. {pleaseWait}",
+		"oneFileWait": "گواستنەوەی پەرگە.",
 		"operationLabel": "گواستنەوەی پەڕگە",
 		"operationSummary": "ژمارەی ئەم پەڕگانەی گواستراوەتەوە: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} لە {bytesTotal})",
 		"details": "ووردەکاری",
 		"filesCountProgress": "{filesUploaded} لە {filesTotal}",
-		"progressLabel": "(لە ژێر بارکردندایە. {pleaseWait})",
+		"progressLabel": "لە ژێر بارکردندایە.",
 		"progressMessage": "باردەکرێت...",
 		"selectFileLabel": "پەڕگەیەک هەڵبژێرە بۆ بارکردن",
 		"selectFiles": "پەڕگەیەک هەڵبژێرە بۆ بارکردن",

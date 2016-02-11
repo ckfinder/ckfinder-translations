@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} de {bytesTotal})",
 		"details": "Detalles",
 		"filesCountProgress": "{filesUploaded} de {filesTotal}",
-		"progressLabel": "(Subida en progreso. {pleaseWait})",
+		"progressLabel": "Subida en progreso.",
 		"progressMessage": "Subiendo...",
 		"selectFileLabel": "Elija el fichero a subir",
 		"selectFiles": "Elije los ficheros para subir",

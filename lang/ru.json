@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Панель файлов",
 		"filesRefresh": "Обновление файлов",
 		"filterPlaceholder": "Фильтр",
-		"gettingFileData": "Чтение файла. {pleaseWait}",
+		"gettingFileData": "Чтение файла.",
 		"overwrite": "Заменить файл",
 		"loadingFilesPane": {
 			"title": "Загрузка...",
-			"text": "{pleaseWait} Файлы загружаются."
+			"text": "Файлы загружаются."
 		},
 		"emptyFilesPane": {
 			"title": "Папка пуста.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Копировать",
 		"errorDialogTitle": "Файлы, которые не могут быть скопированы:",
 		"manyFilesDialogTitle": "Копировать {count} файла(ов) в...",
-		"manyFilesWait": "Копирование {count} файлов. {pleaseWait}",
+		"manyFilesWait": "Копирование {count} файлов.",
 		"oneFileDialogTitle": "Копировать файл в...",
-		"oneFileWait": "Копирование файла. {pleaseWait}",
+		"oneFileWait": "Копирование файла.",
 		"operationLabel": "Копирование файлов",
 		"operationSummary": "Скопировано файлов: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Переместить",
 		"errorDialogTitle": "Файлы, которые не могут быть перемещены:",
 		"manyFilesDialogTitle": "Переместить {count} файла(ов) в...",
-		"manyFilesWait": "Перемещение {count} файлов. {pleaseWait}",
+		"manyFilesWait": "Перемещение {count} файлов.",
 		"oneFileDialogTitle": "Переместить файл в...",
-		"oneFileWait": "Перемещение файла. {pleaseWait}",
+		"oneFileWait": "Перемещение файла.",
 		"operationLabel": "Перемещение файлов",
 		"operationSummary": "Перемещено файлов: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} из {bytesTotal})",
 		"details": "Подробнее",
 		"filesCountProgress": "{filesUploaded} из {filesTotal}",
-		"progressLabel": "(Загрузка в процессе. {pleaseWait})",
+		"progressLabel": "Загрузка в процессе.",
 		"progressMessage": "Загрузка...",
 		"selectFileLabel": "Выбрать файл для загрузки",
 		"selectFiles": "Выберите файлы для загрузки",

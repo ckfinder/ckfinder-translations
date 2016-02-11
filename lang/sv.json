@@ -48,11 +48,11 @@
 		"filesPaneTitle": "[MISSING]Files pane",
 		"filesRefresh": "[MISSING]Refreshing files",
 		"filterPlaceholder": "[MISSING]Filter",
-		"gettingFileData": "Hämtar fildata. {pleaseWait}",
+		"gettingFileData": "Hämtar fildata.",
 		"overwrite": "Skriv över",
 		"loadingFilesPane": {
 			"title": "Laddar...",
-			"text": "{pleaseWait} Filerna håller på att laddas."
+			"text": "Filerna håller på att laddas."
 		},
 		"emptyFilesPane": {
 			"title": "Mappen är tom.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Kopiera hit",
 		"errorDialogTitle": "Filer som inte kan kopieras:",
 		"manyFilesDialogTitle": "Kopiera {count} filer till...",
-		"manyFilesWait": "Kopierar {count} filer. {pleaseWait}",
+		"manyFilesWait": "Kopierar {count} filer.",
 		"oneFileDialogTitle": "Kopiera fil till...",
-		"oneFileWait": "Kopierar fil. {pleaseWait}",
+		"oneFileWait": "Kopierar fil.",
 		"operationLabel": "Kopierar filer",
 		"operationSummary": "Antal filer kopierade: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Flytta hit",
 		"errorDialogTitle": "Filer som inte kan flyttas:",
 		"manyFilesDialogTitle": "Flytta {count} filer till...",
-		"manyFilesWait": "Flyttar {count} filer. {pleaseWait}",
+		"manyFilesWait": "Flyttar {count} filer.",
 		"oneFileDialogTitle": "Flytta fil till...",
-		"oneFileWait": "Flyttar fil. {pleaseWait}",
+		"oneFileWait": "Flyttar fil.",
 		"operationLabel": "Flyttar filer",
 		"operationSummary": "Antal filer flyttade: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} av {bytesTotal})",
 		"details": "Detaljer",
 		"filesCountProgress": "{filesUploaded} av {filesTotal}",
-		"progressLabel": "(Laddar upp filen. {pleaseWait})",
+		"progressLabel": "Laddar upp filen.",
 		"progressMessage": "Laddar upp...",
 		"selectFileLabel": "Välj fil att ladda upp",
 		"selectFiles": "Välj filer att ladda upp",

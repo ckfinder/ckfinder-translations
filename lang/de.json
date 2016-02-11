@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Dateibereich",
 		"filesRefresh": "[MISSING]Refreshing files",
 		"filterPlaceholder": "Filter",
-		"gettingFileData": "[MISSING]Getting file data. {pleaseWait}",
+		"gettingFileData": "[MISSING]Getting file data.",
 		"overwrite": "Überschreiben",
 		"loadingFilesPane": {
 			"title": "Laden...",
-			"text": "{pleaseWait} Die Dateien werden geladen."
+			"text": "Die Dateien werden geladen."
 		},
 		"emptyFilesPane": {
 			"title": "Das Verzeichnis ist leer.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Hierher kopieren",
 		"errorDialogTitle": "Dateien, die nicht kopiert werden können:",
 		"manyFilesDialogTitle": "Kopieren {count} Dateien in...",
-		"manyFilesWait": "Kopieren {count} Dateien. {pleaseWait}",
+		"manyFilesWait": "Kopieren {count} Dateien.",
 		"oneFileDialogTitle": "Kopieren die Datei in...",
-		"oneFileWait": "Kopieren einer Datei. {pleaseWait}",
+		"oneFileWait": "Kopieren einer Datei.",
 		"operationLabel": "Kopieren von Dateien",
 		"operationSummary": "Anzahl der kopierten Dateien: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Hierher verschieben",
 		"errorDialogTitle": "Dateien, die nicht verschoben werden können:",
 		"manyFilesDialogTitle": "Verschieben {count} Dateien in...",
-		"manyFilesWait": "Verschieben {count} Dateien. {pleaseWait}",
+		"manyFilesWait": "Verschieben {count} Dateien.",
 		"oneFileDialogTitle": "Verschieben die Datei in...",
-		"oneFileWait": "Verschieben einer Datei. {pleaseWait}",
+		"oneFileWait": "Verschieben einer Datei.",
 		"operationLabel": "Verschieben von Dateien",
 		"operationSummary": "Anzahl der Dateien verschoben: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} von {bytesTotal})",
 		"details": "[MISSING]Details",
 		"filesCountProgress": "{filesUploaded} von {filesTotal}",
-		"progressLabel": "(Die Daten werden übertragen. {pleaseWait})",
+		"progressLabel": "Die Daten werden übertragen.",
 		"progressMessage": "Hochladen...",
 		"selectFileLabel": "Bitte wählen Sie die Datei aus",
 		"selectFiles": "Wählen Sie Dateien zum Hochladen",

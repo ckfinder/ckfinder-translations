@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesTotal} 中的 {bytesUploaded})",
 		"details": "详情",
 		"filesCountProgress": "{filesTotal}{filesUploaded}",
-		"progressLabel": "(正在上传文件，{pleaseWait})",
+		"progressLabel": "正在上传文件，",
 		"progressMessage": "正在上传...",
 		"selectFileLabel": "选择要上传的文件",
 		"selectFiles": "选择要上传的文件",

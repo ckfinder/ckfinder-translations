@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Failide paneel",
 		"filesRefresh": "Failide värskendamine",
 		"filterPlaceholder": "[MISSING]Filter",
-		"gettingFileData": "Faili andmete hankimine. {pleaseWait}",
+		"gettingFileData": "Faili andmete hankimine.",
 		"overwrite": "Kirjuta üle",
 		"loadingFilesPane": {
 			"title": "Laadimine...",
-			"text": "{pleaseWait} Faile laaditakse."
+			"text": "Faile laaditakse."
 		},
 		"emptyFilesPane": {
 			"title": "Kaust on tühi.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Kopeeri siia",
 		"errorDialogTitle": "Failid, mida ei saanud kopeerida:",
 		"manyFilesDialogTitle": "Kopeeri {count} faili kausta...",
-		"manyFilesWait": "{count} faili kopeerimine. {pleaseWait}",
+		"manyFilesWait": "{count} faili kopeerimine.",
 		"oneFileDialogTitle": "Kopeeri fail kausta...",
-		"oneFileWait": "Faili kopeerimine. {pleaseWait}",
+		"oneFileWait": "Faili kopeerimine.",
 		"operationLabel": "Failide kopeerimine",
 		"operationSummary": "Kopeeritud failide arv: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Liiguta siia",
 		"errorDialogTitle": "Failid, mida ei saanud liigutada:",
 		"manyFilesDialogTitle": "Liiguta {count} faili kausta...",
-		"manyFilesWait": "{count} faili liigutamine. {pleaseWait}",
+		"manyFilesWait": "{count} faili liigutamine.",
 		"oneFileDialogTitle": "Liiguta fail kausta...",
-		"oneFileWait": "Faili liigutamine. {pleaseWait}",
+		"oneFileWait": "Faili liigutamine.",
 		"operationLabel": "Failide liigutamine",
 		"operationSummary": "Liigutatud failide arv: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} / {bytesTotal})",
 		"details": "Andmed",
 		"filesCountProgress": "{filesUploaded} / {filesTotal}",
-		"progressLabel": "(Üleslaadimine. {pleaseWait})",
+		"progressLabel": "Üleslaadimine.",
 		"progressMessage": "Üleslaadimine...",
 		"selectFileLabel": "Vali üleslaadimiseks fail",
 		"selectFiles": "Vali üleslaadimiseks failid",

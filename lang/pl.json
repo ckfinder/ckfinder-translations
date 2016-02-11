@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Panel plików",
 		"filesRefresh": "Odświeżanie plików",
 		"filterPlaceholder": "Filtruj",
-		"gettingFileData": "Pobieranie informacji o pliku. {pleaseWait}",
+		"gettingFileData": "Pobieranie informacji o pliku.",
 		"overwrite": "Nadpisz",
 		"loadingFilesPane": {
 			"title": "Ładowanie...",
-			"text": "{pleaseWait} Trwa ładowanie plików."
+			"text": "Trwa ładowanie plików."
 		},
 		"emptyFilesPane": {
 			"title": "Folder jest pusty.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Skopiuj tutaj",
 		"errorDialogTitle": "Następujące pliki nie mogą być skopiowane:",
 		"manyFilesDialogTitle": "Skopiuj pliki ({count}) do...",
-		"manyFilesWait": "Kopiowanie {count} plików. {pleaseWait}",
+		"manyFilesWait": "Kopiowanie {count} plików.",
 		"oneFileDialogTitle": "Skopiuj plik do...",
-		"oneFileWait": "Kopiowanie pliku. {pleaseWait}",
+		"oneFileWait": "Kopiowanie pliku.",
 		"operationLabel": "Kopiowanie plików",
 		"operationSummary": "Liczba skopiowanych plików: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Przenieś tutaj",
 		"errorDialogTitle": "Następujące pliki nie mogą być przeniesione:",
 		"manyFilesDialogTitle": "Przenieś pliki ({count}) do...",
-		"manyFilesWait": "Przenoszenie {count} plików. {pleaseWait}",
+		"manyFilesWait": "Przenoszenie {count} plików.",
 		"oneFileDialogTitle": "Przenieś plik do...",
-		"oneFileWait": "Przenoszenie pliku. {pleaseWait}",
+		"oneFileWait": "Przenoszenie pliku.",
 		"operationLabel": "Przenoszenie plików",
 		"operationSummary": "Liczba przeniesionych plików: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} z {bytesTotal})",
 		"details": "Szczegóły",
 		"filesCountProgress": "{filesUploaded} z {filesTotal}",
-		"progressLabel": "(Trwa wysyłanie pliku. {pleaseWait})",
+		"progressLabel": "Trwa wysyłanie pliku.",
 		"progressMessage": "Wysyłanie...",
 		"selectFileLabel": "Wybierz plik",
 		"selectFiles": "Wybierz pliki do wysłania",

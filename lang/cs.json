@@ -48,11 +48,11 @@
 		"filesPaneTitle": "Panel souborů",
 		"filesRefresh": "Obnovování souborů",
 		"filterPlaceholder": "Filtrovat",
-		"gettingFileData": "Získávání dat souborů. {pleaseWait}",
+		"gettingFileData": "Získávání dat souborů.",
 		"overwrite": "Přepsat",
 		"loadingFilesPane": {
 			"title": "Načítání...",
-			"text": "{pleaseWait} Probíhá načítání souborů."
+			"text": "Probíhá načítání souborů."
 		},
 		"emptyFilesPane": {
 			"title": "Složka je prázdná.",
@@ -75,9 +75,9 @@
 		"dropMenuItem": "Zkopírovat sem",
 		"errorDialogTitle": "Soubory, které nelze zkopírovat:",
 		"manyFilesDialogTitle": "Kopírovat {count} souborů do...",
-		"manyFilesWait": "Kopírování {count} souborů. {pleaseWait}",
+		"manyFilesWait": "Kopírování {count} souborů.",
 		"oneFileDialogTitle": "Kopírovat soubor do...",
-		"oneFileWait": "Kopírování souboru. {pleaseWait}",
+		"oneFileWait": "Kopírování souboru.",
 		"operationLabel": "Kopírování souborů",
 		"operationSummary": "Počet zkopírovaných souborů: {count}."
 	},
@@ -85,9 +85,9 @@
 		"dropMenuItem": "Přesunout sem",
 		"errorDialogTitle": "Soubory, které nelze přesunout:",
 		"manyFilesDialogTitle": "Přesunout {count} souborů do...",
-		"manyFilesWait": "Přesunování {count} souborů. {pleaseWait}",
+		"manyFilesWait": "Přesunování {count} souborů.",
 		"oneFileDialogTitle": "Přesunout soubor do...",
-		"oneFileWait": "Přesunování souboru. {pleaseWait}",
+		"oneFileWait": "Přesunování souboru.",
 		"operationLabel": "Přesunování souborů",
 		"operationSummary": "Počet přesunutých souborů: {count}."
 	},
@@ -96,7 +96,7 @@
 		"bytesCountProgress": "({bytesUploaded} z {bytesTotal})",
 		"details": "Podrobnosti",
 		"filesCountProgress": "{filesUploaded} z {filesTotal}",
-		"progressLabel": "(Probíhá nahrávání. {pleaseWait})",
+		"progressLabel": "Probíhá nahrávání.",
 		"progressMessage": "Nahrávání...",
 		"selectFileLabel": "Zvolit soubor k nahrání",
 		"selectFiles": "Vyberte soubory k nahrání",
