@@ -16,7 +16,7 @@
 		"minimize": "Ελαχιστοποίηση",
 		"move": "Μετακίνηση",
 		"newNameDialogTitle": "Νέα ονομασία",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Παρακαλώ περιμένετε.",
 		"rememberDecision": "Να θυμάσαι την απόφασή μου",
 		"rename": "Μετονομασία",
@@ -108,15 +108,15 @@
 		"displayDate": "Ημερομηνία",
 		"displayName": "Όνομα αρχείου",
 		"displaySize": "Μέγεθος αρχείου",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortAscending": "Αύξουσα",
+		"sortBy": "Ταξινόμηση κατά",
+		"sortByOrder": "Σειρά",
+		"sortDescending": "Φθίνουσα",
 		"thumbnailSize": "Μέγεθος μικρογραφιών",
 		"title": "Ρυθμίσεις",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "Εμφάνιση",
+		"viewTypeList": "Λίστα",
+		"viewTypeThumbnails": "Μικρογραφίες"
 	},
 	"errors": {
 		"codes": {
@@ -150,7 +150,7 @@
 			"501": "Η υποστήριξη των μικρογραφιών έχει απενεργοποιηθεί."
 		},
 		"fileInvalidCharacters": "Η ονομασία του αρχείου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "Η ονομασία του αρχείου δεν μπορεί να είναι κενή.",
 		"folderInvalidCharacters": "Η ονομασία του φακέλου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: {disallowedCharacters}",
 		"incorrectExtension": "Η επέκταση του αρχείου δεν επιτρέπεται σε αυτόν τον φάκελο.",
 		"missingFile": "Το αρχείο που ζητήθηκε δεν είναι πλέον διαθέσιμο.",
