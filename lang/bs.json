@@ -15,7 +15,7 @@
 		"messageTitle": "Informacija",
 		"minimize": "Smanji",
 		"move": "Premjesti",
-		"newNameDlgTitle": "Novi naziv",
+		"newNameDialogTitle": "Novi naziv",
 		"ok": "Uredu",
 		"pleaseWait": "Molim, sačekajte.",
 		"rememberDecision": "Zapamti moj izbor",
@@ -28,8 +28,8 @@
 	"units": {
 		"dateFormat": "dd.mm.yyyy. u HH:MM",
 		"dateAmPm": [
-			"",
-			""
+			"AM",
+			"PM"
 		],
 		"kb": "{size} KB",
 		"mb": "{size} MB",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Da li sigurno želite obrisati direktorij \"%1\"?",
 		"destinationFolder": "Odredišni direktorij",
 		"newNameLabel": "Unesite novo ime direktorija: ",
-		"newSubFolder": "Novi poddirektorij",
+		"newSubfolder": "[MISSING]New Subfolder",
 		"renameDialogTitle": "Promijeni naziv",
 		"treeTitle": "Struktura direktorija"
 	},
@@ -97,7 +97,7 @@
 		"details": "Detalji",
 		"filesCountProgress": "{filesUploaded} od {filesTotal}",
 		"progressLabel": "Slanje u toku. Molim, sačekajte...",
-		"progressMessage": "",
+		"progressMessage": "[MISSING]Uploading...",
 		"selectFileLabel": "Odaberite datoteku za slanje",
 		"selectFiles": "Odaberite datoteke za slanje",
 		"success": "Slanje završeno!",
