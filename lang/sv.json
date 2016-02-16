@@ -3,7 +3,7 @@
 	"dir": "ltr",
 	"langCode": "sv",
 	"common": {
-		"abort": "[MISSING]Abort",
+		"abort": "Avbryt",
 		"cancel": "Avbryt",
 		"choose": "Välj",
 		"close": "Stäng",
@@ -67,8 +67,8 @@
 		"deleteConfirmation": "Är du säker på att du vill radera mappen \"{name}\"?",
 		"destinationFolder": "Målmapp",
 		"newNameLabel": "Skriv namnet på den nya mappen: ",
-		"newSubfolder": "Ny Undermapp",
-		"renameDialogTitle": "[MISSING]Rename Folder",
+		"newSubfolder": "Ny Undermappr",
+		"renameDialogTitle": "Byt namn på mapp",
 		"treeTitle": "[MISSING]Folders tree"
 	},
 	"copy": {
@@ -101,17 +101,17 @@
 		"selectFileLabel": "Välj fil att ladda upp",
 		"selectFiles": "Välj filer att ladda upp",
 		"success": "Uppladdning klar!",
-		"summary": "[MISSING]Uploaded files: {count}"
+		"summary": "Uppladdade filer: {count}"
 	},
 	"settings": {
 		"display": "Visa:",
 		"displayDate": "Datum",
 		"displayName": "Filnamn",
 		"displaySize": "Storlek",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
+		"sortAscending": "Stigande",
+		"sortBy": "Sortera efter",
 		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortDescending": "Fallande",
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "Inställningar",
 		"viewType": "[MISSING]View",
@@ -150,11 +150,11 @@
 			"501": "Stöd för tumnaglar har stängts av."
 		},
 		"fileInvalidCharacters": "Filnamnet får inte innehålla något av följande tecken: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "Filnamnet kan inte vara tomt.",
 		"folderInvalidCharacters": "Mappens namn får inte innehålla något av följande tecken: {disallowedCharacters}",
 		"incorrectExtension": "Filändelsen är inte tillåten i denna mapp.",
 		"missingFile": "Den begärda filen är inte längre tillgänglig.",
-		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
+		"missingFolder": "Mappen du försöker gå till finns inte längre.",
 		"noUploadFolderSelected": "Välj en mapp före uppladdning.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
 		"unknown": "Begäran kunde inte utföras eftersom ett fel uppstod. (Fel {number})",
@@ -175,15 +175,15 @@
 	},
 	"editImage": {
 		"adjust": "Justera",
-		"apply": "[MISSING]Apply",
+		"apply": "Tillämpa",
 		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
 		"crop": "Beskär",
 		"downloadAction": "Laddar ner originalbilden.",
 		"keepAspectRatio": "Behåll förhållande",
 		"loading": "Laddar bild",
-		"presets": "[MISSING]Presets",
-		"reset": "[MISSING]Reset",
-		"resize": "[MISSING]Resize",
+		"presets": "Förinställningar",
+		"reset": "Återställ",
+		"resize": "Ändra storlek",
 		"rotate": "Rotera",
 		"rotateAntiClockwise": "90&deg; vänster",
 		"rotateClockwise": "90&deg; höger",
@@ -193,7 +193,7 @@
 		"saveDialogSaveAs": "Spara som:",
 		"saveDialogTitle": "Spara ändringar",
 		"title": "Redigera bild",
-		"transformationAction": "[MISSING]Applying transformations.",
+		"transformationAction": "Tillämpar transformationer",
 		"uploadAction": "Laddar upp redigerad bild.",
 		"filters": {
 			"brightness": "Ljus",
@@ -253,9 +253,9 @@
 			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
 			"delete": "[MISSING]Delete file(s)",
 			"refresh": "[MISSING]Refresh files",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)"
+			"rename": "Byt namn på fil",
+			"selectAll": "files Välj alla filer",
+			"upload": "Ladda upp fil(er)"
 		},
 		"folders": {
 			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
