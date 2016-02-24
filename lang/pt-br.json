@@ -108,15 +108,15 @@
 		"displayDate": "Data",
 		"displayName": "Arquivo",
 		"displaySize": "Tamanho",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortAscending": "Crescente",
+		"sortBy": "Ordernar por",
+		"sortByOrder": "Ordem",
+		"sortDescending": "Decrescente",
 		"thumbnailSize": "Tamanho da Miniatura",
 		"title": "Configurações",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "Exibir",
+		"viewTypeList": "Lista",
+		"viewTypeThumbnails": "Miniaturas"
 	},
 	"errors": {
 		"codes": {
@@ -150,7 +150,7 @@
 			"501": "O suporte a miniaturas está desabilitado."
 		},
 		"fileInvalidCharacters": "O nome do arquivo não pode conter nenhum desses caracteres: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "O nome do arquivo é obrigatório.",
 		"folderInvalidCharacters": "O nome da pasta não pode conter nenhum desses caracteres: {disallowedCharacters}",
 		"incorrectExtension": "A extensão deste arquivo não é permitida nesta pasta.",
 		"missingFile": "O arquivo solicitado não está mais disponível.",
