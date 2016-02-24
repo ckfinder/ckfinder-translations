@@ -67,7 +67,7 @@
 		"deleteConfirmation": "¿Está seguro de que quiere borrar la carpeta \"{name}\"?",
 		"destinationFolder": "Carpeta de destino",
 		"newNameLabel": "Por favor, escriba el nombre para la nueva carpeta: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nueva Subcarpeta",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

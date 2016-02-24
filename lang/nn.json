@@ -16,7 +16,7 @@
 		"minimize": "Minimer",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "Nytt navn",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "vennligst vent.",
 		"rememberDecision": "Husk mitt valg",
 		"rename": "Endre navn",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Er du sikker på at du vil slette mappen \"{name}\"?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Skriv inn det nye mappenavnet: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Ny undermappe",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

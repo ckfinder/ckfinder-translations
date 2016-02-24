@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Сигурни ли сте, че желаете да изтриете папката \"{name}\"?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Моля въведете име на новата папка: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Нов подпапка",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

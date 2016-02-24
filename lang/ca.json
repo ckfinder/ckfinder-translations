@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Estàs segur que vols esborrar la carpeta \"{name}\"?",
 		"destinationFolder": "Carpeta de destinació",
 		"newNameLabel": "Si us plau, escriu el nom per la nova carpeta: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nova Subcarpeta",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

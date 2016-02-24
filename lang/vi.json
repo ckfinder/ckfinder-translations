@@ -16,7 +16,7 @@
 		"minimize": "Cực tiểu hóa",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "Tên mới",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Vui lòng chờ.",
 		"rememberDecision": "Ghi nhớ quyết định này",
 		"rename": "Đổi tên",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Bạn có chắc muốn xóa thư mục \"{name}\"?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Xin chọn tên cho thư mục mới: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Tạo thư mục con",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

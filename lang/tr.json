@@ -16,7 +16,7 @@
 		"minimize": "Küçült",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "Yeni Adı",
-		"ok": "[MISSING]OK",
+		"ok": "Tamam",
 		"pleaseWait": "Lütfen bekleyin.",
 		"rememberDecision": "Kararımı hatırla",
 		"rename": "Yeniden Adlandır",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "\"{name}\" klasörünü silmek istediğinizden emin misiniz?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Lütfen yeni klasör adını yazın: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Yeni Altklasör",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

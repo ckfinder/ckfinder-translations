@@ -16,7 +16,7 @@
 		"minimize": "Minimalizuj",
 		"move": "Przenieś",
 		"newNameDialogTitle": "Nowa nazwa",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Proszę czekać.",
 		"rememberDecision": "Zapamiętaj mój wybór",
 		"rename": "Zmień nazwę",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Czy na pewno chcesz usunąć folder \"{name}\"?",
 		"destinationFolder": "Folder docelowy",
 		"newNameLabel": "Podaj nazwę nowego folderu: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nowy podfolder",
 		"renameDialogTitle": "Zmień nazwę folderu",
 		"treeTitle": "Drzewo folderów"
 	},

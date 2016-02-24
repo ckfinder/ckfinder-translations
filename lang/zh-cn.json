@@ -16,7 +16,7 @@
 		"minimize": "最小化",
 		"move": "移动",
 		"newNameDialogTitle": "新文件名",
-		"ok": "[MISSING]OK",
+		"ok": "确定",
 		"pleaseWait": "请稍候",
 		"rememberDecision": "下次不再询问",
 		"rename": "重命名",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "您确定要删除文件夹 \"{name}\" 吗？",
 		"destinationFolder": "目标文件夹",
 		"newNameLabel": "请输入新文件夹名称: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "创建子文件夹",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

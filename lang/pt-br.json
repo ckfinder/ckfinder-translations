@@ -16,7 +16,7 @@
 		"minimize": "Minimizar",
 		"move": "Mover",
 		"newNameDialogTitle": "Novo Nome",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Por favor, aguarde.",
 		"rememberDecision": "Lembrar minha decisão",
 		"rename": "Renomear",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Tem certeza que deseja apagar a pasta \"{name}\"?",
 		"destinationFolder": "Pasta Destino",
 		"newNameLabel": "Nome da nova pasta: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nova sub-pasta",
 		"renameDialogTitle": "Renomear Pasta",
 		"treeTitle": "Árvore de pastas"
 	},

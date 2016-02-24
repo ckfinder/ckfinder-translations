@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Ĉu vi certas, ke vi volas forigi la \"{name}\"dosierujon?",
 		"destinationFolder": "Celdosierujo",
 		"newNameLabel": "Bonvolu entajpi la nomon de la nova dosierujo: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nova subdosierujo",
 		"renameDialogTitle": "Renomu dosierujon",
 		"treeTitle": "Dosieruja arbo"
 	},

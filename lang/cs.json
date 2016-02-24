@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Opravdu chcete složku \"{name}\" smazat?",
 		"destinationFolder": "Cílová složka",
 		"newNameLabel": "Zadejte název nové složky: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nová podsložka",
 		"renameDialogTitle": "Přejmenovat složku",
 		"treeTitle": "Strom složek"
 	},

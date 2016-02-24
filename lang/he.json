@@ -16,7 +16,7 @@
 		"minimize": "הקטנה למינימום",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "שם חדש",
-		"ok": "[MISSING]OK",
+		"ok": "אישור",
 		"pleaseWait": "[MISSING]Please wait.",
 		"rememberDecision": "זכור החלטתי",
 		"rename": "שינוי שם",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "האם למחוק את התיקיה \"{name}\" ?",
 		"destinationFolder": "תיקיית יעד",
 		"newNameLabel": "יש להקליד שם חדש לתיקיה: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "תת-תיקיה חדשה",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

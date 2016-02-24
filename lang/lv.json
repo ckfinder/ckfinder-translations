@@ -16,7 +16,7 @@
 		"minimize": "Minimizēt",
 		"move": "Pārvietot",
 		"newNameDialogTitle": "Jauns nosaukums",
-		"ok": "[MISSING]OK",
+		"ok": "Darīts!",
 		"pleaseWait": "Uzgaidiet.",
 		"rememberDecision": "Atcerēties izvēli",
 		"rename": "Pārsaukt",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Vai tiešām vēlaties neatgriezeniski dzēst mapi \"{name}\"?",
 		"destinationFolder": "Mērķa mape",
 		"newNameLabel": "Lūdzu ierakstiet mapes nosaukumu: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Jauna apakšmape",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

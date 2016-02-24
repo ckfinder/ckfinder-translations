@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Wollen Sie wirklich den Ordner \"{name}\" löschen?",
 		"destinationFolder": "Zielverzeichnis",
 		"newNameLabel": "Bitte geben Sie den neuen Verzeichnisnamen an: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Neues Unterverzeichnis",
 		"renameDialogTitle": "Ordner umbenennen",
 		"treeTitle": "Verzeichnisbaum"
 	},

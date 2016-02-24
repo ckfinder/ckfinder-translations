@@ -67,7 +67,7 @@
 		"deleteConfirmation": "確定刪除 \"{name}\" 這個目錄嗎?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "請輸入新目錄名稱: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "建立新子目錄",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

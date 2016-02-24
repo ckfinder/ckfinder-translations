@@ -16,7 +16,7 @@
 		"minimize": "Minimaliseren",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "Nieuwe naam",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "[MISSING]Please wait.",
 		"rememberDecision": "Onthoud mijn keuze",
 		"rename": "Naam wijzigen",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Weet je het zeker dat je de map \"{name}\" wilt verwijderen?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Vul de mapnaam in: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nieuwe onderliggende map",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

@@ -16,7 +16,7 @@
 		"minimize": "Kis méret",
 		"move": "Áthelyezés",
 		"newNameDialogTitle": "Új név",
-		"ok": "[MISSING]OK",
+		"ok": "Rendben",
 		"pleaseWait": "Kérem várjon.",
 		"rememberDecision": "Jegyezze meg a választásomat",
 		"rename": "Átnevezés",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Biztosan törölni szeretné a következő mappát: \"{name}\"?",
 		"destinationFolder": "Cél mappa",
 		"newNameLabel": "Kérem adja meg a mappa nevét: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Új almappa",
 		"renameDialogTitle": "Mappa átnevezése",
 		"treeTitle": "[MISSING]Folders tree"
 	},

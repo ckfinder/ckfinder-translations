@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Ydych chi wir am ddileu'r ffolder \"{name}\"?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Rhowch enw newydd y ffolder: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Is-ffolder Newydd",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

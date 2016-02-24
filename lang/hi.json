@@ -16,7 +16,7 @@
 		"minimize": "मिनीमाईज",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "नया नाम",
-		"ok": "[MISSING]OK",
+		"ok": "ओके",
 		"pleaseWait": "[MISSING]Please wait.",
 		"rememberDecision": "मेरा विकल्प याद रखो",
 		"rename": "रिनेम",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "क्या आपको \"{name}\" फोल्डर डीलिट करना है?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "फोल्डरका नया नाम टाईप करो: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "नया सबफोल्डर",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

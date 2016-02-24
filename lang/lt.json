@@ -16,7 +16,7 @@
 		"minimize": "Sumažinti",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "Naujas pavadinimas",
-		"ok": "[MISSING]OK",
+		"ok": "Gerai",
 		"pleaseWait": "Prašau palaukite.",
 		"rememberDecision": "Atsiminti mano pasirinkimą",
 		"rename": "Pervadinti",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Ar tikrai norite ištrinti \"{name}\" segtuvą?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Prašau įrašykite naujo segtuvo pavadinimą: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Naujas segtuvas",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

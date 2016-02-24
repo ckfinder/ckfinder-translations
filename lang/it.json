@@ -16,7 +16,7 @@
 		"minimize": "Riduci",
 		"move": "Sposta",
 		"newNameDialogTitle": "Nuovo nome",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Attendere.",
 		"rememberDecision": "Ricorda decisione",
 		"rename": "Rinomina",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Eliminare la cartella \"{name}\"?",
 		"destinationFolder": "Cartella di destinazione",
 		"newNameLabel": "Nome della cartella: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nuova Sottocartella",
 		"renameDialogTitle": "Rinomina cartella",
 		"treeTitle": "Albero cartelle"
 	},

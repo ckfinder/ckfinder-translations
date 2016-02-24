@@ -16,7 +16,7 @@
 		"minimize": "最小化",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "新しい名前",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "[MISSING]Please wait.",
 		"rememberDecision": "全てに適用する",
 		"rename": "ファイル名の変更",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "本当にフォルダ「\"{name}\"」を削除してもよろしいですか？",
 		"destinationFolder": "適用するフォルダ",
 		"newNameLabel": "新しいフォルダ名を入力してください: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "新しいフォルダに入れる",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

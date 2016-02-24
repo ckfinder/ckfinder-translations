@@ -16,7 +16,7 @@
 		"minimize": "Minimiraj",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "Novo ime",
-		"ok": "[MISSING]OK",
+		"ok": "Potrdi",
 		"pleaseWait": "Prosimo počakajte.",
 		"rememberDecision": "Zapomni si mojo izbiro",
 		"rename": "Preimenuj",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Ali ste prepričani, da želite zbrisati mapo \"{name}\"?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Vnesite ime za novo mapo: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nova podmapa",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

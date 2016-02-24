@@ -16,7 +16,7 @@
 		"minimize": "Свернуть",
 		"move": "Переместить",
 		"newNameDialogTitle": "Новое имя",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Пожалуйста подождите.",
 		"rememberDecision": "Запомнить мой выбор",
 		"rename": "Переименовать",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Вы уверены, что хотите удалить папку \"{name}\"?",
 		"destinationFolder": "Конечная папка",
 		"newNameLabel": "Пожалуйста, введите новое имя папки: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Новая папка",
 		"renameDialogTitle": "Переименовать папку",
 		"treeTitle": "Дерево каталогов"
 	},

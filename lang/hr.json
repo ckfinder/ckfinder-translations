@@ -16,7 +16,7 @@
 		"minimize": "Smanji",
 		"move": "Premjesti",
 		"newNameDialogTitle": "Novi naziv",
-		"ok": "[MISSING]OK",
+		"ok": "U redu",
 		"pleaseWait": "Pričekajte.",
 		"rememberDecision": "Zapamti moj izbor",
 		"rename": "Promijeni naziv",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Sigurno želite obrisati direktorij \"{name}\"?",
 		"destinationFolder": "Odredišni Folder",
 		"newNameLabel": "Unesite ime novog direktorija: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Novi poddirektorij",
 		"renameDialogTitle": "Preimenuj Folder",
 		"treeTitle": "Drvo Foldera"
 	},

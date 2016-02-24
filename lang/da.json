@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Er du sikker på, at du vil slette mappen \"{name}\"?",
 		"destinationFolder": "Destinations mappe",
 		"newNameLabel": "Angiv navnet på den nye mappe: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Ny undermappe",
 		"renameDialogTitle": "Omdøb mappe",
 		"treeTitle": "[MISSING]Folders tree"
 	},

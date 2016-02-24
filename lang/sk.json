@@ -16,7 +16,7 @@
 		"minimize": "Minimalizovať",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "Nové meno",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Čakajte prosím.",
 		"rememberDecision": "Pamätať si rozhodnutie",
 		"rename": "Premenovať",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Skutočne zmazať adresár \"{name}\"?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Zadajte prosím meno nového adresára: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Nový podadresár",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

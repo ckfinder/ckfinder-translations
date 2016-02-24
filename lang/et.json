@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Kas tahad kindlasti kausta \"{name}\" kustutada?",
 		"destinationFolder": "Sihtkaust",
 		"newNameLabel": "Palun sisesta uue kataloogi nimi: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Uus alamkaust",
 		"renameDialogTitle": "Nimeta kaust ümber",
 		"treeTitle": "Kaustade paneel"
 	},

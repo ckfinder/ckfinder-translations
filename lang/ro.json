@@ -16,7 +16,7 @@
 		"minimize": "Minimizare",
 		"move": "[MISSING]Move",
 		"newNameDialogTitle": "Nume nou",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Te rog așteaptă.",
 		"rememberDecision": "Reține acțiunea pe viitor",
 		"rename": "Redenumește",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Ești sigur că vrei să ștergi dosarul \"{name}\"?",
 		"destinationFolder": "[MISSING]Destination Folder",
 		"newNameLabel": "Te rugăm să introduci numele dosarului nou: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Subdosar nou",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

@@ -16,7 +16,7 @@
 		"minimize": "Смањи",
 		"move": "Премести",
 		"newNameDialogTitle": "Нови назив",
-		"ok": "[MISSING]OK",
+		"ok": "У реду",
 		"pleaseWait": "Молимо сачекајте.",
 		"rememberDecision": "Запамти мој избор",
 		"rename": "Промени назив",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Да ли сте сигурни да желите обрисати фасциклу \"{name}\"?",
 		"destinationFolder": "Одредишна фасцикла",
 		"newNameLabel": "Унесите ново име фасцикле: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Нова подфасцикла",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

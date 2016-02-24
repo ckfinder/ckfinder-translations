@@ -16,7 +16,7 @@
 		"minimize": "Minimera",
 		"move": "Flytta",
 		"newNameDialogTitle": "Nytt namn",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Vänligen vänta.",
 		"rememberDecision": "Kom ihåg mitt val",
 		"rename": "Byt namn",
@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Är du säker på att du vill radera mappen \"{name}\"?",
 		"destinationFolder": "Målmapp",
 		"newNameLabel": "Skriv namnet på den nya mappen: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Ny Undermapp",
 		"renameDialogTitle": "[MISSING]Rename Folder",
 		"treeTitle": "[MISSING]Folders tree"
 	},

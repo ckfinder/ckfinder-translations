@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Είστε σίγουροι ότι θέλετε να διαγράψετε το φάκελο \"{name}\";",
 		"destinationFolder": "Φάκελος Προορισμού",
 		"newNameLabel": "Παρακαλούμε πληκτρολογήστε την ονομασία του νέου φακέλου: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "Νέος υποφάκελος",
 		"renameDialogTitle": "Μετονομασία φακέλου",
 		"treeTitle": "Δομή φακέλων"
 	},
