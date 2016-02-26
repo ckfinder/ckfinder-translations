@@ -108,15 +108,15 @@
 		"displayDate": "تاریخ",
 		"displayName": "نام فایل",
 		"displaySize": "اندازه فایل",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortAscending": "صعودی",
+		"sortBy": "مرتب‌سازی براساس",
+		"sortByOrder": "مرتب‌سازی",
+		"sortDescending": "نزولی",
 		"thumbnailSize": "اندازه تصویر بندانگشتی",
 		"title": "تنظیمات",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "مشاهده",
+		"viewTypeList": "لیست",
+		"viewTypeThumbnails": "بند‌انگشتی‌ها"
 	},
 	"errors": {
 		"codes": {
@@ -150,7 +150,7 @@
 			"501": "پشتیبانی از تصاویر کوچک غیرفعال شده است"
 		},
 		"fileInvalidCharacters": "نام فایل نباید شامل این کاراکترها باشد: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "نام فایل نمی‌تواند خالی باشد.",
 		"folderInvalidCharacters": "نام پوشه نباید شامل این کاراکترها باشد: {disallowedCharacters}",
 		"incorrectExtension": "پسوند فایل برای این پوشه مجاز نیست.",
 		"missingFile": "فایل درخواست شده دیگر در دسترس نیست.",
