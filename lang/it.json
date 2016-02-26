@@ -67,7 +67,7 @@
 		"deleteConfirmation": "Eliminare la cartella \"{name}\"?",
 		"destinationFolder": "Cartella di destinazione",
 		"newNameLabel": "Nome della cartella: ",
-		"newSubfolder": "Nuova Sottocartella",
+		"newSubfolder": "Nuova sotto-cartella",
 		"renameDialogTitle": "Rinomina cartella",
 		"treeTitle": "Albero cartelle"
 	},
@@ -109,12 +109,12 @@
 		"displayName": "Nome del file",
 		"displaySize": "Dimensioni",
 		"sortAscending": "Crescente",
-		"sortBy": "Ordinare per",
+		"sortBy": "Ordina per",
 		"sortByOrder": "Ordine",
 		"sortDescending": "Decrescente",
 		"thumbnailSize": "Dimensioni miniatura",
 		"title": "Impostazioni",
-		"viewType": "Visualizza",
+		"viewType": "Vista",
 		"viewTypeList": "Lista",
 		"viewTypeThumbnails": "Miniature"
 	},
