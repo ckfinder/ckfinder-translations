@@ -108,15 +108,15 @@
 		"displayDate": "Дата",
 		"displayName": "Имя файла",
 		"displaySize": "Размер файла",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortAscending": "По возрастанию",
+		"sortBy": "Сортировать по",
+		"sortByOrder": "Порядок",
+		"sortDescending": "По убыванию",
 		"thumbnailSize": "Размер миниатюры",
 		"title": "Настройка",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "Вид",
+		"viewTypeList": "Список",
+		"viewTypeThumbnails": "Миниатюры"
 	},
 	"errors": {
 		"codes": {
@@ -150,7 +150,7 @@
 			"501": "Поддержка миниатюр отключена."
 		},
 		"fileInvalidCharacters": "Имя файла не может содержать любой из перечисленных символов: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "Имя файла не может быть пустым.",
 		"folderInvalidCharacters": "Имя папки не может содержать любой из перечисленных символов: {disallowedCharacters}",
 		"incorrectExtension": "В эту папку нельзя загружать файлы с таким расширением.",
 		"missingFile": "Запрашиваемый файл более не доступен.",
@@ -197,7 +197,7 @@
 		"uploadAction": "Загрузка измененного изображения.",
 		"filters": {
 			"brightness": "Яркость",
-			"clip": "[MISSING]Clip",
+			"clip": "Clip",
 			"contrast": "Контраст",
 			"exposure": "Экспозиция",
 			"gamma": "Гамма",
@@ -218,7 +218,7 @@
 			"hazyDays": "Туман",
 			"hemingway": "Хемингуэй",
 			"herMajesty": "Ее величество",
-			"jarques": "[MISSING]Jarques",
+			"jarques": "Jarques",
 			"lomo": "Ломо",
 			"love": "Любовь",
 			"nostalgia": "Ностальгия",
