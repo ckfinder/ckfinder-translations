@@ -275,7 +275,7 @@
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
-			"ctrl": "trl",
+			"ctrl": "ctrl",
 			"del": "del",
 			"end": "end",
 			"home": "home",
