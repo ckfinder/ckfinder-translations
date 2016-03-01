@@ -3,7 +3,7 @@
 	"dir": "ltr",
 	"langCode": "lv",
 	"common": {
-		"abort": "[MISSING]Abort",
+		"abort": "Atcelt",
 		"cancel": "Atcelt",
 		"choose": "Izvēlēties",
 		"close": "Aizvērt",
@@ -45,8 +45,8 @@
 		"fileDeleteConfirmation": "Vai tiešām vēlaties neatgriezeniski dzēst failu \"{name}\"?",
 		"fileRenameExtensionConfirmation": "Vai tiešām vēlaties mainīt faila paplašinājumu? Fails var palikt nelietojams.",
 		"fileRenameLabel": "Lūdzu ierakstiet jauno faila nosaukumu: ",
-		"filesPaneTitle": "[MISSING]Files pane",
-		"filesRefresh": "[MISSING]Refreshing files",
+		"filesPaneTitle": "Failu sadaļa",
+		"filesRefresh": "Atjaunot failus",
 		"filterPlaceholder": "Filtrs",
 		"gettingFileData": "Iegūst faila datus.",
 		"overwrite": "Pārrakstīt",
@@ -68,8 +68,8 @@
 		"destinationFolder": "Mērķa mape",
 		"newNameLabel": "Lūdzu ierakstiet mapes nosaukumu: ",
 		"newSubfolder": "Jauna apakšmape",
-		"renameDialogTitle": "[MISSING]Rename Folder",
-		"treeTitle": "[MISSING]Folders tree"
+		"renameDialogTitle": "Pārsaukt mapi",
+		"treeTitle": "Mapju koks"
 	},
 	"copy": {
 		"dropMenuItem": "Kopēt šeit",
@@ -105,18 +105,18 @@
 	},
 	"settings": {
 		"display": "Rādīt:",
-		"displayDate": "Datumu",
-		"displayName": "Faila Nosaukumu",
-		"displaySize": "Faila Izmēru",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
-		"thumbnailSize": "Sīktēla izmēru",
+		"displayDate": "Datums",
+		"displayName": "Faila Nosaukums",
+		"displaySize": "Faila Izmērs",
+		"sortAscending": "Augoši",
+		"sortBy": "Kārtot pēc",
+		"sortByOrder": "Kārtot",
+		"sortDescending": "Dilstoši",
+		"thumbnailSize": "Sīktēla izmērs",
 		"title": "Uzstādījumi",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "Skats",
+		"viewTypeList": "Saraksts",
+		"viewTypeThumbnails": "Sīktēli"
 	},
 	"errors": {
 		"codes": {
@@ -150,7 +150,7 @@
 			"501": "Sīkbilžu atbalsts ir atslēgts."
 		},
 		"fileInvalidCharacters": "Faila nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "Fails nevar būt tukšs",
 		"folderInvalidCharacters": "Mapes nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: {disallowedCharacters}",
 		"incorrectExtension": "Faila paplašinājums nav atļauts šajā mapē.",
 		"missingFile": "Pieprasītais fails vairs nav pieejams.",
@@ -176,7 +176,7 @@
 	"editImage": {
 		"adjust": "Pielāgot",
 		"apply": "Lietot",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
+		"confirmExit": "Vai tiešām vēlaties azivērt? Jūsu attēlam ir nesaglabātas izmaiņas.",
 		"crop": "Apgriezt",
 		"downloadAction": "Ielādēju oriģinālo attēlu.",
 		"keepAspectRatio": "Saglabāt proporciju",
@@ -231,55 +231,55 @@
 		}
 	},
 	"shortcuts": {
-		"title": "[MISSING]Keyboard Shortcuts",
+		"title": "Klaviatūras saīsinājumi",
 		"general": {
-			"action": "[MISSING]Execute default action",
-			"firstItem": "[MISSING]Go to first item",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusNext": "[MISSING]Focus next pane",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"lastItem": "[MISSING]Go to last item",
-			"listShortcuts": "[MISSING]Open this help dialog",
-			"nextItem": "[MISSING]Go to next item",
-			"previousItem": "[MISSING]Go to previous item",
-			"showContextMenu": "[MISSING]Open context menu",
-			"title": "[MISSING]General Interface"
+			"action": "Izpildīt noklusēto darbību",
+			"firstItem": "Doties uz pirmo",
+			"focusFilesPane": "Aktivizēt failu sadaļu",
+			"focusFoldersPane": "Aktivizēt mapju sadaļu vai ceļu",
+			"focusNext": "Aktivizēt nākošo sadaļu",
+			"focusToolbar": "Aktivizēt rīkjoslu",
+			"lastItem": "Dotiez uz pēdējo",
+			"listShortcuts": "Atvērt šo palīdzības dialogu",
+			"nextItem": "Doties uz nākošo",
+			"previousItem": "Doties uz iepriekšējo",
+			"showContextMenu": "Atvērt satura izvēlni",
+			"title": "Galvenais interfeiss"
 		},
 		"files": {
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
-			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
-			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"delete": "[MISSING]Delete file(s)",
-			"refresh": "[MISSING]Refresh files",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)"
+			"addToSelectionAbove": "Pievienot vai dzēst failis virs atzīmes",
+			"addToSelectionBelow": "Pievienot vai dzēst failis zem atzīmes",
+			"addToSelectionLeft": "Pievienot vai dzēst failis pa kreisi no atzīmes",
+			"addToSelectionRight": "Pievienot vai dzēst failis pa labi no atzīmes",
+			"delete": "Dzēst failu(s)",
+			"refresh": "Atsvaidzināt failus",
+			"rename": "Pārsaukt failus",
+			"selectAll": "Atzīmēt visus failus",
+			"upload": "Augšupielādēt failu(s)"
 		},
 		"folders": {
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
-			"delete": "[MISSING]Delete folder",
-			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"title": "[MISSING]Folders Pane"
+			"collapseOrParent": "Aizvērt mapi / Doties uz augstāku mapi",
+			"delete": "Dzēst mapi",
+			"expandOrSubfolder": "Atvērt mapi / Doties uz pirmo apakšmapi",
+			"title": "Mapju sadaļa"
 		},
 		"keys": {
-			"ctrl": "[MISSING]Control",
-			"delete": "[MISSING]Delete",
-			"downArrow": "[MISSING]Down arrow",
-			"escape": "[MISSING]Escape",
-			"leftArrow": "[MISSING]Left arrow",
-			"question": "[MISSING]Question mark",
-			"rightArrow": "[MISSING]Right arrow",
-			"upArrow": "[MISSING]Up arrow"
+			"ctrl": "Control",
+			"delete": "Delete",
+			"downArrow": "Uz leju bultiņa",
+			"escape": "Escape",
+			"leftArrow": "Pa kreisi bultiņa",
+			"question": "Jautājumzīme",
+			"rightArrow": "Pa labi bultiņa",
+			"upArrow": "Uz augšu bultiņa"
 		},
 		"keysAbbreviations": {
-			"alt": "[MISSING]alt",
-			"ctrl": "[MISSING]ctrl",
-			"del": "[MISSING]del",
-			"end": "[MISSING]end",
-			"home": "[MISSING]home",
-			"shift": "[MISSING]shift"
+			"alt": "alt",
+			"ctrl": "trl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
 		}
 	}
 }
