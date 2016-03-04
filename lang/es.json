@@ -3,7 +3,7 @@
 	"dir": "ltr",
 	"langCode": "es",
 	"common": {
-		"abort": "[MISSING]Abort",
+		"abort": "Abortar",
 		"cancel": "Cancelar",
 		"choose": "Seleccionar",
 		"close": "Cerrar",
@@ -11,12 +11,12 @@
 		"delete": "Borrar",
 		"download": "Descargar",
 		"edit": "Editar",
-		"maximize": "[MISSING]Maximize",
+		"maximize": "Maximizar",
 		"messageTitle": "Información",
-		"minimize": "[MISSING]Minimize",
+		"minimize": "Minimizar",
 		"move": "Mover",
 		"newNameDialogTitle": "Nuevo nombre",
-		"ok": "[MISSING]OK",
+		"ok": "Ok",
 		"pleaseWait": "Por favor espere.",
 		"rememberDecision": "Recordar mi decisión",
 		"rename": "Renombrar",
@@ -45,8 +45,8 @@
 		"fileDeleteConfirmation": "¿Está seguro de que quiere borrar el fichero \"{name}\"?",
 		"fileRenameExtensionConfirmation": "¿Está seguro de querer cambiar la extensión del fichero? El fichero puede dejar de ser usable.",
 		"fileRenameLabel": "Por favor, escriba el nuevo nombre del fichero: ",
-		"filesPaneTitle": "[MISSING]Files pane",
-		"filesRefresh": "[MISSING]Refreshing files",
+		"filesPaneTitle": "Panel de ficheros",
+		"filesRefresh": "Actualizando ficheros",
 		"filterPlaceholder": "Filtro",
 		"gettingFileData": "Obteniendo los datos del fichero. Por favor espere.",
 		"overwrite": "Sobreescribir",
@@ -68,8 +68,8 @@
 		"destinationFolder": "Carpeta de destino",
 		"newNameLabel": "Por favor, escriba el nombre para la nueva carpeta: ",
 		"newSubfolder": "Nueva Subcarpeta",
-		"renameDialogTitle": "[MISSING]Rename Folder",
-		"treeTitle": "[MISSING]Folders tree"
+		"renameDialogTitle": "Renombrar carpeta",
+		"treeTitle": "Árbol de carpetas"
 	},
 	"copy": {
 		"dropMenuItem": "Copiar aquí",
@@ -84,7 +84,7 @@
 	"move": {
 		"dropMenuItem": "Mover aquí",
 		"errorDialogTitle": "Ficheros que no pueden ser movidos:",
-		"manyFilesDialogTitle": "Mover {count} Archivos A...",
+		"manyFilesDialogTitle": "Mover {count} Ficheros A...",
 		"manyFilesWait": "Moviendo {count} ficheros. Por favor espere.",
 		"oneFileDialogTitle": "Mover Fichero A...",
 		"oneFileWait": "Moviendo fichero. Por favor espere.",
@@ -108,15 +108,15 @@
 		"displayDate": "Fecha",
 		"displayName": "Nombre de fichero",
 		"displaySize": "Tamaño del fichero",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortAscending": "Ascendente",
+		"sortBy": "Ordenar por",
+		"sortByOrder": "Orden",
+		"sortDescending": "Descendente",
 		"thumbnailSize": "Tamaño de miniatura",
 		"title": "Configuración",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "Vista",
+		"viewTypeList": "Lista",
+		"viewTypeThumbnails": "Miniaturas"
 	},
 	"errors": {
 		"codes": {
@@ -150,11 +150,11 @@
 			"501": "El soporte para iconos está deshabilitado."
 		},
 		"fileInvalidCharacters": "El nombre del fichero no puede contener ninguno de los caracteres siguientes: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "El fichero no puede estar vacío.",
 		"folderInvalidCharacters": "El nombre de la carpeta no puede contener ninguno de los caracteres siguientes: {disallowedCharacters}",
 		"incorrectExtension": "La extensión del fichero no está permitida en esta carpeta.",
-		"missingFile": "[MISSING]The requested file is no longer available.",
-		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
+		"missingFile": "El fichero solicitado ya no está disponible.",
+		"missingFolder": "La carpeta a la que estás intentando acceder ya no está disponible.",
 		"noUploadFolderSelected": "Por favor, escoja la carpeta antes de iniciar la subida.",
 		"operationCompleted": "Operación completada con errores.",
 		"unknown": "No ha sido posible completar la solicitud. (Error {number})",
@@ -176,7 +176,7 @@
 	"editImage": {
 		"adjust": "Ajustar",
 		"apply": "Aplicar",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
+		"confirmExit": "¿Seguro que quieres cerrar? Tienes cambios sin guardar en la imagen.",
 		"crop": "Recortar",
 		"downloadAction": "Descargando imagen original.",
 		"keepAspectRatio": "Mantener el ratio de aspecto",
@@ -231,55 +231,55 @@
 		}
 	},
 	"shortcuts": {
-		"title": "[MISSING]Keyboard Shortcuts",
+		"title": "Atajos de teclado",
 		"general": {
-			"action": "[MISSING]Execute default action",
-			"firstItem": "[MISSING]Go to first item",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusNext": "[MISSING]Focus next pane",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"lastItem": "[MISSING]Go to last item",
-			"listShortcuts": "[MISSING]Open this help dialog",
-			"nextItem": "[MISSING]Go to next item",
-			"previousItem": "[MISSING]Go to previous item",
-			"showContextMenu": "[MISSING]Open context menu",
-			"title": "[MISSING]General Interface"
+			"action": "Ejecutar acción por defecto",
+			"firstItem": "Ir al primer elemento",
+			"focusFilesPane": "Foco en panel de archivos",
+			"focusFoldersPane": "Foco en panel de carpetas",
+			"focusNext": "Foco en siguiente panel",
+			"focusToolbar": "Foco en barra de herramientas",
+			"lastItem": "Ir al último elemento",
+			"listShortcuts": "Abrir este  dialogo de ayuda",
+			"nextItem": "Ir al elemento siguiente",
+			"previousItem": "Ir al elemento anterior",
+			"showContextMenu": "Abrir menú contextual",
+			"title": "Panel principal"
 		},
 		"files": {
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
-			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
-			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"delete": "[MISSING]Delete file(s)",
-			"refresh": "[MISSING]Refresh files",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)"
+			"addToSelectionAbove": "Añadir o eliminar ficheros encima de la selección",
+			"addToSelectionBelow": "Añadir o eliminar ficheros debajo de la selección",
+			"addToSelectionLeft": "Añadir o eliminar ficheros a la izquierda de la selección",
+			"addToSelectionRight": "Añadir o eliminar ficheros a la derecha de la selección",
+			"delete": "Eliminar fichero(s)",
+			"refresh": "Actualizar fichero",
+			"rename": "Renombrar fichero",
+			"selectAll": "Seleccionar todos los ficheros",
+			"upload": "Subir fichero(s)"
 		},
 		"folders": {
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
-			"delete": "[MISSING]Delete folder",
-			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"title": "[MISSING]Folders Pane"
+			"collapseOrParent": "Contraer carpeta / Ir a la carpeta superior",
+			"delete": "Eliminar carpeta",
+			"expandOrSubfolder": "Expandir carpeta / Ir a la primera subcarpeta",
+			"title": "Panel de carpetas"
 		},
 		"keys": {
-			"ctrl": "[MISSING]Control",
-			"delete": "[MISSING]Delete",
-			"downArrow": "[MISSING]Down arrow",
-			"escape": "[MISSING]Escape",
-			"leftArrow": "[MISSING]Left arrow",
-			"question": "[MISSING]Question mark",
-			"rightArrow": "[MISSING]Right arrow",
-			"upArrow": "[MISSING]Up arrow"
+			"ctrl": "Control",
+			"delete": "Suprimir",
+			"downArrow": "Flecha abajo",
+			"escape": "Escape",
+			"leftArrow": "Flecha Izquierda",
+			"question": "Signo de interrogación",
+			"rightArrow": "Flecha derecha",
+			"upArrow": "Flecha arriba"
 		},
 		"keysAbbreviations": {
-			"alt": "[MISSING]alt",
-			"ctrl": "[MISSING]ctrl",
-			"del": "[MISSING]del",
-			"end": "[MISSING]end",
-			"home": "[MISSING]home",
-			"shift": "[MISSING]shift"
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "supr",
+			"end": "fin",
+			"home": "home",
+			"shift": "mayus."
 		}
 	}
 }
