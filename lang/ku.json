@@ -67,7 +67,7 @@
 		"deleteConfirmation": "تۆ دڵنیای لە سڕینەوەی ئەم \"{name}\" بوخچەیە؟",
 		"destinationFolder": "جێگای مەبەستی بوخچەی",
 		"newNameLabel": "ناوی بوخچەی نوێ بنووسە: ",
-		"newSubfolder": "[MISSING]New Subfolder",
+		"newSubfolder": "[MISSING]ژێربوخچەی نوێ",
 		"renameDialogTitle": "ناوگۆڕینی بوخچە",
 		"treeTitle": "داری بوخچەکان"
 	},
@@ -108,15 +108,15 @@
 		"displayDate": "ڕێکەوت",
 		"displayName": "ناوی پەرگە",
 		"displaySize": "قەبارەی پەرگە",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortAscending": "[MISSING]سەر بەرەو ژوور,
+		"sortBy": "[MISSING]ڕێزکردن بە",
+		"sortByOrder": "[MISSING]بەڕێکوپێکی",
+		"sortDescending": "[MISSING]سەر بەرەو خوار",
 		"thumbnailSize": "قەبارەی وێنۆچکە",
 		"title": "چاکسازیەکان",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "[MISSING]ببینە",
+		"viewTypeList": "[MISSING]للیستە",
+		"viewTypeThumbnails": "[MISSING]وێنۆجکەکان"
 	},
 	"errors": {
 		"codes": {
@@ -150,7 +150,7 @@
 			"501": "پشتیوانکردنی وێنۆچکە ناچالاککراوە."
 		},
 		"fileInvalidCharacters": "ناوی پەڕگە نابێت پێکهاتبێت لەم پیتوو هێمایانە: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "[MISSING]ناوی پەڕگە نابێت خاڵی بێت.",
 		"folderInvalidCharacters": "ناوی بوخچە نابێت پێکهاتبێت لەم پیتوو هێمایانە: {disallowedCharacters}",
 		"incorrectExtension": "پێوەکاری ئەم پەڕگەیە ڕێگەنەدراوە.",
 		"missingFile": "پەڕگەی داواکروا بەردەست نیە.",
