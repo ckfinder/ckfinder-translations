@@ -16,7 +16,7 @@
 		"minimize": "Minimalizovat",
 		"move": "Přesunout",
 		"newNameDialogTitle": "Nový název",
-		"ok": "[MISSING]OK",
+		"ok": "OK",
 		"pleaseWait": "Čekejte prosím.",
 		"rememberDecision": "Zapamatovat si mé rozhodnutí",
 		"rename": "Přejmenovat",
@@ -108,15 +108,15 @@
 		"displayDate": "Datum",
 		"displayName": "Název",
 		"displaySize": "Velikost",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortAscending": "Vzestupně",
+		"sortBy": "Seřadit",
+		"sortByOrder": "Pořadí",
+		"sortDescending": "Sestupně",
 		"thumbnailSize": "Velikost miniatury",
 		"title": "Nastavení",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "Zobrazení",
+		"viewTypeList": "Seznam",
+		"viewTypeThumbnails": "Miniatury"
 	},
 	"errors": {
 		"codes": {
@@ -150,7 +150,7 @@
 			"501": "Podpora náhledů je zakázána."
 		},
 		"fileInvalidCharacters": "Název souboru nesmí obsahovat následující znaky: {disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "Název souboru nemůže být prázdný.",
 		"folderInvalidCharacters": "Název složky nesmí obsahovat následující znaky: {disallowedCharacters}",
 		"incorrectExtension": "Přípona souboru není v této složce povolena.",
 		"missingFile": "Požadovaný soubor již není dostupný.",
