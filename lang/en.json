@@ -1,294 +1,267 @@
 {
 	"appTitle": "CKFinder",
-
-	"common": {
-		"cancel": "Cancel",
-		"messageTitle": "Information",
-		"skip": "Skip",
-		"rememberDecision": "Remember my decision"
-	},
-
 	"dir": "ltr",
-	"LangCode": "en",
-
-	"DateTime": "m/d/yyyy h:MM aa",
-	"DateAmPm": [
-		"AM",
-		"PM"
-	],
-
-	"Abort": "Abort",
-	"FolderNew": "Type the new folder name: ",
-	"FolderRename": "Type the new folder name: ",
-	"FolderDelete": "Are you sure you want to delete the \"%1\" folder?",
-	"DestinationFolder": "Destination Folder",
-
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
-
-	"FileRename": "Type the new file name: ",
-	"FileRenameExt": "Are you sure you want to change the file extension? The file may become unusable.",
-	"FileDelete": "Are you sure you want to delete the \"%1\" file?",
-	"FilesDelete": "Are you sure you want to delete %1 files?",
-	"FilesLoading": {
-		"title": "Loading...",
-		"text": "Please wait. The files are being loaded."
-	},
-	"FilesEmpty": {
-		"title": "The folder is empty.",
-		"text": "Use the <strong>Upload</strong> button or <strong>drag and drop</strong> your files here."
-	},
-	"FilterFilesEmpty": {
-		"title": "Nothing found.",
-		"text": "Please try using different search criteria."
-	},
-	"FilesRefresh": "Refreshing files",
-
-	"OperationCompletedErrors": "Operation completed with errors.",
-	"MoveToolbarButton": "Move",
-	"CopyToolbarButton": "Copy",
-	"MoveOneFileDialogTitle": "Move File To...",
-	"CopyOneFileDialogTitle": "Copy File To...",
-	"MoveManyFilesDialogTitle": "Move {count} Files To...",
-	"CopyManyFilesDialogTitle": "Copy {count} Files To...",
-	"MoveOneFileWait": "Moving file. Please wait.",
-	"CopyOneFileWait": "Copying file. Please wait.",
-	"MoveManyFilesWait": "Moving %1 files. Please wait.",
-	"CopyManyFilesWait": "Copying %1 files. Please wait.",
-	"MovedFilesNumber": "Number of files moved: %1.",
-	"CopiedFilesNumber": "Number of files copied: %1.",
-	"MoveOperation": "Moving Files",
-	"CopyOperation": "Copying Files",
-	"MoveFilesErrorTitle": "Files that cannot be moved:",
-	"CopyFilesErrorTitle": "Files that cannot be copied:",
-
-	"CopyDragDrop": "Copy Here",
-	"MoveDragDrop": "Move Here",
-
-	"Upload": "Upload",
-	"Settings": "Settings",
-	"Choose": "Choose",
-	"ChooseResizedImage": "Choose Resized",
-	"OriginalSize": "Original Size",
-	"Custom": "Custom",
-	"GettingFileData": "Getting file data. Please wait.",
-
-	"PleaseWait": "Please wait.",
-
-	"View": "View",
-	"Download": "Download",
-
-	"NewSubFolder": "New Subfolder",
-	"Rename": "Rename",
-	"Delete": "Delete",
-	"DeleteFiles": "Delete Files",
-
-	"RenameDlgTitle": "Rename",
-	"NewNameDlgTitle": "New Name",
-	"FileOverwrite": "Overwrite",
-	"FileAutorename": "Auto-rename",
-	"OkBtn": "OK",
-	"CancelBtn": "Cancel",
-	"CloseBtn": "Close",
-	"UploadSelectLbl": "Select a file to upload",
-	"UploadProgressLbl": "(Upload in progress, please wait...)",
-	"UploadBtnCancel": "Cancel",
-	"UploadNoFolder": "Please select a folder before uploading.",
-	"UploadNoPerms": "File upload is not allowed.",
-	"UploadUnknError": "Error sending the file.",
-	"UploadExtIncorrect": "File extension is not allowed in this folder.",
-	"UploadLabel": {
-		"UploadSelect": "Select files to upload",
-		"UploadProgress": "Uploading...",
-		"UploadOk": "Upload finished!",
-		"UploadError": "Upload finished with errors."
-	},
-	"UploadSend": "Upload",
-	"UploadAddFiles": "Add Files",
-	"UploadSummary": "Uploaded files: %1",
-
-	"UploadDetails": "Details",
-	"UploadFilesCountProgress": "{filesUploaded} of {filesTotal}",
-	"UploadBytesCountProgress": "({bytesUploaded} of {bytesTotal})",
-	"SetDisplay": "Display",
-	"SetDisplayName": "File Name",
-	"SetDisplayDate": "Date",
-	"SetDisplaySize": "File Size",
-	"SetDisplayThumbnailSize": "Thumbnail Size",
-	"SetView": "View",
-	"SetViewThumbnails": "Thumbnails",
-	"SetViewList": "List",
-
-	"FilesCountOne": "1 file",
-	"FilesCountMany": "%1 files",
-
-	"Kb": "%1 KB",
-	"Mb": "%1 MB",
-	"Gb": "%1 GB",
-	"SizePerSecond": "%1/s",
-
-	"PixelShort": "px",
-
-	"ErrorUnknown": "It was not possible to complete the request. (Error %1)",
-	"Errors": {
-		"10": "Invalid command.",
-		"11": "The resource type was not specified in the request.",
-		"12": "The requested resource type is invalid.",
-		"13": "The connector configuration file is invalid.",
-		"14": "Invalid connector plugin: %1.",
-		"102": "Invalid file or folder name.",
-		"103": "It was not possible to complete the request due to authorization restrictions.",
-		"104": "It was not possible to complete the request due to file system permission restrictions.",
-		"105": "Invalid file extension.",
-		"109": "Invalid request.",
-		"110": "Unknown error.",
-		"111": "It was not possible to complete the request due to resulting file size.",
-		"115": "A file or folder with the same name already exists.",
-		"116": "Folder not found. Please refresh and try again.",
-		"117": "File not found. Please refresh the files list and try again.",
-		"118": "Source and target paths are equal.",
-		"201": "A file with the same name already exists. The uploaded file was renamed to \"%1\".",
-		"202": "Invalid file.",
-		"203": "Invalid file. The file size is too big.",
-		"204": "The uploaded file is corrupt.",
-		"205": "No temporary folder is available for upload on the server.",
-		"206": "Upload canceled due to security reasons. The file contains HTML-like data.",
-		"207": "The uploaded file was renamed to \"%1\".",
-		"300": "Moving file(s) failed.",
-		"301": "Copying file(s) failed.",
-		"302": "Deleting file(s) failed.",
-		"500": "The file browser is disabled for security reasons. Please contact your system administrator and check the CKFinder configuration file.",
-		"501": "Thumbnail support is disabled."
-	},
-
-	"ErrorMsg": {
-		"FileNameNotEmpty": "The file name cannot be empty.",
-		"FileInvChar": "The file name cannot contain any of the following characters: \n\\ / : * ? \" < > |",
-		"FolderInvChar": "The folder name cannot contain any of the following characters: \n\\ / : * ? \" < > |",
-		"MissingFolder": "The folder you are trying to reach is no longer available.",
-		"MissingFile": "The requested file is no longer available."
-	},
-
-	"Fileeditor": {
-		"contextMenuName": "Edit"
-	},
-
-	"Maximize": {
+	"langCode": "en",
+	"common": {
+		"abort": "Abort",
+		"cancel": "Cancel",
+		"choose": "Choose",
+		"close": "Close",
+		"copy": "Copy",
+		"delete": "Delete",
+		"download": "Download",
+		"edit": "Edit",
 		"maximize": "Maximize",
-		"minimize": "Minimize"
+		"messageTitle": "Information",
+		"minimize": "Minimize",
+		"move": "Move",
+		"newNameDialogTitle": "New Name",
+		"ok": "OK",
+		"pleaseWait": "Please wait.",
+		"rememberDecision": "Remember my decision",
+		"rename": "Rename",
+		"showMore": "Show more",
+		"skip": "Skip",
+		"upload": "Upload",
+		"view": "View"
 	},
-
-	"Filter": {
-		"filterPlaceholder": "Filter"
+	"units": {
+		"dateFormat": "m/d/yyyy h:MM aa",
+		"dateAmPm": [
+			"AM",
+			"PM"
+		],
+		"kb": "{size} KB",
+		"mb": "{size} MB",
+		"gb": "{size} GB",
+		"sizePerSecond": "{size}/s",
+		"pixelShort": "px"
 	},
-
-	"EditImage": {
-		"apply": "Apply",
+	"files": {
+		"autoRename": "Auto-rename",
+		"countMany": "{count} files",
+		"countOne": "1 file",
+		"deleteConfirmation": "Are you sure you want to delete {count} files?",
+		"fileDeleteConfirmation": "Are you sure you want to delete the \"{name}\" file?",
+		"fileRenameExtensionConfirmation": "Are you sure you want to change the file extension? The file may become unusable.",
+		"fileRenameLabel": "Type the new file name: ",
+		"filesPaneTitle": "Files pane",
+		"filesRefresh": "Refreshing files",
+		"filterPlaceholder": "Filter",
+		"gettingFileData": "Getting file data.",
+		"overwrite": "Overwrite",
+		"loadingFilesPane": {
+			"title": "Loading...",
+			"text": "The files are being loaded."
+		},
+		"emptyFilesPane": {
+			"title": "The folder is empty.",
+			"text": "Use the <strong>Upload</strong> button or <strong>drag and drop</strong> your files here."
+		},
+		"filterFilesEmpty": {
+			"title": "Nothing found.",
+			"text": "Please try using different search criteria."
+		}
+	},
+	"folders": {
+		"deleteConfirmation": "Are you sure you want to delete the \"{name}\" folder?",
+		"destinationFolder": "Destination Folder",
+		"newNameLabel": "Type the new folder name: ",
+		"newSubfolder": "New Subfolder",
+		"renameDialogTitle": "Rename Folder",
+		"treeTitle": "Folders tree"
+	},
+	"copy": {
+		"dropMenuItem": "Copy Here",
+		"errorDialogTitle": "Files that cannot be copied:",
+		"manyFilesDialogTitle": "Copy {count} Files To...",
+		"manyFilesWait": "Copying {count} files.",
+		"oneFileDialogTitle": "Copy File To...",
+		"oneFileWait": "Copying file.",
+		"operationLabel": "Copying Files",
+		"operationSummary": "Number of files copied: {count}."
+	},
+	"move": {
+		"dropMenuItem": "Move Here",
+		"errorDialogTitle": "Files that cannot be moved:",
+		"manyFilesDialogTitle": "Move {count} Files To...",
+		"manyFilesWait": "Moving {count} files.",
+		"oneFileDialogTitle": "Move File To...",
+		"oneFileWait": "Moving file.",
+		"operationLabel": "Moving Files",
+		"operationSummary": "Number of files moved: {count}."
+	},
+	"upload": {
+		"addFiles": "Add Files",
+		"bytesCountProgress": "({bytesUploaded} of {bytesTotal})",
+		"details": "Details",
+		"filesCountProgress": "{filesUploaded} of {filesTotal}",
+		"progressLabel": "Upload in progress.",
+		"progressMessage": "Uploading...",
+		"selectFileLabel": "Select a file to upload",
+		"selectFiles": "Select files to upload",
+		"success": "Upload finished!",
+		"summary": "Uploaded files: {count}"
+	},
+	"settings": {
+		"display": "Display",
+		"displayDate": "Date",
+		"displayName": "File Name",
+		"displaySize": "File Size",
+		"sortAscending": "Ascending",
+		"sortBy": "Sort by",
+		"sortByOrder": "Order",
+		"sortDescending": "Descending",
+		"thumbnailSize": "Thumbnail Size",
+		"title": "Settings",
+		"viewType": "View",
+		"viewTypeList": "List",
+		"viewTypeThumbnails": "Thumbnails"
+	},
+	"errors": {
+		"codes": {
+			"10": "Invalid command.",
+			"11": "The resource type was not specified in the request.",
+			"12": "The requested resource type is invalid.",
+			"13": "The connector configuration file is invalid.",
+			"14": "Invalid connector plugin: {pluginName}.",
+			"102": "Invalid file or folder name.",
+			"103": "It was not possible to complete the request due to authorization restrictions.",
+			"104": "It was not possible to complete the request due to file system permission restrictions.",
+			"105": "Invalid file extension.",
+			"109": "Invalid request.",
+			"110": "Unknown error.",
+			"111": "It was not possible to complete the request due to resulting file size.",
+			"115": "A file or folder with the same name already exists.",
+			"116": "Folder not found. Please refresh and try again.",
+			"117": "File not found. Please refresh the files list and try again.",
+			"118": "Source and target paths are equal.",
+			"201": "A file with the same name already exists. The uploaded file was renamed to \"{name}\".",
+			"202": "Invalid file.",
+			"203": "Invalid file. The file size is too big.",
+			"204": "The uploaded file is corrupt.",
+			"205": "No temporary folder is available for upload on the server.",
+			"206": "Upload canceled due to security reasons. The file contains HTML-like data.",
+			"207": "The uploaded file was renamed to \"{name}\".",
+			"300": "Moving file(s) failed.",
+			"301": "Copying file(s) failed.",
+			"302": "Deleting file(s) failed.",
+			"500": "The file browser is disabled for security reasons. Please contact your system administrator and check the CKFinder configuration file.",
+			"501": "Thumbnail support is disabled."
+		},
+		"fileInvalidCharacters": "The file name cannot contain any of the following characters: {disallowedCharacters}",
+		"fileNameNotEmpty": "The file name cannot be empty.",
+		"folderInvalidCharacters": "The folder name cannot contain any of the following characters: {disallowedCharacters}",
+		"incorrectExtension": "File extension is not allowed in this folder.",
+		"missingFile": "The requested file is no longer available.",
+		"missingFolder": "The folder you are trying to reach is no longer available.",
+		"noUploadFolderSelected": "Please select a folder before uploading.",
+		"operationCompleted": "Operation completed with errors.",
+		"unknown": "It was not possible to complete the request. (Error {number})",
+		"unknownUploadError": "Error sending the file.",
+		"uploadErrors": "Upload finished with errors.",
+		"uploadPermissions": "File upload is not allowed."
+	},
+	"chooseResizedImage": {
+		"title": "Choose Resized",
+		"originalSize": "Original Size",
+		"sizes": {
+			"custom": "Custom",
+			"large": "Large",
+			"max": "Max",
+			"medium": "Medium",
+			"small": "Small"
+		}
+	},
+	"editImage": {
 		"adjust": "Adjust",
+		"apply": "Apply",
+		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image.",
 		"crop": "Crop",
+		"downloadAction": "Downloading original image.",
+		"keepAspectRatio": "Keep Aspect Ratio",
+		"loading": "Loading image",
 		"presets": "Presets",
+		"reset": "Reset",
 		"resize": "Resize",
 		"rotate": "Rotate",
-
-		"keepAspectRatio": "Keep Aspect Ratio",
-
-		"rotateClockwise": "90&deg; Right",
 		"rotateAntiClockwise": "90&deg; Left",
-
-		"filters": {
-			"brightness": "Brightness",
-			"contrast": "Contrast",
-			"saturation": "Saturation",
-			"vibrance": "Vibrance",
-			"exposure": "Exposure",
-			"hue": "Hue",
-			"sepia": "Sepia",
-			"gamma": "Gamma",
-			"noise": "Noise",
-			"clip": "Clip",
-			"sharpen": "Sharpen",
-			"stackBlur": "Blur"
-		},
-
-		"preset": {
-			"clarity": "Clarity",
-			"pinhole": "Pinhole",
-			"love": "Love",
-			"jarques": "Jarques",
-			"orangePeel": "Orange Peel",
-			"sinCity": "Sin City",
-			"grungy": "Grungy",
-			"oldBoot": "Old Boot",
-			"lomo": "Lomo",
-			"vintage": "Vintage",
-			"crossProcess": "Cross Process",
-			"concentrate": "Concentrate",
-			"glowingSun": "Glowing Sun",
-			"sunrise": "Sunrise",
-			"nostalgia": "Nostalgia",
-			"hemingway": "Hemingway",
-			"herMajesty": "Her Majesty",
-			"hazyDays": "Hazy Days"
-		},
-		"downloadAction": "Downloading original image.",
-		"transformationAction": "Applying transformations.",
-		"uploadAction": "Uploading edited image.",
-		"saveDialogTitle": "Save Changes",
+		"rotateClockwise": "90&deg; Right",
+		"save": "Save",
+		"saveDialogFileExists": "File with the same name already exists in folder.",
 		"saveDialogOverwrite": "Overwrite File",
 		"saveDialogSaveAs": "Save as:",
-		"saveDialogFileExists": "File with the same name already exists in folder.",
-		"reset": "Reset",
+		"saveDialogTitle": "Save Changes",
 		"title": "Edit Image",
-		"save": "Save",
-		"loading": "Loading image",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"transformationAction": "Applying transformations.",
+		"uploadAction": "Uploading edited image.",
+		"filters": {
+			"brightness": "Brightness",
+			"clip": "Clip",
+			"contrast": "Contrast",
+			"exposure": "Exposure",
+			"gamma": "Gamma",
+			"hue": "Hue",
+			"noise": "Noise",
+			"saturation": "Saturation",
+			"sepia": "Sepia",
+			"sharpen": "Sharpen",
+			"stackBlur": "Blur",
+			"vibrance": "Vibrance"
+		},
+		"preset": {
+			"clarity": "Clarity",
+			"concentrate": "Concentrate",
+			"crossProcess": "Cross Process",
+			"glowingSun": "Glowing Sun",
+			"grungy": "Grungy",
+			"hazyDays": "Hazy Days",
+			"hemingway": "Hemingway",
+			"herMajesty": "Her Majesty",
+			"jarques": "Jarques",
+			"lomo": "Lomo",
+			"love": "Love",
+			"nostalgia": "Nostalgia",
+			"oldBoot": "Old Boot",
+			"orangePeel": "Orange Peel",
+			"pinhole": "Pinhole",
+			"sinCity": "Sin City",
+			"sunrise": "Sunrise",
+			"vintage": "Vintage"
+		}
 	},
-
-	"ChooseResizedImageSizes": {
-		"small": "Small",
-		"medium": "Medium",
-		"large": "Large",
-		"max": "Max",
-		"Custom": "Custom"
-	},
-
-	"ShowMore": "Show more",
-
-	"Shortcuts": {
+	"shortcuts": {
 		"title": "Keyboard Shortcuts",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
 			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
 			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"focusFilesPane": "Focus files pane",
+			"focusFoldersPane": "Focus folders pane or breadcrumbs",
+			"focusNext": "Focus next pane",
+			"focusToolbar": "Focus toolbar",
+			"lastItem": "Go to last item",
+			"listShortcuts": "Open this help dialog",
+			"nextItem": "Go to next item",
+			"previousItem": "Go to previous item",
+			"showContextMenu": "Open context menu",
+			"title": "General Interface"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
+			"addToSelectionAbove": "Add or remove files above to selection",
+			"addToSelectionBelow": "Add or remove files below to selection",
 			"addToSelectionLeft": "Add or remove file on the left to selection",
 			"addToSelectionRight": "Add or remove file on the right to selection",
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection"
+			"delete": "Delete file(s)",
+			"refresh": "Refresh files",
+			"rename": "Rename file",
+			"selectAll": "Select all files",
+			"upload": "Upload file(s)"
 		},
 		"folders": {
-			"title": "Folders Pane",
+			"collapseOrParent": "Collapse folder / Go to parent folder",
 			"delete": "Delete folder",
-			"rename": "Rename folder",
 			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "Folders Pane"
 		},
 		"keys": {
 			"ctrl": "Control",
@@ -308,11 +281,5 @@
 			"home": "home",
 			"shift": "shift"
 		}
-	},
-
-	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
 	}
 }
