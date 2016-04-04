@@ -123,7 +123,7 @@
 			"10": "Neplatný príkaz.",
 			"11": "V požiadavke nebol špecifikovaný typ súboru.",
 			"12": "Nepodporovaný typ súboru.",
-			"13": "Konfigurácia súboru je neplatná.",
+			"13": "Konfiguračný súbor konektoru programu CKFinder je neplatný.",
 			"14": "Neplatný plugin konektor: {pluginName}.",
 			"102": "Neplatný názov súboru alebo adresára.",
 			"103": "Nebolo možné dokončiť spracovanie požiadavky kvôli nepostačujúcej úrovni oprávnení.",
@@ -163,7 +163,7 @@
 		"uploadPermissions": "Nahratie súboru nie je povolené."
 	},
 	"chooseResizedImage": {
-		"title": "Zmeniť veľkosť",
+		"title": "Vybrať upravenú verziu obrázku",
 		"originalSize": "Pôvodná veľkosť",
 		"sizes": {
 			"custom": "Vlastné",
@@ -181,7 +181,7 @@
 		"downloadAction": "Sťahujem originálny súbor.",
 		"keepAspectRatio": "Udržať polomer",
 		"loading": "Nahrávam obrázok",
-		"presets": "Zmeniť",
+		"presets": "Predvoľby",
 		"reset": "Zmazať",
 		"resize": "Orezať",
 		"rotate": "Otočiť",
@@ -210,7 +210,7 @@
 			"vibrance": "Citlivosť"
 		},
 		
-		//It doesn´t need to be translated.
+	
 		"preset": {
 			"clarity": "Clarity",
 			"concentrate": "Concentrate",
