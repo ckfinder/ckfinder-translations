@@ -163,7 +163,7 @@
 		"uploadPermissions": "Nahratie súboru nie je povolené."
 	},
 	"chooseResizedImage": {
-		"title": "Vybrať upravenú verziu obrázku",
+		"title": "Vybrať upravený",
 		"originalSize": "Pôvodná veľkosť",
 		"sizes": {
 			"custom": "Vlastné",
