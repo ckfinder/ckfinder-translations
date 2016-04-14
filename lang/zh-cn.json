@@ -211,16 +211,16 @@
 		},
 		"preset": {
 			"clarity": "清晰",
-			"concentrate": "[MISSING]Concentrate",
+			"concentrate": "浓缩",
 			"crossProcess": "胶片",
 			"glowingSun": "光照",
 			"grungy": "油渍",
 			"hazyDays": "雨雾",
-			"hemingway": "[MISSING]Hemingway",
-			"herMajesty": "[MISSING]Her Majesty",
-			"jarques": "[MISSING]Jarques",
+			"hemingway": "海明威",
+			"herMajesty": "雄伟",
+			"jarques": "Jarques",
 			"lomo": "LOMO",
-			"love": "[MISSING]Love",
+			"love": "爱情",
 			"nostalgia": "怀旧",
 			"oldBoot": "旧靴子",
 			"orangePeel": "橘皮",
@@ -231,55 +231,54 @@
 		}
 	},
 	"shortcuts": {
-		"title": "[MISSING]Keyboard Shortcuts",
+		"title": "快捷键",
 		"general": {
-			"action": "[MISSING]Execute default action",
-			"firstItem": "[MISSING]Go to first item",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusNext": "[MISSING]Focus next pane",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"lastItem": "[MISSING]Go to last item",
-			"listShortcuts": "[MISSING]Open this help dialog",
-			"nextItem": "[MISSING]Go to next item",
-			"previousItem": "[MISSING]Go to previous item",
-			"showContextMenu": "[MISSING]Open context menu",
-			"title": "[MISSING]General Interface"
+			"action": "执行默认操作",
+			"firstItem": "移动到第一项",
+			"focusFilesPane": "聚焦到文件窗",
+			"focusFoldersPane": "聚焦到文件夹窗或导航栏",
+			"focusNext": "聚焦到下个窗口",
+			"focusToolbar": "聚焦到工具栏",
+			"lastItem": "移动到最后一项",
+			"listShortcuts": "打开帮助框",
+			"nextItem": "移动到下一项",
+			"previousItem": "移动到前一项",
+			"showContextMenu": "打开上下文菜单",
+			"title": "通用界面"
 		},
 		"files": {
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
-			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
-			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"delete": "[MISSING]Delete file(s)",
-			"refresh": "[MISSING]Refresh files",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)"
+			"addToSelectionAbove": "添加或删除文件到选中项上面",
+			"addToSelectionBelow": "添加或删除文件到选中项下面",
+			"addToSelectionLeft": "添加或删除文件到选中项右边",
+			"delete": "删除文件",
+			"refresh": "刷新文件",
+			"rename": "重命名文件",
+			"selectAll": "选中全部文件",
+			"upload": "上传文件"
 		},
 		"folders": {
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
-			"delete": "[MISSING]Delete folder",
-			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"title": "[MISSING]Folders Pane"
+			"collapseOrParent": "展开文件夹",
+			"delete": "删除文件夹",
+			"expandOrSubfolder": "折叠文件夹",
+			"title": "文件夹窗"
 		},
 		"keys": {
-			"ctrl": "[MISSING]Control",
-			"delete": "[MISSING]Delete",
-			"downArrow": "[MISSING]Down arrow",
-			"escape": "[MISSING]Escape",
-			"leftArrow": "[MISSING]Left arrow",
-			"question": "[MISSING]Question mark",
-			"rightArrow": "[MISSING]Right arrow",
-			"upArrow": "[MISSING]Up arrow"
+			"ctrl": "控制键",
+			"delete": "删除键",
+			"downArrow": "下箭头",
+			"escape": "退出",
+			"leftArrow": "左箭头",
+			"question": "问题标记",
+			"rightArrow": "右箭头",
+			"upArrow": "上箭头"
 		},
 		"keysAbbreviations": {
-			"alt": "[MISSING]alt",
-			"ctrl": "[MISSING]ctrl",
-			"del": "[MISSING]del",
-			"end": "[MISSING]end",
-			"home": "[MISSING]home",
-			"shift": "[MISSING]shift"
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
 		}
 	}
 }
