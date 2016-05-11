@@ -163,7 +163,7 @@
 		"uploadPermissions": "Datei hochladen nicht erlaubt."
 	},
 	"chooseResizedImage": {
-		"title": "Choose Resized",
+		"title": "Wähle das skalierte Bild",
 		"originalSize": "Originalgröße",
 		"sizes": {
 			"custom": "Benutzerdefiniert",
