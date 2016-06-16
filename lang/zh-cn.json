@@ -93,9 +93,9 @@
 	},
 	"upload": {
 		"addFiles": "添加文件",
-		"bytesCountProgress": "({bytesTotal} 中的 {bytesUploaded})",
+		"bytesCountProgress": "({bytesTotal} / {bytesUploaded})",
 		"details": "详情",
-		"filesCountProgress": "{filesUploaded}/{filesTotal}",
+		"filesCountProgress": "{filesUploaded} / {filesTotal}",
 		"progressLabel": "正在上传文件，",
 		"progressMessage": "正在上传...",
 		"selectFileLabel": "选择要上传的文件",
