@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "偏好設定",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "因為安全因素 , 檔案瀏覽器已被停用 ! 請聯絡您的系統管理者並檢查 CKFinder 的設定檔 config.php !",
 			"501": "縮圖預覽功能已被停用 !"
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "檔案名稱不能包含以下字元： {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "目錄名稱不能包含以下字元： {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "[MISSING]Please select a folder before uploading.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "無法連接到伺服器 ! (錯誤代碼 {number})",
 		"unknownUploadError": "[MISSING]Error sending the file.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

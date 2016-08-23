@@ -115,6 +115,7 @@
 		"thumbnailSize": "Miniaturgrösse",
 		"title": "Einstellungen",
 		"viewType": "Listenansicht",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Liste",
 		"viewTypeThumbnails": "Miniaturansicht"
 	},
@@ -149,6 +150,7 @@
 			"500": "Der Dateibrowser wurde aus Sicherheitsgründen deaktiviert. Bitte benachrichtigen Sie Ihren Systemadministrator und prüfen Sie die Konfigurationsdatei.",
 			"501": "Die Miniaturansicht wurde deaktivert."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Der Dateiname darf nicht eines der folgenden Zeichen enthalten: {disallowedCharacters}",
 		"fileNameNotEmpty": "Der Dateiname darf nicht leer sein.",
 		"folderInvalidCharacters": "Der Verzeichnisname darf nicht eines der folgenden Zeichen enthalten: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Der Ordner, den Sie versuchen zu erreichen, ist nicht mehr verfügbar.",
 		"noUploadFolderSelected": "Bitte ein Verzeichnis vor dem Hochladen wählen.",
 		"operationCompleted": "Der Betrieb wurde mit Fehlern abgeschlossen.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Ihre Anfrage konnte nicht bearbeitet werden. (Fehler {number})",
 		"unknownUploadError": "Fehler bei Dateitragung.",
 		"uploadErrors": "Hochladen mit Fehlern abgeschlossen.",

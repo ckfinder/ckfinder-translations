@@ -115,6 +115,7 @@
 		"thumbnailSize": "Veĺkosť Thumbnail",
 		"title": "Nastavenia",
 		"viewType": "Ukážka",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Zoznam",
 		"viewTypeThumbnails": "Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Prehliadanie súborov je zakázané kvôli bezpečnosti. Kontaktujte prosím administrátora a overte nastavenia v konfiguračnom súbore pre CKFinder.",
 			"501": "Momentálne nie je zapnutá podpora pre generáciu miniobrázkov."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Súbor nesmie obsahovať žiadny z nasledujúcich znakov: {disallowedCharacters}",
 		"fileNameNotEmpty": "Názov súboru nesmie byť bez znakov.",
 		"folderInvalidCharacters": "Adresár nesmie obsahovať žiadny z nasledujúcich znakov: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Priečinok už nie je k dispozícii.",
 		"noUploadFolderSelected": "Pred náhrávaním zvoľte adresár, prosím",
 		"operationCompleted": "Úloha dokončená s chybami.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Server nemohol dokončiť spracovanie požiadavky. (Chyba {number})",
 		"unknownUploadError": "V priebehu posielania súboru sa vyskytla chyba.",
 		"uploadErrors": "Nahrávanie ukončené s chybami.",
@@ -186,7 +189,7 @@
 		"resize": "Orezať",
 		"rotate": "Otočiť",
 		"rotateAntiClockwise": "90&deg; Doľava",
-		"rotateClockwise": "[MISSING]90&deg; Doprava",
+		"rotateClockwise": "90&deg; Doprava",
 		"save": "UložiŤ",
 		"saveDialogFileExists": "Súbor s rovnakým menom už existuje v tomto súbore.",
 		"saveDialogOverwrite": "Prepísať súbor",
@@ -209,8 +212,6 @@
 			"stackBlur": "Zaostrenie",
 			"vibrance": "Citlivosť"
 		},
-		
-	
 		"preset": {
 			"clarity": "Clarity",
 			"concentrate": "Concentrate",

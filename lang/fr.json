@@ -115,6 +115,7 @@
 		"thumbnailSize": "Taille des miniatures",
 		"title": "Configuration",
 		"viewType": "Vue",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Liste",
 		"viewTypeThumbnails": "Miniatures"
 	},
@@ -149,6 +150,7 @@
 			"500": "L'interface de gestion des fichiers est désactivé. Contactez votre administrateur et vérifier le fichier de configuration de CKFinder.",
 			"501": "La fonction \"miniatures\" est désactivée."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Le nom du fichier ne peut pas contenir les charactères suivants: {disallowedCharacters}",
 		"fileNameNotEmpty": "Le nom de fichier ne peut pas être vide.",
 		"folderInvalidCharacters": "Le nom du dossier ne peut pas contenir les charactères suivants: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Le dossier auquel vous tentez d'accéder n'est plus disponible.",
 		"noUploadFolderSelected": "Merci de sélectionner un répertoire avant l'envoi.",
 		"operationCompleted": "Operation terminée avec des erreurs.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "La demande n'a pas abouti. (Erreur {number})",
 		"unknownUploadError": "Erreur pendant l'envoi du fichier.",
 		"uploadErrors": "Envoi terminé avec des erreurs.",

@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "સેટીંગ્સ",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "સિક્યોરીટીના કારણે ફાઈલ બ્રાઉઝર બંધ કરેલ છે. તમારા સિક્યોરીટી એડ્મીનીસ્ટેટરની મદદથી CKFinder કોન્ફીગ્યુંરેષન ફાઈલ તપાસો.",
 			"501": "થમ્બનેલનો સપોર્ટ બંધ કરેલો છે."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "ફાઈલના નામમાં એમના કોઈ પણ કેરેક્ટર ન ચાલે: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "ફોલ્ડરના નામમાં એમના કોઈ પણ કેરેક્ટર ન ચાલે: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "અપલોડ કરતા પેહલાં ફોલ્ડર પસંદ કરો.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "તમારી રીક્વેસ્ટ માન્ય નથી. (એરર {number})",
 		"unknownUploadError": "ફાઈલ મોકલવામાં એરર છે.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

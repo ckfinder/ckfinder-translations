@@ -115,6 +115,7 @@
 		"thumbnailSize": "Miniaturgrando",
 		"title": "Agordo",
 		"viewType": "Vido",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Listo",
 		"viewTypeThumbnails": "Miniaturoj"
 	},
@@ -149,6 +150,7 @@
 			"500": "La dosieradministra sistemo estas malvalidigita. Kontaktu vian administranton kaj kontrolu la agordodosieron de CKFinder.",
 			"501": "La eblo de miniaturoj estas malvalidigita."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "La dosiernomo ne povas enhavi la sekvajn signojn : {disallowedCharacters}",
 		"fileNameNotEmpty": "La dosiernomo ne povas esti malplena.",
 		"folderInvalidCharacters": "La dosierujnomo ne povas enhavi la sekvajn signojn : {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "La dosierujo, kiun vi provas atingi, ne plu estas disponebla.",
 		"noUploadFolderSelected": "Bonvolu selekti dosierujon antaŭ la alŝuto.",
 		"operationCompleted": "Operacio plenumita kun eraroj.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Ne eblis plenumi la peton. (Eraro {number})",
 		"unknownUploadError": "Eraro dum la dosieralŝuto.",
 		"uploadErrors": "Alŝuto finita kun eraroj.",

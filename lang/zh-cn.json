@@ -115,6 +115,7 @@
 		"thumbnailSize": "缩略图大小",
 		"title": "设置",
 		"viewType": "视图",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "列表",
 		"viewTypeThumbnails": "缩略图"
 	},
@@ -149,6 +150,7 @@
 			"500": "因为安全原因，文件不可浏览。请联系系统管理员并检查 CKFinder 配置文件。",
 			"501": "不支持缩略图方式。"
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "文件名不能包含以下字符：{disallowedCharacters}",
 		"fileNameNotEmpty": "文件名不能为空。",
 		"folderInvalidCharacters": "文件夹名称不能包含以下字符：{disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "您指定的文件夹已不可用。",
 		"noUploadFolderSelected": "需先选择一个文件。",
 		"operationCompleted": "操作完成，但有错误。",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "请求的操作未能完成。(错误 {number})",
 		"unknownUploadError": "上传文件出错。",
 		"uploadErrors": "上传完成，但有错误。",
@@ -250,6 +253,7 @@
 			"addToSelectionAbove": "添加或删除文件到选中项上面",
 			"addToSelectionBelow": "添加或删除文件到选中项下面",
 			"addToSelectionLeft": "添加或删除文件到选中项右边",
+			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
 			"delete": "删除文件",
 			"refresh": "刷新文件",
 			"rename": "重命名文件",

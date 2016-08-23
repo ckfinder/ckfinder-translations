@@ -115,6 +115,7 @@
 		"thumbnailSize": "Küçük Resim Boyutu",
 		"title": "Ayarlar",
 		"viewType": "Görünüm",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Liste",
 		"viewTypeThumbnails": "Küçük Resimler"
 	},
@@ -149,6 +150,7 @@
 			"500": "Dosya gezgini güvenlik sebebiyle devre dışı bırakıldı. Lütfen sistem yöneticinize başvurun ve CKFinder yapılandırma dosyasını denetleyin.",
 			"501": "Küçük resim desteği devre dışı bırakıldı."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Dosya adı şu karakterlerden herhangi birini içeremez: {disallowedCharacters}",
 		"fileNameNotEmpty": "Dosya adı boş olamaz.",
 		"folderInvalidCharacters": "Dizin adı şu karakterlerden herhangi birini içeremez: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Ulaşmaya çalıştığınız dizin artık mevcut değil.",
 		"noUploadFolderSelected": "Lütfen karşıya yüklemeden önce bir dizin seçin.",
 		"operationCompleted": "İşlem hatalarla tamamlandı.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "İstek tamamlanamadı. (Hata {number})",
 		"unknownUploadError": "Dosya gönderme hatası.",
 		"uploadErrors": "Karşıya yükleme hatalarla tamamlandı.",

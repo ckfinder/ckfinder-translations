@@ -115,6 +115,7 @@
 		"thumbnailSize": "Velikost miniatury",
 		"title": "Nastavení",
 		"viewType": "Zobrazení",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Seznam",
 		"viewTypeThumbnails": "Miniatury"
 	},
@@ -149,6 +150,7 @@
 			"500": "Průzkumník souborů je z bezpečnostních důvodů zakázán. Sdělte to prosím správci systému a zkontrolujte soubor nastavení CKFinder.",
 			"501": "Podpora náhledů je zakázána."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Název souboru nesmí obsahovat následující znaky: {disallowedCharacters}",
 		"fileNameNotEmpty": "Název souboru nemůže být prázdný.",
 		"folderInvalidCharacters": "Název složky nesmí obsahovat následující znaky: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Složka, kterou chcete zobrazit, již není dostupná.",
 		"noUploadFolderSelected": "Před nahráváním vyberte složku prosím.",
 		"operationCompleted": "Operace byla dokončena s chybami.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Příkaz nebylo možné dokončit. (Chyba {number})",
 		"unknownUploadError": "Chyba při posílání souboru.",
 		"uploadErrors": "Nahrávání bylo dokončeno s chybami.",

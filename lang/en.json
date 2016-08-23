@@ -115,6 +115,7 @@
 		"thumbnailSize": "Thumbnail Size",
 		"title": "Settings",
 		"viewType": "View",
+		"viewTypeCompact": "Compact",
 		"viewTypeList": "List",
 		"viewTypeThumbnails": "Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "The file browser is disabled for security reasons. Please contact your system administrator and check the CKFinder configuration file.",
 			"501": "Thumbnail support is disabled."
 		},
+		"deleteFilePermissions": "Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "The file name cannot contain any of the following characters: {disallowedCharacters}",
 		"fileNameNotEmpty": "The file name cannot be empty.",
 		"folderInvalidCharacters": "The folder name cannot contain any of the following characters: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "Please select a folder before uploading.",
 		"operationCompleted": "Operation completed with errors.",
+		"renameFilePermissions": "Renaming files is not allowed in this folder.",
 		"unknown": "It was not possible to complete the request. (Error {number})",
 		"unknownUploadError": "Error sending the file.",
 		"uploadErrors": "Upload finished with errors.",

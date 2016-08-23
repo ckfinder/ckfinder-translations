@@ -115,6 +115,7 @@
 		"thumbnailSize": "Sīktēla izmērs",
 		"title": "Uzstādījumi",
 		"viewType": "Skats",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Saraksts",
 		"viewTypeThumbnails": "Sīktēli"
 	},
@@ -149,6 +150,7 @@
 			"500": "Failu pārlūks ir atslēgts drošības apsvērumu dēļ. Lūdzu sazinieties ar šīs sistēmas tehnisko administratoru vai pārbaudiet CKFinder konfigurācijas failu.",
 			"501": "Sīkbilžu atbalsts ir atslēgts."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Faila nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: {disallowedCharacters}",
 		"fileNameNotEmpty": "Fails nevar būt tukšs",
 		"folderInvalidCharacters": "Mapes nosaukums nedrīkst saturēt nevienu no sekojošajām zīmēm: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Mape, kuru mēģiniet atvērt, vairs neeksistē.",
 		"noUploadFolderSelected": "Lūdzu izvēlieties mapi pirms augšupielādes.",
 		"operationCompleted": "Darbība tika pabeigta ar kļūdām.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Nebija iespējams pabeigt pieprasījumu. (Kļūda {number})",
 		"unknownUploadError": "Kļūda nosūtot failu.",
 		"uploadErrors": "Augšupielāde beidzās ar kļūdām.",

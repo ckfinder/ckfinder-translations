@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "सेटिंग्स",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "सिक्योरिटी कारण वष, फाएल ब्राउजर डिसेबल किया गया है. आपके सिस्टम एडमिनिस्ट्रेटर का सम्पर्क करे और CKFinder कोंफिग्युरेसन फाएल तपासे.",
 			"501": "थम्बनेल सपोर्ट डिसेबल किया है."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "फाएलके नाममें यह केरेक्टर नही हो सकते: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "फोल्डरके नाममें यह केरेक्टर नही हो सकते: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "फोल्डर चुनके अपलोडिग करिये.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "आपकी रिक्वेस्ट क्मप्लित नही कर सकते. (एरर {number})",
 		"unknownUploadError": "फाएल भेजने में मुश्केली हो रही है.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

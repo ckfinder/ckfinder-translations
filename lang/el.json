@@ -115,6 +115,7 @@
 		"thumbnailSize": "Μέγεθος μικρογραφιών",
 		"title": "Ρυθμίσεις",
 		"viewType": "Εμφάνιση",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Λίστα",
 		"viewTypeThumbnails": "Μικρογραφίες"
 	},
@@ -149,6 +150,7 @@
 			"500": "Ο πλοηγός αρχείων έχει απενεργοποιηθεί για λόγους ασφαλείας. Παρακαλούμε επικοινωνήστε με τον διαχειριστή της ιστοσελίδας και ελέγξτε το αρχείο ρυθμίσεων του πλοηγού (CKFinder).",
 			"501": "Η υποστήριξη των μικρογραφιών έχει απενεργοποιηθεί."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Η ονομασία του αρχείου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: {disallowedCharacters}",
 		"fileNameNotEmpty": "Η ονομασία του αρχείου δεν μπορεί να είναι κενή.",
 		"folderInvalidCharacters": "Η ονομασία του φακέλου δεν μπορεί να περιέχει τους ακόλουθους χαρακτήρες: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Ο φάκελος που προσπαθείτε να ανοίξετε δεν είναι πλέον διαθέσιμος.",
 		"noUploadFolderSelected": "Παρακαλούμε επιλέξτε ένα φάκελο πριν εκκινήσετε την διαδικασία της μεταφόρτωσης.",
 		"operationCompleted": "Η διαδικασία ολοκληρώθηκε με σφάλματα.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Η ενέργεια δεν ήταν δυνατόν να εκτελεστεί. (Σφάλμα {number})",
 		"unknownUploadError": "Παρουσιάστηκε σφάλμα κατά την αποστολή του αρχείου.",
 		"uploadErrors": "Η μεταφόρτωση ολοκληρώθηκε με σφάλματα.",

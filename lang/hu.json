@@ -115,6 +115,7 @@
 		"thumbnailSize": "Bélyegkép méret",
 		"title": "Beállítások",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "A fájl-tallózó biztonsági okok miatt nincs engedélyezve. Kérem vegye fel a kapcsolatot a rendszer üzemeltetőjével és ellenőrizze a CKFinder konfigurációs fájlt.",
 			"501": "A bélyegkép támogatás nincs engedélyezve."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "A fájl neve nem tartalmazhatja a következő karaktereket: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "A mappa neve nem tartalmazhatja a következő karaktereket: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "A könyvtár már nem létezik.",
 		"noUploadFolderSelected": "A feltöltés előtt válasszon mappát.",
 		"operationCompleted": "A művelet közben hiba történt.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "A parancsot nem sikerült végrehajtani. (Hiba: {number})",
 		"unknownUploadError": "Hiba a fájl feltöltése közben.",
 		"uploadErrors": "A feltöltés befejeződött hibákkal.",

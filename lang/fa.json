@@ -115,6 +115,7 @@
 		"thumbnailSize": "اندازه تصویر بندانگشتی",
 		"title": "تنظیمات",
 		"viewType": "مشاهده",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "لیست",
 		"viewTypeThumbnails": "بند‌انگشتی‌ها"
 	},
@@ -149,6 +150,7 @@
 			"500": "مرورگر فایل به دلایل امنیتی غیر فعال است. لطفا با مدیر سامانه تماس بگیرید تا تنظیمات این بخش را بررسی نماید.",
 			"501": "پشتیبانی از تصاویر کوچک غیرفعال شده است"
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "نام فایل نباید شامل این کاراکترها باشد: {disallowedCharacters}",
 		"fileNameNotEmpty": "نام فایل نمی‌تواند خالی باشد.",
 		"folderInvalidCharacters": "نام پوشه نباید شامل این کاراکترها باشد: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "پوشه‌ای که در حال تلاش برای دست‌یابی به آن هستید، دیگر در دسترس نیست.",
 		"noUploadFolderSelected": "لطفا پیش از آپلود، یک پوشه انتخاب کنید.",
 		"operationCompleted": "عملیات با خطاهایی به پایان رسید.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "امکان تکمیل درخواست فوق وجود ندارد (خطا: {number})",
 		"unknownUploadError": "خطا در ارسال",
 		"uploadErrors": "آپلود با خطاهایی به پایان رسید.",

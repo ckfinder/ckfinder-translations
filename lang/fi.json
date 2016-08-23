@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "Asetukset",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Tiedostoselain on kytketty käytöstä turvallisuussyistä. Pyydä pääkäyttäjää tarkastamaan CKFinderin asetustiedosto.",
 			"501": "Esikatselukuvien tuki on kytketty toiminnasta."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Tiedostonimi ei voi sisältää seuraavia merkkejä: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Kansionimi ei voi sisältää seuraavia merkkejä: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "Valitse kansio ennen palvelimelle lataamista.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Pyyntöä ei voitu suorittaa. (Virhe {number})",
 		"unknownUploadError": "Tiedoston siirrossa tapahtui virhe.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

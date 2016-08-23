@@ -115,6 +115,7 @@
 		"thumbnailSize": "Tamanho da Miniatura",
 		"title": "Configurações",
 		"viewType": "Exibir",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Lista",
 		"viewTypeThumbnails": "Miniaturas"
 	},
@@ -149,6 +150,7 @@
 			"500": "A navegação de arquivos está desativada por razões de segurança. Contacte o administrador do sistema para controlar as configurações do CKFinder.",
 			"501": "O suporte a miniaturas está desabilitado."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "O nome do arquivo não pode conter nenhum desses caracteres: {disallowedCharacters}",
 		"fileNameNotEmpty": "O nome do arquivo é obrigatório.",
 		"folderInvalidCharacters": "O nome da pasta não pode conter nenhum desses caracteres: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "A pasta que você está tentando abrir não está mais disponível.",
 		"noUploadFolderSelected": "Selecione a pasta antes the enviar o arquivo.",
 		"operationCompleted": "Operação completada com errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Não foi possível completer o seu pedido. (Erro {number})",
 		"unknownUploadError": "Erro no envio do arquivo.",
 		"uploadErrors": "Envio terminado com errors.",

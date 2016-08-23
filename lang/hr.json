@@ -115,6 +115,7 @@
 		"thumbnailSize": "Veličina sličice",
 		"title": "Postavke",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Pretraživanje datoteka nije dozvoljeno iz sigurnosnih razloga. Molimo kontaktirajte administratora sustava kako bi provjerili postavke CKFinder konfiguracijske datoteke.",
 			"501": "Podrška za sličice je onemogućena."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Naziv datoteke ne smije sadržavati niti jedan od sljedećih znakova: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Naziv direktorija ne smije sadržavati niti jedan od sljedećih znakova: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Direktorij više nije dostupan.",
 		"noUploadFolderSelected": "Odaberite direktorije prije slanja.",
 		"operationCompleted": "Operacija je izvršena, ali sa greškama.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Nije moguće završiti zahtjev. (Greška {number})",
 		"unknownUploadError": "Greška kod slanja datoteke.",
 		"uploadErrors": "Upload dovršen sa greškama.",

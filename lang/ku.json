@@ -115,6 +115,7 @@
 		"thumbnailSize": "قەبارەی وێنۆچکە",
 		"title": "چاکسازیەکان",
 		"viewType": "ببینە",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "للیستە",
 		"viewTypeThumbnails": "وێنۆجکەکان"
 	},
@@ -149,6 +150,7 @@
 			"500": "گەڕۆککردنی پەڕگەکان ناچالاککراوە. بەهۆیی پارێزی. تکایە پەیوەندی بکە بە بەڕێوەبەری سیستمەکە بۆ پشکنینی شێوەپێدانی پەرگەی CKFinder.",
 			"501": "پشتیوانکردنی وێنۆچکە ناچالاککراوە."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "ناوی پەڕگە نابێت پێکهاتبێت لەم پیتوو هێمایانە: {disallowedCharacters}",
 		"fileNameNotEmpty": "ناوی پەڕگە نابێت خاڵی بێت.",
 		"folderInvalidCharacters": "ناوی بوخچە نابێت پێکهاتبێت لەم پیتوو هێمایانە: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "ئەم بوخچەیەی تۆ هەوڵی گەیشتنی بۆ دەدەی، بەردەست نیە.",
 		"noUploadFolderSelected": "تکایە پێشتر بوخچەیەک هەڵبژێرە بۆ بارکردن.",
 		"operationCompleted": "کردارەکە تەواوکرا بە هەڵەوە.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "ئەستەم بوو داواکاریەکەت بە تەواوی جێبەجێبکرێت. (هەڵە {number})",
 		"unknownUploadError": "هەڵە لە ناردنی پەڕگەکە.",
 		"uploadErrors": "بارکردنەکە کۆتایی هات بە هەڵەوە.",
