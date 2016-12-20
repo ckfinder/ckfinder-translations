@@ -56,7 +56,7 @@
 		},
 		"emptyFilesPane": {
 			"title": "Qovluq boşdur.",
-			"text": "<strong>Serverə yüklə</strong> düyməsi istifadə edin ya da ki maus vasitəsi ilə aparıb tullayin fayllarınızı burada."
+			"text": "<strong>Serverə yüklə</strong> düyməsi istifadə edin ya da fayllarınızı burada siçan ilə çəkib buraxın."
 		},
 		"filterFilesEmpty": {
 			"title": "Heç nə tapılmayıb.",
@@ -66,17 +66,17 @@
 	"folders": {
 		"deleteConfirmation": "Siz \"{name}\" qovluğu silmək istədiyinizə əminsinizmi?",
 		"destinationFolder": "Təyinat olan qovluq",
-		"newNameLabel": "[MISSING]Type the new folder name: ",
-		"newSubfolder": "[MISSING]New Subfolder",
-		"renameDialogTitle": "[MISSING]Rename Folder",
-		"treeTitle": "[MISSING]Folders tree"
+		"newNameLabel": "Yeni qovluğun adı daxil edin: ",
+		"newSubfolder": "Yeni alt qovluq",
+		"renameDialogTitle": "Quvluq adının dəyişməsi",
+		"treeTitle": "Quvluqların ağacı"
 	},
 	"copy": {
-		"dropMenuItem": "[MISSING]Copy Here",
-		"errorDialogTitle": "[MISSING]Files that cannot be copied:",
-		"manyFilesDialogTitle": "[MISSING]Copy {count} Files To...",
-		"manyFilesWait": "[MISSING]Copying {count} files.",
-		"oneFileDialogTitle": "[MISSING]Copy File To...",
+		"dropMenuItem": "Buraya köçür",
+		"errorDialogTitle": "Fayllar hansı ki köçürmək mümkün olmadı:",
+		"manyFilesDialogTitle": "{count} fayl bura köçür...",
+		"manyFilesWait": "{count} fayl köçürür.",
+		"oneFileDialogTitle": "Faylı bura köçür...",
 		"oneFileWait": "[MISSING]Copying file.",
 		"operationLabel": "[MISSING]Copying Files",
 		"operationSummary": "[MISSING]Number of files copied: {count}."
