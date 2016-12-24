@@ -26,7 +26,7 @@
 		"view": "Baxış"
 	},
 	"units": {
-		"dateFormat": "[MISSING]d.m.yyyy HH:MM",
+		"dateFormat": "d.m.yyyy HH:MM",
 		"dateAmPm": [
 			"AM",
 			"PM"
