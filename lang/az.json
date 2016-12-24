@@ -234,55 +234,55 @@
 		}
 	},
 	"shortcuts": {
-		"title": "[MISSING]Keyboard Shortcuts",
+		"title": "Qısayol düymələr",
 		"general": {
-			"action": "[MISSING]Execute default action",
-			"firstItem": "[MISSING]Go to first item",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusNext": "[MISSING]Focus next pane",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"lastItem": "[MISSING]Go to last item",
-			"listShortcuts": "[MISSING]Open this help dialog",
-			"nextItem": "[MISSING]Go to next item",
-			"previousItem": "[MISSING]Go to previous item",
-			"showContextMenu": "[MISSING]Open context menu",
-			"title": "[MISSING]General Interface"
+			"action": "Susmaya görə əməli işə sal",
+			"firstItem": "Birinci elementə keç",
+			"focusFilesPane": "Faylların pəncərəsi aktivləşdir",
+			"focusFoldersPane": "Qovluqların pəncərəsi ya çörək qırıntıları aktivləşdir",
+			"focusNext": "Növbəti pəncərəsi aktivləşdir",
+			"focusToolbar": "Alətlərin paneli aktivləşdir",
+			"lastItem": "Axırıncı elementə keç",
+			"listShortcuts": "Bunun kömək dialoqunu aç",
+			"nextItem": "Növbəti elementə keç",
+			"previousItem": "Əvvəlki elementə keç",
+			"showContextMenu": "Əlavə əməliyyatlar göstər",
+			"title": "Ümumi interfeys"
 		},
 		"files": {
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
-			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
-			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"delete": "[MISSING]Delete file(s)",
-			"refresh": "[MISSING]Refresh files",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)"
+			"addToSelectionAbove": "Seçimdən yuxarı faylları əlavə et ya da sil",
+			"addToSelectionBelow": "Seçimdən aşağı faylları əlavə et ya da sil",
+			"addToSelectionLeft": "Seçimdən sola faylları əlavə et ya da sil",
+			"addToSelectionRight": "Seçimdən sağa faylları əlavə et ya da sil",
+			"delete": "Fayl(lar)ı sil",
+			"refresh": "Fayl(lar)ı yenilə",
+			"rename": "Fayl(lar)ının adları dəyiş",
+			"selectAll": "Bütün faylları seç",
+			"upload": "Fayl(lar)ı serverə yüklə"
 		},
 		"folders": {
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
-			"delete": "[MISSING]Delete folder",
-			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"title": "[MISSING]Folders Pane"
+			"collapseOrParent": "Qovluğu bağla / Üst qovluğa get",
+			"delete": "Qovluğu sil",
+			"expandOrSubfolder": "Qovluğu aç / Birinci alt qovluğa get",
+			"title": "Qovluqların pəncərəsi"
 		},
 		"keys": {
-			"ctrl": "[MISSING]Control",
-			"delete": "[MISSING]Delete",
-			"downArrow": "[MISSING]Down arrow",
-			"escape": "[MISSING]Escape",
-			"leftArrow": "[MISSING]Left arrow",
-			"question": "[MISSING]Question mark",
-			"rightArrow": "[MISSING]Right arrow",
-			"upArrow": "[MISSING]Up arrow"
+			"ctrl": "Kontrol",
+			"delete": "Sil",
+			"downArrow": "Aşağı ox",
+			"escape": "Eskeyp",
+			"leftArrow": "Sola ox",
+			"question": "Sual işarəsi",
+			"rightArrow": "Sağa ox",
+			"upArrow": "Yuxarı ox"
 		},
 		"keysAbbreviations": {
-			"alt": "[MISSING]alt",
-			"ctrl": "[MISSING]ctrl",
-			"del": "[MISSING]del",
-			"end": "[MISSING]end",
-			"home": "[MISSING]home",
-			"shift": "[MISSING]shift"
+			"alt": "ALT",
+			"ctrl": "CTRL",
+			"del": "DEL",
+			"end": "END",
+			"home": "HOME",
+			"shift": "SHIFT"
 		}
 	}
 }
