@@ -115,6 +115,7 @@
 		"thumbnailSize": "Pisipildi suurus",
 		"title": "Sätted",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Failide sirvija on turvakaalutlustel keelatud. Palun võta ühendust oma süsteemi administraatoriga ja kontrolli CKFinderi seadistusfaili.",
 			"501": "Pisipiltide tugi on keelatud."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Faili nimi ei tohi sisaldada ühtegi järgnevatest märkidest: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Kausta, mida püüad avada, pole enam olemas.",
 		"noUploadFolderSelected": "Palun vali enne üleslaadimist kataloog.",
 		"operationCompleted": "Otsing lõpetati vigadega.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Päringu täitmine polnud võimalik. (Viga {number})",
 		"unknownUploadError": "Viga faili saatmisel.",
 		"uploadErrors": "Üleslaadimine lõpetati vigadega.",

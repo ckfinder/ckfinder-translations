@@ -115,6 +115,7 @@
 		"thumbnailSize": "Thumbnail størrelse",
 		"title": "Indstillingér",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Filbrowseren er deaktiveret af sikkerhedsmæssige årsager. Kontakt systemadministratoren eller kontrollér CKFinders konfigurationsfil.",
 			"501": "Understøttelse af thumbnails er deaktiveret."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Filnavnet må ikke indeholde et af følgende tegn: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Mappenavnet må ikke indeholde et af følgende tegn: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Mappen eksistere ikke længere.",
 		"noUploadFolderSelected": "Venligst vælg en mappe før upload startes.",
 		"operationCompleted": "Opgaven blev fuldført med fejl.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Det var ikke muligt at fuldføre handlingen. (Fejl: {number})",
 		"unknownUploadError": "Fejl ved upload.",
 		"uploadErrors": "Upload gennemført med fejl.",

@@ -115,6 +115,7 @@
 		"thumbnailSize": "Dimensioni miniatura",
 		"title": "Impostazioni",
 		"viewType": "Vista",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Lista",
 		"viewTypeThumbnails": "Miniature"
 	},
@@ -149,6 +150,7 @@
 			"500": "Il gestore dei file è disabilitato per motivi di sicurezza. Contattare l'amministratore del sistema e verificare la configurazione di CKFinder.",
 			"501": "Il supporto alle miniature non è attivo."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "I seguenti caratteri non possono essere usati per comporre il nome del file: {disallowedCharacters}",
 		"fileNameNotEmpty": "Il nome del file non può essere vuoto.",
 		"folderInvalidCharacters": "I seguenti caratteri non possono essere usati per comporre il nome della cartella: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "La cartella che si sta cercando di raggiungere non è più disponibile.",
 		"noUploadFolderSelected": "Selezionare la cartella prima di caricare i file.",
 		"operationCompleted": "L'operazione è stata completata con errori.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Non è stato possibile completare la richiesta (errore {number}).",
 		"unknownUploadError": "Errore durante il caricamento del file.",
 		"uploadErrors": "Caricamento completato con errori.",

@@ -115,6 +115,7 @@
 		"thumbnailSize": "Tamaño de miniatura",
 		"title": "Configuración",
 		"viewType": "Vista",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Lista",
 		"viewTypeThumbnails": "Miniaturas"
 	},
@@ -149,6 +150,7 @@
 			"500": "El navegador de archivos está deshabilitado por razones de seguridad. Por favor, contacte con el administrador de su sistema y compruebe el fichero de configuración de CKFinder.",
 			"501": "El soporte para iconos está deshabilitado."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "El nombre del fichero no puede contener ninguno de los caracteres siguientes: {disallowedCharacters}",
 		"fileNameNotEmpty": "El fichero no puede estar vacío.",
 		"folderInvalidCharacters": "El nombre de la carpeta no puede contener ninguno de los caracteres siguientes: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "La carpeta a la que estás intentando acceder ya no está disponible.",
 		"noUploadFolderSelected": "Por favor, escoja la carpeta antes de iniciar la subida.",
 		"operationCompleted": "Operación completada con errores.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "No ha sido posible completar la solicitud. (Error {number})",
 		"unknownUploadError": "Error enviando el fichero.",
 		"uploadErrors": "Subida terminada con errores.",
