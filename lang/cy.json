@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "Gosodiadau",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Cafodd y porwr ffeiliau ei anallogi oherwydd rhesymau diogelwch. Cysylltwch â'ch gweinyddwr system a gwirio'ch ffeil ffurfwedd CKFinder.",
 			"501": "Mae cynhaliaeth bawdluniau wedi'i hanalluogi."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Does dim hawl defnyddio'r nodau canlynol i enwi ffeil: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Does dim hawl defnyddio'r nodau canlynol i enwi ffolder: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "Dewiswch ffolder cyn lanlwytho.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Does dim modd cwblhau'r cais. (Gwall {number})",
 		"unknownUploadError": "Gwall wrth anfon y ffeil.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

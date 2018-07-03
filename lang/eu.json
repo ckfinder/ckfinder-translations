@@ -115,6 +115,7 @@
 		"thumbnailSize": "Koadro txikiaren tamaina",
 		"title": "Ezarpenak",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Segurtasun-arrazoiak direla eta, fitxategi-arakatzailea desgaituta dago. Jarri sistemaren administratzailearekin harremanetan eta egiaztatu CKFinder konfigurazio-fitxategia.",
 			"501": "Koadro txikien euskarria desgaituta dago."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Fitxategi-izenak ezin ditu ondorengo karaktereak eduki: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Karpetaren izenak ezin ditu ondorengo karaktereak eduki: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Atzitu nahi duzun karpeta ez dago erabilgarri jada.",
 		"noUploadFolderSelected": "Mesedez hautatu karpeta kargatu aurretik.",
 		"operationCompleted": "Eragiketa erroreekin osatuta.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Ezin izan da eskaera burutu. (Errorea {number})",
 		"unknownUploadError": "Errorea fitxategia bidaltzean.",
 		"uploadErrors": "Kargatzea erroreekin amaituta.",

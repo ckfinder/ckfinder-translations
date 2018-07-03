@@ -115,6 +115,7 @@
 		"thumbnailSize": "Rozmiar miniatur",
 		"title": "Ustawienia",
 		"viewType": "Widok",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Lista",
 		"viewTypeThumbnails": "Miniatury"
 	},
@@ -149,6 +150,7 @@
 			"500": "Menedżer plików jest wyłączony z powodów bezpieczeństwa. Skontaktuj się z administratorem oraz sprawdź plik konfiguracyjny CKFindera.",
 			"501": "Tworzenie miniatur jest wyłączone."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Nazwa pliku nie może zawierać żadnego z podanych znaków: {disallowedCharacters}",
 		"fileNameNotEmpty": "Nazwa pliku nie może być pusta.",
 		"folderInvalidCharacters": "Nazwa folderu nie może zawierać żadnego z podanych znaków: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Folder, do którego dostęp próbujesz uzyskać, jest już niedostępny.",
 		"noUploadFolderSelected": "Wybierz folder przed wysłaniem pliku.",
 		"operationCompleted": "Operacja zakończyła się błędem.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Wykonanie operacji zakończyło się niepowodzeniem. (Błąd {number})",
 		"unknownUploadError": "Błąd podczas wysyłania pliku.",
 		"uploadErrors": "Wysyłanie zakończone z błędami.",

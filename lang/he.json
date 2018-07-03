@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "הגדרות",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "דפדפן הקבצים מנוטרל מסיבות אבטחה. יש לפנות למנהל המערכת ולבדוק את קובץ התצורה של CKFinder.",
 			"501": "התמיכה בתמונות מוקטנות מבוטלת."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "שם הקובץ לא יכול לכלול תווים הבאים: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "שם התיקיה לא יכול לכלול תווים הבאים: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "יש לבחור תיקיה לפני ההעלאה.",
 		"operationCompleted": "הפעולה הושלמה עם שגיאות.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "לא היה ניתן להשלים את הבקשה. (שגיאה {number})",
 		"unknownUploadError": "שגיאה בשליחת הקובץ.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

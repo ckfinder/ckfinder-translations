@@ -115,6 +115,7 @@
 		"thumbnailSize": "Размер миниатюры",
 		"title": "Настройка",
 		"viewType": "Вид",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "Список",
 		"viewTypeThumbnails": "Миниатюры"
 	},
@@ -149,6 +150,7 @@
 			"500": "Браузер файлов отключен из-за соображений безопасности. Пожалуйста, сообщите вашему системному администратру и проверьте конфигурационный файл CKFinder.",
 			"501": "Поддержка миниатюр отключена."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Имя файла не может содержать любой из перечисленных символов: {disallowedCharacters}",
 		"fileNameNotEmpty": "Имя файла не может быть пустым.",
 		"folderInvalidCharacters": "Имя папки не может содержать любой из перечисленных символов: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Запрашиваемая папка более не доступен.",
 		"noUploadFolderSelected": "Пожалуйста, выберите папку, в которую вы хотите загрузить файл.",
 		"operationCompleted": "Операция завершилась с ошибками.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Невозможно завершить запрос. (Ошибка {number})",
 		"unknownUploadError": "Ошибка при передаче файла.",
 		"uploadErrors": "Загрузка завершена с ошибками.",

@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "Inställningar",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Filhanteraren har stoppats av säkerhetsskäl. Var god kontakta administratören för att kontrollera konfigurationsfilen för CKFinder.",
 			"501": "Stöd för tumnaglar har stängts av."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Filnamnet får inte innehålla något av följande tecken: {disallowedCharacters}",
 		"fileNameNotEmpty": "Filnamnet kan inte vara tomt.",
 		"folderInvalidCharacters": "Mappens namn får inte innehålla något av följande tecken: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Mappen du försöker gå till finns inte längre.",
 		"noUploadFolderSelected": "Välj en mapp före uppladdning.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Begäran kunde inte utföras eftersom ett fel uppstod. (Fel {number})",
 		"unknownUploadError": "Fel vid filuppladdning.",
 		"uploadErrors": "Uppladdning blev klar med fel.",

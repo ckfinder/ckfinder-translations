@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "Настройки",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Файловият браузър е изключен заради проблеми със сигурността. Моля свържете се с Вашия системен администратор и проверете конфигурацията.",
 			"501": "Поддръжката за миниатюри е изключена."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Името на файла не може да съдържа следните знаци: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Името на папката не може да съдържа следните знаци: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "Моля изберете файл за качване.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Не е възможно да се извърши заявката. (ГРЕШКА {number})",
 		"unknownUploadError": "Проблем с изпращането на файла.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

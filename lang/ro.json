@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "Setări",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Browser-ul de fișiere este dezactivat din motive de securitate. Te rog contactează administratorul de sistem și verifică configurarea de fișiere CKFinder.",
 			"501": "Funcționalitatea de creat thumbnails este dezactivată."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Numele fișierului nu poate conține niciunul din următoarele caractere: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Numele dosarului nu poate conține niciunul din următoarele caractere: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "Te rugăm să selectezi un dosar înainte de a încărca.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Nu a fost posibilă finalizarea cererii. (Eroare {number})",
 		"unknownUploadError": "Eroare la trimiterea fișierului.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

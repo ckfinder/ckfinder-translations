@@ -115,6 +115,7 @@
 		"thumbnailSize": "Miniatyrbildestørrelse",
 		"title": "Innstillinger",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Filvelgeren ikke tilgjengelig av sikkerhetshensyn. Kontakt systemansvarlig og be ham sjekke CKFinders konfigurasjonsfil.",
 			"501": "Funksjon for miniatyrbilder er skrudd av."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Filnavnet kan ikke inneholde følgende tegn: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Mappenavnet kan ikke inneholde følgende tegn: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "Mappen du forsøker å nå er ikke lengre tilgjengelig.",
 		"noUploadFolderSelected": "Vennligst velg en mappe før du laster opp.",
 		"operationCompleted": "Handlingen ble utført med feil.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Det var ikke mulig å utføre forespørselen. (Feil {number})",
 		"unknownUploadError": "Feil ved sending av fil.",
 		"uploadErrors": "Opplasting fullført med feil.",

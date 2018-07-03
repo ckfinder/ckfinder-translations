@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "Nustatymai",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Failų naršyklė yra išjungta dėl saugumo nustaymų. Prašau susisiekti su sistemų administratoriumi ir patikrinkite CKFinder konfigūracinį failą.",
 			"501": "Miniatiūrų palaikymas išjungtas."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Failo pavadinimas negali turėti bent vieno iš šių simbolių: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Segtuvo pavadinimas negali turėti bent vieno iš šių simbolių: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "Pasirinkite segtuvą prieš įkeliant.",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Užklausos įvykdyti nepavyko. (Klaida {number})",
 		"unknownUploadError": "Įvyko klaida siunčiant failą.",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

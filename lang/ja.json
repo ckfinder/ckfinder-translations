@@ -115,6 +115,7 @@
 		"thumbnailSize": "[MISSING]Thumbnail Size",
 		"title": "カスタマイズ",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "ファイルブラウザはセキュリティ上の制限から無効になっています。システム担当者に連絡をして、CKFinderの設定をご確認下さい。",
 			"501": "サムネイル機能は無効になっています。"
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "ファイルに以下の文字は使えません: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "フォルダに以下の文字は使えません: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "アップロードの前にフォルダを選択してください。",
 		"operationCompleted": "[MISSING]Operation completed with errors.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "リクエストの処理に失敗しました。 (Error {number})",
 		"unknownUploadError": "ファイルの送信に失敗しました。",
 		"uploadErrors": "[MISSING]Upload finished with errors.",

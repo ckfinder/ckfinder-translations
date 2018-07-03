@@ -115,6 +115,7 @@
 		"thumbnailSize": "Величина приказа",
 		"title": "Подешавања",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "Претраживање датотека није дозвољено из сигурносних разлога. Молимо контактирајте администратора система како би проверили поставке CKFinder конфигурационе датотеке.",
 			"501": "Подршка за приказ није омогућена."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "Назив датотеке не сме садржавати ни један од следећих знакова: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "Назив фасцикле не сме садржавати ни један од следећих знакова: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "[MISSING]The folder you are trying to reach is no longer available.",
 		"noUploadFolderSelected": "Одаберите фасцикле прије учитавања.",
 		"operationCompleted": "Операција извршена са грешкама.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "Није могуће изавршити захтев. (Грешка {number})",
 		"unknownUploadError": "Грешка приликом учитавања датотеке.",
 		"uploadErrors": "Учитавање завршено са грешком.",

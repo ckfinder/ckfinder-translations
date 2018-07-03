@@ -3,7 +3,7 @@
 	"dir": "ltr",
 	"langCode": "zh-cn",
 	"common": {
-		"abort": "[MISSING]Abort",
+		"abort": "中止",
 		"cancel": "取消",
 		"choose": "选择",
 		"close": "关闭",
@@ -35,7 +35,7 @@
 		"mb": "{size} MB",
 		"gb": "{size} GB",
 		"sizePerSecond": "{size}/s",
-		"pixelShort": "[MISSING]px"
+		"pixelShort": "像数"
 	},
 	"files": {
 		"autoRename": "给重名文件自动命名",
@@ -45,8 +45,8 @@
 		"fileDeleteConfirmation": "您确定要删除文件 \"{name}\" 吗?",
 		"fileRenameExtensionConfirmation": "如果改变文件扩展名，可能会导致文件不可用。\r\n确定要更改吗？",
 		"fileRenameLabel": "请输入新文件名: ",
-		"filesPaneTitle": "[MISSING]Files pane",
-		"filesRefresh": "[MISSING]Refreshing files",
+		"filesPaneTitle": "文件窗口",
+		"filesRefresh": "正在刷新文件",
 		"filterPlaceholder": "过滤",
 		"gettingFileData": "正在获取文件数据，{pleaseWait}",
 		"overwrite": "自动覆盖重名文件",
@@ -68,8 +68,8 @@
 		"destinationFolder": "目标文件夹",
 		"newNameLabel": "请输入新文件夹名称: ",
 		"newSubfolder": "创建子文件夹",
-		"renameDialogTitle": "[MISSING]Rename Folder",
-		"treeTitle": "[MISSING]Folders tree"
+		"renameDialogTitle": "重命名文件夹",
+		"treeTitle": "文件夹目录"
 	},
 	"copy": {
 		"dropMenuItem": "将文件复制至此",
@@ -93,9 +93,9 @@
 	},
 	"upload": {
 		"addFiles": "添加文件",
-		"bytesCountProgress": "({bytesTotal} 中的 {bytesUploaded})",
+		"bytesCountProgress": "({bytesTotal} / {bytesUploaded})",
 		"details": "详情",
-		"filesCountProgress": "{filesTotal}{filesUploaded}",
+		"filesCountProgress": "{filesUploaded} / {filesTotal}",
 		"progressLabel": "正在上传文件，",
 		"progressMessage": "正在上传...",
 		"selectFileLabel": "选择要上传的文件",
@@ -108,15 +108,16 @@
 		"displayDate": "日期",
 		"displayName": "文件名",
 		"displaySize": "大小",
-		"sortAscending": "[MISSING]Ascending",
-		"sortBy": "[MISSING]Sort by",
-		"sortByOrder": "[MISSING]Order",
-		"sortDescending": "[MISSING]Descending",
+		"sortAscending": "升序",
+		"sortBy": "排序",
+		"sortByOrder": "排序顺序",
+		"sortDescending": "降序",
 		"thumbnailSize": "缩略图大小",
 		"title": "设置",
-		"viewType": "[MISSING]View",
-		"viewTypeList": "[MISSING]List",
-		"viewTypeThumbnails": "[MISSING]Thumbnails"
+		"viewType": "视图",
+		"viewTypeCompact": "[MISSING]Compact",
+		"viewTypeList": "列表",
+		"viewTypeThumbnails": "缩略图"
 	},
 	"errors": {
 		"codes": {
@@ -149,14 +150,16 @@
 			"500": "因为安全原因，文件不可浏览。请联系系统管理员并检查 CKFinder 配置文件。",
 			"501": "不支持缩略图方式。"
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "文件名不能包含以下字符：{disallowedCharacters}",
-		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
+		"fileNameNotEmpty": "文件名不能为空。",
 		"folderInvalidCharacters": "文件夹名称不能包含以下字符：{disallowedCharacters}",
 		"incorrectExtension": "此文件扩展名在当前文件夹中不可用。",
 		"missingFile": "请求的文件已不可用。",
 		"missingFolder": "您指定的文件夹已不可用。",
 		"noUploadFolderSelected": "需先选择一个文件。",
 		"operationCompleted": "操作完成，但有错误。",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "请求的操作未能完成。(错误 {number})",
 		"unknownUploadError": "上传文件出错。",
 		"uploadErrors": "上传完成，但有错误。",
@@ -176,7 +179,7 @@
 	"editImage": {
 		"adjust": "调整",
 		"apply": "应用",
-		"confirmExit": "[MISSING]Are you sure you want to close? You have unsaved changes to the image.",
+		"confirmExit": "确定关闭？你会丢失未保存的图片。",
 		"crop": "裁剪",
 		"downloadAction": "正在下载原始图像...",
 		"keepAspectRatio": "保持纵横比",
@@ -211,16 +214,16 @@
 		},
 		"preset": {
 			"clarity": "清晰",
-			"concentrate": "[MISSING]Concentrate",
+			"concentrate": "浓缩",
 			"crossProcess": "胶片",
 			"glowingSun": "光照",
 			"grungy": "油渍",
 			"hazyDays": "雨雾",
-			"hemingway": "[MISSING]Hemingway",
-			"herMajesty": "[MISSING]Her Majesty",
-			"jarques": "[MISSING]Jarques",
+			"hemingway": "海明威",
+			"herMajesty": "雄伟",
+			"jarques": "Jarques",
 			"lomo": "LOMO",
-			"love": "[MISSING]Love",
+			"love": "爱情",
 			"nostalgia": "怀旧",
 			"oldBoot": "旧靴子",
 			"orangePeel": "橘皮",
@@ -231,55 +234,55 @@
 		}
 	},
 	"shortcuts": {
-		"title": "[MISSING]Keyboard Shortcuts",
+		"title": "快捷键",
 		"general": {
-			"action": "[MISSING]Execute default action",
-			"firstItem": "[MISSING]Go to first item",
-			"focusFilesPane": "[MISSING]Focus files pane",
-			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
-			"focusNext": "[MISSING]Focus next pane",
-			"focusToolbar": "[MISSING]Focus toolbar",
-			"lastItem": "[MISSING]Go to last item",
-			"listShortcuts": "[MISSING]Open this help dialog",
-			"nextItem": "[MISSING]Go to next item",
-			"previousItem": "[MISSING]Go to previous item",
-			"showContextMenu": "[MISSING]Open context menu",
-			"title": "[MISSING]General Interface"
+			"action": "执行默认操作",
+			"firstItem": "移动到第一项",
+			"focusFilesPane": "聚焦到文件窗",
+			"focusFoldersPane": "聚焦到文件夹窗或导航栏",
+			"focusNext": "聚焦到下个窗口",
+			"focusToolbar": "聚焦到工具栏",
+			"lastItem": "移动到最后一项",
+			"listShortcuts": "打开帮助框",
+			"nextItem": "移动到下一项",
+			"previousItem": "移动到前一项",
+			"showContextMenu": "打开上下文菜单",
+			"title": "通用界面"
 		},
 		"files": {
-			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
-			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
-			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
+			"addToSelectionAbove": "添加或删除文件到选中项上面",
+			"addToSelectionBelow": "添加或删除文件到选中项下面",
+			"addToSelectionLeft": "添加或删除文件到选中项右边",
 			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
-			"delete": "[MISSING]Delete file(s)",
-			"refresh": "[MISSING]Refresh files",
-			"rename": "[MISSING]Rename file",
-			"selectAll": "[MISSING]Select all files",
-			"upload": "[MISSING]Upload file(s)"
+			"delete": "删除文件",
+			"refresh": "刷新文件",
+			"rename": "重命名文件",
+			"selectAll": "选中全部文件",
+			"upload": "上传文件"
 		},
 		"folders": {
-			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
-			"delete": "[MISSING]Delete folder",
-			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
-			"title": "[MISSING]Folders Pane"
+			"collapseOrParent": "展开文件夹",
+			"delete": "删除文件夹",
+			"expandOrSubfolder": "折叠文件夹",
+			"title": "文件夹窗"
 		},
 		"keys": {
-			"ctrl": "[MISSING]Control",
-			"delete": "[MISSING]Delete",
-			"downArrow": "[MISSING]Down arrow",
-			"escape": "[MISSING]Escape",
-			"leftArrow": "[MISSING]Left arrow",
-			"question": "[MISSING]Question mark",
-			"rightArrow": "[MISSING]Right arrow",
-			"upArrow": "[MISSING]Up arrow"
+			"ctrl": "控制键",
+			"delete": "删除键",
+			"downArrow": "下箭头",
+			"escape": "退出",
+			"leftArrow": "左箭头",
+			"question": "问题标记",
+			"rightArrow": "右箭头",
+			"upArrow": "上箭头"
 		},
 		"keysAbbreviations": {
-			"alt": "[MISSING]alt",
-			"ctrl": "[MISSING]ctrl",
-			"del": "[MISSING]del",
-			"end": "[MISSING]end",
-			"home": "[MISSING]home",
-			"shift": "[MISSING]shift"
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
 		}
 	}
 }

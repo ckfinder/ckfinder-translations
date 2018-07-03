@@ -115,6 +115,7 @@
 		"thumbnailSize": "미리 보기 크기",
 		"title": "설정",
 		"viewType": "[MISSING]View",
+		"viewTypeCompact": "[MISSING]Compact",
 		"viewTypeList": "[MISSING]List",
 		"viewTypeThumbnails": "[MISSING]Thumbnails"
 	},
@@ -149,6 +150,7 @@
 			"500": "파일 브라우저가 보안상의 이유로 비활성화 되어있습니다. 당신의 시스템 관리자에게 연락을 해 보시고 CKFinder의 설정 파일을 확인해 주십시오.",
 			"501": "미리 보기 지원이 비활성화 되어 있습니다."
 		},
+		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
 		"fileInvalidCharacters": "파일 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: {disallowedCharacters}",
 		"fileNameNotEmpty": "[MISSING]The file name cannot be empty.",
 		"folderInvalidCharacters": "폴더 이름은 다음 글자중 어떠한것도 포함되지 않아야 됩니다: {disallowedCharacters}",
@@ -157,6 +159,7 @@
 		"missingFolder": "도달하려는 폴더에 더이상 접근할 수 없습니다.",
 		"noUploadFolderSelected": "업로드를 하기전에 폴더를 선택해 주십시오.",
 		"operationCompleted": "오류와 함께 작업을 마쳤습니다.",
+		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
 		"unknown": "요청을 완료할 수 없었습니다. (오류 {number})",
 		"unknownUploadError": "파일 전송 중 오류.",
 		"uploadErrors": "오류와 함께 업로드가 완료되었습니다.",
