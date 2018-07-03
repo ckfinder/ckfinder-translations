@@ -234,47 +234,47 @@
 		}
 	},
 	"shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "[MISSING]Keyboard Shortcuts",
 		"general": {
-			"action": "Execute default action",
-			"firstItem": "Go to first item",
-			"focusFilesPane": "Focus files pane",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusNext": "Focus next pane",
-			"focusToolbar": "Focus toolbar",
-			"lastItem": "Go to last item",
-			"listShortcuts": "Open this help dialog",
-			"nextItem": "Go to next item",
-			"previousItem": "Go to previous item",
-			"showContextMenu": "Open context menu",
-			"title": "General Interface"
+			"action": "[MISSING]Execute default action",
+			"firstItem": "[MISSING]Go to first item",
+			"focusFilesPane": "[MISSING]Focus files pane",
+			"focusFoldersPane": "[MISSING]Focus folders pane or breadcrumbs",
+			"focusNext": "[MISSING]Focus next pane",
+			"focusToolbar": "[MISSING]Focus toolbar",
+			"lastItem": "[MISSING]Go to last item",
+			"listShortcuts": "[MISSING]Open this help dialog",
+			"nextItem": "[MISSING]Go to next item",
+			"previousItem": "[MISSING]Go to previous item",
+			"showContextMenu": "[MISSING]Open context menu",
+			"title": "[MISSING]General Interface"
 		},
 		"files": {
-			"addToSelectionAbove": "Add or remove files above to selection",
-			"addToSelectionBelow": "Add or remove files below to selection",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
-			"addToSelectionRight": "Add or remove file on the right to selection",
-			"delete": "Delete file(s)",
-			"refresh": "Refresh files",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)"
+			"addToSelectionAbove": "[MISSING]Add or remove files above to selection",
+			"addToSelectionBelow": "[MISSING]Add or remove files below to selection",
+			"addToSelectionLeft": "[MISSING]Add or remove file on the left to selection",
+			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
+			"delete": "[MISSING]Delete file(s)",
+			"refresh": "[MISSING]Refresh files",
+			"rename": "[MISSING]Rename file",
+			"selectAll": "[MISSING]Select all files",
+			"upload": "[MISSING]Upload file(s)"
 		},
 		"folders": {
-			"collapseOrParent": "Collapse folder / Go to parent folder",
-			"delete": "Delete folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"title": "Folders Pane"
+			"collapseOrParent": "[MISSING]Collapse folder / Go to parent folder",
+			"delete": "[MISSING]Delete folder",
+			"expandOrSubfolder": "[MISSING]Expand folder / Go to first subfolder",
+			"title": "[MISSING]Folders Pane"
 		},
 		"keys": {
-			"ctrl": "Control",
-			"delete": "Delete",
-			"downArrow": "Down arrow",
-			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"ctrl": "[MISSING]Control",
+			"delete": "[MISSING]Delete",
+			"downArrow": "[MISSING]Down arrow",
+			"escape": "[MISSING]Escape",
+			"leftArrow": "[MISSING]Left arrow",
+			"question": "[MISSING]Question mark",
+			"rightArrow": "[MISSING]Right arrow",
+			"upArrow": "[MISSING]Up arrow"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
