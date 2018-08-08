@@ -32,7 +32,7 @@ If you are familiar with Git, you can fork this repository and submit a [pull re
 
 ## Editing Files on GitHub
 
-Alternatively, you can edit existing language files directly on GitHub using its online code editor. Check the [step-by-step instructions](http://docs.cksource.com/ckfinder3/#!/guide/dev_translations-section-editing-files-on-github) for more information.
+Alternatively, you can edit existing language files directly on GitHub using its online code editor. Check the [step-by-step instructions](https://ckeditor.com/docs/ckfinder/ckfinder3/#!/guide/dev_translations-section-editing-files-on-github) for more information.
 
 ## Sending Translations by E-mail
 
@@ -42,9 +42,9 @@ Last but not least, if you are not familiar with Git and GitHub, please send us 
 
 To add a new language file and use it in CKFinder, you need to adjust the configuration first:
   
-  * [config.languages](http://docs.cksource.com/ckfinder3/#!/api/CKFinder.Config-cfg-languages) must be edited
+  * [config.languages](https://ckeditor.com/docs/ckfinder/ckfinder3/#!/api/CKFinder.Config-cfg-languages) must be edited
     to include information about the newly added translation.
-  * Optionally, you might need to set [config.language](http://docs.cksource.com/ckfinder3/#!/api/CKFinder.Config-cfg-language) 
+  * Optionally, you might need to set [config.language](https://ckeditor.com/docs/ckfinder/ckfinder3/#!/api/CKFinder.Config-cfg-language) 
     if the language detection mechanism turns on a different language by default.
 
 Finally create an appropriate language file in the `lang` folder of CKFinder. Use `_template.json` as a base for creating 
