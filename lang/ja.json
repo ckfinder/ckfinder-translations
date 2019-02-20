@@ -3,11 +3,11 @@
 	"dir": "ltr",
 	"langCode": "ja",
 	"common": {
-		"abort": "アボート",
+		"abort": "中止",
 		"cancel": "キャンセル",
 		"choose": "選択",
 		"close": "閉じる",
-		"copy": "コーピー",
+		"copy": "コピー",
 		"delete": "削除",
 		"download": "ダウンロード",
 		"edit": "編集",
@@ -41,22 +41,22 @@
 		"autoRename": "自動でリネーム",
 		"countMany": "{count}個のファイル",
 		"countOne": "１つのファイル",
-		"deleteConfirmation": "これらの {count} つのファイルを削除してもよろしいですか？ ",
+		"deleteConfirmation": "これら {count} つのファイルを削除してもよろしいですか？ ",
 		"fileDeleteConfirmation": "本当に「\"{name}\"」を削除してもよろしいですか？",
 		"fileRenameExtensionConfirmation": "ファイルが使えなくなる可能性がありますが、本当に拡張子を変更してもよろしいですか？",
 		"fileRenameLabel": "新しいファイル名を入力してください: ",
 		"filesPaneTitle": "ファイル枠",
-		"filesRefresh": "ファイルをリフレシュしています。",
+		"filesRefresh": "ファイルをリフレッシュしています。",
 		"filterPlaceholder": "絞り込み",
 		"gettingFileData": "ファイルデータを取得しています。",
 		"overwrite": "上書き",
 		"loadingFilesPane": {
-			"title": "読み込む中...",
+			"title": "読み込み中...",
 			"text": "ファイルは読み込まれています。"
 		},
 		"emptyFilesPane": {
 			"title": "フォルダが空です。",
-			"text": "<strong>アップロード</strong>ボタンを使い、またはここにファイルを<strong>ドラッグ&ドロップ</strong>してください。"
+			"text": "<strong>アップロード</strong>ボタンを使うか、ここにファイルを<strong>ドラッグ&ドロップ</strong>してください。"
 		},
 		"filterFilesEmpty": {
 			"title": "何も見つかりません。",
@@ -132,11 +132,11 @@
 			"105": "拡張子が正しくありません。",
 			"109": "不正なリクエストです。",
 			"110": "不明なエラーが発生しました。",
-			"111": "ファイルサイズのため、リクエストが完了できませんでした。",
+			"111": "ファイルサイズが不正のため、リクエストが完了できませんでした。",
 			"115": "同じ名前のファイル/フォルダがすでに存在しています。",
 			"116": "フォルダが見つかりませんでした。ページを更新して再度お試し下さい。",
 			"117": "ファイルが見つかりませんでした。ページを更新して再度お試し下さい。",
-			"118": "対象が移動元と同じ場所を指定されています。",
+			"118": "対象が移動元と同じ場所に指定されています。",
 			"201": "同じ名前のファイルがすでに存在しています。\"{name}\" にリネームして保存されました。",
 			"202": "不正なファイルです。",
 			"203": "ファイルのサイズが大きすぎます。",
@@ -183,7 +183,7 @@
 		"crop": "クロップ",
 		"downloadAction": "元の画像をダウンロードしています。",
 		"keepAspectRatio": "縦横比を維持します。",
-		"loading": "画像が読み込んでいます",
+		"loading": "画像を読み込んでいます",
 		"presets": "プリセット",
 		"reset": "リセット",
 		"resize": "リサイズ",
@@ -191,8 +191,8 @@
 		"rotateAntiClockwise": "90&deg; 左",
 		"rotateClockwise": "90&deg; 右",
 		"save": "保存します。",
-		"saveDialogFileExists": "指定されたファイル名はフォルダに既に存在されました。",
-		"saveDialogOverwrite": "ファイルを上書きます。",
+		"saveDialogFileExists": "指定されたファイル名はフォルダに既に存在しています。",
+		"saveDialogOverwrite": "ファイルを上書きします。",
 		"saveDialogSaveAs": "名前を付けて保存:",
 		"saveDialogTitle": "変更内容を保存します。",
 		"title": "画像を編集します。",
@@ -202,14 +202,14 @@
 			"brightness": "輝度",
 			"clip": "クリップ",
 			"contrast": "コントラスト",
-			"exposure": "暴露",
+			"exposure": "露出",
 			"gamma": "ガンマ",
-			"hue": "フェー",
-			"noise": "雑音",
-			"saturation": "飽和",
+			"hue": "色相",
+			"noise": "ノイズ",
+			"saturation": "彩度",
 			"sepia": "セピア",
-			"sharpen": "研ぐ",
-			"stackBlur": "ぼやける",
+			"sharpen": "シャープ",
+			"stackBlur": "ブラー",
 			"vibrance": "バイブランス"
 		},
 		"preset": {
@@ -250,10 +250,10 @@
 			"title": "一般的なインターフェース"
 		},
 		"files": {
-			"addToSelectionAbove": "選択範囲に上のファイルを追加、または取り除くします。",
-			"addToSelectionBelow": "選択範囲に下のファイルを追加、または取り除くします。",
-			"addToSelectionLeft": "選択範囲に左側のファイルを追加、または取り除くします。",
-			"addToSelectionRight": "選択範囲に右側のファイルを追加、または取り除くします。",
+			"addToSelectionAbove": "選択範囲に上のファイルを追加、または取り除きます。",
+			"addToSelectionBelow": "選択範囲に下のファイルを追加、または取り除きます。",
+			"addToSelectionLeft": "選択範囲に左側のファイルを追加、または取り除きます。",
+			"addToSelectionRight": "選択範囲に右側のファイルを追加、または取り除きます。",
 			"delete": "ファイルを削除します。",
 			"refresh": "ファイルをリフレッシュします。",
 			"rename": "ファイル名を変更します。",
@@ -277,12 +277,12 @@
 			"upArrow": "下上矢印キー"
 		},
 		"keysAbbreviations": {
-			"alt": "オルトキー",
-			"ctrl": "コントロールキー",
-			"del": "デリートキー",
-			"end": "エンドキー",
-			"home": "ホームキー",
-			"shift": "シフトキー"
+			"alt": "alt",
+			"ctrl": "ctrl",
+			"del": "del",
+			"end": "end",
+			"home": "home",
+			"shift": "shift"
 		}
 	}
 }
