@@ -35,24 +35,24 @@
 		"mb": "{size} MB",
 		"gb": "{size} GB",
 		"sizePerSecond": "{size}/s",
-		"pixelShort": "像数"
+		"pixelShort": "像素"
 	},
 	"files": {
-		"autoRename": "给重名文件自动命名",
+		"autoRename": "自动重命名",
 		"countMany": "{count} 个文件",
 		"countOne": "1 个文件",
 		"deleteConfirmation": "您确定要删除 {count} 个文件吗？",
-		"fileDeleteConfirmation": "您确定要删除文件 \"{name}\" 吗?",
-		"fileRenameExtensionConfirmation": "如果改变文件扩展名，可能会导致文件不可用。\r\n确定要更改吗？",
-		"fileRenameLabel": "请输入新文件名: ",
+		"fileDeleteConfirmation": "您确定要删除文件 \"{name}\" 吗？",
+		"fileRenameExtensionConfirmation": "改变文件扩展名可能导致文件不可用，确定要更改吗？",
+		"fileRenameLabel": "请输入新文件名：",
 		"filesPaneTitle": "文件窗口",
 		"filesRefresh": "正在刷新文件",
 		"filterPlaceholder": "过滤",
-		"gettingFileData": "正在获取文件数据，{pleaseWait}",
-		"overwrite": "自动覆盖重名文件",
+		"gettingFileData": "正在获取文件数据。",
+		"overwrite": "覆盖",
 		"loadingFilesPane": {
 			"title": "正在加载...",
-			"text": "正在加载文件，{pleaseWait}"
+			"text": "文件加载完成。"
 		},
 		"emptyFilesPane": {
 			"title": "该文件夹是空的。",
@@ -66,7 +66,7 @@
 	"folders": {
 		"deleteConfirmation": "您确定要删除文件夹 \"{name}\" 吗？",
 		"destinationFolder": "目标文件夹",
-		"newNameLabel": "请输入新文件夹名称: ",
+		"newNameLabel": "请输入新文件夹名称：",
 		"newSubfolder": "创建子文件夹",
 		"renameDialogTitle": "重命名文件夹",
 		"treeTitle": "文件夹目录"
@@ -75,11 +75,11 @@
 		"dropMenuItem": "将文件复制至此",
 		"errorDialogTitle": "无法复制文件：",
 		"manyFilesDialogTitle": "复制 {count} 个文件到...",
-		"manyFilesWait": "正复制 {count} 个文件，{pleaseWait}",
+		"manyFilesWait": "正在复制 {count} 个文件。",
 		"oneFileDialogTitle": "复制文件到...",
-		"oneFileWait": "正在复制文件，{pleaseWait}",
+		"oneFileWait": "正在复制文件。",
 		"operationLabel": "复制文件",
-		"operationSummary": "已复制的文件数： {count}。"
+		"operationSummary": "已复制的文件数：{count}。"
 	},
 	"move": {
 		"dropMenuItem": "将文件移动至此",
@@ -87,21 +87,21 @@
 		"manyFilesDialogTitle": "移动 {count} 个文件到...",
 		"manyFilesWait": "正在移 {count} 个文件，{pleaseWait}",
 		"oneFileDialogTitle": "移动文件到...",
-		"oneFileWait": "正在移动文件，{pleaseWait}",
+		"oneFileWait": "正在移动文件。",
 		"operationLabel": "移动文件",
-		"operationSummary": "已移动的文件数： {count}。"
+		"operationSummary": "已移动的文件数：{count}。"
 	},
 	"upload": {
 		"addFiles": "添加文件",
-		"bytesCountProgress": "({bytesTotal} / {bytesUploaded})",
+		"bytesCountProgress": "（{bytesTotal} / {bytesUploaded}）",
 		"details": "详情",
 		"filesCountProgress": "{filesUploaded} / {filesTotal}",
-		"progressLabel": "正在上传文件，",
+		"progressLabel": "正在上传文件。",
 		"progressMessage": "正在上传...",
 		"selectFileLabel": "选择要上传的文件",
 		"selectFiles": "选择要上传的文件",
 		"success": "上传完成！",
-		"summary": "已上传文件： {count}"
+		"summary": "已上传文件：{count}"
 	},
 	"settings": {
 		"display": "显示：",
@@ -115,7 +115,7 @@
 		"thumbnailSize": "缩略图大小",
 		"title": "设置",
 		"viewType": "视图",
-		"viewTypeCompact": "[MISSING]Compact",
+		"viewTypeCompact": "紧凑",
 		"viewTypeList": "列表",
 		"viewTypeThumbnails": "缩略图"
 	},
@@ -150,7 +150,7 @@
 			"500": "因为安全原因，文件不可浏览。请联系系统管理员并检查 CKFinder 配置文件。",
 			"501": "不支持缩略图方式。"
 		},
-		"deleteFilePermissions": "[MISSING]Removing files is not allowed in this folder.",
+		"deleteFilePermissions": "不允许删除此文件夹下文件。",
 		"fileInvalidCharacters": "文件名不能包含以下字符：{disallowedCharacters}",
 		"fileNameNotEmpty": "文件名不能为空。",
 		"folderInvalidCharacters": "文件夹名称不能包含以下字符：{disallowedCharacters}",
@@ -159,8 +159,8 @@
 		"missingFolder": "您指定的文件夹已不可用。",
 		"noUploadFolderSelected": "需先选择一个文件。",
 		"operationCompleted": "操作完成，但有错误。",
-		"renameFilePermissions": "[MISSING]Renaming files is not allowed in this folder.",
-		"unknown": "请求的操作未能完成。(错误 {number})",
+		"renameFilePermissions": "不允许重命名此文件夹下文件。",
+		"unknown": "请求的操作未能完成。（错误 {number}）",
 		"unknownUploadError": "上传文件出错。",
 		"uploadErrors": "上传完成，但有错误。",
 		"uploadPermissions": "无文件上传权限。"
@@ -179,9 +179,9 @@
 	"editImage": {
 		"adjust": "调整",
 		"apply": "应用",
-		"confirmExit": "确定关闭？你会丢失未保存的图片。",
+		"confirmExit": "确定关闭吗？您将会丢失未保存的图片。",
 		"crop": "裁剪",
-		"downloadAction": "正在下载原始图像...",
+		"downloadAction": "正在下载原始图像。",
 		"keepAspectRatio": "保持纵横比",
 		"loading": "加载图像",
 		"presets": "预设",
@@ -222,7 +222,7 @@
 			"hemingway": "海明威",
 			"herMajesty": "雄伟",
 			"jarques": "Jarques",
-			"lomo": "LOMO",
+			"lomo": "Lomo",
 			"love": "爱情",
 			"nostalgia": "怀旧",
 			"oldBoot": "旧靴子",
@@ -252,8 +252,8 @@
 		"files": {
 			"addToSelectionAbove": "添加或删除文件到选中项上面",
 			"addToSelectionBelow": "添加或删除文件到选中项下面",
-			"addToSelectionLeft": "添加或删除文件到选中项右边",
-			"addToSelectionRight": "[MISSING]Add or remove file on the right to selection",
+			"addToSelectionLeft": "添加或删除文件到选中项左边",
+			"addToSelectionRight": "添加或删除文件到选中项右边",
 			"delete": "删除文件",
 			"refresh": "刷新文件",
 			"rename": "重命名文件",
